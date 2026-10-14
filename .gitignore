@@ -49,3 +49,6 @@ next-env.d.ts
 
 # generated copy for the GitHub repository (it has its own git link)
 /github-repo/
+
+# Studio history, publish record and preview build (stay on this laptop)
+/.studio/

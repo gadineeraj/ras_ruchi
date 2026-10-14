@@ -47,6 +47,8 @@ export const f = {
   artboard: (label: string): Field => custom("artboard", label),
   video: (label: string): Field => custom("video", label),
   note: (text: string): Field => custom("note", "", { text }),
+  // Array items are block-specific shapes; each block's summary knows its own.
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   array: (label: string, arrayFields: Record<string, Field>, opts: { summary?: (item: any, i?: number) => string; add?: Record<string, unknown>; min?: number; max?: number } = {}): Field =>
     ({
       type: "array",
@@ -58,7 +60,7 @@ export const f = {
       max: opts.max,
     }) as Field,
   object: (label: string, objectFields: Record<string, Field>): Field => ({ type: "object", label, objectFields }) as Field,
-  slot: (allow?: string[], disallow?: string[]): Field => ({ type: "slot", allow, disallow }),
+  slot: (label: string, allow?: string[], disallow?: string[]): Field => ({ type: "slot", label, allow, disallow }),
 };
 
 export const opts = {

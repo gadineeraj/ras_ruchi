@@ -1,6 +1,6 @@
 import { ArrowRightIcon } from "@phosphor-icons/react/dist/ssr/ArrowRight";
 import { Swatch } from "@/components/Swatch";
-import { SwatchCaption, SwatchChips, SwatchPicker, SwatchShopLink, SwatchWindow } from "@/components/SwatchPicker";
+import { SwatchChips, SwatchPicker, SwatchShopLink, SwatchWindow } from "@/components/SwatchPicker";
 import type { Photo } from "@/lib/content-types";
 import { collectionPath, designSwatches, picksToSwatches, type SwatchItem } from "@/lib/library";
 import { asset } from "@/lib/paths";

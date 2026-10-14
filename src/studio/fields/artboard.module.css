@@ -1,0 +1,345 @@
+/* The free canvas editor: a live board drawn with the site's own materials
+   (card stock, mill board, cut cloth), with oxblood only for the selection,
+   the handles and the snapping guides. Square corners. */
+
+.root {
+  display: grid;
+  gap: 10px;
+  min-width: 0;
+}
+
+.adds {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 4px;
+}
+
+.adds > button {
+  min-width: 0;
+  padding: 0 4px;
+  gap: 3px;
+}
+
+.adds > button svg {
+  flex: none;
+}
+
+.bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.layers {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.hint {
+  margin: 0;
+  font-size: 12.5px;
+  line-height: 1.4;
+  color: var(--s-ink-3);
+}
+
+/* ------------------------------------------------------------------ board */
+
+/* The mill board the canvas sits on, with room for the handles at its edges. */
+.stage {
+  padding: 24px 12px 14px;
+  background: var(--board, #d6d6d1);
+}
+
+.board {
+  position: relative;
+  width: 100%;
+  container-type: inline-size;
+  color: var(--ink, #161615);
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.board[data-bg="card"] {
+  background: var(--card, #f4f4f1);
+  box-shadow: var(--card-shadow);
+}
+
+.board[data-bg="none"] {
+  outline: 1px dashed rgb(22 22 21 / 0.35);
+  outline-offset: 0;
+}
+
+.board[data-bg="shade"] {
+  background: var(--shade);
+  color: var(--on-shade);
+}
+
+.big {
+  width: min(900px, 100%, calc((86dvh - 340px) * var(--ar, 1.78)));
+  margin-inline: auto;
+}
+
+.empty {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 12px;
+  font: 400 13px/1.4 var(--font-sans);
+  text-align: center;
+  color: var(--s-ink-3);
+  pointer-events: none;
+}
+
+.item {
+  position: absolute;
+  margin: 0;
+  cursor: grab;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.item:hover:not([data-selected]) {
+  outline: 1px dashed rgb(22 22 21 / 0.5);
+  outline-offset: 1px;
+}
+
+.item[data-selected] {
+  outline: 1.5px solid var(--s-accent);
+  outline-offset: 1px;
+  box-shadow: 0 0 0 1px rgb(251 251 249 / 0.7);
+}
+
+.item:focus-visible {
+  outline: 2px solid var(--s-accent);
+  outline-offset: 2px;
+}
+
+.photo img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.photoEmpty {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  border: 1.5px dashed rgb(22 22 21 / 0.35);
+  background: rgb(255 255 255 / 0.35);
+  color: var(--s-ink-3);
+}
+
+/* A swatch as the site draws it: cut with pinking shears, glued a little crooked. */
+.lift {
+  display: block;
+  rotate: var(--tilt, 0deg);
+  filter: var(--cloth-shadow);
+}
+
+.cloth {
+  position: relative;
+  display: block;
+  aspect-ratio: 1;
+  overflow: hidden;
+  -webkit-mask: var(--pinked) center / 100% 100% no-repeat;
+  mask: var(--pinked) center / 100% 100% no-repeat;
+}
+
+.cloth img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.swatchEmpty {
+  display: block;
+  aspect-ratio: 1;
+  border: 1.5px dashed rgb(22 22 21 / 0.35);
+  background: rgb(255 255 255 / 0.35);
+}
+
+.shape {
+  position: absolute;
+  inset: 0;
+}
+
+/* -------------------------------------------------------------- handles */
+
+.resize {
+  position: absolute;
+  right: -7px;
+  bottom: -7px;
+  z-index: 2;
+  width: 13px;
+  height: 13px;
+  border: 2px solid #fbfbf9;
+  background: var(--s-accent);
+  cursor: nwse-resize;
+  touch-action: none;
+}
+
+.turn {
+  position: absolute;
+  left: 50%;
+  top: -22px;
+  z-index: 2;
+  width: 13px;
+  height: 13px;
+  margin-left: -6.5px;
+  border: 2px solid var(--s-accent);
+  background: #fbfbf9;
+  cursor: grab;
+  touch-action: none;
+}
+
+.turn::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  width: 1.5px;
+  height: 9px;
+  margin-left: -0.75px;
+  background: var(--s-accent);
+}
+
+.guideV,
+.guideH {
+  position: absolute;
+  z-index: 100000;
+  background: var(--s-accent);
+  pointer-events: none;
+}
+
+.guideV {
+  top: -10px;
+  bottom: -10px;
+  width: 1px;
+  margin-left: -0.5px;
+}
+
+.guideH {
+  left: -10px;
+  right: -10px;
+  height: 1px;
+  margin-top: -0.5px;
+}
+
+/* ------------------------------------------------------------ properties */
+
+.props {
+  display: grid;
+  gap: 14px;
+  padding: 12px;
+  border: 1px solid var(--s-hair-strong);
+  background: var(--s-raised);
+}
+
+.propsHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.propsHead h3 {
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.range {
+  flex: 1;
+  min-width: 0;
+  accent-color: var(--s-ink);
+}
+
+.value {
+  min-width: 38px;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+  color: var(--s-ink-2);
+}
+
+.number {
+  width: 84px;
+}
+
+.colours {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.colour {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: 1px solid rgb(22 22 21 / 0.2);
+  cursor: pointer;
+}
+
+.colour[aria-pressed="true"] {
+  outline: 2px solid var(--s-accent);
+  outline-offset: 2px;
+}
+
+.colourInput {
+  width: 44px;
+  height: 30px;
+  padding: 2px;
+  border: 1px solid var(--s-hair-strong);
+  background: var(--s-raised);
+  cursor: pointer;
+}
+
+.thumb {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  flex: none;
+  overflow: hidden;
+  background: var(--s-sunk) center / cover no-repeat;
+}
+
+.thumb img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bigLayout {
+  display: grid;
+  gap: 14px;
+}
+
+.bigLayout .props {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  align-items: start;
+}
+
+.bigLayout .propsHead {
+  grid-column: 1 / -1;
+}

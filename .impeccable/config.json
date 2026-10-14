@@ -1,0 +1,80 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "broken-image",
+        "value": "*",
+        "files": [
+          "src/studio/server/media.ts"
+        ],
+        "createdAt": "2026-10-14T08:52:10.731Z",
+        "reason": "Claude: server-side Node module with no <img> elements; the src strings are file paths in JSON data"
+      },
+      {
+        "rule": "broken-image",
+        "value": "*",
+        "files": [
+          "src/studio/api.ts"
+        ],
+        "createdAt": "2026-10-14T08:55:34.488Z",
+        "reason": "Claude: fetch client with no <img>; the flagged line is an API path string"
+      },
+      {
+        "rule": "skipped-heading",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/assigned.html"
+        ],
+        "createdAt": "2026-10-14T09:12:01.038Z",
+        "reason": "Claude: throwaway decision-round sketch drawn as a skeleton on the choice page; not shipping UI"
+      },
+      {
+        "rule": "undersized-ui-text",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/assigned.html"
+        ],
+        "createdAt": "2026-10-14T09:12:01.089Z",
+        "reason": "Claude: throwaway decision-round sketch drawn as a skeleton on the choice page; not shipping UI"
+      },
+      {
+        "rule": "skipped-heading",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/canvas-first.html"
+        ],
+        "createdAt": "2026-10-14T09:12:01.138Z",
+        "reason": "Claude: throwaway decision-round sketch drawn as a skeleton on the choice page; not shipping UI"
+      },
+      {
+        "rule": "undersized-ui-text",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/canvas-first.html"
+        ],
+        "createdAt": "2026-10-14T09:12:01.194Z",
+        "reason": "Claude: throwaway decision-round sketch drawn as a skeleton on the choice page; not shipping UI"
+      },
+      {
+        "rule": "skipped-heading",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/section-list.html"
+        ],
+        "createdAt": "2026-10-14T09:12:01.245Z",
+        "reason": "Claude: throwaway decision-round sketch drawn as a skeleton on the choice page; not shipping UI"
+      },
+      {
+        "rule": "undersized-ui-text",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/section-list.html"
+        ],
+        "createdAt": "2026-10-14T09:12:01.293Z",
+        "reason": "Claude: throwaway decision-round sketch drawn as a skeleton on the choice page; not shipping UI"
+      }
+    ]
+  }
+}

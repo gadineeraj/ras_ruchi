@@ -1,0 +1,877 @@
+/* Settings controls for the Studio's 340px drawer, and the photo and swatch
+   pickers. They render inside .root (ui.module.css), so the --s-* tokens are in
+   scope. Card stock and mill board grounds, ink for text, Kadamba oxblood only
+   for selection, focus and drop targets. Square corners. */
+
+/* ----------------------------------------------------------------- frame */
+
+.shell {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.shell:disabled {
+  opacity: 0.55;
+}
+
+.head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  min-width: 0;
+}
+
+.sub {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+}
+
+.optional {
+  color: var(--s-ink-3);
+  font-weight: 400;
+}
+
+.note {
+  padding: 8px 10px;
+  background: var(--s-sunk);
+  color: var(--s-ink-2);
+}
+
+.textButton {
+  flex: none;
+  padding: 2px 0;
+  border: 0;
+  background: none;
+  color: var(--s-ink-2);
+  font: 500 12.5px/1.3 var(--font-sans);
+  text-decoration: underline;
+  text-decoration-color: var(--s-hair-strong);
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.textButton:hover {
+  color: var(--s-ink);
+  text-decoration-color: currentColor;
+}
+
+.warn {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  font-size: 12.5px;
+  line-height: 1.4;
+  color: var(--s-warn);
+}
+
+.warn svg {
+  flex: none;
+  margin-top: 1px;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.alignStart {
+  justify-self: start;
+}
+
+.dim {
+  cursor: default;
+}
+
+.dim label {
+  cursor: default;
+}
+
+/* ------------------------------------------------------------ photo well */
+
+.drop {
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+  padding: 18px 14px;
+  border: 1.5px dashed var(--s-hair-strong);
+  background: var(--s-raised);
+  color: var(--s-ink-2);
+  text-align: center;
+  font-size: 13px;
+  transition:
+    border-color 140ms var(--s-ease),
+    background-color 140ms var(--s-ease),
+    color 140ms var(--s-ease);
+}
+
+.drop:hover {
+  border-color: var(--s-ink-2);
+}
+
+.drop[data-over] {
+  border-color: var(--s-accent);
+  background: var(--s-accent-soft);
+  color: var(--s-accent);
+}
+
+.stage {
+  position: relative;
+  display: grid;
+  place-items: center;
+  padding: 10px;
+  background: var(--s-board);
+  outline: 1.5px dashed transparent;
+  outline-offset: -1.5px;
+}
+
+.stage[data-over] {
+  outline-color: var(--s-accent);
+}
+
+.stageCover {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 8px;
+  background: rgb(244 244 241 / 0.82);
+  color: var(--s-accent);
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.frame {
+  position: relative;
+  display: block;
+  width: min(100%, calc(220px * var(--ratio)));
+  aspect-ratio: var(--ratio);
+  padding: 0;
+  border: 0;
+  background-position: center;
+  background-size: cover;
+  cursor: crosshair;
+  touch-action: none;
+}
+
+.frame img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: contain;
+  pointer-events: none;
+  user-select: none;
+}
+
+.frame:focus-visible {
+  outline: 2px solid var(--s-accent);
+  outline-offset: 3px;
+}
+
+/* The focal point: a punched ring, white with an ink edge so it reads on any photo. */
+.ring {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  margin: -11px 0 0 -11px;
+  border: 2.5px solid #fbfbf9;
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 1px rgb(22 22 21 / 0.85),
+    inset 0 0 0 1px rgb(22 22 21 / 0.85);
+  pointer-events: none;
+  transition:
+    left 140ms var(--s-ease),
+    top 140ms var(--s-ease),
+    opacity 140ms var(--s-ease);
+}
+
+.ring[data-unset] {
+  opacity: 0.6;
+}
+
+.frame:hover .ring,
+.frame:focus-visible .ring {
+  opacity: 1;
+}
+
+.frame[data-dragging] .ring {
+  transition: none;
+  border-color: var(--s-accent);
+}
+
+.altBlock {
+  display: grid;
+  gap: 8px;
+  margin-top: 4px;
+  padding-top: 12px;
+  border-top: 1px solid var(--s-hair);
+}
+
+.altBlock input:disabled {
+  background: var(--s-sunk);
+  color: var(--s-ink-3);
+  cursor: not-allowed;
+}
+
+/* ----------------------------------------------------------------- link */
+
+.modes > div > button {
+  flex: 1 1 auto;
+  padding: 0 6px;
+}
+
+/* ---------------------------------------------------------------- shade */
+
+.swatches {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(52px, 1fr));
+  gap: 10px 8px;
+}
+
+.shadeTile {
+  display: grid;
+  align-content: start;
+  gap: 5px;
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--s-ink-2);
+  text-align: left;
+  cursor: pointer;
+}
+
+.shadeChip {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1;
+  border: 1px solid var(--s-hair);
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  transition: outline-color 140ms var(--s-ease);
+}
+
+/* "None": blank card struck through once, corner to corner. */
+.shadeChip[data-none] {
+  background:
+    linear-gradient(to top right, transparent calc(50% - 0.75px), var(--s-ink-3) calc(50% - 0.75px), var(--s-ink-3) calc(50% + 0.75px), transparent calc(50% + 0.75px)),
+    var(--s-raised);
+  color: var(--s-ink);
+}
+
+.shadeTile:hover .shadeChip {
+  outline-color: var(--s-hair-strong);
+}
+
+.shadeTile[aria-pressed="true"] .shadeChip {
+  outline-color: var(--s-accent);
+}
+
+.shadeTile[aria-pressed="true"] {
+  color: var(--s-ink);
+}
+
+.shadeTile:focus-visible {
+  outline: 0;
+}
+
+.shadeTile:focus-visible .shadeChip {
+  outline-color: var(--s-accent);
+  outline-style: solid;
+  outline-width: 2px;
+}
+
+.shadeName {
+  display: -webkit-box;
+  overflow: hidden;
+  font-size: 11.5px;
+  line-height: 1.25;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+}
+
+.customBlock {
+  margin-top: 6px;
+}
+
+.customRow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.colorWell {
+  flex: none;
+  width: 36px;
+  height: 36px;
+  padding: 2px;
+  border: 1px solid var(--s-hair-strong);
+  background: var(--s-raised);
+  cursor: pointer;
+}
+
+.colorWell::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+.colorWell::-webkit-color-swatch {
+  border: 0;
+  border-radius: 0;
+}
+
+.colorWell::-moz-color-swatch {
+  border: 0;
+  border-radius: 0;
+}
+
+.colorWell:hover {
+  border-color: var(--s-ink-2);
+}
+
+.customRow[data-on] .colorWell {
+  outline: 2px solid var(--s-accent);
+  outline-offset: 2px;
+}
+
+.hexInput {
+  flex: 1;
+  min-width: 0;
+  font-variant-numeric: tabular-nums;
+  text-transform: lowercase;
+}
+
+.nameRow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.nameRow input {
+  flex: 1;
+  min-width: 0;
+}
+
+/* --------------------------------------------------------------- layout */
+
+.layout {
+  display: grid;
+  gap: 14px;
+}
+
+.hiddenNote {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  background: var(--s-sunk);
+  color: var(--s-ink-2);
+  font-size: 13px;
+}
+
+.hiddenNote span {
+  flex: 1;
+}
+
+.disclosure {
+  display: grid;
+  border-top: 1px solid var(--s-hair);
+}
+
+.moreToggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 36px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--s-ink);
+  font: 500 13px/1.2 var(--font-sans);
+  text-align: left;
+  cursor: pointer;
+}
+
+.moreToggle:hover {
+  color: var(--s-ink-2);
+}
+
+.caret {
+  flex: none;
+  transition: rotate 180ms var(--s-ease);
+}
+
+.moreToggle[aria-expanded="true"] .caret {
+  rotate: 90deg;
+}
+
+.moreSummary {
+  overflow: hidden;
+  margin-left: auto;
+  color: var(--s-ink-3);
+  font-weight: 400;
+  font-size: 12.5px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.moreBody {
+  display: grid;
+  gap: 14px;
+  padding: 4px 0 2px;
+}
+
+/* ------------------------------------------------- collection, swatches */
+
+.selectRow {
+  display: flex;
+  align-items: stretch;
+}
+
+.selectRow select {
+  flex: 1;
+  min-width: 0;
+}
+
+.band {
+  flex: none;
+  width: 10px;
+  background: var(--s-sunk);
+}
+
+.selectRow .band {
+  width: 8px;
+}
+
+.band[data-empty] {
+  background: repeating-linear-gradient(135deg, var(--s-sunk) 0 3px, var(--s-raised) 3px 6px);
+}
+
+.pinked {
+  position: relative;
+  display: block;
+  flex: none;
+  aspect-ratio: 1;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  -webkit-mask: var(--pinked) center / 100% 100% no-repeat;
+  mask: var(--pinked) center / 100% 100% no-repeat;
+}
+
+.pinked img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+}
+
+.pickRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  border: 1px solid var(--s-hair);
+  background: var(--s-raised);
+}
+
+.chipEmpty {
+  flex: none;
+  width: 48px;
+  height: 48px;
+  border: 1.5px dashed var(--s-hair-strong);
+}
+
+.pickText {
+  display: grid;
+  flex: 1;
+  min-width: 0;
+  gap: 1px;
+  font-size: 13px;
+  line-height: 1.3;
+}
+
+.pickText strong {
+  overflow: hidden;
+  font-weight: 600;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.pickText span {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.pickText .warn {
+  white-space: normal;
+}
+
+/* -------------------------------------------------------------- pickers */
+
+.search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-width: 0;
+}
+
+.search svg {
+  position: absolute;
+  left: 11px;
+  color: var(--s-ink-3);
+  pointer-events: none;
+}
+
+.search input {
+  padding-left: 34px;
+}
+
+.library {
+  display: grid;
+  gap: 26px;
+}
+
+.libGroup {
+  display: grid;
+  gap: 14px;
+}
+
+.libHead {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--s-hair);
+  font: 600 15px/1.2 var(--font-sans);
+}
+
+.libHead .band {
+  align-self: stretch;
+  width: 6px;
+}
+
+.libHead > span:last-child {
+  font-weight: 400;
+}
+
+.libDesigns {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 18px 22px;
+}
+
+.libDesign {
+  display: grid;
+  align-content: start;
+  gap: 8px;
+}
+
+.libDesignName {
+  font: 500 13px/1.3 var(--font-sans);
+  color: var(--s-ink);
+}
+
+.libChips {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(72px, 1fr));
+  gap: 10px;
+}
+
+.libChips[data-level="design"] {
+  grid-template-columns: repeat(auto-fill, minmax(112px, 1fr));
+  gap: 16px 14px;
+}
+
+.libChip {
+  display: grid;
+  align-content: start;
+  gap: 6px;
+  min-width: 0;
+  padding: 6px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--s-ink-2);
+  font: 400 12px/1.3 var(--font-sans);
+  text-align: left;
+  cursor: pointer;
+  transition:
+    background-color 140ms var(--s-ease),
+    border-color 140ms var(--s-ease);
+}
+
+.libChip > span:not(.pinked) {
+  display: -webkit-box;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+}
+
+.libChip:hover {
+  background: var(--s-sunk);
+  color: var(--s-ink);
+}
+
+.libChip:hover .pinked {
+  translate: 0 -2px;
+}
+
+.libChip .pinked {
+  width: 100%;
+  transition: translate 200ms var(--s-ease);
+}
+
+.libChip[aria-pressed="true"] {
+  border-color: var(--s-accent);
+  background: var(--s-accent-soft);
+  color: var(--s-ink);
+}
+
+.libChips[data-level="design"] .libChip > span:nth-child(2) {
+  color: var(--s-ink);
+  font-weight: 500;
+  font-size: 13px;
+}
+
+/* --------------------------------------------------------- photo picker */
+
+.picker {
+  position: relative;
+  display: grid;
+  gap: 14px;
+  min-height: 320px;
+  align-content: start;
+}
+
+.pickerBar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pickerStatus {
+  overflow: hidden;
+  flex: 1;
+  min-width: 0;
+  align-self: center;
+  color: var(--s-ink-2);
+  font-size: 13px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.pickerCover {
+  position: absolute;
+  inset: -8px;
+  z-index: 2;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 10px;
+  border: 2px dashed var(--s-accent);
+  background: rgb(244 244 241 / 0.9);
+  color: var(--s-accent);
+  font-weight: 500;
+  pointer-events: none;
+}
+
+.folders {
+  display: grid;
+  gap: 8px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--s-hair);
+}
+
+.folderRow {
+  display: grid;
+  grid-template-columns: 92px minmax(0, 1fr);
+  align-items: start;
+  gap: 10px;
+}
+
+.folderHead {
+  padding-top: 8px;
+  color: var(--s-ink-3);
+  font-size: 12.5px;
+  line-height: 1.3;
+}
+
+.search input::-webkit-search-cancel-button {
+  filter: grayscale(1) brightness(0.4);
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(132px, 1fr));
+  gap: 12px;
+}
+
+.tile {
+  position: relative;
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--s-ink-2);
+  text-align: left;
+  cursor: pointer;
+}
+
+.tileImg {
+  position: relative;
+  display: block;
+  aspect-ratio: 1;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  transition: outline-color 140ms var(--s-ease);
+}
+
+.tileImg img,
+.tileImg video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  transition: scale 280ms var(--s-ease);
+}
+
+.tile:hover .tileImg {
+  outline-color: var(--s-hair-strong);
+}
+
+.tile:hover .tileImg img {
+  scale: 1.03;
+}
+
+.tile:focus-visible {
+  outline: 0;
+}
+
+.tile:focus-visible .tileImg,
+.tile[aria-pressed="true"] .tileImg {
+  outline-color: var(--s-accent);
+}
+
+.tile[aria-pressed="true"] {
+  color: var(--s-ink);
+}
+
+.tileName {
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1.3;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.tileBadge {
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+  padding: 3px;
+  background: var(--s-ink);
+  color: var(--s-panel);
+  box-sizing: content-box;
+}
+
+.tick {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  background: var(--s-accent);
+  color: #fbf6f1;
+}
+
+.showMore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 6px 0 2px;
+}
+
+/* ---------------------------------------------------------------- video */
+
+.videoDrop {
+  outline: 1.5px dashed transparent;
+  outline-offset: 2px;
+}
+
+.videoDrop[data-over] {
+  outline-color: var(--s-accent);
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12.5px;
+  line-height: 1.4;
+}
+
+.status:empty {
+  display: none;
+}
+
+.status[data-tone="good"] {
+  color: var(--s-good);
+}
+
+.status[data-tone="warn"] {
+  color: var(--s-warn);
+}
+
+.status svg {
+  flex: none;
+}
+
+.clip {
+  display: block;
+  width: 100%;
+  max-height: 180px;
+  background: var(--s-board);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ring,
+  .caret,
+  .libChip .pinked,
+  .tileImg img {
+    transition: none;
+  }
+
+  .tile:hover .tileImg img,
+  .libChip:hover .pinked {
+    scale: none;
+    translate: none;
+  }
+}

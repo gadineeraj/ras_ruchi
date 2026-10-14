@@ -1,0 +1,685 @@
+/* The Photos and Collections panels: her library of photographs and the
+   collections behind the shade cards. Card stock ground, ink text, oxblood
+   only for selection, focus and drop. Square corners. */
+
+.panel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  background: var(--s-panel);
+}
+
+.scroll {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: #8a8a83 transparent;
+}
+
+.body {
+  display: grid;
+  align-content: start;
+  gap: 16px;
+  padding: 16px;
+}
+
+.stack {
+  display: grid;
+  gap: 8px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rowWrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.grow {
+  flex: 1;
+  min-width: 0;
+}
+
+.muted {
+  margin: 0;
+  font-size: 12.5px;
+  line-height: 1.4;
+  color: var(--s-ink-3);
+}
+
+.warn {
+  margin: 0;
+  font-size: 12.5px;
+  line-height: 1.4;
+  color: var(--s-warn);
+}
+
+.visuallyHidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* ------------------------------------------------------------- drop zone */
+
+.drop {
+  position: absolute;
+  inset: 6px;
+  z-index: 5;
+  display: grid;
+  place-items: center;
+  gap: 8px;
+  align-content: center;
+  border: 2px dashed var(--s-accent);
+  background: rgb(244 244 241 / 0.9);
+  color: var(--s-accent);
+  font: 600 14px/1.3 var(--font-sans);
+  text-align: center;
+  pointer-events: none;
+}
+
+/* ----------------------------------------------------------- search, filter */
+
+.search {
+  position: relative;
+}
+
+.search svg {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  translate: 0 -50%;
+  color: var(--s-ink-3);
+  pointer-events: none;
+}
+
+.search input {
+  padding-left: 32px;
+}
+
+/* ------------------------------------------------------------------ grid */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.thumb {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  padding: 0;
+  border: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.thumb img,
+.thumb video {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.thumb::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgb(22 22 21 / 0.08);
+  pointer-events: none;
+  transition: border-color 140ms var(--s-ease);
+}
+
+.thumb:hover::after {
+  border: 2px solid var(--s-ink);
+}
+
+.thumb:focus-visible {
+  outline-offset: 2px;
+}
+
+.thumbName {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 18px 7px 6px;
+  background: linear-gradient(rgb(22 22 21 / 0), rgb(22 22 21 / 0.66));
+  color: #fbfbf9;
+  font: 500 11.5px/1.25 var(--font-sans);
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 140ms var(--s-ease);
+}
+
+.thumb:hover .thumbName,
+.thumb:focus-visible .thumbName {
+  opacity: 1;
+}
+
+.play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  translate: -50% -50%;
+  background: rgb(22 22 21 / 0.72);
+  color: #fbfbf9;
+  pointer-events: none;
+}
+
+/* A small mark on photos still without a description. */
+.needsAlt {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  z-index: 1;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: var(--s-warn);
+  box-shadow: 0 0 0 2px #fbfbf9;
+}
+
+/* ---------------------------------------------------------------- detail */
+
+.preview {
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: 240px;
+  background: var(--s-board);
+  overflow: hidden;
+}
+
+.preview img,
+.preview video {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.facts {
+  display: grid;
+  gap: 2px;
+  margin: 0;
+}
+
+.facts strong {
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.list {
+  display: grid;
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.linkButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  min-height: 32px;
+  padding: 4px 8px;
+  border: 1px solid var(--s-hair);
+  background: var(--s-raised);
+  color: var(--s-ink);
+  font: 400 13.5px/1.3 var(--font-sans);
+  text-align: left;
+  cursor: pointer;
+}
+
+.linkButton:hover {
+  border-color: var(--s-ink);
+}
+
+.linkButton span {
+  flex: 1;
+  min-width: 0;
+}
+
+.plainItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 32px;
+  padding: 4px 8px;
+  border: 1px dashed var(--s-hair-strong);
+  font-size: 13.5px;
+  color: var(--s-ink-2);
+}
+
+/* ----------------------------------------------------------- collections */
+
+/* Long names in the breadcrumb shorten instead of pushing the head wider. */
+.panel > header h2 {
+  min-width: 0;
+}
+
+.crumbs {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  min-width: 0;
+  font: 600 15px/1.2 var(--font-sans);
+}
+
+.crumbs button {
+  flex: none;
+  max-width: 96px;
+  padding: 2px 0;
+  border: 0;
+  background: none;
+  color: var(--s-ink-2);
+  font: 500 14px/1.2 var(--font-sans);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.crumbs button:hover {
+  color: var(--s-ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.crumbs svg {
+  flex: none;
+  color: var(--s-ink-3);
+}
+
+.crumbNow {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.items {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--s-hair);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  border-bottom: 1px solid var(--s-hair);
+}
+
+.itemOpen {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  min-height: 52px;
+  padding: 8px 6px 8px 4px;
+  border: 0;
+  background: transparent;
+  color: var(--s-ink);
+  text-align: left;
+  cursor: pointer;
+}
+
+.itemOpen:hover {
+  background: var(--s-sunk);
+}
+
+.itemText {
+  display: grid;
+  flex: 1;
+  min-width: 0;
+  gap: 1px;
+}
+
+.itemText strong {
+  font: 600 14px/1.25 var(--font-sans);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.itemText span {
+  font-size: 12.5px;
+  line-height: 1.3;
+  color: var(--s-ink-3);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.itemMoves {
+  display: flex;
+  flex: none;
+}
+
+.dot {
+  flex: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px rgb(22 22 21 / 0.18);
+}
+
+/* A cloth chip, cut with pinking shears like the site's swatches. */
+.chip {
+  position: relative;
+  flex: none;
+  display: block;
+  width: 30px;
+  aspect-ratio: 1;
+  overflow: hidden;
+  background: var(--s-sunk);
+  -webkit-mask: var(--pinked) center / 100% 100% no-repeat;
+  mask: var(--pinked) center / 100% 100% no-repeat;
+}
+
+.chip img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.chipEmpty {
+  flex: none;
+  width: 30px;
+  aspect-ratio: 1;
+  border: 1.5px dashed var(--s-hair-strong);
+}
+
+.chipLarge {
+  width: 84px;
+}
+
+.badge {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 6px;
+  border: 1px solid currentColor;
+  color: var(--s-warn);
+  font: 500 11px/1.3 var(--font-label);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.swatches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.swatchButton {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid rgb(22 22 21 / 0.2);
+  cursor: pointer;
+}
+
+.swatchButton[aria-pressed="true"] {
+  outline: 2px solid var(--s-accent);
+  outline-offset: 2px;
+}
+
+.colorInput {
+  width: 44px;
+  height: 32px;
+  padding: 2px;
+  border: 1px solid var(--s-hair-strong);
+  background: var(--s-raised);
+  cursor: pointer;
+}
+
+.callout {
+  display: grid;
+  gap: 8px;
+  padding: 12px;
+  border: 1px solid var(--s-hair-strong);
+  background: var(--s-raised);
+}
+
+.callout p {
+  margin: 0;
+}
+
+/* ------------------------------------------------------------- colourways */
+
+.cards {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card {
+  border: 1px solid var(--s-hair-strong);
+  background: var(--s-raised);
+}
+
+.card[data-open] {
+  border-color: var(--s-ink);
+}
+
+.cardHead {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding-right: 4px;
+}
+
+.cardToggle {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  min-height: 52px;
+  padding: 8px 6px 8px 10px;
+  border: 0;
+  background: transparent;
+  color: var(--s-ink);
+  text-align: left;
+  cursor: pointer;
+}
+
+.cardToggle > svg {
+  flex: none;
+  color: var(--s-ink-3);
+  transition: rotate 160ms var(--s-ease);
+}
+
+.cardToggle[aria-expanded="true"] > svg {
+  rotate: 90deg;
+}
+
+.cardBody {
+  display: grid;
+  gap: 14px;
+  padding: 4px 12px 14px;
+  border-top: 1px solid var(--s-hair);
+  padding-top: 14px;
+}
+
+.photoSlot {
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+}
+
+.photoThumb {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  background: var(--s-sunk) center / cover no-repeat;
+  overflow: hidden;
+}
+
+.photoThumb img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.photoThumbEmpty {
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  border: 1.5px dashed var(--s-hair-strong);
+  color: var(--s-ink-3);
+}
+
+.photoSlotText {
+  display: grid;
+  gap: 6px;
+  justify-items: start;
+}
+
+.chipRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.chipFacts {
+  display: grid;
+  gap: 6px;
+  justify-items: start;
+}
+
+.shadeCode {
+  font: 500 12px/1.3 var(--font-label);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--s-ink-2);
+}
+
+.more summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 28px;
+  font: 500 13px/1.2 var(--font-sans);
+  color: var(--s-ink-2);
+  cursor: pointer;
+  list-style: none;
+}
+
+.more summary::-webkit-details-marker {
+  display: none;
+}
+
+.more summary svg {
+  transition: rotate 160ms var(--s-ease);
+}
+
+.more[open] summary svg {
+  rotate: 90deg;
+}
+
+.more[open] > div {
+  margin-top: 8px;
+}
+
+/* ------------------------------------------------------- swatch cutting */
+
+.cutter {
+  display: grid;
+  gap: 16px;
+}
+
+.cutStage {
+  position: relative;
+  justify-self: center;
+  max-width: 100%;
+  background: var(--s-board) center / cover no-repeat;
+  overflow: hidden;
+  cursor: crosshair;
+  touch-action: none;
+  user-select: none;
+}
+
+.cutStage img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.cutBox {
+  position: absolute;
+  border: 2px solid #fbfbf9;
+  outline: 2px solid var(--s-accent);
+  box-shadow: 0 0 0 9999px rgb(22 22 21 / 0.45);
+  pointer-events: none;
+}
+
+.cutPreview {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.range {
+  width: 100%;
+  accent-color: var(--s-ink);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cardToggle > svg,
+  .more summary svg,
+  .thumbName,
+  .thumb::after {
+    transition: none;
+  }
+}

@@ -37,7 +37,7 @@ export const Section = {
     align: f.choice("Align heading", opts.align),
     background: f.shade("Background", { allowNone: true }),
     hole: f.toggle("Punched hole", "Shows the shade card's ring hole when the section has a background."),
-    content: f.slot(),
+    content: f.slot("Inside the section"),
     layout: f.layout(),
   },
   defaultProps: { title: "A new section", lede: "", level: "h2", align: "start", background: "none", hole: true, content: [], layout: { width: "wide", space: "xl", show: "all", motion: "none" } },
@@ -115,13 +115,19 @@ export const Columns = {
       { label: "Stack, second first", value: "reverse" },
       { label: "Keep side by side", value: "keep" },
     ]),
-    one: f.slot(),
-    two: f.slot(),
-    three: f.slot(),
-    four: f.slot(),
+    one: f.slot("Column 1"),
+    two: f.slot("Column 2"),
+    three: f.slot("Column 3"),
+    four: f.slot("Column 4"),
     layout: f.layout(),
   },
   defaultProps: { split: "1:1", gap: "m", valign: "start", mobile: "stack", one: [], two: [], three: [], four: [], layout: { width: "wide", space: "m", show: "all", motion: "none" } },
+  // Only the columns in use appear in Layers and accept blocks.
+  resolveFields: (data: { props: Partial<ColumnsProps> }, { fields }: { fields: Record<string, unknown> }) => {
+    const count = String(data.props.split ?? "1:1").split(":").length;
+    const { three, four, ...rest } = fields;
+    return { ...rest, ...(count > 2 ? { three } : {}), ...(count > 3 ? { four } : {}) };
+  },
   render: ({ split, gap, valign, mobile, one: One, two: Two, three: Three, four: Four, layout }: ColumnsProps & PuckBits) => {
     const count = split.split(":").length;
     const slots = [One, Two, Three, Four].slice(0, count);
@@ -155,7 +161,7 @@ export const Card = {
       { label: "M", value: "m" },
       { label: "L", value: "l" },
     ]),
-    content: f.slot(),
+    content: f.slot("Inside the card"),
     layout: f.layout(),
   },
   defaultProps: { band: "none", bandTitle: "", bandNote: "", hole: true, pad: "m", content: [], layout: { width: "wide", space: "m", show: "all", motion: "none" } },
@@ -275,7 +281,8 @@ export const FreeCanvas = {
   },
   render: ({ ratio, background, items, mobile, label, layout, puck }: CanvasProps & PuckBits) => {
     const bg = surface(background);
-    const sorted = [...(items ?? [])].sort((a, b) => a.z - b.z);
+    // Skips anything malformed, so a half-saved board never breaks the page.
+    const sorted = (Array.isArray(items) ? items : []).filter((it): it is CanvasItem => Boolean(it) && typeof it === "object" && Boolean(it.kind)).sort((a, b) => (a.z ?? 0) - (b.z ?? 0));
     return (
       <Frame layout={layout}>
         <div className={styles.canvas} data-bg={bg.attr} data-mobile={mobile} role="img" aria-label={label || undefined} style={{ aspectRatio: ratioCss(ratio), ...bg.style }}>
@@ -292,9 +299,9 @@ export const FreeCanvas = {
             }
             if (it.kind === "photo") {
               return (
-                <div key={it.id} className={styles.canvasItem} data-kind="photo" style={{ ...box, "--item-ratio": it.photo ? `${it.photo.width} / ${it.photo.height}` : undefined } as CSSProperties}>
+                <div key={it.id} className={styles.canvasItem} data-kind="photo" style={{ ...box, "--item-ratio": it.photo?.width && it.photo?.height ? `${it.photo.width} / ${it.photo.height}` : undefined } as CSSProperties}>
                   <span className={styles.canvasPhoto} data-frame={it.frame ?? "plain"} style={{ backgroundColor: it.photo?.color }}>
-                    <Pic photo={it.photo} sizes={`${Math.round(it.w)}vw`} />
+                    <Pic photo={it.photo} sizes={`${Math.round(it.w || 30)}vw`} />
                   </span>
                 </div>
               );
@@ -303,7 +310,7 @@ export const FreeCanvas = {
               const sw = it.pick ? pickToSwatch(puck.metadata.collections, it.pick) : null;
               return (
                 <div key={it.id} className={styles.canvasItem} data-kind="swatch" style={{ ...box, height: "auto", "--item-ratio": "1 / 1" } as CSSProperties}>
-                  {sw ? <Swatch chip={sw.chip} index={it.z} sizes={`${Math.round(it.w)}vw`} alt={`${sw.design} in ${sw.colourway}`} /> : <span className={styles.picEmpty} />}
+                  {sw?.chip?.src ? <Swatch chip={sw.chip} index={it.z ?? 0} sizes={`${Math.round(it.w || 12)}vw`} alt={`${sw.design} in ${sw.colourway}`} /> : <span className={styles.picEmpty} />}
                 </div>
               );
             }

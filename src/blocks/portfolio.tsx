@@ -497,7 +497,7 @@ export const CollectionCard = {
     collection: f.collection("Collection", { allowPage: true }),
     note: f.textarea("Small print under the introduction"),
     showIndex: f.toggle("List the designs as quick links"),
-    extra: f.slot(),
+    extra: f.slot("Extra blocks in the card"),
     layout: f.layout(),
   },
   defaultProps: {

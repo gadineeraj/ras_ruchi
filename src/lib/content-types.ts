@@ -21,6 +21,7 @@ export type Photo = Img & {
 /** One entry in the photo library. */
 export type MediaItem = Img & {
   name: string;
+  kind?: "image" | "video";
   alt?: string;
   folder: string;
   added: string;
@@ -101,6 +102,8 @@ export type PageRoot = {
   shareImage?: Photo | null;
 };
 
+// Each kind of block has its own props; the block's render types them.
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type BlockData = { type: string; props: Record<string, any> & { id: string } };
 
 export type PageData = { root: { props: PageRoot }; content: BlockData[]; zones?: Record<string, BlockData[]> };
