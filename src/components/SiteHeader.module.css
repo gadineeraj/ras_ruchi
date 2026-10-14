@@ -1,0 +1,118 @@
+.header {
+  position: relative;
+  z-index: 10;
+  background: var(--board);
+  border-bottom: 1px solid var(--hair);
+  view-transition-name: site-header;
+}
+
+@media (min-width: 720px) {
+  .header {
+    position: sticky;
+    top: 0;
+  }
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px 24px;
+  min-height: 60px;
+}
+
+.mark {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.word {
+  font-size: 21px;
+  font-weight: 400;
+  font-family: var(--font-display);
+  letter-spacing: -0.015em;
+}
+
+.deva {
+  font-size: 15px;
+  color: var(--ink-2);
+  translate: 0 1px;
+}
+
+.nav {
+  display: flex;
+  gap: clamp(14px, 2.6vw, 34px);
+  padding: 0;
+  list-style: none;
+}
+
+.link {
+  position: relative;
+  display: inline-block;
+  padding-block: 12px;
+  text-decoration: none;
+  color: var(--ink-2);
+  transition: color 180ms var(--ease-out);
+}
+
+.link:hover,
+.link[aria-current="page"] {
+  color: var(--ink);
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 6px;
+  height: 1.5px;
+  background: currentColor;
+  scale: 0 1;
+  transform-origin: left;
+  transition: scale 260ms var(--ease-out);
+}
+
+.link:hover::after,
+.link[aria-current="page"]::after {
+  scale: 1 1;
+}
+
+@media (max-width: 559px) {
+  .inner {
+    flex-direction: column;
+    align-items: stretch;
+    padding-top: 12px;
+    gap: 2px;
+  }
+
+  .nav {
+    justify-content: space-between;
+  }
+}
+
+/* On the home page the hero card carries the navigation in its printed rule,
+   so this bar stays out of sight until the hero has scrolled away. */
+:global(body:has([data-hero])) .header {
+  display: none;
+}
+
+@supports (animation-timeline: scroll()) {
+  @media (min-width: 720px) {
+    :global(body:has([data-hero])) .header {
+      display: block;
+      position: fixed;
+      inset: 0 0 auto;
+      translate: 0 -100%;
+      animation: header-in linear both;
+      animation-timeline: scroll(root);
+      animation-range: 85vh 100vh;
+    }
+  }
+}
+
+@keyframes header-in {
+  to {
+    translate: 0 0;
+  }
+}
