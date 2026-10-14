@@ -1,0 +1,416 @@
+{
+  "root": {
+    "props": {
+      "title": "Gangireddu",
+      "path": "/studies/gangireddu",
+      "kind": "study",
+      "description": "A festive repeat built from the decorated oxen of an Andhra harvest festival.",
+      "draft": false,
+      "shareImage": null,
+      "collection": ""
+    }
+  },
+  "content": [
+    {
+      "type": "BackLink",
+      "props": {
+        "id": "BackLink-04e9e990-47a0-4ab3-adea-d12e78ff6507",
+        "label": "All studies",
+        "link": {
+          "href": "/studies"
+        },
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyHeader",
+      "props": {
+        "id": "StudyHeader-7f74b4a9-2369-4fc0-bc33-9e0abcd8df62",
+        "title": "Gangireddu",
+        "hook": "A festive repeat built from the decorated oxen of an Andhra harvest festival.",
+        "credits": [
+          {
+            "label": "Course",
+            "value": "Advanced print design"
+          },
+          {
+            "label": "Inspiration",
+            "value": "Gangireddu, Andhra Pradesh"
+          },
+          {
+            "label": "Made",
+            "value": "Textures, a repeat, colourways, printed garments"
+          }
+        ],
+        "cover": {
+          "src": "/images/behance/gangireddu/03-327b7782.webp",
+          "width": 1800,
+          "height": 1800,
+          "blur": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAABwAgCdASoQABAAA4BaJbACdAdwLfNyrGRmPCgAAP7ooqcveWAaE/h7pq+rhANkvR5alOVLNyGiJ85zIk4dojPi8NB6RfQ+4sWWi3M7+Ed5VAxE9MD+9HdiuQ5o1vjO82vEFETZDFSh7zQhYzqPjla9dUELjWuC0sMi0bMzU0u/aAAA",
+          "color": "#f8f8f8"
+        },
+        "coverShape": "wide",
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-4df9fa1d-d0d8-4687-bf74-72583b9a040b",
+        "text": "<p>Gangireddu is a harvesting festival of Andhra Pradesh. It means decorated Ox. People of the nomadic tribe- Jangam, receive old oxen from the farmers, who are unfit for farming. After decorating the Ox, they go door to door playing trumpet and the ox dancing. People consider them auspicious, thus in return they give him food, clothes and money.</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-6a749f1b-20ab-46b8-a87c-7f036508aad5",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/gangireddu/00-395152b4.webp",
+              "width": 1800,
+              "height": 1272,
+              "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABQAgCdASoQAAsAA4BaJQBOgMW+nALQ8mpygAAA/vfxU62z9BMGF/MYhpZoOYfsQhdOWq8zNZLOkB1XPpdzKZmwlAarDmgZm8JhFTDZVdxP1SK4jb7DOHSGOxOBJYnsOjuGw0AA",
+              "color": "#f8f8f8"
+            }
+          }
+        ],
+        "title": "Gangireddu",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Keywords",
+      "props": {
+        "id": "Keywords-8ee56ece-6cf7-47a4-8716-8ef96c6717c0",
+        "items": [
+          {
+            "label": "Festive"
+          },
+          {
+            "label": "Decorated"
+          },
+          {
+            "label": "Colorful"
+          },
+          {
+            "label": "Detailed"
+          }
+        ],
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-2dad1262-41de-4385-a474-de6c5c368f0a",
+        "text": "Initial texture exploration",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-3a528203-b2f3-47cf-896c-e9f191bf93dd",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/gangireddu/01-94ead9c0.webp",
+              "width": 1800,
+              "height": 1268,
+              "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADQAQCdASoQAAsAA4BaJbACdAEOOd/ngAD+51PJEGj0a4evnvS4Te0ukPvi6D5dQanMkX1fTHHyQXOhvDN0rGKhM1/VTSpEFKJ8WQNAcnlaV2ISHM9pR1id5V34L4Y6zRRmMgAA",
+              "color": "#f8f8f8"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/gangireddu/02-ff97394d.webp",
+              "width": 1800,
+              "height": 1800,
+              "blur": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAwAgCdASoQABAAA4BaJbACdAYwTdYd9I2kUAD7wzU4THc0YhdAg31z9AziVUmMDFkAm9QVsH+K6E2jZz7BNkTc6SQSxJ1nfyZHupn09Q6kCNmcgw0okFkJj2qOPUdFHQZe+lSQqw7V8knv7wWnxbME7bppd+5DaJ2Vfxi4AAA=",
+              "color": "#080858"
+            }
+          }
+        ],
+        "title": "Gangireddu, initial texture exploration",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-d9be33d4-85d2-4c44-a960-e7a098c4fd8a",
+        "text": "<p>A number of textures were developed inspired from the inspiration. All the textures were later put together to develop a single repeating unit</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-5b499897-12ed-4cc4-bc5b-c2051df82683",
+        "text": "Final repeating unit",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-ae73f8c2-c3e6-4d05-b6b1-843f0740b711",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/gangireddu/04-9758012a.webp",
+              "width": 1000,
+              "height": 1000,
+              "blur": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAACQAgCdASoQABAAA4BaJQACiA9rUMpA/Jd1DLXgAAD+8/uDYDqSvwBdtZ0ErKtbjrOSLcea4eAGijC/j+mdY8hEHdcpaWOw2YBcyr2an4mlrq4K+xdonhr9ZNefmiN/aNAxyR9gRor9jzTSxDzrhXuutUCgAgAA",
+              "color": "#f8f8f8",
+              "animated": true
+            }
+          }
+        ],
+        "title": "Gangireddu, final repeating unit",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-9ba41bda-52d0-4c9d-b63c-855040b689f4",
+        "text": "Print surface",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-fdc33de2-ee8d-4b9b-904a-42c42d77d28e",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/gangireddu/05-4b723f10.webp",
+              "width": 1800,
+              "height": 1800,
+              "blur": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAwAgCdASoQABAAA4BaJbACdAD0gF/qYNZsAADOO7pfMbHkgCQqWDVpR5FxQGoBIkarErKblMAlvgVx9nOLoK3jpDOjnJx9Vw4/bWuhQz/zAda/BzNJFrot94ScULrIBl7oJ1IYg40cbSIx0Qkagkz1KwhuyZAA",
+              "color": "#f8f8f8"
+            }
+          }
+        ],
+        "title": "Gangireddu, print surface",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-04861865-8dbf-4721-ae72-1263f9b0b9d9",
+        "text": "Colorways",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-955a03a3-837a-47cc-b811-a6d3517c0ce3",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/gangireddu/06-2a080b86.webp",
+              "width": 1800,
+              "height": 1272,
+              "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADwAQCdASoQAAsAA4BaJagCdAEDSDrUAAAA/vi4b/vGWNfWlKwWeXX5ifYxmefFcA39WYLEgjTqbjUTYrcf8ODgVrQRca7iPacpsbyeGXQszLSEm0DTNKt9ZcNIcxBTGKaw0oaWpt+Lk2wAAAA=",
+              "color": "#f8f8f8"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/gangireddu/07-ef88f329.webp",
+              "width": 1800,
+              "height": 611,
+              "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACwAQCdASoQAAUAA4BaJaACdADux21gAP7rGvOCfGw0hvQ9d7B8aYPMfLkS23Xg2SKbhaWqtx1QAA==",
+              "color": "#f8f8f8"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/gangireddu/08-6197ba64.webp",
+              "width": 1800,
+              "height": 1272,
+              "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoQAAsAA4BaJbACdDBEwR34PrgAAP74ujc2VXpOXzTpqOk76JEbyJYLISxzImOzXuYRzoQM60bijrah3CO4DzREU6/mnmH/W6n28AhgsWreAAAA",
+              "color": "#f8f8f8"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/gangireddu/09-315ce159.webp",
+              "width": 1800,
+              "height": 683,
+              "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAwAgCdASoQAAYAA4BaJYgCdH8AGBr5a+IPAAD+6yd4WWEWmHL7XF2WHZ9eMzQAHilqdal8tueHUc6+HX9mOpxg60R1NiAcEPxfm7XoyMAAAA==",
+              "color": "#f8f8f8"
+            }
+          }
+        ],
+        "title": "Gangireddu, colorways",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-d82369b0-5037-486e-9263-ad9bd8bbcae9",
+        "text": "Printed garments",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-9d585926-9235-40b3-9247-cdc73272d1fb",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/gangireddu/10-b1fc592b.webp",
+              "width": 1800,
+              "height": 1315,
+              "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADwAQCdASoQAAwAA4BaJYwAAudm8Xkh1OAA/ua49SrPB9RRJCR6f5trcVgyFSQZq3SOnv7jrc6rXwkRQ+Kc66KcpNdHd49h0t57XIL1ux6QGhoA3yznE6YkQKI9CmW/fu3G5KVvFwAAAA==",
+              "color": "#f8f8f8"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/gangireddu/11-3011f5ea.webp",
+              "width": 1800,
+              "height": 1592,
+              "blur": "data:image/webp;base64,UklGRsgAAABXRUJQVlA4WAoAAAAQAAAADwAADQAAQUxQSCsAAAABLyAQSPxpNziNiAhomIpk481rYBRQQQca6J/mPgWI6P8EWFj/ZGBbWDt4AFZQOCB2AAAAEAIAnQEqEAAOAAOAWiWIAnQBFjUuBPatCADibRHnOdn2TGCsCqOv9NNS38xHQ1tN4YygQbAwC2OjHUqScSFO5kQceyzDw1R0nOcGgiGu339f2bJhmiLEL09lN7o6w4Ffdgyymjajycp5jAcTZqA10LSt6e5AAA==",
+              "color": "#f8f8f8"
+            }
+          }
+        ],
+        "title": "Gangireddu, printed garments",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyFooter",
+      "props": {
+        "id": "StudyFooter-b69f8518-ce7b-4aa5-ba8b-aff91571c679",
+        "note": "Words and images from Shruchi’s Behance.",
+        "sources": [
+          {
+            "label": "See the original",
+            "href": "https://www.behance.net/gallery/161857691/Gangireddu"
+          }
+        ],
+        "showNext": true,
+        "layout": {
+          "width": "text",
+          "space": "l",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    }
+  ],
+  "zones": {}
+}

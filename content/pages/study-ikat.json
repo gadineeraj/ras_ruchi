@@ -1,0 +1,426 @@
+{
+  "root": {
+    "props": {
+      "title": "Ikat weaving",
+      "path": "/studies/ikat",
+      "kind": "study",
+      "description": "Upholstery ikats from Odissi dance: the headgear, the waistband and the mudra.",
+      "draft": false,
+      "shareImage": null,
+      "collection": ""
+    }
+  },
+  "content": [
+    {
+      "type": "BackLink",
+      "props": {
+        "id": "BackLink-50560bb1-2e6d-405d-b9b9-b28a38196baa",
+        "label": "All studies",
+        "link": {
+          "href": "/studies"
+        },
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyHeader",
+      "props": {
+        "id": "StudyHeader-27e1e4ef-a8b9-4f92-8df6-74dcc71defee",
+        "title": "Ikat weaving",
+        "hook": "Upholstery ikats from Odissi dance: the headgear, the waistband and the mudra.",
+        "credits": [
+          {
+            "label": "Workshop",
+            "value": "Ikat, with traditional ikat experts"
+          },
+          {
+            "label": "Inspiration",
+            "value": "Odissi dance, Odisha"
+          },
+          {
+            "label": "Use",
+            "value": "Upholstery fabric"
+          }
+        ],
+        "cover": {
+          "src": "/images/behance/ikkat-weaving/07-b7554950.webp",
+          "width": 1800,
+          "height": 809,
+          "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAwAgCdASoQAAcAA4BaJYwCdIE5/+BIUm6egAD7smb1DY3EIHkuHGxGj+x3+bEFHh6eMvtSvLvtCF+RNnVdKOFo2VwAAA==",
+          "color": "#080808"
+        },
+        "coverShape": "wide",
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-f82cc801-b882-47ee-8881-5abb09639fca",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/ikkat-weaving/00-d2529dc9.webp",
+              "width": 1800,
+              "height": 1200,
+              "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoQAAsAA4BaJbACdAERGGh6zEAA/trHacuuF+JBhUOGyulEV7tBbX8+n0bX7/JBb198q2V0xNS/cE5eAAA=",
+              "color": "#381808"
+            }
+          }
+        ],
+        "title": "Ikat weaving",
+        "layout": {
+          "width": "text",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-e876115c-ff86-4d2b-8f60-85fce448d44a",
+        "text": "About the project",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-a1621e0b-93f4-4282-ba9e-02182f689e21",
+        "text": "<p>This classroom project was an Ikat workshop which involved different activities of studying traditional ikat techniques across the world, conceptualizing, designing and executing the designs under the guidance of traditional ikat experts. Ikat being one of the famous Indian textiles, I wanted to combine it with another Indian art form. My inspiration for the ikat weaving was the very famous dance form of Orissa, that is the Odissi dance.</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-543bada6-b35a-4b74-9f7d-dbcb11dcff0c",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/ikkat-weaving/01-fdeedc3e.webp",
+              "width": 1800,
+              "height": 1240,
+              "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAsAA4BaJQBOgCPwEDXvm/f+AAD+9uOUoO/T+B9Exjy+6sUqFOU9rtm5r9YprFdVaaI2zBDrFBdvXbDZ39cY5V9r8To5ceDIB5FNL5EiGmL80Jx9CgAA",
+              "color": "#080808"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/ikkat-weaving/02-a42e4d6f.webp",
+              "width": 1800,
+              "height": 1273,
+              "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAQAgCdASoQAAsAA4BaJbACdAYulhaAlFoAAP6bfwJlX+mO3lyzTmKdNmXMk8uvRum6mh3u78Zj8s3CR2V22v9vfyzSlHKDSmYn5xozsmY8+diknUBvaDbWRjYfGen46ObULg4+mUGzWLzbAAA=",
+              "color": "#f8f8f8"
+            }
+          }
+        ],
+        "title": "Ikat weaving, about the project",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-9cf56d6c-e060-4e63-b82c-fb10a8886589",
+        "text": "<p>A collection of Ikat designs for upholstery fabric</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-1446434d-c6db-43c2-bd61-286844aa2f9e",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/ikkat-weaving/03-be5cbe98.webp",
+              "width": 1800,
+              "height": 641,
+              "blur": "data:image/webp;base64,UklGRi4AAABXRUJQVlA4ICIAAABwAQCdASoQAAYAA4BaJZgCdAF1AAD+54pWn869aW5umAAA",
+              "color": "#086858"
+            }
+          }
+        ],
+        "title": "Ikat weaving, about the project",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-aed06bff-7d7c-4e2d-b0f8-c9c07512e275",
+        "text": "Kadamb",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-0f917669-3507-4e43-8bec-4e7ad4ccf1b3",
+        "text": "<p>Inspired by the Headgear of the Odissi dancers, which represents the flower - Kadamb. The Headgear is one of the most important and significant jewellery of the Odissi costume. It is a warp based ikkat fabric.</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-d01005ba-a321-4b2e-b3e5-f2a0b10807d6",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/ikkat-weaving/04-5847f3d5.webp",
+              "width": 1800,
+              "height": 644,
+              "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADwAQCdASoQAAYAA4BaJQBOiP/wPQBXKsAA/uRSCgx17O75Trwjk1A7YbCsS7HIlPMAAA==",
+              "color": "#084848"
+            }
+          }
+        ],
+        "title": "Ikat weaving, kadamb",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-4e7fa186-9c85-44b0-8c5b-48c2a8bfd28d",
+        "text": "Kamarbandh",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-14518179-3fdb-458d-96dd-1b7db0f983ae",
+        "text": "<p>The waistband (kamarbandh) is another important jewellery, which sets the costume of odissi different from other classical dance costumes.</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-b7aeb4f8-4515-4f07-9dd2-232d477a9dc7",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/ikkat-weaving/05-a9a31d87.webp",
+              "width": 1800,
+              "height": 639,
+              "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAABwAQCdASoQAAYAA4BaJagCdAF1AAD+7k3ZidZoahNBiOK8L35jFh4bX+1Uz+Tzr8E+BsggAAA=",
+              "color": "#981818"
+            }
+          }
+        ],
+        "title": "Ikat weaving, kamarbandh",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-08821681-daea-45b6-b891-3afcb8f2efcc",
+        "text": "Mudra",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-67c7f969-4b19-4a5c-bd45-93930e281bfd",
+        "text": "<p>The movements in Odissi are built around the two basic postures (Mudra) of the Chowk and the Tribhanga. The chowk is a position imitating a square - a very masculine stance with the weight of the body equally balanced. The tribhanga is a very feminine stance where the body is deflected at the neck, torso and the knees.</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-70c8e0a4-7192-4be6-8be1-c6ca0b7688c4",
+        "text": "Glimpse from the weaving process",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-90e00a57-b1e0-426c-b031-9a463d94876d",
+        "text": "Woven samples",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-7e165891-a269-4677-9444-d9a638d2fff8",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/ikkat-weaving/06-77a08f69.webp",
+              "width": 1800,
+              "height": 1200,
+              "blur": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4WAoAAAAQAAAADwAACgAAQUxQSEIAAAABYFNbexpnkZATFdlhgu7MG3kgc9x+U9lARJANUCg2j/AyK/IzSUMHbLhghd9h3i6Y4N7P/2kxrReMT25MS3WBcAhWUDggQAAAAPABAJ0BKhAACwADgFolqAJ0ANxhWxUqAAD66HDDBaj/gQj2LIEbLOYtTe2UBrkxyh38Ou+V70XjvyXQ5XN6AAA=",
+              "color": "#486848"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/ikkat-weaving/08-331c6098.webp",
+              "width": 1800,
+              "height": 1200,
+              "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4WAoAAAAQAAAADwAACgAAQUxQSBwAAAABFyCQTRTv79LSiIg4EAgQJk06dRDR/6wCUGUDVlA4IEQAAACwAQCdASoQAAsAA4BaJaACdADx9FgAAP6hc9/qXwc6RfYDb2xtPRhgR6GocOuuFlvS4bWBDKI/Q1H69aWzDcq9Z7wAAA==",
+              "color": "#583818"
+            }
+          }
+        ],
+        "title": "Ikat weaving, woven samples",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyFooter",
+      "props": {
+        "id": "StudyFooter-e0326c3d-6f40-450a-945b-57b225805306",
+        "note": "Words and images from Shruchi’s Behance.",
+        "sources": [
+          {
+            "label": "See the original",
+            "href": "https://www.behance.net/gallery/161857177/ikkat-weaving"
+          }
+        ],
+        "showNext": true,
+        "layout": {
+          "width": "text",
+          "space": "l",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    }
+  ],
+  "zones": {}
+}

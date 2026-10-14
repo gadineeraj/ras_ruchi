@@ -1,13 +1,14 @@
 {
-  "name": "shruchi-jaiswal",
+  "name": "ras-ruchi-v2",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "studio": "next dev --port 3200",
+    "dev": "next dev --port 3200",
     "build": "next build",
-    "start": "next start",
+    "preview": "node scripts/preview.mjs",
     "lint": "eslint",
-    "github": "node scripts/make-github-folder.mjs"
+    "migrate": "node scripts/migrate-from-v1.ts"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.10",

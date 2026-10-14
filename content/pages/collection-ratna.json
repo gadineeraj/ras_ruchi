@@ -1,0 +1,61 @@
+{
+  "root": {
+    "props": {
+      "title": "Ratna",
+      "path": "/collections/ratna",
+      "kind": "collection",
+      "description": "The festive collection for 2025. Ikat geometry in royal blue and brick red, crimson and jade grounds with printed floral borders, and repeats named for places and things: Durbar, Palace Pillars, Mulbagal, Meenakshi, Thinnai.",
+      "draft": false,
+      "shareImage": null,
+      "collection": "ratna"
+    }
+  },
+  "content": [
+    {
+      "type": "BackLink",
+      "props": {
+        "id": "BackLink-8e1adec3-fa98-49f9-94b8-9a3d9b759b49",
+        "label": "All collections",
+        "link": {
+          "href": "/collections"
+        },
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "CollectionCard",
+      "props": {
+        "id": "CollectionCard-5d10f16f-e21e-4674-baca-c294e41b1cd7",
+        "collection": "ratna",
+        "note": "{count}. Designed by Shruchi as Design Lead at The Yellow Dwelling; descriptions are the shop’s own.",
+        "showIndex": true,
+        "extra": [],
+        "layout": {
+          "width": "wide",
+          "space": "xs",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "CollectionPager",
+      "props": {
+        "id": "CollectionPager-fffd0bfd-1eea-4a05-a10e-ed8a881929bc",
+        "collection": "ratna",
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    }
+  ],
+  "zones": {}
+}

@@ -1,0 +1,61 @@
+{
+  "root": {
+    "props": {
+      "title": "Pause",
+      "path": "/collections/pause",
+      "kind": "collection",
+      "description": "Summer 2025. Sheers and printed cottons in sage, mist blue, mustard and rose: small florals, stripes and geometric repeats.",
+      "draft": false,
+      "shareImage": null,
+      "collection": "pause"
+    }
+  },
+  "content": [
+    {
+      "type": "BackLink",
+      "props": {
+        "id": "BackLink-83c71332-ce34-4fe2-bd6f-f41dfb4037f6",
+        "label": "All collections",
+        "link": {
+          "href": "/collections"
+        },
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "CollectionCard",
+      "props": {
+        "id": "CollectionCard-fa1763bf-2cd9-4c4e-aa8c-a052222c56c1",
+        "collection": "pause",
+        "note": "{count}. Designed by Shruchi as Design Lead at The Yellow Dwelling; descriptions are the shop’s own.",
+        "showIndex": true,
+        "extra": [],
+        "layout": {
+          "width": "wide",
+          "space": "xs",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "CollectionPager",
+      "props": {
+        "id": "CollectionPager-33fb7cba-d8ef-47a4-82fb-56224a16a5a4",
+        "collection": "pause",
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    }
+  ],
+  "zones": {}
+}

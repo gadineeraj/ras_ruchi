@@ -1,0 +1,267 @@
+{
+  "root": {
+    "props": {
+      "title": "Home",
+      "path": "/",
+      "kind": "page",
+      "description": "The textile work of Shruchi Jaiswal: print, weave and embroidery from Indian craft traditions, and the home collections she designs as Design Lead at The Yellow Dwelling.",
+      "draft": false,
+      "shareImage": null,
+      "collection": ""
+    }
+  },
+  "content": [
+    {
+      "type": "HomeHero",
+      "props": {
+        "id": "HomeHero-8132cb84-d09b-49b3-a6bc-6006b1005cc0",
+        "label": "Shruchi Jaiswal, textile designer",
+        "role": "Design Lead at The Yellow Dwelling",
+        "intro": "Shruchi Jaiswal draws motifs from craft, ritual and place, and turns them into cloth that people live with.",
+        "ctaLabel": "Open the collections",
+        "cta": {
+          "href": "/collections"
+        },
+        "picks": [
+          {
+            "pick": "rasaa/kinari/brick-red"
+          },
+          {
+            "pick": "ratna/kadamba/crimson-red"
+          },
+          {
+            "pick": "ratna/tara/indigo"
+          },
+          {
+            "pick": "entwine/glen/mist-blue"
+          },
+          {
+            "pick": "rasaa/mudra/teal"
+          },
+          {
+            "pick": "pause/sienna/geometric"
+          },
+          {
+            "pick": "entwine/elba/rust"
+          },
+          {
+            "pick": "rasaa/kolam/pepper-green"
+          },
+          {
+            "pick": "archive/eden/mustard"
+          },
+          {
+            "pick": "archive/pergola/indigo"
+          }
+        ],
+        "showNav": true
+      }
+    },
+    {
+      "type": "Section",
+      "props": {
+        "id": "Section-1a72b2aa-1389-40b0-bc64-c0292f7e00d6",
+        "title": "Collections",
+        "lede": "Five collections designed as Design Lead at The Yellow Dwelling, Bangalore. Open a card to see every design in its colourways.",
+        "level": "h2",
+        "align": "start",
+        "background": "none",
+        "hole": true,
+        "content": [
+          {
+            "type": "CollectionCards",
+            "props": {
+              "id": "CollectionCards-0b3dc619-3cad-403c-a0a4-1a8edbc3f917",
+              "show": "all",
+              "chosen": [],
+              "level": "h3",
+              "layout": {
+                "width": "wide",
+                "space": "none",
+                "show": "all",
+                "motion": "none"
+              }
+            }
+          }
+        ],
+        "layout": {
+          "width": "wide",
+          "space": "xl",
+          "show": "all",
+          "motion": "none",
+          "anchor": "collections"
+        }
+      }
+    },
+    {
+      "type": "Section",
+      "props": {
+        "id": "Section-897c1beb-8790-4f5e-80ca-b6f4628ba7f8",
+        "title": "Studies",
+        "lede": "Earlier work, in her own words: projects with weavers, block printers and embroiderers, from Ajrak to Ikat.",
+        "level": "h2",
+        "align": "start",
+        "background": "none",
+        "hole": true,
+        "content": [
+          {
+            "type": "StudySheets",
+            "props": {
+              "id": "StudySheets-89b22e5e-8a09-40f9-8a8d-9349710b336b",
+              "items": [
+                {
+                  "study": "study-sura",
+                  "size": "wide"
+                },
+                {
+                  "study": "study-chitrakatha-bag",
+                  "size": "sheet"
+                },
+                {
+                  "study": "study-tangaliya",
+                  "size": "sheet"
+                },
+                {
+                  "study": "study-gangireddu",
+                  "size": "sheet"
+                },
+                {
+                  "study": "study-ikat",
+                  "size": "sheet"
+                },
+                {
+                  "study": "study-kapaas",
+                  "size": "wide"
+                }
+              ],
+              "others": "small",
+              "level": "h3",
+              "layout": {
+                "width": "wide",
+                "space": "none",
+                "show": "all",
+                "motion": "none"
+              }
+            }
+          }
+        ],
+        "layout": {
+          "width": "wide",
+          "space": "xl",
+          "show": "all",
+          "motion": "none",
+          "anchor": "studies"
+        }
+      }
+    },
+    {
+      "type": "Section",
+      "props": {
+        "id": "Section-823f5c81-920b-43c2-9a0a-961717178d53",
+        "title": "From a mask to a motif to cloth",
+        "lede": "Sura, followed from what she looked at to what she printed.",
+        "level": "h2",
+        "align": "start",
+        "background": "none",
+        "hole": true,
+        "content": [
+          {
+            "type": "ProcessSteps",
+            "props": {
+              "id": "ProcessSteps-60d366c4-0377-458f-80ce-81741e2cc662",
+              "steps": [
+                {
+                  "verb": "Look",
+                  "photo": {
+                    "src": "/images/behance/sura/01-133b63cc.webp",
+                    "width": 1777,
+                    "height": 1791,
+                    "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADwAQCdASoQABAAA4BaJQBOgYoAS+7/b4gAyjxDZeAtyb1HZEbU4rceOIKVwRePaRJHc7iM+vwy0OPZADv64IqvFfMaDG5RCwcIhitXnVC8fPpI95gONYeBInCsVyfe8pkMp6i1zob1V6Cpw9fOAAAA",
+                    "color": "#f8f8f8",
+                    "alt": "A board of African masks, gathered as research for Sura"
+                  },
+                  "text": "African masks, each carrying an emotion, gathered on a board."
+                },
+                {
+                  "verb": "Draw",
+                  "photo": {
+                    "src": "/images/behance/sura/03-324bc4cc.webp",
+                    "width": 1800,
+                    "height": 1207,
+                    "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAABwAQCdASoQAAsAA4BaJaTuAACIAAD+85mOIdv2A/mSQ9+V0FQuMo6qXiCxiGZKGY0AAA==",
+                    "color": "#f8f8f8",
+                    "alt": "Pencil motif explorations with masks hidden in geometric pattern"
+                  },
+                  "text": "Motifs drawn so the faces hide inside the pattern."
+                },
+                {
+                  "verb": "Make",
+                  "photo": {
+                    "src": "/images/behance/sura/07-83c8fb1a.webp",
+                    "width": 1800,
+                    "height": 848,
+                    "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAgAA4BaJZwAAmsXGhJuSIAAzj5Uw23qfNrs1Wsw8/RAO/uFVrqk8KEnhdr9uwH58RCO4vZBgYryjMYhIb2va6GGIOAA",
+                    "color": "#d8d8d8",
+                    "alt": "Carved wooden printing blocks resting on printed cloth"
+                  },
+                  "text": "Blocks carved, and the motifs printed as Ajrak."
+                }
+              ],
+              "moreLabel": "How she works",
+              "more": {
+                "href": "/practice"
+              },
+              "layout": {
+                "width": "wide",
+                "space": "none",
+                "show": "all",
+                "motion": "none"
+              }
+            }
+          }
+        ],
+        "layout": {
+          "width": "wide",
+          "space": "xl",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Section",
+      "props": {
+        "id": "Section-547f5921-f93d-428e-91ce-7638d0aeed34",
+        "title": "Every swatch on these cards",
+        "lede": "{colourways} colourways of {designs} designs. Each one opens its card.",
+        "level": "h2",
+        "align": "start",
+        "background": "none",
+        "hole": true,
+        "content": [
+          {
+            "type": "ShadeBoard",
+            "props": {
+              "id": "ShadeBoard-c3bad978-7aa7-46eb-bdfa-fd09c8f4e77c",
+              "show": "all",
+              "chosen": [],
+              "layout": {
+                "width": "wide",
+                "space": "none",
+                "show": "all",
+                "motion": "none"
+              }
+            }
+          }
+        ],
+        "layout": {
+          "width": "wide",
+          "space": "xl",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    }
+  ],
+  "zones": {}
+}

@@ -24,8 +24,6 @@ export type LayoutProps = {
   hidden?: boolean;
 };
 
-export const layoutDefaults: Required<Omit<LayoutProps, "anchor">> = { width: "wide", space: "m", show: "all", motion: "none" };
-
 /** Wraps a block in its width, spacing, visibility and entrance. */
 export function Frame({ layout, children, as: Tag = "div", className, style, label }: { layout: LayoutProps; children: ReactNode; as?: "div" | "section" | "figure" | "aside"; className?: string; style?: CSSProperties; label?: string }) {
   const { width = "wide", space = "m", show = "all", motion = "none", anchor, hidden } = layout ?? {};

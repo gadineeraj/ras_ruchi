@@ -1,0 +1,50 @@
+{
+  "root": {
+    "props": {
+      "title": "Collections",
+      "path": "/collections",
+      "kind": "page",
+      "description": "Rasaa, Entwine, Ratna, Pause and earlier seasons: the home collections Shruchi Jaiswal designs at The Yellow Dwelling.",
+      "draft": false,
+      "shareImage": null,
+      "collection": ""
+    }
+  },
+  "content": [
+    {
+      "type": "PageTitle",
+      "props": {
+        "id": "PageTitle-72e1a90c-ab12-4d9a-a64b-a1d0f165fdb0",
+        "title": "Collections",
+        "lede": "Five collections designed as Design Lead at The Yellow Dwelling, Bangalore. Each card holds every design in its colourways.",
+        "facts": [],
+        "backLabel": "",
+        "back": {
+          "href": ""
+        },
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "CollectionCards",
+      "props": {
+        "id": "CollectionCards-379e4c85-7469-4352-be0d-af6bdef55ba2",
+        "show": "all",
+        "chosen": [],
+        "level": "h2",
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    }
+  ],
+  "zones": {}
+}

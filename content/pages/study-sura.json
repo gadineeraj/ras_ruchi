@@ -1,0 +1,477 @@
+{
+  "root": {
+    "props": {
+      "title": "Sura",
+      "path": "/studies/sura",
+      "kind": "study",
+      "description": "Ajrak motifs drawn from African masks, with the faces hidden inside the pattern.",
+      "draft": false,
+      "shareImage": null,
+      "collection": ""
+    }
+  },
+  "content": [
+    {
+      "type": "BackLink",
+      "props": {
+        "id": "BackLink-1537bf1b-9833-4572-8964-440763dd1fb6",
+        "label": "All studies",
+        "link": {
+          "href": "/studies"
+        },
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyHeader",
+      "props": {
+        "id": "StudyHeader-fe1ed928-ebe8-466b-9edf-16a65887435d",
+        "title": "Sura",
+        "hook": "Ajrak motifs drawn from African masks, with the faces hidden inside the pattern.",
+        "credits": [
+          {
+            "label": "Craft",
+            "value": "Ajrak block printing"
+          },
+          {
+            "label": "Inspiration",
+            "value": "African masks"
+          },
+          {
+            "label": "Made",
+            "value": "Motifs, blocks, print samples, products, identity"
+          }
+        ],
+        "cover": {
+          "src": "/images/behance/sura/07-83c8fb1a.webp",
+          "width": 1800,
+          "height": 848,
+          "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAgAA4BaJZwAAmsXGhJuSIAAzj5Uw23qfNrs1Wsw8/RAO/uFVrqk8KEnhdr9uwH58RCO4vZBgYryjMYhIb2va6GGIOAA",
+          "color": "#d8d8d8"
+        },
+        "coverShape": "wide",
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-afde02b5-5c5d-4b26-b437-3af6083d2c11",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/sura/00-a7adc0a7.webp",
+              "width": 1800,
+              "height": 1579,
+              "blur": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAwAgCdASoQAA4AA4BaJZACdAYv/Vrfd05H4AD+9+0vzHmEa++ud7fxkJdpY+Q8itz+HUHnQPULzznpRSIiDcbQ/8jkt1c1Rno1KqHquOXzXGrk14H1nwCTqKGFPU00cru7ce3rVEP1XZn/IX++SSmZBVWnLyFQAAA=",
+              "color": "#f8f8f8"
+            }
+          }
+        ],
+        "title": "Sura",
+        "layout": {
+          "width": "text",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-4b8c6338-630a-45eb-81d5-2d15934ecb4e",
+        "text": "<p>Sura is a collection of Ajrak motifs inspired by the African craft of masks. Each of the masks communicate a message or emotion. The masks have a story behind them and have symbolic meaning. These masks come in all different colors and have abstract or geometric patterns on them.</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-fe1eea87-e46e-464a-a2a6-083c2666714a",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/sura/01-133b63cc.webp",
+              "width": 1777,
+              "height": 1791,
+              "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADwAQCdASoQABAAA4BaJQBOgYoAS+7/b4gAyjxDZeAtyb1HZEbU4rceOIKVwRePaRJHc7iM+vwy0OPZADv64IqvFfMaDG5RCwcIhitXnVC8fPpI95gONYeBInCsVyfe8pkMp6i1zob1V6Cpw9fOAAAA",
+              "color": "#f8f8f8"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/sura/02-51ccb29d.webp",
+              "width": 621,
+              "height": 517,
+              "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoQAA0AA4BaJaQAA1V2sj7SFwAAAP6Yx5tVjH/NmVCMXYyJUSFjquDk+1OE1ZoxarGQOludiSD8wyBEVwAAAA==",
+              "color": "#f8f8f8"
+            }
+          }
+        ],
+        "title": "Sura",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-8770fb1e-8331-47fa-9d28-687e4832b223",
+        "text": "<p>The African masks portray a strong visual of a face with an expression on them. It was made clear from the beginning that the brand will avoid a print containing literal faces on it. Thus the challenge in developing a collection inspired by this theme was to strike a balance between achieving the essence of the inspiration but not be visually exact to a face or face mask. While exploring, the idea of having hidden masks in the motifs made with patterns was conceived. Based on this idea various illustrations of different motifs were developed</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-b13c64a9-a158-4af4-a406-5110994b1b3d",
+        "text": "Motif exploration",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-83b71726-5c88-4af0-8907-c67717346e3d",
+        "text": "<p>Few of the motif explorations are shown below:</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-fe994857-f256-4e72-b73c-e3477326e7d6",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/sura/03-324bc4cc.webp",
+              "width": 1800,
+              "height": 1207,
+              "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAABwAQCdASoQAAsAA4BaJaTuAACIAAD+85mOIdv2A/mSQ9+V0FQuMo6qXiCxiGZKGY0AAA==",
+              "color": "#f8f8f8"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/sura/04-667fdfe1.webp",
+              "width": 1800,
+              "height": 545,
+              "blur": "data:image/webp;base64,UklGRioAAABXRUJQVlA4IB4AAAAwAQCdASoQAAUAA4BaJaQAA3AA/vHEHIjlKAgAAAA=",
+              "color": "#f8f8f8"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/sura/05-efc4bd10.webp",
+              "width": 1800,
+              "height": 437,
+              "blur": "data:image/webp;base64,UklGRiYAAABXRUJQVlA4IBoAAAAwAQCdASoQAAQAA4BaJaQAA3AA/vGCjCQAAA==",
+              "color": "#f8f8f8"
+            }
+          }
+        ],
+        "title": "Sura, motif exploration",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-5a952596-172c-4eff-a093-4407e607396d",
+        "text": "Final motifs",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-87bea33b-f641-40e0-b7e8-cee22dc5363d",
+        "text": "<p>Final motifs selected along with the size and color variations:</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-dcc12186-3100-410c-9a23-0411894826cc",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/sura/06-799243f4.webp",
+              "width": 1800,
+              "height": 2124,
+              "blur": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAABwAgCdASoOABAAA4BaJZQAD5IQ9+rSNIF9zRegAP7z+jz2ste4c/2I2LDGjv3N8sxEeNcrb4nJjND56dJDUuVl6tUZ+HBez83ybwJSITeYU2rNBd/BWhgtI+qc/EIdQ+EMbUpzEPYp6kyB6o2Q1W+gAAA=",
+              "color": "#f8f8f8"
+            }
+          }
+        ],
+        "title": "Sura, final motifs",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-d0f14c0e-b867-4853-a334-6b76b3015876",
+        "text": "Print sampling",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-4b5818dd-d9bf-4191-87e9-259c8a14d782",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/sura/08-3f92566d.webp",
+              "width": 1800,
+              "height": 1388,
+              "blur": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4WAoAAAAQAAAADwAACwAAQUxQSBYAAAABF9D/iAgQZNsMbRJDu/QJIvofgL9qVlA4IGQAAAAQAgCdASoQAAwAA4BaJQBOgMXchoRGuBfMAP4xk5hhkn7HR1Z1pnKs6Q6LieZWtwOPeSkVUw+LmyVXS0QRJVHGuhjrtBVZRrJT++58nhp2lQZGt5Hm6iFrc7+fuZWOQSVMgAAA",
+              "color": "#f8f8f8"
+            }
+          }
+        ],
+        "title": "Sura, print sampling",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-996e56a0-f1d1-4242-b050-7ed228ba722f",
+        "text": "Products developed",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-c752fd23-af37-4bff-97e7-ca592ceb6d89",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/sura/09-7566c3f3.webp",
+              "width": 1800,
+              "height": 1777,
+              "blur": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADQAQCdASoQABAAA4BaJQAAXZFlIBXmQADMoSG1o3FDe/Cb3Rr7YC8+EKG9vTwckKzhCX15BzkoluNTB8RMCSHebr8a5JCbZ++4/Rxq5hzOUQsfGsC1LdPl48mw2ZQgY1EzwsMY/cXyR9O1bBmxV9EAAAA=",
+              "color": "#f8f8f8"
+            }
+          }
+        ],
+        "title": "Sura, products developed",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-6009e8da-ceba-4531-96d6-a9c66a06e51f",
+        "text": "Collection identity",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-08ec5a4c-47fc-4700-a6e1-59f6b05d8161",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/sura/10-d15f9f1d.webp",
+              "width": 766,
+              "height": 303,
+              "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAYAA4BaJYwCdAEN5V+rvoAA/vJvLmrMLwOJVFFdH7KyU2q5Zqcvm8sWd3j0FGZkkgMSoy3txoDeGoqJAAAA",
+              "color": "#f8f8f8"
+            }
+          }
+        ],
+        "title": "Sura, collection identity",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-8288d3e5-446d-4316-be10-3403130f7366",
+        "text": "<p>Sura, the name given to the collection means expression in Swahili, an African dialect. The Logotype resembles a face.</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-89d711fc-223f-4914-9b82-288c9c47cae0",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/sura/11-08c15e22.webp",
+              "width": 1800,
+              "height": 1800,
+              "blur": "data:image/webp;base64,UklGRiYBAABXRUJQVlA4WAoAAAAQAAAADwAADwAAQUxQSG0AAAABcFXbtlKtez6hxS2BZIMwT5JZBnzjHCJEhNq2bRhn6kVnQDBIYkzAAoCRvf9t+39nGBCoplnzrHmqCBj1PA6SNIxzjVH20nwwqS/hMQ/zyYb5QfqZdZbmTxqbazXRl+/4Je6gGxxcTjc4upwBAFZQOCCSAAAAcAIAnQEqEAAQAAOAWiWoABEH/GK8Z8bZCCZ9gAD+7ITA82u6lpFJzC82pUERDizI5+G7k0UEYUrcU9pzecTmaruHGaE0q0/kgFD4xoFv/tyajiKZxLL6aAMafeOFCzl0btLpcoftwjyeMvEZASqCsS1tXu/f/Vf6/pQmSksQvn//nbaTTjfdRV1Po2YPTBVUYAA=",
+              "color": "#181848"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/sura/12-82449832.webp",
+              "width": 1000,
+              "height": 1000,
+              "blur": "data:image/webp;base64,UklGRuoAAABXRUJQVlA4WAoAAAAQAAAADwAADwAAQUxQSJIAAAABgBxJkiIppvaJOvBqgKqRLrxS0ZEADDVVeXwqRMQEQGFQbberYHyvMNrdvb/dbUcYYMxCKaVihmHMVHpmhpdaYkw9Uz9G+gTWcv3q2lK7Vv4WOjZar39J3fdbL/+pXf8ldGyykv/m2sL0PeKniPcJxkzukRnuWmAULEqllCrnFIAxPFw9PF4dhhjfDZqDQRMMAFZQOCAyAAAAcAEAnQEqEAAQAAOAWiWxm7wByYAA/vIo8MrDiNVkTm4B/+tgLiabWvm0EgFS3ESAAAA=",
+              "color": "#181848",
+              "animated": true
+            }
+          }
+        ],
+        "title": "Sura, collection identity",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyFooter",
+      "props": {
+        "id": "StudyFooter-02d280f2-5d5d-433a-915a-ee1829776247",
+        "note": "Words and images from Shruchi’s Behance.",
+        "sources": [
+          {
+            "label": "See the original",
+            "href": "https://www.behance.net/gallery/161857963/Sura"
+          }
+        ],
+        "showNext": true,
+        "layout": {
+          "width": "text",
+          "space": "l",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    }
+  ],
+  "zones": {}
+}

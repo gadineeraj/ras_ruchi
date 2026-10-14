@@ -1,0 +1,61 @@
+{
+  "root": {
+    "props": {
+      "title": "Earlier seasons",
+      "path": "/collections/archive",
+      "kind": "collection",
+      "description": "Designs from the seasons before Ratna, 2022 to 2024, still on the shelf: Lotus Pond and Sacred Waters, Pergola, Gingko, Spice Route, Climbing Roses and more.",
+      "draft": false,
+      "shareImage": null,
+      "collection": "archive"
+    }
+  },
+  "content": [
+    {
+      "type": "BackLink",
+      "props": {
+        "id": "BackLink-e543fa3d-dd4c-4b19-9dd5-3809b5216701",
+        "label": "All collections",
+        "link": {
+          "href": "/collections"
+        },
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "CollectionCard",
+      "props": {
+        "id": "CollectionCard-50d973fa-a80a-497c-9b0b-211572b05e6a",
+        "collection": "archive",
+        "note": "{count}. Designed by Shruchi as Design Lead at The Yellow Dwelling; descriptions are the shop’s own.",
+        "showIndex": true,
+        "extra": [],
+        "layout": {
+          "width": "wide",
+          "space": "xs",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "CollectionPager",
+      "props": {
+        "id": "CollectionPager-9c4f0bae-cea0-4340-be69-526475fc098e",
+        "collection": "archive",
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    }
+  ],
+  "zones": {}
+}

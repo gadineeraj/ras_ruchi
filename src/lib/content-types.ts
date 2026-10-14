@@ -1,6 +1,5 @@
 // The shapes of everything Shruchi can edit. All of it lives as JSON in
 // content/: the Studio writes those files, the site reads them.
-import type { Data } from "@puckeditor/core";
 
 /** A processed photograph: a sized WebP with a blur placeholder and its main colour. */
 export type Img = {
@@ -45,6 +44,8 @@ export type SiteSettings = {
   footer: { heading: string; credit: string; copyright: string };
   shades: Shade[];
   shareImage?: Photo | null;
+  /** Page ids in the order the Studio's Pages panel shows them. */
+  pageOrder: string[];
 };
 
 // -------------------------------------------------------------- collections
@@ -100,7 +101,9 @@ export type PageRoot = {
   shareImage?: Photo | null;
 };
 
-export type PageData = Data<Record<string, any>, PageRoot>;
+export type BlockData = { type: string; props: Record<string, any> & { id: string } };
+
+export type PageData = { root: { props: PageRoot }; content: BlockData[]; zones?: Record<string, BlockData[]> };
 
 export type Page = { id: string; data: PageData };
 

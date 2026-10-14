@@ -1,0 +1,299 @@
+{
+  "root": {
+    "props": {
+      "title": "Practice",
+      "path": "/practice",
+      "kind": "page",
+      "description": "How Shruchi Jaiswal works: looking at a place, ritual or object, drawing the motif out of it, and making it into cloth.",
+      "draft": false,
+      "shareImage": null,
+      "collection": ""
+    }
+  },
+  "content": [
+    {
+      "type": "PageTitle",
+      "props": {
+        "id": "PageTitle-e2f8ef67-45cd-4ef9-8fe8-98326f939ce2",
+        "title": "Practice",
+        "lede": "Shruchi Jaiswal is a textile designer trained at NID. As Design Lead at The Yellow Dwelling in Bangalore she designs its curtains, blinds, cushions and linen, collection after collection.",
+        "facts": [
+          {
+            "label": "Now",
+            "value": "Design Lead, The Yellow Dwelling, Bangalore"
+          },
+          {
+            "label": "Trained",
+            "value": "National Institute of Design (NID)"
+          },
+          {
+            "label": "Earlier",
+            "value": "Collections for This and That, Ahmedabad"
+          },
+          {
+            "label": "Crafts",
+            "value": "Ajrak, Kalamkari, Tangaliya, Kantha, Ikat, Tholu Bommalata, zari, Arashi shibori"
+          }
+        ],
+        "backLabel": "",
+        "back": {
+          "href": ""
+        },
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "PracticeWay",
+      "props": {
+        "id": "PracticeWay-7e1c1ba9-aade-41e7-a769-10a3fbbf5b1e",
+        "verb": "Look",
+        "summary": "Every project starts somewhere specific: a field, a festival, a dance, a mask.",
+        "examples": [
+          {
+            "photo": {
+              "src": "/images/behance/kapaas/02-912b1a6d.webp",
+              "width": 1800,
+              "height": 2587,
+              "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoLABAAA4BaJZwAD4wNXfGUQgAA/vYSLuD7WG59/sOU/IYCS9B+eeSQSP1pJB9MTogGAK+8vZLWeDKSHtz3wAAA",
+              "color": "#f8f8f8",
+              "alt": "A single cotton boll on its stem"
+            },
+            "text": "Kapaas began with a walk through a cotton farm.",
+            "link": {
+              "href": "/studies/kapaas"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/gangireddu/00-395152b4.webp",
+              "width": 1800,
+              "height": 1272,
+              "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABQAgCdASoQAAsAA4BaJQBOgMW+nALQ8mpygAAA/vfxU62z9BMGF/MYhpZoOYfsQhdOWq8zNZLOkB1XPpdzKZmwlAarDmgZm8JhFTDZVdxP1SK4jb7DOHSGOxOBJYnsOjuGw0AA",
+              "color": "#f8f8f8",
+              "alt": "A decorated ox and its handlers at the Gangireddu festival"
+            },
+            "text": "Gangireddu began with the decorated oxen of an Andhra harvest festival.",
+            "link": {
+              "href": "/studies/gangireddu"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/ikkat-weaving/01-fdeedc3e.webp",
+              "width": 1800,
+              "height": 1240,
+              "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAsAA4BaJQBOgCPwEDXvm/f+AAD+9uOUoO/T+B9Exjy+6sUqFOU9rtm5r9YprFdVaaI2zBDrFBdvXbDZ39cY5V9r8To5ceDIB5FNL5EiGmL80Jx9CgAA",
+              "color": "#080808",
+              "alt": "Odissi dancers in costume and headgear"
+            },
+            "text": "The ikats began with Odissi dancers: their headgear, waistband and stance.",
+            "link": {
+              "href": "/studies/ikat"
+            }
+          }
+        ],
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "PracticeWay",
+      "props": {
+        "id": "PracticeWay-05de4204-fbf0-4b96-ad2c-6bc48949ddde",
+        "verb": "Draw",
+        "summary": "The motif is drawn out of what she saw, until it can repeat.",
+        "examples": [
+          {
+            "photo": {
+              "src": "/images/behance/sura/03-324bc4cc.webp",
+              "width": 1800,
+              "height": 1207,
+              "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAABwAQCdASoQAAsAA4BaJaTuAACIAAD+85mOIdv2A/mSQ9+V0FQuMo6qXiCxiGZKGY0AAA==",
+              "color": "#f8f8f8",
+              "alt": "Pencil motif explorations with hidden masks"
+            },
+            "text": "For Sura, masks hidden inside buta, bel and jaal motifs.",
+            "link": {
+              "href": "/studies/sura"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/tangaliya/01-660ec923.webp",
+              "width": 1800,
+              "height": 1320,
+              "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoQAAwAA4BaJaQAAujd6NhtUAD+8r2DabEVOyeXHpUKcAToZ20Js1Ud6ch73frDo5TPmdTAAAA=",
+              "color": "#181818",
+              "alt": "Motifs extracted from carved Bastar furniture"
+            },
+            "text": "For Tangaliya, motifs lifted from the carving on Bastar furniture.",
+            "link": {
+              "href": "/studies/tangaliya"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/chitrakatha-bag/10-e4bb6921.webp",
+              "width": 1800,
+              "height": 930,
+              "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoQAAgAA4BaJYwC7ADPBYs2AAD++Bl9wlFHMz90ZW/GbXzJGUD6bzcKJJCazX5w938irm7c8+AAAA==",
+              "color": "#f8f8f8",
+              "alt": "Character drawings of the river goddess for the comic"
+            },
+            "text": "For Chitrakatha, characters drawn in the style of Tholu Bommalata puppets.",
+            "link": {
+              "href": "/studies/chitrakatha-bag"
+            }
+          }
+        ],
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "PracticeWay",
+      "props": {
+        "id": "PracticeWay-15e61b46-509c-486e-94d6-88dd788b1cc2",
+        "verb": "Make",
+        "summary": "Then the material answers: carved, woven, stitched, printed.",
+        "examples": [
+          {
+            "photo": {
+              "src": "/images/behance/tangaliya/04-8d63cd1b.webp",
+              "width": 1800,
+              "height": 876,
+              "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQAAgAA4BaJZQCdAYt9NNHJHoAAP4LT5QgrX6S5vx1IxGPAACLBfuRUUjrwtnXKXMPzevRuSSk7CZMn1sXwPU9iOvGVezGRMoAAA==",
+              "color": "#181818",
+              "alt": "Woven Tangaliya cushions on a bed"
+            },
+            "text": "Woven by the Tangaliya weavers of Gujarat.",
+            "link": {
+              "href": "/studies/tangaliya"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/ikkat-weaving/07-b7554950.webp",
+              "width": 1800,
+              "height": 809,
+              "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAwAgCdASoQAAcAA4BaJYwCdIE5/+BIUm6egAD7smb1DY3EIHkuHGxGj+x3+bEFHh6eMvtSvLvtCF+RNnVdKOFo2VwAAA==",
+              "color": "#080808",
+              "alt": "Woven ikat samples hanging in folds"
+            },
+            "text": "Tied, dyed and woven as ikat under traditional ikat experts.",
+            "link": {
+              "href": "/studies/ikat"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/chitrakatha-bag/13-a8fd264c.webp",
+              "width": 920,
+              "height": 753,
+              "blur": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAADwAQCdASoQAA0AA4BaJZwAD40xeXyskAAA/WmOZUU3eQTYUJirHidkio0TmQFWAQNvFmixGO7ASW35CvnGW+O7pwt22Sgg3L1CeP5HX3AKXUTfhFSEe3dGiRQzHX8dPvpIK/jXTTNeaAAA",
+              "color": "#f8f8f8",
+              "alt": "Kalamkari artisans printing the bags by hand"
+            },
+            "text": "Block printed in indigo by Kalamkari artisans.",
+            "link": {
+              "href": "/studies/chitrakatha-bag"
+            }
+          }
+        ],
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Quotes",
+      "props": {
+        "id": "Quotes-93396c47-2b1b-4cda-81d4-2a436b5488ee",
+        "title": "In her words",
+        "quotes": [
+          {
+            "quote": "The fragile cotton bolls push themselves out of their protecting layers to come out and bloom.",
+            "from": "Kapaas",
+            "link": {
+              "href": "/studies/kapaas"
+            }
+          },
+          {
+            "quote": "It was my intention to make the guests take back memories and experience from this place.",
+            "from": "Chitrakatha bag",
+            "link": {
+              "href": "/studies/chitrakatha-bag"
+            }
+          },
+          {
+            "quote": "Ikat being one of the famous Indian textiles, I wanted to combine it with another Indian art form.",
+            "from": "Ikat weaving",
+            "link": {
+              "href": "/studies/ikat"
+            }
+          }
+        ],
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "ThenNow",
+      "props": {
+        "id": "ThenNow-48b5cdd3-2305-4aff-89f1-2e2b0d4c920c",
+        "title": "A flower that came back",
+        "text": "Kadamb, the flower on an Odissi dancer’s headgear, was the first concept in her ikat study. Years later Kadamba is a design in Ratna, the festive collection for 2025.",
+        "linkLabel": "Kadamba in Ratna",
+        "link": {
+          "href": "/collections/ratna#kadamba"
+        },
+        "then": {
+          "kind": "photo",
+          "photo": {
+            "src": "/images/behance/ikkat-weaving/03-be5cbe98.webp",
+            "width": 1800,
+            "height": 641,
+            "blur": "data:image/webp;base64,UklGRi4AAABXRUJQVlA4ICIAAABwAQCdASoQAAYAA4BaJZgCdAF1AAD+54pWn869aW5umAAA",
+            "color": "#086858",
+            "alt": "Kadamb: an ikat design from the Odissi headgear"
+          },
+          "design": "",
+          "caption": "Kadamb, ikat study"
+        },
+        "now": {
+          "kind": "design",
+          "photo": null,
+          "design": "ratna/kadamba",
+          "caption": "Kadamba, Ratna 2025"
+        },
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    }
+  ],
+  "zones": {}
+}

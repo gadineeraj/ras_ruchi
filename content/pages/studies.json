@@ -1,0 +1,75 @@
+{
+  "root": {
+    "props": {
+      "title": "Studies",
+      "path": "/studies",
+      "kind": "page",
+      "description": "Craft projects by Shruchi Jaiswal: Ajrak, Tangaliya, Kantha, Kalamkari, Ikat and more, in her own words.",
+      "draft": false,
+      "shareImage": null,
+      "collection": ""
+    }
+  },
+  "content": [
+    {
+      "type": "PageTitle",
+      "props": {
+        "id": "PageTitle-682e5c17-295f-4316-bba5-c443ffa2502c",
+        "title": "Studies",
+        "lede": "Earlier work, in her own words: projects with weavers, block printers and embroiderers, from Ajrak to Ikat.",
+        "facts": [],
+        "backLabel": "",
+        "back": {
+          "href": ""
+        },
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudySheets",
+      "props": {
+        "id": "StudySheets-83851b8c-5b30-4a5e-96e4-cb452addf54a",
+        "items": [
+          {
+            "study": "study-sura",
+            "size": "wide"
+          },
+          {
+            "study": "study-chitrakatha-bag",
+            "size": "sheet"
+          },
+          {
+            "study": "study-tangaliya",
+            "size": "sheet"
+          },
+          {
+            "study": "study-gangireddu",
+            "size": "sheet"
+          },
+          {
+            "study": "study-ikat",
+            "size": "sheet"
+          },
+          {
+            "study": "study-kapaas",
+            "size": "wide"
+          }
+        ],
+        "others": "small",
+        "level": "h2",
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    }
+  ],
+  "zones": {}
+}

@@ -1,0 +1,51 @@
+{
+  "root": {
+    "props": {
+      "title": "Page not found",
+      "path": "/not-found",
+      "kind": "page",
+      "description": "",
+      "draft": false,
+      "shareImage": null,
+      "collection": ""
+    }
+  },
+  "content": [
+    {
+      "type": "PageTitle",
+      "props": {
+        "id": "PageTitle-cca040b7-b429-4fb3-868f-00289ee4cf76",
+        "title": "This card isn’t in the book",
+        "lede": "",
+        "facts": [],
+        "backLabel": "",
+        "back": {
+          "href": ""
+        },
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-34ee8521-1b79-4724-965a-713524c554a6",
+        "text": "<p>The page you followed doesn’t exist. The <a href=\"/collections/\">collections</a> and <a href=\"/studies/\">studies</a> are all here.</p>",
+        "style": "lead",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    }
+  ],
+  "zones": {}
+}

@@ -1,0 +1,298 @@
+{
+  "root": {
+    "props": {
+      "title": "Kapaas",
+      "path": "/studies/kapaas",
+      "kind": "study",
+      "description": "Surfaces from a walk through a cotton field, where soft bolls break out of hard pods.",
+      "draft": false,
+      "shareImage": null,
+      "collection": ""
+    }
+  },
+  "content": [
+    {
+      "type": "BackLink",
+      "props": {
+        "id": "BackLink-a6b4f52b-b193-46a3-ba5a-9805b2ee6aeb",
+        "label": "All studies",
+        "link": {
+          "href": "/studies"
+        },
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyHeader",
+      "props": {
+        "id": "StudyHeader-d24ca3e0-7685-4e75-907a-a95548166b62",
+        "title": "Kapaas",
+        "hook": "Surfaces from a walk through a cotton field, where soft bolls break out of hard pods.",
+        "credits": [
+          {
+            "label": "Course",
+            "value": "Fabric construction"
+          },
+          {
+            "label": "Technique",
+            "value": "Slashing"
+          },
+          {
+            "label": "Inspiration",
+            "value": "A cotton farm"
+          }
+        ],
+        "cover": {
+          "src": "/images/behance/kapaas/04-1e5ec1e7.webp",
+          "width": 1800,
+          "height": 3143,
+          "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACQAQCdASoJABAAA4BaJQBOgB5lDgAA/qbOhst8vU6sJY35G3gy0dtRb84SVnadEkeC25YrVIG6/XoafVbmzW3E1LqAszNQU996FAaKoGYrWCxw5ogAAA==",
+          "color": "#f8f8f8"
+        },
+        "coverShape": "wide",
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-5509a010-91a7-47f2-8d9d-80c333ff1f72",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/kapaas/00-158f8ec9.webp",
+              "width": 1800,
+              "height": 1032,
+              "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAQAgCdASoQAAkAA4BaJYwCdAEPD2BEDQAAAP63/dehWZmj9bVX+QcYQUFnigXOdnScc10KGwWwD5f9CNQirazKLlFLZqjdZIA35KXMhtVtu2FmxKmYJr7V+z1GxuIA",
+              "color": "#f8f8f8"
+            }
+          }
+        ],
+        "title": "Kapaas",
+        "layout": {
+          "width": "text",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-f8336ec7-222d-42f8-a7a8-8b392bcb62e9",
+        "text": "<p>Kapaas is a collection of surfaces developed as a part of a classroom project. Right before the project began, I had visited a cotton farm. The field looked very light, soft and delicate from a distance, but as soon as I stepped in, I realized how the soft cotton bolls are protected and held by the rough, hard pods. The fragile cotton bolls push themselves out of their protecting layers to come out and bloom. This experience made me choose cotton as my inspiration for this project.</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-cb4f2fee-a8ae-4da0-805e-3b9f03a26213",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/kapaas/01-f13663f8.webp",
+              "width": 1800,
+              "height": 184,
+              "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAQCdASoQAAIAA4BaJYwCdADdIyWMYAD+bBsdQb3A5NjkzTgOpIcn7MC2kwAA",
+              "color": "#f8f8f8"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/kapaas/02-912b1a6d.webp",
+              "width": 1800,
+              "height": 2587,
+              "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoLABAAA4BaJZwAD4wNXfGUQgAA/vYSLuD7WG59/sOU/IYCS9B+eeSQSP1pJB9MTogGAK+8vZLWeDKSHtz3wAAA",
+              "color": "#f8f8f8"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/kapaas/03-985fdf31.webp",
+              "width": 1800,
+              "height": 2823,
+              "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAQCdASoKABAAA4BaJYwCdADdqnBvqyAA/pPCQsWcz02pnPN2rYyl0Cn7vh/cza8vlr0n+lTpgx7DH7M+56DFAYDOXULOzWoTMfNpZJPt36qBYAAAAA==",
+              "color": "#f8f8f8"
+            }
+          }
+        ],
+        "title": "Kapaas",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-a68a36fe-b34b-4a6c-8dc2-167fa1152222",
+        "text": "<p>Painting and creating a model to understand the color, texture and structure of the plant.</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-18d1cd17-decf-45c5-8258-6fc3860458e7",
+        "text": "Surface exploration",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-41ef1092-d2dc-4d54-a176-6a17f7a5b475",
+        "text": "Final panels",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-d2251076-4cdb-4769-9033-1ca41f9f3ff7",
+        "text": "<p>Surface inspired by the brown fields with white cotton bolls in it.</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-5411ccf5-4bd9-463e-ab6e-774f526f2a07",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/kapaas/05-80f21f88.webp",
+              "width": 1800,
+              "height": 1200,
+              "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoQAAsAA4BaJagCdAEffcDbkdQA/O3OeyO6TeocEld6/ppYVREvGLU7cjGHL5wubIGHWuVtndgAAA==",
+              "color": "#c89868"
+            }
+          }
+        ],
+        "title": "Kapaas, final panels",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-f87420b8-741c-41ba-8dfd-da9348b0b717",
+        "text": "<p>Surface inspire by the blooming of the cotton boll, made by Slashing technique.</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-6fb5f4a2-dcd5-40da-95ba-bf3ddea0ceac",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/kapaas/06-8ee22302.webp",
+              "width": 1800,
+              "height": 3197,
+              "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAQCdASoJABAAA4BaJZACdAYuvkQg6gAA/quzr8R9qP/blZV0f+VNNW/2SUbu2V8aXND90m8E1nKr8NYAnaF2ksu5OMxRicdeuRlWi0xpfG2CHpAKyrW6wR4sRO8AAAA=",
+              "color": "#d8d8d8"
+            }
+          }
+        ],
+        "title": "Kapaas, final panels",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyFooter",
+      "props": {
+        "id": "StudyFooter-b2c76698-ff95-4d48-8a87-f8fbe1b52180",
+        "note": "Words and images from Shruchi’s Behance.",
+        "sources": [
+          {
+            "label": "See the original",
+            "href": "https://www.behance.net/gallery/161857639/Kapaas"
+          }
+        ],
+        "showNext": true,
+        "layout": {
+          "width": "text",
+          "space": "l",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    }
+  ],
+  "zones": {}
+}

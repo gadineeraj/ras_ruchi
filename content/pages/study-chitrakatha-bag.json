@@ -1,0 +1,751 @@
+{
+  "root": {
+    "props": {
+      "title": "Chitrakatha bag",
+      "path": "/studies/chitrakatha-bag",
+      "kind": "study",
+      "description": "A festival goodie bag folded from one origami pattern, printed with an Andhra folk tale as a comic.",
+      "draft": false,
+      "shareImage": null,
+      "collection": ""
+    }
+  },
+  "content": [
+    {
+      "type": "BackLink",
+      "props": {
+        "id": "BackLink-670fb715-e761-43ae-a524-6e7943829234",
+        "label": "All studies",
+        "link": {
+          "href": "/studies"
+        },
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyHeader",
+      "props": {
+        "id": "StudyHeader-fff533b2-dd1a-4d8e-bdfa-cd604c943222",
+        "title": "Chitrakatha bag",
+        "hook": "A festival goodie bag folded from one origami pattern, printed with an Andhra folk tale as a comic.",
+        "credits": [
+          {
+            "label": "For",
+            "value": "Chitrakatha '19, NID Andhra Pradesh"
+          },
+          {
+            "label": "Crafts",
+            "value": "Kalamkari block printing, Tholu Bommalata"
+          },
+          {
+            "label": "Materials",
+            "value": "Muslin, wooden blocks, indigo"
+          },
+          {
+            "label": "Cost",
+            "value": "Rs. 135 a bag, four stitch lines"
+          }
+        ],
+        "cover": {
+          "src": "/images/behance/chitrakatha-bag/15-a9d0fe1a.webp",
+          "width": 1800,
+          "height": 2700,
+          "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwAgCdASoLABAAA4BaJYwCdAYvXbLIktHdAAD++FZragQ9iPO5s8/KKv9YunRJ4QzY2mQ8LN/C8MkR4Bl+WPqpMJ0D4s7/4UuNf+ZpES6UW9YkAAA=",
+          "color": "#080808"
+        },
+        "coverShape": "wide",
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-d9f044ac-ca24-428f-8880-433fe6122d1f",
+        "text": "<p>Project Brief: Designing and developing of the Goodie bags for the design festival: Chitrakatha'19.</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-294affa4-e9f4-438b-997e-5ca9b356fc6d",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/chitrakatha-bag/00-0b8330a5.webp",
+              "width": 600,
+              "height": 338,
+              "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAkAA4BaJbACdAEOguAVQYAA/vLiXrzaA60vGB0YVVLx/JJKWbLGoYTorfuppy3Hs0LdqP/sNzOHefnnZGAA",
+              "color": "#082838",
+              "animated": true
+            }
+          }
+        ],
+        "title": "Chitrakatha bag",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-2e8e0f3e-6a28-46b8-872e-578fff5311e2",
+        "text": "<p>Chitrakatha, now a storytelling festival started off as an Animation festival at National Institute of Design, Ahmedabad. This festival is a platform to celebrate the creative endeavours of students and designers from across the globe. In 2019, it was for the for the first time that this festival took place at National Institute of Design, Andhra Pradesh, for its 7th edition.</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-c30bb2ee-c5ba-41c2-a75b-80dbd465adb7",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/chitrakatha-bag/01-e258fe08.webp",
+              "width": 1800,
+              "height": 1272,
+              "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoQAAsAA4BaJZgCdAYu4zEq8/gA/HNLBEGBuPyDrbah0HI4alv5aMadc0zQKs1wjs8XIhxzjvZx4wTF9e5J1lk80Ek8WI6gMfyd5p3VeWXFQAAA",
+              "color": "#a8a898"
+            }
+          }
+        ],
+        "title": "Chitrakatha bag",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-779d8443-af23-4ab9-a45d-ad47e110645e",
+        "text": "Points from the initial research",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-82de7f58-8da4-4e1a-a9a3-732effbf3443",
+        "text": "<p>A goodie bag:</p><ol><li><p>Is a container used to carry around collectables and other small personal belongings in a festival.</p></li><li><p>Is a take away/ souvenir from the event.</p></li><li><p>Is a part of a festival merchandise; Forms a mean of event branding and advertisement.</p></li><li><p>Should be durable enough to be later used as a bag.</p></li></ol>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-28f450ad-672a-4b4a-90a2-ddfd01a8f12c",
+        "text": "Exploring the form of the bag",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-b82e26db-02e5-4c1a-b0e0-116ce6dc76ba",
+        "text": "Structure of the bag",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-737cace0-9788-4265-827e-bec7414f4e8f",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/chitrakatha-bag/02-976a9203.webp",
+              "width": 1000,
+              "height": 1000,
+              "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoQABAAA4BaJaQAAudg/DEJS2AAAP74uYWgnmg6PSX0gyfq8DbEoK3/y8W2bEbG9xNI9UPi8co89wsweQGsqeLAAAA=",
+              "color": "#f8f8f8",
+              "animated": true
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/chitrakatha-bag/03-e68e2843.webp",
+              "width": 1059,
+              "height": 1108,
+              "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQAgCdASoPABAAA4BaJaQAD5DwJVpsoNWAAP74svbBfGXZXoHDHrP5v67jHWl//oL+jBmqHqoyQ65Nl+ZPkyUJfom3s/QD0g+J9LsvjNOdHI8sOcrOEE+0gugh0xLRIAAAAA==",
+              "color": "#f8f8f8"
+            }
+          }
+        ],
+        "title": "Chitrakatha bag, structure of the bag",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-2a0352a0-9e67-4267-bfb0-c972fe73ba27",
+        "text": "Brand identity",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-a589d2e5-6ef5-4f27-880b-8e6c9bb8146e",
+        "text": "<p>The Silhouette of the bag represents a face of a cow which is the mascot of Chitrakatha.</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-ebe9ea64-fa13-46ac-9598-7997f7532213",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/chitrakatha-bag/04-93b9391d.webp",
+              "width": 1000,
+              "height": 1000,
+              "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoQABAAA4BaJZwAAuXcEcjEAAD++K6H9RD4RPyzrUMV56BydXlLu8Qd7mReBRTzN/Le48Hzs7jTBiLtdPj2FDZBoVD50zQ3VdIAAA==",
+              "color": "#f8f8f8",
+              "animated": true
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/chitrakatha-bag/05-7d8c0f6f.webp",
+              "width": 1800,
+              "height": 1800,
+              "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAAAQAgCdASoQABAAA4BaJaQAAujdWkCMSCAAAP736TKBCVcE50RaVjhrXtaHPQLAgQAAAA==",
+              "color": "#f8f8f8"
+            }
+          }
+        ],
+        "title": "Chitrakatha bag, brand identity",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-9509c2cd-5c92-47d7-9613-ab0f8a34fa4c",
+        "text": "Production friendly",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-52ff0743-47f8-44da-a5fd-7be31dfeb5f4",
+        "text": "<p>The Bag is inspired from the \"potli\" bags used in India since ages. This Goodie bag was made out of an origami pattern. It needs 4 stitch lines to make the basic structure of the bag, and thus cuts down on the production time. The cost of an individual bag was Rs. 135.</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-310b1f43-2347-425f-bf87-2b97dd0783d4",
+        "text": "Features of the bag",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-5fdd3d97-5bc8-4832-ac0a-8886d2e24708",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/chitrakatha-bag/06-b80ed3ed.webp",
+              "width": 1000,
+              "height": 1000,
+              "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAgCdASoQABAAA4BaJZgCdH8AEax/NFnoAAD++Lpb/hc6smYTD6/yHuGNzonPcfrwYZ3IPx2wUI04O8OsbyNzs9/POw6lRuFWZNHXW0vuvwzZtsTtzbekGpdAAA==",
+              "color": "#f8f8f8",
+              "animated": true
+            }
+          }
+        ],
+        "title": "Chitrakatha bag, features of the bag",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-cb9230cb-634a-4cef-b204-b2b4fe7bb888",
+        "text": "Cultural relevance",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-8947c43e-936e-464e-979d-ca811771eab8",
+        "text": "<p>The Print on the bag is made out of combing three local crafts of the state. The Illustration style of the print is taken from the Leather puppet craft - Tholu Bommalata. Block making craft was then used to make the kalamkaari blocks of the print. The bag was printed in Indigo by the Kalamkaari block printing artisans.</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-f5f2b888-f290-4003-b8f5-330b7f4df14f",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/chitrakatha-bag/07-92b38549.webp",
+              "width": 1800,
+              "height": 1349,
+              "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoQAAwAA4BaJZwAD4AQcAArQyAA/vi4YEIOurRKgSzkBLZhUxG1HmZXrfdCq58nch6NPygAAAA=",
+              "color": "#f8f8f8"
+            }
+          }
+        ],
+        "title": "Chitrakatha bag, cultural relevance",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-d19dabd6-4630-44f8-93cd-3cb0beff220c",
+        "text": "Environment friendly",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-81918d83-b842-4c54-a1d4-4f6fa478531e",
+        "text": "<p>\"No Plastic\" was one of the mottos of the festival. Keeping that in mind, the bag was made plastic free. Materials used to make this bag are- Muslin cloth, Kalamkari wooden block and Indigo dye.</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-f85b7711-f43f-4602-9751-537f73b04b70",
+        "text": "Storytelling",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-ed1a9a15-ffc7-49a9-b208-17e970f0d073",
+        "text": "<p>The bag is made in a form of a 3 page comic. The fourth face of the bag contains the festival logo. The story depicted on the bag is a famous folklore of Andhra. The intent of picking up a local story was to establish the connection between the festival and the local culture. Bag being a take away from the festival, It was my intention to make the guests take back memories and experience from this place, by being part of Chitrakatha.</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-6a9081e2-8c87-445a-9bb9-0529a4d84072",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/chitrakatha-bag/08-0b1629a7.webp",
+              "width": 1800,
+              "height": 610,
+              "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAQCdASoQAAUAA4BaJZwAAvf1mSSAAP64C3M6+VN7wbO+mnvgCjv762ZbLCtKDSLlYw6wVqpMdg8mrAyeUwfnCAA=",
+              "color": "#f8f8f8"
+            }
+          }
+        ],
+        "title": "Chitrakatha bag, storytelling",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-eb258632-8059-4075-a690-b493e0d9d506",
+        "text": "The story",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-f3006eed-441c-4799-bc3f-42c45d6f86c1",
+        "text": "<p>This mythological story hints at the Climate change issue, and talks about the rising sea level. It is story of a conflict between the River Goddess Krishnaveni and Goddess Kanak Durga who resides on the mountain top. Kanak Durga took Krishnaveni's nose ring in order to let her flow into the land of Vijayawada. After this incident when Durga did not return the nose ring back, Krishnaveni promised that one day, she will rise up to the mountain top and take her ring back. Furious Durga cursed that the day this happens, it will be the end of the city.</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-d9da9b00-937e-4c8c-a3f0-641462fd982b",
+        "text": "Character development",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-3516e86b-f739-47d4-8901-c5428350de70",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/chitrakatha-bag/09-17f0cbec.webp",
+              "width": 1800,
+              "height": 1311,
+              "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoQAAwAA4BaJZQAApzbHtMBUbAA/vKFSX4FVEie+cAcP9H8YwWdXyxg/T+wS1h5CNbTjEDaXzWVtex3LKxOCwByETsh7nmSiWQ0IAAA",
+              "color": "#f8f8f8"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/chitrakatha-bag/10-e4bb6921.webp",
+              "width": 1800,
+              "height": 930,
+              "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoQAAgAA4BaJYwC7ADPBYs2AAD++Bl9wlFHMz90ZW/GbXzJGUD6bzcKJJCazX5w938irm7c8+AAAA==",
+              "color": "#f8f8f8"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/chitrakatha-bag/11-7e111680.webp",
+              "width": 1800,
+              "height": 1800,
+              "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoQABAAA4BaJaQAApLNzkcpYAD+905GDEwDwWK1O0jDvbXhutdA9kiCHBOBfJlDbJUSufcwBmYIGBEupNWlIcNY5cA6gAAA",
+              "color": "#f8f8f8"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/chitrakatha-bag/12-e1bd37de.webp",
+              "width": 1800,
+              "height": 1763,
+              "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQABAAA4BaJZQC7ADDOpyNAAD+7WEPRvLJ/4N4RCdDOpctbOGBdYwskPwdqXldLWtU6EfRzrURsq/4/zh2mTmAAAA=",
+              "color": "#d8d8c8"
+            }
+          }
+        ],
+        "title": "Chitrakatha bag, character development",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-b1fa63f5-f203-4e76-9080-e5b03f9d683d",
+        "text": "Glimpse from the craftsmen's workplace",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-81351d1e-35ae-45ab-b085-3a8feab2a19b",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/chitrakatha-bag/13-a8fd264c.webp",
+              "width": 920,
+              "height": 753,
+              "blur": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAADwAQCdASoQAA0AA4BaJZwAD40xeXyskAAA/WmOZUU3eQTYUJirHidkio0TmQFWAQNvFmixGO7ASW35CvnGW+O7pwt22Sgg3L1CeP5HX3AKXUTfhFSEe3dGiRQzHX8dPvpIK/jXTTNeaAAA",
+              "color": "#f8f8f8"
+            }
+          }
+        ],
+        "title": "Chitrakatha bag, glimpse from the craftsmen's workplace",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-c61d29db-cd08-4d25-ae79-c6f6e5c72cfd",
+        "text": "Final product",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-ab24bb40-f39a-4b46-b1b2-5b1e08518ae2",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/chitrakatha-bag/14-c331dfe5.webp",
+              "width": 1800,
+              "height": 2700,
+              "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoLABAAA4BaJYwCdADb69b/DgAA/ve+71mLBpFftbQ1ObnABrHV8XMSJDmcSuyp4lSgfdpL949P0qPO6lwgjDD2ohZrUZYKaHjEblnAAAA=",
+              "color": "#080808"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/chitrakatha-bag/16-d2cffd80.webp",
+              "width": 1800,
+              "height": 1200,
+              "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAQCdASoQAAsAA4BaJQAAT/by/r/9gAD+9vIcYLZXJR+kgefVkz/dPsETO+Rwc2WVN6kAbzkCB2z1S+RhVAgFvmEvsnN6m1BvC7DWnVFLff1DsBPDy7p1AAA=",
+              "color": "#080808"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/chitrakatha-bag/17-401e645c.webp",
+              "width": 1800,
+              "height": 1312,
+              "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAACwAgCdASoQAAwAA4BaJbACsH8AgnTLhgFbfeXV7AAA+GJiz5Ea++zda+WNnB3QGvF5PhqODfNtdIAVGLLVEmTX9/UHQHmnnJhQPS239SDFkzftDVrNydA8l9/po5sDZzH1kC/RGHIYECbh17oTPyZZtKoUVczt0QAAAA==",
+              "color": "#e8e8e8"
+            }
+          }
+        ],
+        "title": "Chitrakatha bag, final product",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyFooter",
+      "props": {
+        "id": "StudyFooter-35630bd7-6da4-4e1b-b27a-a97e185271b7",
+        "note": "Words and images from Shruchi’s Behance.",
+        "sources": [
+          {
+            "label": "See the original",
+            "href": "https://www.behance.net/gallery/161857769/chitrakatha-bag"
+          }
+        ],
+        "showNext": true,
+        "layout": {
+          "width": "text",
+          "space": "l",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    }
+  ],
+  "zones": {}
+}

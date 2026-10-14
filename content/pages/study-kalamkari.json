@@ -1,0 +1,252 @@
+{
+  "root": {
+    "props": {
+      "title": "Kalamkari apparel",
+      "path": "/studies/kalamkari",
+      "kind": "study",
+      "description": "Contemporary clothing cut from traditional Kalamkari cloth.",
+      "draft": false,
+      "shareImage": null,
+      "collection": ""
+    }
+  },
+  "content": [
+    {
+      "type": "BackLink",
+      "props": {
+        "id": "BackLink-feb80d7b-aed2-4e0b-9555-7d86db3e1255",
+        "label": "All studies",
+        "link": {
+          "href": "/studies"
+        },
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyHeader",
+      "props": {
+        "id": "StudyHeader-568da696-0625-4f41-986b-27642a714bef",
+        "title": "Kalamkari apparel",
+        "hook": "Contemporary clothing cut from traditional Kalamkari cloth.",
+        "credits": [
+          {
+            "label": "Course",
+            "value": "Garment construction"
+          },
+          {
+            "label": "Cloth",
+            "value": "Kalamkari"
+          }
+        ],
+        "cover": {
+          "src": "/images/behance/kalamkari-apparel/03-745635e9.webp",
+          "width": 1800,
+          "height": 1200,
+          "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoQAAsAA4BaJbACdAEednC8nwwAAP7TYP3pL5vHmN2vyadIwdXcnYfJ9oCAy6Gw8sFVfVbw99GgFUnoXBmPa360gnDUV1lXv1SpKY6AAAA=",
+          "color": "#b8b8b8"
+        },
+        "coverShape": "wide",
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-28653b16-bc5e-4076-9a0a-03a547efbae9",
+        "text": "<p>This project was a part of the course- Garment Construction. It was about conceptualizing and developing contemporary clothing from the traditional kalamkari fabric.</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-fa373e02-3107-42ff-9dff-8b1b74125b66",
+        "text": "Project i",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-d144e2ad-9feb-4712-8740-335637100bfa",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/kalamkari-apparel/00-29f349ac.webp",
+              "width": 1800,
+              "height": 2546,
+              "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoLABAAA4BaJZQAAu19rVYfMAD++BnngBIyKcU1NMQdA1brYZ0R7onSPGOYNHRNxjmvhZeRzAAAAA==",
+              "color": "#f8f8f8"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/kalamkari-apparel/01-7639e87b.webp",
+              "width": 1800,
+              "height": 2546,
+              "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoLABAAA4BaJbACdAELX5lj04AA/gu5gOZJLZlKdg+PulwyK1bTMy72x5v5B2CXSzJ+OZJPGdrXy28vxTw2pMx6QAA=",
+              "color": "#f8f8f8"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/kalamkari-apparel/02-1a345384.webp",
+              "width": 1800,
+              "height": 1200,
+              "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAQCdASoQAAsAA4BaJQBdgBh7hyPHeAD+1xY7gbb2RhWTjS8QWVz3cYbvO9FeLnVTqyrSDpyg6kRf7E7FquFayGqHYsBEIIV5k1QtojA+FKWI20gaAAAA",
+              "color": "#f8f8f8"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/kalamkari-apparel/04-15a54bcd.webp",
+              "width": 1800,
+              "height": 1200,
+              "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAsAA4BaJbACdAD1d2YeLAAA/mrW9vVvQniNeW2GMHQM8+VvEt3+XYvEkhHHQMA2HbN3nRJLrefnHivF6kqkBgwAAA==",
+              "color": "#b8b8b8"
+            }
+          }
+        ],
+        "title": "Kalamkari apparel, project i",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-eb0e1107-4a88-478e-b1d6-7f0cd00321dc",
+        "text": "Project ii",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-6750c5fb-e2b0-4195-989d-03c0e6d845b8",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/kalamkari-apparel/05-f51b00f1.webp",
+              "width": 1800,
+              "height": 2546,
+              "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACQAQCdASoLABAAA4BaJaQAAlvxNiAA/vi59mdGhCel39dU7GbX58UAg5tTnH253bYVoTx+AAA=",
+              "color": "#f8f8f8"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/kalamkari-apparel/06-6c5f1d9c.webp",
+              "width": 1800,
+              "height": 2546,
+              "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoLABAAA4BaJaQAAlw+qp5YAAD++Lo+oyxq17zG2sx01k4v/cCh5v//IHbAQyKnuRMgAA==",
+              "color": "#f8f8f8"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/kalamkari-apparel/07-fabb5e3c.webp",
+              "width": 1800,
+              "height": 2700,
+              "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAwAgCdASoLABAAA4BaJYwC7AEfbqIJqN9aAAD+6U75d8K7VIteMeGlUyGRiIbQIj8Yvx1BwU2hePERtjZ9vTTgAAA=",
+              "color": "#182818"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/kalamkari-apparel/08-ba184bdf.webp",
+              "width": 1800,
+              "height": 2700,
+              "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAQCdASoLABAAA4BaJQBOgCFrKjwAAP59MdoSsvS0+9Whuz0ayMKZiiuaGZJSiBtANQDhV6t5Q11jpJrcHxaK2kDAAA==",
+              "color": "#785848"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/kalamkari-apparel/09-af4ae0af.webp",
+              "width": 1800,
+              "height": 2700,
+              "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAwAgCdASoLABAAA4BaJZQCdAEPArzKgPHuAAD+9W51dIpZER3Ev1+1W97Z4OJgXiy3qLnTMAGRVw+8AAA=",
+              "color": "#181818"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/kalamkari-apparel/10-44956535.webp",
+              "width": 1800,
+              "height": 2700,
+              "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoLABAAA4BaJZACdAELGmfm4AAA/t1Fex1rbNKJmWAvFWtFzRcIQM4dZf3TPi2ANC2RXRZ3MPnxwToHPDEYgpZlsXLAAA==",
+              "color": "#584838"
+            }
+          }
+        ],
+        "title": "Kalamkari apparel, project ii",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyFooter",
+      "props": {
+        "id": "StudyFooter-d0d63c63-0cf2-4817-974e-9adc5e7ae0c4",
+        "note": "Words and images from Shruchi’s Behance.",
+        "sources": [
+          {
+            "label": "See the original",
+            "href": "https://www.behance.net/gallery/161857593/Kalamkari-Apparel"
+          }
+        ],
+        "showNext": true,
+        "layout": {
+          "width": "text",
+          "space": "l",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    }
+  ],
+  "zones": {}
+}

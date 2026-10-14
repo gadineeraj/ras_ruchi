@@ -1,0 +1,176 @@
+{
+  "root": {
+    "props": {
+      "title": "Kaantha",
+      "path": "/studies/kaantha",
+      "kind": "study",
+      "description": "Six cushion designs in Kantha running stitch on khadi.",
+      "draft": false,
+      "shareImage": null,
+      "collection": ""
+    }
+  },
+  "content": [
+    {
+      "type": "BackLink",
+      "props": {
+        "id": "BackLink-917b1c39-1734-4801-94a2-c37c0afa1877",
+        "label": "All studies",
+        "link": {
+          "href": "/studies"
+        },
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyHeader",
+      "props": {
+        "id": "StudyHeader-73f98b67-ac66-47c6-a79b-fe9ba3a49e90",
+        "title": "Kaantha",
+        "hook": "Six cushion designs in Kantha running stitch on khadi.",
+        "credits": [
+          {
+            "label": "Client",
+            "value": "This and That, Ahmedabad"
+          },
+          {
+            "label": "Craft",
+            "value": "Kantha embroidery by Kutchi women, Gujarat"
+          },
+          {
+            "label": "Cloth",
+            "value": "Khadi"
+          }
+        ],
+        "cover": {
+          "src": "/images/behance/kaantha/00-a293c36d.webp",
+          "width": 960,
+          "height": 960,
+          "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABQAgCdASoQABAAA4BaJagCdIExGZZKsoOWNAAA/psCh1DM9Yu25IvRPHHHxSXEhlHzAgOlLklQkKp9UDN3qKetiOOgz0MkpOlBtFwAAAA=",
+          "color": "#181818"
+        },
+        "coverShape": "wide",
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-43305cf1-9d72-4341-bf82-a97d336018ba",
+        "text": "<p>This project was done with \"This and That\" studio to develop their Kaantha cushion cover collection. This collection focused on exploring the kaantha embroidery done by the kutchi women of Gujarat, on khadi. The set consists of 6 main designs with various density and sizes of stitches repeated in various color combinations.</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-5162d2c3-b071-4717-b3d3-429906abb62d",
+        "text": "Set of designs",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-53ed3eff-608e-4967-beeb-3f0501b1a7c7",
+        "text": "Set of colours",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-b9a17709-0ffc-472e-984d-b1f57b49ced8",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/kaantha/01-4f94f5c8.webp",
+              "width": 1800,
+              "height": 239,
+              "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoQAAIAA4BaJQBOkCYiM1BQAAD+9BXhfLzeoKKwUcNYh5ZX+nzstX0et0O0Vp8wJQAAAA==",
+              "color": "#f8f8f8"
+            }
+          }
+        ],
+        "title": "Kaantha, set of colours",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-4f14aee7-4cfb-4269-8b7d-6dabb276c3be",
+        "text": "Final collection",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyFooter",
+      "props": {
+        "id": "StudyFooter-17c42d59-dc6e-422e-b4fc-aa61af2093d9",
+        "note": "Words and images from Shruchi’s Behance.",
+        "sources": [
+          {
+            "label": "See the original",
+            "href": "https://www.behance.net/gallery/161857891/kaantha"
+          }
+        ],
+        "showNext": true,
+        "layout": {
+          "width": "text",
+          "space": "l",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    }
+  ],
+  "zones": {}
+}

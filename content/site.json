@@ -1,0 +1,99 @@
+{
+  "name": "ras.ruchi",
+  "nameDevanagari": "रसरुचि",
+  "person": "Shruchi Jaiswal",
+  "role": "Textile designer",
+  "description": "The textile work of Shruchi Jaiswal: print, weave and embroidery from Indian craft traditions, and the home collections she designs as Design Lead at The Yellow Dwelling.",
+  "email": "xyz@gmail.com",
+  "shop": {
+    "name": "The Yellow Dwelling",
+    "url": "https://theyellowdwelling.com/"
+  },
+  "nav": [
+    {
+      "label": "Collections",
+      "href": "/collections"
+    },
+    {
+      "label": "Studies",
+      "href": "/studies"
+    },
+    {
+      "label": "Practice",
+      "href": "/practice"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    }
+  ],
+  "links": [
+    {
+      "label": "Instagram @ras.ruchi",
+      "href": "https://www.instagram.com/ras.ruchi/"
+    },
+    {
+      "label": "Behance",
+      "href": "https://www.behance.net/shruchijaiswal"
+    },
+    {
+      "label": "The Yellow Dwelling",
+      "href": "https://theyellowdwelling.com/"
+    }
+  ],
+  "footer": {
+    "heading": "Write to Shruchi",
+    "credit": "Product photographs courtesy of The Yellow Dwelling. Study images from Shruchi’s Behance.",
+    "copyright": "© {year} Shruchi Jaiswal"
+  },
+  "shades": [
+    {
+      "id": "kolam-green",
+      "name": "Kolam green",
+      "hex": "#33503f"
+    },
+    {
+      "id": "glen-mist-blue",
+      "name": "Glen mist blue",
+      "hex": "#56698a"
+    },
+    {
+      "id": "kadamba-oxblood",
+      "name": "Kadamba oxblood",
+      "hex": "#6a2222"
+    },
+    {
+      "id": "sienna-mustard",
+      "name": "Sienna mustard",
+      "hex": "#d9a64a"
+    },
+    {
+      "id": "pergola-indigo",
+      "name": "Pergola indigo",
+      "hex": "#2c3d63"
+    }
+  ],
+  "shareImage": null,
+  "pageOrder": [
+    "home",
+    "collections",
+    "collection-rasaa",
+    "collection-entwine",
+    "collection-ratna",
+    "collection-pause",
+    "collection-archive",
+    "studies",
+    "study-sura",
+    "study-chitrakatha-bag",
+    "study-tangaliya",
+    "study-gangireddu",
+    "study-ikat",
+    "study-kapaas",
+    "study-kaantha",
+    "study-kalamkari",
+    "study-woven-story",
+    "study-small-pieces",
+    "practice",
+    "not-found"
+  ]
+}

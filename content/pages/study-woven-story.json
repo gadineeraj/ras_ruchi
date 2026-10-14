@@ -1,0 +1,140 @@
+{
+  "root": {
+    "props": {
+      "title": "Woven story",
+      "path": "/studies/woven-story",
+      "kind": "study",
+      "description": "Handwoven stripes and checks, on the loom and out in the sun.",
+      "draft": false,
+      "shareImage": null,
+      "collection": ""
+    }
+  },
+  "content": [
+    {
+      "type": "BackLink",
+      "props": {
+        "id": "BackLink-b944f417-4b0f-4d9d-8a7a-197183e45c6c",
+        "label": "All studies",
+        "link": {
+          "href": "/studies"
+        },
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyHeader",
+      "props": {
+        "id": "StudyHeader-ae12f0e3-8cbc-4064-af93-e9954ad59483",
+        "title": "Woven story",
+        "hook": "Handwoven stripes and checks, on the loom and out in the sun.",
+        "credits": [
+          {
+            "label": "Technique",
+            "value": "Handloom weaving"
+          }
+        ],
+        "cover": {
+          "src": "/images/behance/woven-story/01-df528344.webp",
+          "width": 1800,
+          "height": 693,
+          "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAYAA4BaJZgCdAEXvuJGAwAA/LHlVmeq35SgCWZpdq4i4uOAd58Mrp6c3z8XWJ8t9Vt1I87x6455s+1kw2qTLKYAAA==",
+          "color": "#f8f8f8"
+        },
+        "coverShape": "wide",
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-2de3ff60-d3e8-4877-9ef4-4a1a87f0b6c0",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/woven-story/00-edec0ff9.webp",
+              "width": 1800,
+              "height": 722,
+              "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAABwAQCdASoQAAYAA4BaJQAAPMv48AD+YVGEtVNrvLxcRnvC2hEhhckqu3p4kqbNlBePv6tL/j4iI30GqPR7AAAA",
+              "color": "#f8f8f8"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/woven-story/02-5a4b2105.webp",
+              "width": 1800,
+              "height": 719,
+              "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoQAAYAA4BaJYgCdH8AENbIj0AA+PyC4L34V5SqiziV4/jQvVbfQmznB9aDrO3SygbSLNtyx8GhdYpXl9V06S2MEFpcjWLAsW7gAA==",
+              "color": "#f8f8f8"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/woven-story/03-982658f5.webp",
+              "width": 1800,
+              "height": 723,
+              "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoQAAYAA4BaJQAAUjO181JPAADibY0CTMUJhKC0aI1U61C/5O7xwchRg/zy3PrzDfA91M9AmsUUAms/tFsj9acueKCXD7Lj3AAAAA==",
+              "color": "#f8f8f8"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/woven-story/04-3a77ca73.webp",
+              "width": 1800,
+              "height": 820,
+              "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAQCdASoQAAcAA4BaJZQAAjsp6a2gAMry2l952lcPpk5ZUtSHFdOiuQPpFBzieLm8iwcgz0TfqSBwN3D3NeUnYAEoAA==",
+              "color": "#f8f8f8"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/woven-story/05-ce960a56.webp",
+              "width": 1800,
+              "height": 748,
+              "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAQCdASoQAAcAA4BaJbACw7DGQNZAAPx5A1knx2mRARfeCnZAxZTGr3Mm2zb6L8EbP6BIAgY28zT76FHUnWettagAAA==",
+              "color": "#f8f8f8"
+            }
+          }
+        ],
+        "title": "Woven story",
+        "layout": {
+          "width": "text",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyFooter",
+      "props": {
+        "id": "StudyFooter-71ca85ab-e7b9-46a8-8d2a-c70dd9017cb5",
+        "note": "Words and images from Shruchi’s Behance.",
+        "sources": [
+          {
+            "label": "See the original",
+            "href": "https://www.behance.net/gallery/161857273/woven-Story"
+          }
+        ],
+        "showNext": true,
+        "layout": {
+          "width": "text",
+          "space": "l",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    }
+  ],
+  "zones": {}
+}

@@ -137,8 +137,11 @@ dd {
 
 /* -------------------------------------------------------------- type voices */
 
+/* Type voices carry zero specificity (:where), so a block's own size or
+   colour always wins, whatever order the stylesheets load in. */
+
 /* Printed caps: what a mill prints on a card. Jost, tracked open. */
-.t-label {
+:where(.t-label) {
   font-family: var(--font-label);
   font-size: 11.5px;
   line-height: 1.35;
@@ -148,7 +151,7 @@ dd {
 }
 
 /* Sized so a shade code ("Ground #A34435") fits a 95px swatch column. */
-.t-shade {
+:where(.t-shade) {
   font-family: var(--font-label);
   font-size: 10.5px;
   line-height: 1.35;
@@ -159,7 +162,7 @@ dd {
   color: var(--ink-2);
 }
 
-.t-wordmark {
+:where(.t-wordmark) {
   font-family: var(--font-display);
   font-size: clamp(64px, 11.4vw, 184px);
   line-height: 0.84;
@@ -167,7 +170,7 @@ dd {
   letter-spacing: -0.02em;
 }
 
-.t-display {
+:where(.t-display) {
   font-family: var(--font-display);
   font-size: clamp(38px, 5.6vw, 84px);
   line-height: 0.98;
@@ -176,7 +179,7 @@ dd {
   text-wrap: balance;
 }
 
-.t-title {
+:where(.t-title) {
   font-family: var(--font-display);
   font-size: clamp(25px, 2.5vw, 36px);
   line-height: 1.05;
@@ -185,7 +188,7 @@ dd {
   text-wrap: balance;
 }
 
-.t-lead {
+:where(.t-lead) {
   font-size: clamp(19px, 1.55vw, 23px);
   line-height: 1.42;
   font-weight: 400;
@@ -193,7 +196,7 @@ dd {
   text-wrap: pretty;
 }
 
-.t-body {
+:where(.t-body) {
   max-width: 62ch;
   text-wrap: pretty;
 }
@@ -211,7 +214,7 @@ dd {
   margin-right: -0.04em;
 }
 
-.t-deva {
+:where(.t-deva) {
   font-family: var(--font-deva);
   font-weight: 400;
 }

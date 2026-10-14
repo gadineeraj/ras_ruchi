@@ -1,0 +1,61 @@
+{
+  "root": {
+    "props": {
+      "title": "Rasaa",
+      "path": "/collections/rasaa",
+      "kind": "collection",
+      "description": "The festive ensemble for 2026. Plain cotton and linen grounds carry their detail at the edges: woven zari borders drawn from temple borders, embroidered floral and geo-floral trims, and small printed buttis.",
+      "draft": false,
+      "shareImage": null,
+      "collection": "rasaa"
+    }
+  },
+  "content": [
+    {
+      "type": "BackLink",
+      "props": {
+        "id": "BackLink-f804d8d3-1fa0-446f-8703-99f7abf3fbc3",
+        "label": "All collections",
+        "link": {
+          "href": "/collections"
+        },
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "CollectionCard",
+      "props": {
+        "id": "CollectionCard-01d36ef6-2393-4224-be5a-ceb760faac84",
+        "collection": "rasaa",
+        "note": "{count}. Designed by Shruchi as Design Lead at The Yellow Dwelling; descriptions are the shop’s own.",
+        "showIndex": true,
+        "extra": [],
+        "layout": {
+          "width": "wide",
+          "space": "xs",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "CollectionPager",
+      "props": {
+        "id": "CollectionPager-ecdfb59b-a916-4fdd-9e40-587221ba3565",
+        "collection": "rasaa",
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    }
+  ],
+  "zones": {}
+}

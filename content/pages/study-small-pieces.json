@@ -1,0 +1,260 @@
+{
+  "root": {
+    "props": {
+      "title": "Canary, Rust, Mustard",
+      "path": "/studies/small-pieces",
+      "kind": "study",
+      "description": "A scarf, a blouse and a bolster, made from handloom and finished by hand.",
+      "draft": false,
+      "shareImage": null,
+      "collection": ""
+    }
+  },
+  "content": [
+    {
+      "type": "BackLink",
+      "props": {
+        "id": "BackLink-d0289331-6d16-4a6e-90ac-2ae773cd90fe",
+        "label": "All studies",
+        "link": {
+          "href": "/studies"
+        },
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyHeader",
+      "props": {
+        "id": "StudyHeader-b01c1e61-b17b-4c58-8d56-3eea1a25ab2a",
+        "title": "Canary, Rust, Mustard",
+        "hook": "A scarf, a blouse and a bolster, made from handloom and finished by hand.",
+        "credits": [
+          {
+            "label": "Cloth",
+            "value": "Handloom"
+          },
+          {
+            "label": "Details",
+            "value": "Crochet lace, Gundi buttons, appliqué, mother-of-pearl"
+          }
+        ],
+        "cover": {
+          "src": "/images/behance/canary/00-6bfa95aa.webp",
+          "width": 1800,
+          "height": 2700,
+          "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoLABAAA4BaJbACdAEf/qadnwAA/uXksD6PYBJ2lII8lfd2FaAw8lS/DW6UL8XSb1+ItLfHRcafhn3ZrDhilkAA",
+          "color": "#784818"
+        },
+        "coverShape": "wide",
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-54f9bcf1-a773-4eed-b151-89b7cca56126",
+        "text": "Canary",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-e0c3ae18-3e88-4748-ac63-0fcbab6755f2",
+        "text": "<p>The handloom scarf is made by attaching two panels on the two opposite short sides to increase the length of a waste fabric piece to make a scarf out of it. The attachment is done by doing white embroidery on the two joints. A hand made, beaded crochet lace is attached on the two falling ends, which adds on to the subtle detailing.</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-f4273037-590d-4060-82e6-673a71dcbb6e",
+        "text": "Rust",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-b3d68063-a503-4b59-813d-af898a7fa0a8",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/rust/00-10976a64.webp",
+              "width": 1800,
+              "height": 1281,
+              "blur": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAAAQAgCdASoQAAsAA4BaJbACdADWqMsgUBYAAP7WJ0Vd4FNYb6pqvbn4zRvYQMnu0ya3zMdS8ZHLnhMNVMurftxNhF2MvVTGjZIyaU7VnYHIufD0Xv/VIauCZCYPw7c6hpV8a7TT61t2oAAA",
+              "color": "#d8c8a8"
+            }
+          }
+        ],
+        "title": "Canary, Rust, Mustard, rust",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-71657c4e-9af2-4c10-9c1c-868f9161da16",
+        "text": "<p>A Gundi button handloom blouse, has a hand embroidered running stitch throughout it's border. Gundi buttons are used at the back for fastening. The Button loops were made by knotting. The inner side of the blouse is neatly finished with the red colored fabric leaving behind no visible seams.</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-593863ff-ae01-43bb-a6e2-f0084aa972c4",
+        "text": "Mustard",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-f3ee1187-5bc0-4e1c-9ea1-b3f0fd85ec56",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/mustard/00-3116fc63.webp",
+              "width": 1800,
+              "height": 1247,
+              "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoQAAsAA4BaJQBOgCHu4/QefkAAzhAJzMbGMVMkQva1Lsdikp2Be/+e6b9pcSHnA+gheWPMpML79Y1pdwAP4KWeKRse+a3S5osAAA==",
+              "color": "#c8c8c8"
+            }
+          }
+        ],
+        "title": "Canary, Rust, Mustard, mustard",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-a78e7846-c04d-4ec2-87c0-1d6e07c82b65",
+        "text": "<p>A Handloom Bolster cushion, made out of joining three fabric panels. It has an applique detailing with scrap fabric pieces on two of its horizontal opposite sides. The inner side of the cover is neatly finished with a contrasting fabric. The hand done running stitch lines on the two side panels is a functional detail which forms a path for the draw string. The Mother of pearl buttons on the drawstring adds on to the detailing.</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-d82f0ac2-6267-421e-9de2-4978006dc005",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/mustard/01-ce80d0af.webp",
+              "width": 1800,
+              "height": 1273,
+              "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoQAAsAA4BaJZgCdAEOOoWPqAAA/vdCE0LAM5e5+UdYxub1eJID7Z6hFvJA4YBeWUiIcMIHyUQQAA==",
+              "color": "#f8f8f8"
+            }
+          }
+        ],
+        "title": "Canary, Rust, Mustard, mustard",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyFooter",
+      "props": {
+        "id": "StudyFooter-05d9e5e6-141c-47e2-9f17-c8491769755a",
+        "note": "Words and images from Shruchi’s Behance.",
+        "sources": [
+          {
+            "label": "Part 1",
+            "href": "https://www.behance.net/gallery/161857565/Canary"
+          },
+          {
+            "label": "Part 2",
+            "href": "https://www.behance.net/gallery/161857545/Rust"
+          },
+          {
+            "label": "Part 3",
+            "href": "https://www.behance.net/gallery/161857463/Mustard"
+          }
+        ],
+        "showNext": true,
+        "layout": {
+          "width": "text",
+          "space": "l",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    }
+  ],
+  "zones": {}
+}

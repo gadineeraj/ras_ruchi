@@ -1,0 +1,329 @@
+{
+  "root": {
+    "props": {
+      "title": "Tangaliya",
+      "path": "/studies/tangaliya",
+      "kind": "study",
+      "description": "A woven bed collection made with the Tangaliya weavers of Gujarat.",
+      "draft": false,
+      "shareImage": null,
+      "collection": ""
+    }
+  },
+  "content": [
+    {
+      "type": "BackLink",
+      "props": {
+        "id": "BackLink-77857ab0-92f6-446a-b1d5-d4e15d875396",
+        "label": "All studies",
+        "link": {
+          "href": "/studies"
+        },
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyHeader",
+      "props": {
+        "id": "StudyHeader-190f57bf-ec4f-4b0a-9f52-2111b15181f1",
+        "title": "Tangaliya",
+        "hook": "A woven bed collection made with the Tangaliya weavers of Gujarat.",
+        "credits": [
+          {
+            "label": "Client",
+            "value": "This and That, Ahmedabad"
+          },
+          {
+            "label": "Craft",
+            "value": "Tangaliya weaving, Gujarat"
+          },
+          {
+            "label": "Brief",
+            "value": "Bedding for the Bastar furniture collection"
+          }
+        ],
+        "cover": {
+          "src": "/images/behance/tangaliya/04-8d63cd1b.webp",
+          "width": 1800,
+          "height": 876,
+          "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQAAgAA4BaJZQCdAYt9NNHJHoAAP4LT5QgrX6S5vx1IxGPAACLBfuRUUjrwtnXKXMPzevRuSSk7CZMn1sXwPU9iOvGVezGRMoAAA==",
+          "color": "#181818"
+        },
+        "coverShape": "wide",
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-dffdb41f-aa0c-433e-b5f1-8ac544f931b7",
+        "text": "<p>This project was done with \"This and That\", the Ahmedabad based design studio. The brief of the project was to develop a bed collection which complements their then latest furniture collection- The Bastar collection. This Project was done in collaboration with the Tangaliya weavers of Gujarat.</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-59a1c4a8-b2ad-4513-ac39-b83738812224",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/tangaliya/00-dd0acccb.webp",
+              "width": 1105,
+              "height": 685,
+              "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoQAAoAA4BaJZwAAvv3H6PhRoAA/eJ9kzcMb3C9wQUqvbb64/610/5zfPtHANzn3Hnxz1WiIr12utNdz/gNzTC40IvpF1PKgtH2BclJDEuNkAAA",
+              "color": "#483838"
+            }
+          }
+        ],
+        "title": "Tangaliya",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-f62c20ed-3adb-4f0d-a37a-a641635ca25f",
+        "text": "Cushions exploration",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-d56e1a0a-593e-4c93-934d-211afda25f25",
+        "text": "<p>Few of the cushion explorations made by extracting motifs from the Bastar collection:</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-c7151981-d849-458e-bdc2-cb4be22154ed",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/tangaliya/01-660ec923.webp",
+              "width": 1800,
+              "height": 1320,
+              "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoQAAwAA4BaJaQAAujd6NhtUAD+8r2DabEVOyeXHpUKcAToZ20Js1Ud6ch73frDo5TPmdTAAAA=",
+              "color": "#181818"
+            }
+          }
+        ],
+        "title": "Tangaliya, cushions exploration",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-ca80fc90-ba72-482a-b4cc-a02c8cf66415",
+        "text": "Bedcover collection",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "props": {
+        "id": "Text-345bfa21-7fca-4e97-a73c-b9ecbfe28452",
+        "text": "<p>Few of the Woven Bedcover explorations made by extracting motifs from the Bastar collection:</p>",
+        "style": "body",
+        "align": "start",
+        "measure": "normal",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-51a4de51-6139-48c2-a838-723e8f70e839",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/tangaliya/02-13b6e861.webp",
+              "width": 1800,
+              "height": 598,
+              "blur": "data:image/webp;base64,UklGRiwAAABXRUJQVlA4ICAAAAAwAQCdASoQAAUAA4BaJZwAA3AA/vHS9KW6UlNQRcAAAA==",
+              "color": "#f8f8f8"
+            }
+          }
+        ],
+        "title": "Tangaliya, bedcover collection",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-8087bf64-f7c3-486b-a8dd-d1c3d1a5f5b2",
+        "text": "Final collection look",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-b6540eef-1e03-45cd-9582-bcfbafbe5a86",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/tangaliya/03-74b0c647.webp",
+              "width": 1800,
+              "height": 1369,
+              "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAQCdASoQAAwAA4BaJaQAD4uw1JNhV2AA/seB/Zk/faBSpzWGBMzK0BSp/dMGbe0QhGaINSLpnTEK3PqvPsE0zMEvGA1OZ0t6OD9Y35eSYp24/Kit3HMQUAA=",
+              "color": "#f8f8f8"
+            }
+          }
+        ],
+        "title": "Tangaliya, final collection look",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-ebec56f2-4819-4e45-a24f-2ccf60f75db1",
+        "text": "The final collection",
+        "size": "title",
+        "level": "h2",
+        "align": "start",
+        "layout": {
+          "width": "text",
+          "space": "m",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyImages",
+      "props": {
+        "id": "StudyImages-c487bdcb-4f1b-4a38-bd0c-054098717a8b",
+        "photos": [
+          {
+            "photo": {
+              "src": "/images/behance/tangaliya/05-2c41612c.webp",
+              "width": 1800,
+              "height": 871,
+              "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAQCdASoQAAgAA4BaJZwAD46ssdKAZYAA/cNj/OHFrO+Vc1REPCa2a4mXKzz/0mZD96SivGN47XB0TXh9BdmPFRfCkOMjuKzDqNrxSlkLnG3r7uUpjrLHAAA=",
+              "color": "#080808"
+            }
+          },
+          {
+            "photo": {
+              "src": "/images/behance/tangaliya/06-8586dc63.webp",
+              "width": 1800,
+              "height": 876,
+              "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAQCdASoQAAgAA4BaJZQCdADDi1toeAAA/uo4fxgfJCI59ZOzuWcPSWWe21c80hsvepKfwduHMdxn1Ml5GTaS+gq14T7+F25AGnKn4C0SgA/9QFRAAA==",
+              "color": "#282828"
+            }
+          }
+        ],
+        "title": "Tangaliya, the final collection",
+        "layout": {
+          "width": "text",
+          "space": "s",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "StudyFooter",
+      "props": {
+        "id": "StudyFooter-c27b8220-bd52-4d0b-9749-9bff8e181e04",
+        "note": "Words and images from Shruchi’s Behance.",
+        "sources": [
+          {
+            "label": "See the original",
+            "href": "https://www.behance.net/gallery/161857859/Tangaliya"
+          }
+        ],
+        "showNext": true,
+        "layout": {
+          "width": "text",
+          "space": "l",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    }
+  ],
+  "zones": {}
+}

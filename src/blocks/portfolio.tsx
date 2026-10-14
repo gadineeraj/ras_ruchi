@@ -126,7 +126,7 @@ export const PageTitle = {
           {backLabel}
         </SmartLink>
       ) : null}
-      <header className={facts?.length ? practice.header : index.head} style={facts?.length ? { marginBottom: "clamp(32px, 4.6vw, 64px)" } : undefined}>
+      <header className={facts?.length ? practice.header : index.head}>
         <h1 className="t-display">{display(counts(title, puck.metadata))}</h1>
         {filled(lede) ? <p className={`t-lead ${facts?.length ? "" : index.lede}`}>{counts(lede, puck.metadata)}</p> : null}
         {facts?.length ? (
@@ -427,9 +427,9 @@ export const PracticeWay = {
     examples: f.array("Examples", { photo: f.photo("Photo"), text: f.textarea("Text"), link: f.link("Links to") }, { summary: (e) => e.text?.slice(0, 40) || "Example", add: { photo: null, text: "", link: { href: "" } }, max: 6 }),
     layout: f.layout(),
   },
-  defaultProps: { verb: "Look", summary: "", examples: [], layout: { width: "wide", space: "xl", show: "all", motion: "none" } },
+  defaultProps: { verb: "Look", summary: "", examples: [], layout: { width: "wide", space: "none", show: "all", motion: "none" } },
   render: ({ verb, summary, examples, layout }: WayProps & PuckBits) => (
-    <Frame layout={layout} as="section" className={practice.way} style={{ paddingTop: 0 }}>
+    <Frame layout={layout} as="section" className={practice.way}>
       <div className={practice.wayHead}>
         <h2 className={practice.verb}>{display(verb)}</h2>
         {filled(summary) ? <p className={`t-lead ${practice.summary}`}>{summary}</p> : null}
@@ -463,9 +463,9 @@ export const Quotes = {
     quotes: f.array("Quotes", { quote: f.textarea("Quote"), from: f.text("From"), link: f.link("Links to") }, { summary: (q) => q.from || "Quote", add: { quote: "", from: "", link: { href: "" } }, max: 6 }),
     layout: f.layout(),
   },
-  defaultProps: { title: "In her words", quotes: [], layout: { width: "wide", space: "xl", show: "all", motion: "none" } },
+  defaultProps: { title: "In her words", quotes: [], layout: { width: "wide", space: "none", show: "all", motion: "none" } },
   render: ({ title, quotes, layout }: QuotesProps & PuckBits) => (
-    <Frame layout={layout} as="section" className={practice.words} style={{ paddingTop: 0 }}>
+    <Frame layout={layout} as="section" className={practice.words}>
       {filled(title) ? <h2 className="t-display">{display(title)}</h2> : null}
       <div className={practice.quotes}>
         {(quotes ?? []).map((q, i) => (
@@ -636,7 +636,7 @@ export const BackLink = {
   defaultProps: { label: "All collections", link: { href: "/collections" }, layout: { width: "wide", space: "none", show: "all", motion: "none" } },
   render: ({ label, link, layout }: BackProps & PuckBits) => (
     <Frame layout={layout} style={{ paddingTop: 18 }}>
-      <SmartLink href={link?.href ?? "/"} className={`t-label ${coll.back}`}>
+      <SmartLink href={link?.href ?? "/"} className={`t-label ${study.back}`}>
         <ArrowLeftIcon size={14} weight="bold" aria-hidden="true" />
         {label}
       </SmartLink>
@@ -685,7 +685,7 @@ export const StudyHeader = {
       </header>
       {coverShape !== "none" ? (
         <ViewTransition name={`study-${puck.metadata.page.id}`} share="morph" default="none">
-          <div className={study.cover} style={{ backgroundColor: cover?.color, aspectRatio: coverShape === "tall" ? "4 / 5" : undefined, maxWidth: coverShape === "tall" ? 720 : undefined }}>
+          <div className={study.cover} style={{ backgroundColor: cover?.color, aspectRatio: coverShape === "tall" ? "4 / 5" : undefined, maxWidth: coverShape === "tall" ? 720 : undefined, marginBottom: "clamp(40px, 6vw, 88px)" }}>
             <Pic photo={cover} alt={cover?.alt || (typeof title === "string" ? `${title}${typeof hook === "string" && hook ? `: ${hook}` : ""}` : "")} sizes="(max-width: 900px) 94vw, 1440px" preload />
           </div>
         </ViewTransition>
@@ -764,7 +764,7 @@ export const StudyImages = {
     if (!n) return <Frame layout={layout}><p className={styles.placeholder}>Add photos in the settings panel.</p></Frame>;
     return (
       <Frame layout={layout}>
-        <div className={study.images} data-cols={cols} style={{ marginBlock: 0 }}>
+        <div className={study.images} data-cols={cols}>
           {list.map((img, i) => (
             <NaturalPic key={`${img.src}-${i}`} photo={img} alt={img.alt || (n > 1 ? `${title}, ${i + 1} of ${n}` : title)} sizes={cols === 1 ? "(max-width: 900px) 94vw, 1100px" : `(max-width: 900px) 94vw, ${Math.round(100 / cols)}vw`} className={study.img} />
           ))}

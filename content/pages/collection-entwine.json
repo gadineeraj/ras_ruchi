@@ -1,0 +1,61 @@
+{
+  "root": {
+    "props": {
+      "title": "Entwine",
+      "path": "/collections/entwine",
+      "kind": "collection",
+      "description": "Summer 2026. Soft solids finished with embroidered trims in Elba and Glen, alongside light florals and sprigs on cotton: Roselle, Flutter, Peony and Pomera.",
+      "draft": false,
+      "shareImage": null,
+      "collection": "entwine"
+    }
+  },
+  "content": [
+    {
+      "type": "BackLink",
+      "props": {
+        "id": "BackLink-84f6b9dd-54f6-4117-bf31-71cc5aa4f421",
+        "label": "All collections",
+        "link": {
+          "href": "/collections"
+        },
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "CollectionCard",
+      "props": {
+        "id": "CollectionCard-3dade95c-42f4-4a19-997d-73db6e0f5a93",
+        "collection": "entwine",
+        "note": "{count}. Designed by Shruchi as Design Lead at The Yellow Dwelling; descriptions are the shop’s own.",
+        "showIndex": true,
+        "extra": [],
+        "layout": {
+          "width": "wide",
+          "space": "xs",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    },
+    {
+      "type": "CollectionPager",
+      "props": {
+        "id": "CollectionPager-76bfe766-3526-4e0e-bfea-88d2dc9486dd",
+        "collection": "entwine",
+        "layout": {
+          "width": "wide",
+          "space": "none",
+          "show": "all",
+          "motion": "none"
+        }
+      }
+    }
+  ],
+  "zones": {}
+}

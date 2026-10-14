@@ -1,4 +1,3 @@
-import type { CSSProperties } from "react";
 import { ArrowRightIcon } from "@phosphor-icons/react/dist/ssr/ArrowRight";
 import { Swatch } from "@/components/Swatch";
 import { SwatchCaption, SwatchChips, SwatchPicker, SwatchShopLink, SwatchWindow } from "@/components/SwatchPicker";
@@ -350,11 +349,11 @@ export const ThenNow = {
     link: { href: "" },
     then: { kind: "photo", photo: null, design: "", caption: "" },
     now: { kind: "design", photo: null, design: "", caption: "" },
-    layout: { width: "wide", space: "xl", show: "all", motion: "none" },
+    layout: { width: "wide", space: "none", show: "all", motion: "none" },
   },
   render: ({ title, text, link, linkLabel, then, now, layout, puck }: ThenNowProps & PuckBits) => (
     <Frame layout={layout} as="section">
-      <div className={`card ${practice.thread}`} style={{ marginTop: 0 } as CSSProperties}>
+      <div className={`card ${practice.thread}`}>
         <span className="card-hole" style={{ top: 16, left: 16 }} aria-hidden="true" />
         <div className={practice.threadText}>
           {filled(title) ? <h2 className="t-title">{display(title)}</h2> : null}

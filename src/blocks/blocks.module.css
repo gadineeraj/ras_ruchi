@@ -3,6 +3,12 @@
 
 /* ------------------------------------------------------------------ frame */
 
+/* Each frame keeps its children's margins inside it, so spacing adds up the
+   same way everywhere. Zero specificity: a block's own display wins. */
+:where(.frame) {
+  display: flow-root;
+}
+
 .frame {
   width: min(100% - 2 * var(--gutter), var(--max));
   margin-inline: auto;
@@ -38,13 +44,14 @@
   margin-top: 0;
 }
 .frame[data-space="xs"] {
-  margin-top: 10px;
+  margin-top: 8px;
 }
 .frame[data-space="s"] {
   margin-top: 22px;
 }
+/* A heading's rhythm in v1: the 22px gap plus its own 20-40px. */
 .frame[data-space="m"] {
-  margin-top: clamp(32px, 4.6vw, 64px);
+  margin-top: calc(22px + clamp(20px, 3vw, 40px));
 }
 .frame[data-space="l"] {
   margin-top: clamp(56px, 8vw, 112px);

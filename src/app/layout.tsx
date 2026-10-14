@@ -1,8 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Bodoni_Moda, Jost, Rozha_One } from "next/font/google";
-import { SiteHeader } from "@/components/SiteHeader";
-import { SiteFooter } from "@/components/SiteFooter";
-import { site } from "@/lib/site";
+import { readSite } from "@/lib/content-server";
 import "./globals.css";
 
 // Taglines and quotes: Bodoni Moda italic, a high-contrast Didone italic. Only
@@ -33,14 +31,16 @@ const rozha = Rozha_One({
   display: "swap",
 });
 
-export const metadata: Metadata = {
-  title: {
-    default: `${site.name}: ${site.person}, textile designer`,
-    template: `%s · ${site.name}`,
-  },
-  description:
-    "The textile work of Shruchi Jaiswal: print, weave and embroidery from Indian craft traditions, and the home collections she designs as Design Lead at The Yellow Dwelling.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const site = await readSite();
+  return {
+    title: {
+      default: `${site.name}: ${site.person}, ${site.role.toLowerCase()}`,
+      template: `%s · ${site.name}`,
+    },
+    description: site.description,
+  };
+}
 
 export const viewport: Viewport = {
   themeColor: [
@@ -52,14 +52,7 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={`${rozha.variable} ${bodoni.variable} ${jost.variable}`}>
-      <body>
-        <a className="skip-link t-label" href="#main">
-          Skip to content
-        </a>
-        <SiteHeader />
-        <main id="main">{children}</main>
-        <SiteFooter />
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

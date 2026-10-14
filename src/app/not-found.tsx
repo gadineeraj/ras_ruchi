@@ -1,16 +1,27 @@
-import Link from "next/link";
-import styles from "./index.module.css";
+import { Render } from "@puckeditor/core/rsc";
+import { config } from "@/blocks/config";
+import { SiteFooter } from "@/components/SiteFooter";
+import { SiteHeader } from "@/components/SiteHeader";
+import { metaFor, readPages, readSite } from "@/lib/content-server";
+import { preparePage } from "@/lib/render-data";
 
-export default function NotFound() {
+// The "Page not found" page is an ordinary page she can edit in the Studio.
+export default async function NotFound() {
+  const [site, pages] = await Promise.all([readSite(), readPages()]);
+  const page = pages.find((p) => p.id === "not-found");
   return (
-    <div className={`wrap ${styles.page}`}>
-      <header className={styles.head}>
-        <h1 className="t-display">This card isn&rsquo;t in the book</h1>
-        <p className={`t-lead ${styles.lede}`}>
-          The page you followed doesn&rsquo;t exist. The <Link href="/collections">collections</Link> and{" "}
-          <Link href="/studies">studies</Link> are all here.
-        </p>
-      </header>
-    </div>
+    <>
+      <SiteHeader site={site} />
+      <main id="main">
+        {page ? (
+          <Render config={config} data={preparePage(page.data, config)} metadata={(await metaFor(page)) as unknown as Record<string, unknown>} />
+        ) : (
+          <div className="wrap" style={{ paddingBlock: 96 }}>
+            <h1 className="t-display">Page not found</h1>
+          </div>
+        )}
+      </main>
+      <SiteFooter site={site} />
+    </>
   );
 }
