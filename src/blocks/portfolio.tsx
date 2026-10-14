@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ViewTransition, type CSSProperties } from "react";
+import { ViewTransition, type CSSProperties, type ReactNode } from "react";
 import { ArrowLeftIcon } from "@phosphor-icons/react/dist/ssr/ArrowLeft";
 import { ArrowRightIcon } from "@phosphor-icons/react/dist/ssr/ArrowRight";
 import { ArrowUpRightIcon } from "@phosphor-icons/react/dist/ssr/ArrowUpRight";
@@ -26,6 +26,18 @@ import study from "./css/study.module.css";
 import index from "./css/index.module.css";
 
 type L = { layout: LayoutProps };
+
+/** A shared-element page transition on the published site; in the Studio the
+    same names would appear twice (canvas and previews), so it steps aside. */
+function Morph({ name, meta, children }: { name: string; meta: SiteMeta | undefined; children: ReactNode }) {
+  if (meta?.editing || meta?.preview) return <>{children}</>;
+  return (
+    <ViewTransition name={name} share="morph" default="none">
+      {children}
+    </ViewTransition>
+  );
+}
+
 const bandText = (hex: string) => (onShade(hex) === "dark" ? "dark" : "light");
 
 // ---------------------------------------------------------------- HomeHero
@@ -184,13 +196,13 @@ export const CollectionCards = {
           {list.map((c, n) => (
             <li key={c.slug} className={stack.item} style={{ "--n": n } as CSSProperties}>
               <Link href={toHref(collectionPath(puck.metadata, c.slug))} className={`card ${stack.card}`} data-on={bandText(c.band)}>
-                <ViewTransition name={`band-${c.slug}`} share="morph" default="none">
+                <Morph name={`band-${c.slug}`} meta={puck.metadata}>
                   <div className={stack.band} style={{ backgroundColor: c.band }}>
                     <span className="card-hole" style={{ top: 14, left: 14 }} aria-hidden="true" />
                     <Heading className={`t-display ${stack.name}`}>{kern(c.name)}</Heading>
                     <span className={`t-label ${stack.season}`}>{c.season}</span>
                   </div>
-                </ViewTransition>
+                </Morph>
                 <div className={stack.body}>
                   <div className={stack.text}>
                     {c.line ? <p className={stack.line}>{c.line}</p> : null}
@@ -323,11 +335,11 @@ export const StudySheets = {
                   <li key={s.id} className={wide ? sheets.wide : undefined}>
                     <Link href={toHref(s.path)} className={`card ${sheets.sheet}`}>
                       <span className="card-hole" style={{ top: 14, left: 14 }} aria-hidden="true" />
-                      <ViewTransition name={`study-${s.id}`} share="morph" default="none">
+                      <Morph name={`study-${s.id}`} meta={puck.metadata}>
                         <div className={sheets.plate} style={{ backgroundColor: s.cover?.color, aspectRatio: wide ? "3 / 2" : "4 / 5" }}>
                           <Pic photo={s.cover} alt="" sizes={wide ? "(max-width: 760px) 90vw, 46vw" : "(max-width: 760px) 90vw, 22vw"} />
                         </div>
-                      </ViewTransition>
+                      </Morph>
                       <div className={sheets.meta}>
                         <Heading className="t-title">{kern(s.title)}</Heading>
                         <p className={sheets.hook}>{s.hook}</p>
@@ -353,11 +365,11 @@ export const StudySheets = {
               {small.map((s) => (
                 <li key={s.id}>
                   <Link href={toHref(s.path)} className={`card ${sheets.small}`}>
-                    <ViewTransition name={`study-${s.id}`} share="morph" default="none">
+                    <Morph name={`study-${s.id}`} meta={puck.metadata}>
                       <div className={sheets.thumb} style={{ backgroundColor: s.cover?.color }}>
                         <Pic photo={s.cover} alt="" sizes="(max-width: 760px) 30vw, 9vw" />
                       </div>
-                    </ViewTransition>
+                    </Morph>
                     <span className={sheets.smallText}>
                       <Heading className={sheets.smallTitle}>{kern(s.title)}</Heading>
                       <span className={sheets.smallHook}>{s.hook}</span>
@@ -514,13 +526,13 @@ export const CollectionCard = {
     return (
       <Frame layout={layout}>
         <article className={`card ${coll.card}`} data-on={bandText(c.band)}>
-          <ViewTransition name={`band-${c.slug}`} share="morph" default="none">
+          <Morph name={`band-${c.slug}`} meta={puck.metadata}>
             <header className={coll.band} style={{ backgroundColor: c.band }}>
               <span className="card-hole" style={{ top: 16, left: 16 }} aria-hidden="true" />
               <h1 className={`t-wordmark ${coll.name}`}>{kern(c.name)}</h1>
               <p className={`t-label ${coll.season}`}>{c.season}</p>
             </header>
-          </ViewTransition>
+          </Morph>
 
           <div className={coll.intro}>
             {c.line ? <p className={coll.line}>{c.line}</p> : null}
@@ -684,11 +696,11 @@ export const StudyHeader = {
         ) : null}
       </header>
       {coverShape !== "none" ? (
-        <ViewTransition name={`study-${puck.metadata.page.id}`} share="morph" default="none">
+        <Morph name={`study-${puck.metadata.page.id}`} meta={puck.metadata}>
           <div className={study.cover} style={{ backgroundColor: cover?.color, aspectRatio: coverShape === "tall" ? "4 / 5" : undefined, maxWidth: coverShape === "tall" ? 720 : undefined, marginBottom: "clamp(40px, 6vw, 88px)" }}>
             <Pic photo={cover} alt={cover?.alt || (typeof title === "string" ? `${title}${typeof hook === "string" && hook ? `: ${hook}` : ""}` : "")} sizes="(max-width: 900px) 94vw, 1440px" preload />
           </div>
-        </ViewTransition>
+        </Morph>
       ) : null}
     </Frame>
   ),

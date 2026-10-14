@@ -2,7 +2,11 @@
    materials, plus the top bar, the "+ Add section" insert, the block library,
    the section gallery and the publish flow. */
 
-.studio {
+/* Puck's design tokens, mapped to the shade card. They are set on the Studio
+   and again on the canvas frame's own root, where the selection outline,
+   drop lines and inline-edit outline are drawn. */
+.studio,
+:global(html[data-studio-canvas]) {
   /* Puck's design tokens, mapped to the shade card. */
   --puck-font-family: var(--font-sans);
   --puck-color-text: #161615;
@@ -68,6 +72,14 @@
   --puck-sidebar-right-width: 340px;
   --puck-sidebar-left-width: 320px;
 
+  /* The inline text editor's outlines use these two directly. */
+  --puck-color-azure-09: rgb(106 34 34 / 0.35);
+  --puck-color-azure-07: #6a2222;
+  --puck-slot-component-color-overlay-border: #6a2222;
+  --puck-slot-component-color-border-selected: #6a2222;
+}
+
+.studio {
   position: fixed;
   inset: 0;
   background: #d6d6d1;
@@ -125,7 +137,10 @@
   cursor: pointer;
 }
 
+/* Page names are titles: Rozha One, as on the site. */
 .pagePicker span {
+  font: 400 16px/1 var(--font-display);
+  letter-spacing: -0.005em;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -571,14 +586,52 @@
   background: #f4f4f1;
 }
 
+/* Where the selected block sits: "Home › Columns", each step clickable. */
 .crumbs {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 4px;
-  font: 500 11px/1.3 var(--font-label);
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #66665f;
+  font: 400 13px/1.3 var(--font-sans);
+  color: #4d4d48;
+}
+
+.crumb {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.tabs {
+  display: flex;
+  gap: 18px;
+  margin: 10px 0 -12px;
+  border-bottom: 1px solid rgb(22 22 21 / 0.13);
+}
+
+.tabs button {
+  padding: 8px 0 9px;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  background: none;
+  color: #4d4d48;
+  font: 500 14px/1 var(--font-sans);
+  cursor: pointer;
+}
+
+.tabs button:hover {
+  color: #161615;
+}
+
+.tabs button[aria-selected="true"] {
+  color: #161615;
+  border-bottom-color: #161615;
+}
+
+/* The tabs sort the block's fields: Layout holds the layout control, Content the rest. */
+.fieldsBody[data-tab="content"] :global([class*="_PuckFields-field"]):has([data-field-kind="layout"]),
+.fieldsBody[data-tab="layout"] :global([class*="_PuckFields-field"]):not(:has([data-field-kind="layout"])) {
+  display: none;
 }
 
 .crumbs button {
@@ -632,6 +685,9 @@
 }
 
 .galleryNav {
+  position: sticky;
+  top: 0;
+  align-self: start;
   display: grid;
   align-content: start;
   gap: 2px;
@@ -656,177 +712,6 @@
 .galleryNav button[aria-pressed="true"] {
   background: #161615;
   color: #f4f4f1;
-}
-
-.presets {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-  gap: 16px;
-  align-content: start;
-}
-
-.preset {
-  display: grid;
-  gap: 10px;
-  padding: 0 0 12px;
-  border: 1px solid rgb(22 22 21 / 0.16);
-  background: #fbfbf9;
-  text-align: left;
-  cursor: pointer;
-  transition:
-    border-color 160ms ease,
-    translate 220ms cubic-bezier(0.16, 1, 0.3, 1),
-    box-shadow 220ms ease;
-}
-
-.preset:hover,
-.preset:focus-visible {
-  border-color: #6a2222;
-  translate: 0 -3px;
-  box-shadow: 0 14px 28px -18px rgb(20 20 16 / 0.6);
-}
-
-.preset strong,
-.preset small {
-  padding: 0 12px;
-}
-
-.preset strong {
-  font: 600 14px/1.25 var(--font-sans);
-}
-
-.preset small {
-  font-size: 12.5px;
-  line-height: 1.4;
-  color: #4d4d48;
-}
-
-/* Mini drawings of each section design, in the site's materials. */
-.sketch {
-  display: grid;
-  gap: 6px;
-  aspect-ratio: 16 / 9;
-  padding: 14px 16px;
-  background: #d6d6d1;
-  border-bottom: 1px solid rgb(22 22 21 / 0.1);
-  overflow: hidden;
-}
-
-.sketchRow {
-  display: grid;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
-  gap: 6px;
-  min-height: 0;
-}
-
-.skBars {
-  display: grid;
-  align-content: start;
-  gap: 5px;
-}
-
-.skBars i {
-  display: block;
-  height: 5px;
-  background: rgb(22 22 21 / 0.28);
-}
-
-.skBars i:last-child {
-  width: 70%;
-}
-
-.skBars[data-tone="dark"] i {
-  height: 10px;
-  background: #161615;
-  width: 55%;
-}
-
-.skPhoto {
-  min-height: 26px;
-  background:
-    linear-gradient(135deg, transparent 48%, rgb(255 255 255 / 0.35) 49%, transparent 51%),
-    #a39d93;
-}
-
-.skPhoto[data-tone="dark"] {
-  background:
-    linear-gradient(135deg, transparent 48%, rgb(255 255 255 / 0.25) 49%, transparent 51%),
-    #4a4741;
-}
-
-.skBand {
-  min-height: 30px;
-  background: #33503f;
-}
-
-.skBand[data-tone="accent"] {
-  background: #6a2222;
-}
-
-.skSwatches {
-  display: flex;
-  gap: 5px;
-}
-
-.skSwatches i {
-  flex: 1;
-  aspect-ratio: 1;
-  max-width: 28px;
-  mask: var(--pinked) center / 100% 100% no-repeat;
-}
-
-.skQuote {
-  border-top: 2px solid #161615;
-  padding-top: 5px;
-}
-
-.skQuote i {
-  display: block;
-  height: 5px;
-  margin-bottom: 4px;
-  background: rgb(22 22 21 / 0.4);
-  transform: skewX(-12deg);
-}
-
-.skButton {
-  justify-self: center;
-  width: 46%;
-  height: 12px;
-  background: #161615;
-}
-
-.skCols {
-  display: grid;
-  grid-template-columns: repeat(var(--n, 2), minmax(0, 1fr));
-  gap: 10px;
-}
-
-.skGrid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 5px;
-}
-
-.skGrid i {
-  aspect-ratio: 4 / 5;
-  background: #a39d93;
-}
-
-.skBoard {
-  position: relative;
-  min-height: 60px;
-  background: #f4f4f1;
-}
-
-.skBoard i {
-  position: absolute;
-  background: #a39d93;
-}
-
-.skWord {
-  height: 12px;
-  width: 70%;
-  background: #161615;
 }
 
 /* ---------------------------------------------------------------- publish */
@@ -1020,4 +905,132 @@
 .studio :global([class*="_NavItem-link"]:focus-visible) {
   outline: 2px solid #6a2222;
   outline-offset: -2px;
+}
+
+/* ------------------------------------------- section gallery as a shade card */
+
+.galleryNote {
+  margin: 16px 12px 0;
+  font-size: 12.5px;
+  line-height: 1.45;
+  color: #4d4d48;
+}
+
+.sheets {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 236px);
+  justify-content: center;
+  gap: 30px 22px;
+  align-content: start;
+  margin: -20px -20px -20px 0;
+  padding: 26px 24px 32px;
+  background: #d6d6d1;
+}
+
+/* A sheet of card stock glued to the board a little crooked; handling it
+   lifts it the way a swatch lifts off a shade card. */
+.sheet {
+  position: relative;
+  display: grid;
+  align-content: start;
+  gap: 6px;
+  padding: 30px 13px 14px;
+  border: 0;
+  background: #f4f4f1;
+  box-shadow: 0 1px 0 rgb(255 255 255 / 0.5) inset, 0 1px 2px rgb(20 20 16 / 0.1), 0 12px 32px -18px rgb(20 20 16 / 0.35);
+  rotate: var(--tilt, 0deg);
+  color: #161615;
+  text-align: left;
+  cursor: pointer;
+  transition:
+    translate 360ms cubic-bezier(0.16, 1, 0.3, 1),
+    rotate 360ms cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 360ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sheet:hover,
+.sheet:has(.sheetChoose:focus-visible) {
+  translate: 0 -6px;
+  rotate: calc(var(--tilt, 0deg) + 1.5deg);
+  box-shadow: 0 1px 0 rgb(255 255 255 / 0.5) inset, 0 2px 4px rgb(20 20 16 / 0.14), 0 22px 40px -18px rgb(20 20 16 / 0.5);
+}
+
+.sheet:has(.sheetChoose:focus-visible) {
+  outline: 2px solid #6a2222;
+  outline-offset: 4px;
+}
+
+.sheet:has(.sheetChoose:active) {
+  translate: 0 -2px;
+}
+
+/* The title is the button; it covers the whole sheet so any part chooses it. */
+.sheetChoose {
+  display: grid;
+  gap: 6px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.sheetChoose::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.sheetChoose:focus-visible {
+  outline: none;
+}
+
+.sheetHole {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #d6d6d1;
+  box-shadow:
+    inset 0 2px 2.5px rgb(0 0 0 / 0.3),
+    inset 0 -1px 0 rgb(255 255 255 / 0.25),
+    0 0 0 1px rgb(0 0 0 / 0.06);
+}
+
+.sheetPlate {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 158px;
+  overflow: hidden;
+  background: #d6d6d1;
+  outline: 1px solid rgb(22 22 21 / 0.1);
+}
+
+/* The real blocks, laid out at desktop width and shrunk to fit the plate. */
+.sheetRender {
+  flex: none;
+  max-height: 100%;
+  pointer-events: none;
+  padding-block: 24px 40px;
+}
+
+.sheet strong {
+  margin-top: 6px;
+  font: 600 14px/1.25 var(--font-sans);
+}
+
+.sheet small {
+  font-size: 12.5px;
+  line-height: 1.4;
+  color: #4d4d48;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sheet {
+    transition: none;
+  }
 }

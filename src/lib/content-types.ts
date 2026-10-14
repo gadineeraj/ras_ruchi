@@ -129,4 +129,6 @@ export type SiteMeta = {
   /** The page being rendered. */
   page: { id: string; path: string; kind: PageKind; collection?: string };
   editing?: boolean;
+  /** A scaled-down preview inside the Studio's section gallery. */
+  preview?: boolean;
 };

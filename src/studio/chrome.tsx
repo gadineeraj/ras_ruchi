@@ -82,7 +82,7 @@ function PagePicker() {
   const { pageList, currentId, openPage, current } = useStudio();
   const openPanel = useOpenPanel();
   const items: MenuItem[] = [
-    ...pageList.filter((p) => p.kind === "page" && p.id !== "not-found").map((p) => ({ label: p.title, onSelect: () => openPage(p.id) })),
+    ...pageList.filter((p) => p.kind === "page" && p.id !== "not-found").map((p) => ({ label: p.title, title: true, onSelect: () => openPage(p.id) })),
     "divider" as const,
     { label: "All pages, collections and studies…", onSelect: () => openPanel("pages") },
   ];
@@ -249,6 +249,11 @@ export function FieldsPanel({ children, itemSelector }: { children: ReactNode; i
   const selected = usePuck((s) => s.selectedItem);
   const getPuck = useGetPuck();
   const { current } = useStudio();
+  // Content first; Layout holds width, spacing, screens and entrance.
+  const [tabFor, setTabFor] = useState<{ id: string; tab: "content" | "layout" }>({ id: "", tab: "content" });
+  const selectedId = (selected?.props?.id as string | undefined) ?? "";
+  const tab = tabFor.id === selectedId ? tabFor.tab : "content";
+  const hasLayout = Boolean(selected && (blocks as Record<string, { fields?: Record<string, unknown> }>)[selected.type]?.fields?.layout);
   const crumbs = useMemo(() => {
     if (!itemSelector?.zone || !selected) return [];
     const out: { id: string; label: string }[] = [];
@@ -273,26 +278,35 @@ export function FieldsPanel({ children, itemSelector }: { children: ReactNode; i
   return (
     <div className={ui.root}>
       <div className={st.fieldsHead}>
-        <div className={st.crumbs}>
-          <button type="button" onClick={() => getPuck().dispatch({ type: "setUi", ui: { itemSelector: null } })}>
-            {current.root.props.title}
-          </button>
-          {crumbs.map((c) => (
-            <span key={c.id} style={{ display: "inline-flex", alignItems: "center", gap: 4 }}>
-              <CaretRightIcon size={10} aria-hidden="true" />
-              <button type="button" onClick={() => selectParent(c.id)}>
-                {c.label}
-              </button>
-            </span>
-          ))}
-        </div>
         {selected ? (
           <>
+            <nav className={st.crumbs} aria-label="Where this block sits">
+              <button type="button" onClick={() => getPuck().dispatch({ type: "setUi", ui: { itemSelector: null } })}>
+                {current.root.props.title}
+              </button>
+              {crumbs.map((c) => (
+                <span key={c.id} className={st.crumb}>
+                  <CaretRightIcon size={11} aria-hidden="true" />
+                  <button type="button" onClick={() => selectParent(c.id)}>
+                    {c.label}
+                  </button>
+                </span>
+              ))}
+            </nav>
             <h2 style={{ display: "flex", alignItems: "center", gap: 8 }}>
               <BlockIcon name={selected.type} size={18} />
               {blockLabel(selected.type)}
             </h2>
             <p>{blockDescription(selected.type)}</p>
+            {hasLayout ? (
+              <div className={st.tabs} role="tablist" aria-label="Settings">
+                {(["content", "layout"] as const).map((t) => (
+                  <button key={t} type="button" role="tab" aria-selected={tab === t} onClick={() => setTabFor({ id: selectedId, tab: t })}>
+                    {t === "content" ? "Content" : "Layout"}
+                  </button>
+                ))}
+              </div>
+            ) : null}
           </>
         ) : (
           <>
@@ -301,7 +315,7 @@ export function FieldsPanel({ children, itemSelector }: { children: ReactNode; i
           </>
         )}
       </div>
-      <div className={st.fieldsBody}>
+      <div className={st.fieldsBody} data-tab={selected && hasLayout ? tab : undefined} role={selected && hasLayout ? "tabpanel" : undefined}>
         {children}
         {selected ? <p className={st.fieldsTip}>Words on the page can be edited right there: click them and type.</p> : null}
       </div>

@@ -78,6 +78,15 @@ function Bridge() {
   useEffect(() => rememberLayout({ width, plugin, left, right }), [width, plugin, left, right, rememberLayout]);
 
   useEffect(() => {
+    // On a narrow window, show the page as a phone shows it rather than a
+    // shrunken desktop.
+    const ui = getPuck().appState.ui as { viewports?: { current?: { width?: number } } };
+    if (window.innerWidth < 768 && (ui.viewports?.current?.width ?? 0) > 768) {
+      getPuck().dispatch({ type: "setUi", ui: { viewports: { current: { width: 390, height: "auto" }, controlsVisible: false, options: VIEWPORTS } } });
+    }
+  }, [getPuck]);
+
+  useEffect(() => {
     registerPuck(getPuck as never);
     const want = takePendingSelect();
     const timer = want ? setTimeout(() => selectAndReveal(getPuck() as never, want), 300) : undefined;
@@ -115,6 +124,8 @@ function uiFor(l: Layout) {
   return {
     leftSideBarVisible: l.left,
     rightSideBarVisible: l.right,
+    leftSideBarWidth: 320,
+    rightSideBarWidth: 340,
     plugin: { current: l.plugin },
     viewports: { current: { width: l.width, height: "auto" as const }, controlsVisible: false, options: VIEWPORTS },
     previewMode: "edit" as const,

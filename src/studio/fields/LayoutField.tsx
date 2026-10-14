@@ -86,7 +86,7 @@ export function LayoutField({ field, id, value, onChange, readOnly }: FieldProps
 
   return (
     <FieldShell label={field.label} labelId={`${id}-label`} readOnly={readOnly}>
-      <div className={css.layout}>
+      <div className={css.layout} data-field-kind="layout">
         {widths.length > 1 ? (
           <div className={css.sub}>
             <span className={ui.label} id={`${id}-width`}>

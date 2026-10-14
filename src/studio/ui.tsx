@@ -191,7 +191,7 @@ export function Dialog({ open, onClose, title, children, footer, size = "m", sty
   );
 }
 
-export type MenuItem = { label: string; icon?: ReactNode; onSelect: () => void; danger?: boolean } | "divider";
+export type MenuItem = { label: string; icon?: ReactNode; onSelect: () => void; danger?: boolean; title?: boolean } | "divider";
 
 /** A small menu that opens from a button, positioned to stay on screen. */
 export function Menu({ trigger, items, label }: { trigger: (p: { onClick: () => void; "aria-expanded": boolean; "aria-haspopup": "menu" }) => ReactNode; items: MenuItem[]; label: string }) {
@@ -238,6 +238,7 @@ export function Menu({ trigger, items, label }: { trigger: (p: { onClick: () => 
                 type="button"
                 role="menuitem"
                 data-danger={item.danger || undefined}
+                style={item.title ? { fontFamily: "var(--font-display)", fontSize: 16 } : undefined}
                 onClick={() => {
                   setOpen(false);
                   item.onSelect();

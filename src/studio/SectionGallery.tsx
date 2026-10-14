@@ -1,95 +1,82 @@
 "use client";
 
-// "+ Add section": a gallery of ready-made section designs, each drawn as a
-// small sketch in the site's materials. Choosing one deals it onto the page.
-import { useGetPuck } from "@puckeditor/core";
-import { useState, type CSSProperties } from "react";
+// "+ Add section": the section designs as a shade card. Each design is a real,
+// scaled-down render of its blocks (filled with her own photographs for the
+// preview), mounted on a sheet of card stock with a punched hole, glued a
+// little crooked to the board. Handling a sheet lifts it, as cloth lifts off a
+// shade card; choosing one deals it onto the page.
+import { Render, useGetPuck } from "@puckeditor/core";
+import { useMemo, useState, type CSSProperties } from "react";
+import { config as siteConfig } from "@/blocks/config";
+import type { MediaItem, Photo } from "@/lib/content-types";
 import { insertTree } from "./puck-utils";
-import { presetGroups, presets, type Sketch } from "./presets";
+import { presetGroups, presets, type Preset } from "./presets";
 import { useStudio } from "./state";
 import { Dialog } from "./ui";
 import st from "./studio.module.css";
 
-const SWATCH_TONES = ["#a34435", "#6a2222", "#0c213c", "#6a727d", "#4a6963", "#e4bb6b", "#ad6554", "#e2d9c7"];
+const PLATE_WIDTH = 210;
+// Designs made of words preview narrower, so their type stays legible.
+const previewWidth = (p: Preset) => (p.group === "Words" || p.group === "Highlights" ? 820 : 1200);
 
-function SketchRow({ row }: { row: Sketch }) {
-  const spans = row.map((c) => c.span ?? Math.floor(12 / row.length));
+type Node = Record<string, unknown>;
+
+/** Puts her photographs into a preview's empty photo slots (the inserted section stays empty). */
+function withSamplePhotos<T>(tree: T, photos: Photo[]): T {
+  let n = 0;
+  const visit = (v: unknown, key?: string): unknown => {
+    if (Array.isArray(v)) return v.map((x) => visit(x));
+    if (v && typeof v === "object") return Object.fromEntries(Object.entries(v as Node).map(([k, x]) => [k, visit(x, k)]));
+    if (v === null && (key === "photo" || key === "cover") && photos.length) return photos[n++ % photos.length];
+    return v;
+  };
+  const filled = visit(tree) as Node;
+  // Galleries and photo strips start empty; show them with a few photographs.
+  const fill = (node: Node): Node => {
+    if (!node || typeof node !== "object") return node;
+    const props = { ...(node.props as Node) };
+    if (node.type === "Gallery" && !(props.items as unknown[])?.length) props.items = photos.slice(0, 6).map((photo) => ({ photo, caption: "" }));
+    for (const [k, v] of Object.entries(props)) if (Array.isArray(v) && v.some((x) => x && typeof x === "object" && "type" in x)) props[k] = v.map((x) => fill(x as Node));
+    return { ...node, props: { ...props, id: `preview-${node.type}-${n++}` } };
+  };
+  return fill(filled) as T;
+}
+
+function Sheet({ preset, index, photos, onChoose }: { preset: Preset; index: number; photos: Photo[]; onChoose: () => void }) {
+  const { meta } = useStudio();
+  const data = useMemo(
+    () => ({ root: { props: {} }, content: [withSamplePhotos(preset.tree, photos.slice(index % Math.max(photos.length, 1)).concat(photos))] }),
+    [preset, photos, index],
+  );
+  const tilt = (((index * 37) % 7) - 3) * 0.35;
   return (
-    <div className={st.sketchRow}>
-      {row.map((c, i) => {
-        const style = { gridColumn: `span ${spans[i]}` } as CSSProperties;
-        switch (c.kind) {
-          case "bars":
-            return (
-              <div key={i} className={st.skBars} data-tone={c.tone} style={style}>
-                {Array.from({ length: c.n ?? 2 }, (_, j) => (
-                  <i key={j} />
-                ))}
-              </div>
-            );
-          case "photo":
-            return <div key={i} className={st.skPhoto} data-tone={c.tone} style={style} />;
-          case "band":
-            return <div key={i} className={st.skBand} data-tone={c.tone} style={style} />;
-          case "swatches":
-            return (
-              <div key={i} className={st.skSwatches} style={style}>
-                {Array.from({ length: c.n ?? 4 }, (_, j) => (
-                  <i key={j} style={{ background: SWATCH_TONES[j % SWATCH_TONES.length], rotate: `${((j * 37) % 7) - 3}deg` }} />
-                ))}
-              </div>
-            );
-          case "quote":
-            return (
-              <div key={i} className={st.skQuote} style={style}>
-                <i />
-                <i style={{ width: "70%" }} />
-              </div>
-            );
-          case "button":
-            return <div key={i} className={st.skButton} style={{ ...style, gridColumn: "4 / span 6" }} />;
-          case "cols":
-            return (
-              <div key={i} className={st.skCols} style={{ ...style, "--n": c.n ?? 2 } as CSSProperties}>
-                {Array.from({ length: c.n ?? 2 }, (_, j) => (
-                  <div key={j} className={st.skBars}>
-                    <i style={{ height: 8, background: "#161615", width: "60%" }} />
-                    <i />
-                    <i />
-                  </div>
-                ))}
-              </div>
-            );
-          case "grid":
-            return (
-              <div key={i} className={st.skGrid} style={style}>
-                {Array.from({ length: c.n ?? 6 }, (_, j) => (
-                  <i key={j} style={{ aspectRatio: j % 2 ? "4 / 5" : "1" }} />
-                ))}
-              </div>
-            );
-          case "board":
-            return (
-              <div key={i} className={st.skBoard} style={{ ...style, gridColumn: "1 / -1" }}>
-                <i style={{ left: "8%", top: "14%", width: "34%", height: "62%" }} />
-                <i style={{ left: "38%", top: "30%", width: "26%", height: "50%", background: "#6a2222", rotate: "3deg" }} />
-                <i style={{ left: "68%", top: "12%", width: "22%", height: "22%", background: "#e4bb6b", rotate: "-4deg" }} />
-                <i style={{ left: "10%", top: "82%", width: "30%", height: "6%", background: "#161615" }} />
-              </div>
-            );
-          case "word":
-            return <div key={i} className={st.skWord} style={style} />;
-        }
-      })}
+    <div className={st.sheet} style={{ "--tilt": `${tilt}deg` } as CSSProperties}>
+      <span className={st.sheetHole} aria-hidden="true" />
+      <div className={st.sheetPlate} aria-hidden="true" inert>
+        <div className={st.sheetRender} style={{ width: previewWidth(preset), zoom: PLATE_WIDTH / previewWidth(preset) }}>
+          <Render config={siteConfig} data={data as never} metadata={{ ...meta, editing: true, preview: true } as never} />
+        </div>
+      </div>
+      <button type="button" className={st.sheetChoose} onClick={onChoose}>
+        <strong>{preset.title}</strong>
+        <small>{preset.description}</small>
+      </button>
     </div>
   );
 }
 
 export function SectionGallery() {
-  const { gallery, closeGallery } = useStudio();
+  const { gallery, closeGallery, content } = useStudio();
   const getPuck = useGetPuck();
   const [group, setGroup] = useState<string>("All");
   const list = presets.filter((p) => group === "All" || p.group === group);
+
+  // Her own photographs, a varied handful, to show each design as it could look.
+  const photos = useMemo(() => {
+    const pool = content.media.filter((m: MediaItem) => m.kind !== "video" && m.width >= 900 && !/--chip/.test(m.src));
+    const step = Math.max(1, Math.floor(pool.length / 12));
+    return pool.filter((_, i) => i % step === 0).slice(0, 12).map(({ name: _n, folder: _f, added: _a, kind: _k, ...img }) => img as Photo);
+  }, [content.media]);
 
   const choose = (id: string) => {
     const preset = presets.find((p) => p.id === id);
@@ -107,18 +94,11 @@ export function SectionGallery() {
               {g}
             </button>
           ))}
+          <p className={st.galleryNote}>Previews use your photos to show how each design looks. It arrives with empty places for your own.</p>
         </nav>
-        <div className={st.presets}>
-          {list.map((p) => (
-            <button key={p.id} type="button" className={st.preset} onClick={() => choose(p.id)}>
-              <span className={st.sketch} aria-hidden="true">
-                {p.sketch.map((row, i) => (
-                  <SketchRow key={i} row={row} />
-                ))}
-              </span>
-              <strong>{p.title}</strong>
-              <small>{p.description}</small>
-            </button>
+        <div className={st.sheets}>
+          {list.map((p, i) => (
+            <Sheet key={p.id} preset={p} index={i} photos={photos} onChoose={() => choose(p.id)} />
           ))}
         </div>
       </div>

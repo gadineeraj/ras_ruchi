@@ -19,6 +19,43 @@ type Info = { label?: string; description?: string; keywords?: string[] };
 
 const info = (name: string) => (blocks as unknown as Record<string, Info>)[name] ?? {};
 
+/** Two lines' worth on a tile. */
+const SHORT: Record<string, string> = {
+  Heading: "A title, hero size to small",
+  Text: "Paragraphs, lists and links",
+  Tagline: "One line in Bodoni italic",
+  Quote: "Her words, in italic",
+  Keywords: "Small printed tags",
+  Facts: "Label and detail rows",
+  Button: "A link people press",
+  Image: "One photo, cropped and framed",
+  Gallery: "Photos in a grid or a strip",
+  StudyImages: "Photos shown whole",
+  Video: "YouTube, Vimeo or a clip",
+  Swatches: "Pinked swatches with shades",
+  SwatchViewer: "Swatches beside a room",
+  ThenNow: "A study and what it became",
+  Section: "A heading with blocks inside",
+  Columns: "Two to four, side by side",
+  Card: "Card stock with a colour band",
+  FreeCanvas: "Place anything anywhere",
+  Spacer: "Empty space",
+  Divider: "A printed rule",
+  HomeHero: "Her name, menu and swatches",
+  CollectionCards: "Every collection as a card",
+  ShadeBoard: "Every colourway on a board",
+  StudySheets: "Her studies as sheets",
+  ProcessSteps: "A project, step by step",
+  PracticeWay: "A big word and examples",
+  Quotes: "A row of her sentences",
+  PageTitle: "The page title and intro",
+  BackLink: "A small link back",
+  CollectionCard: "A whole collection",
+  CollectionPager: "Previous and next collection",
+  StudyHeader: "Title, credits and cover",
+  StudyFooter: "Source and next study",
+};
+
 function matches(name: string, q: string) {
   if (!q) return true;
   const i = info(name);
@@ -62,7 +99,7 @@ export function AddPanel() {
 
           <label className={st.search}>
             <MagnifyingGlassIcon size={16} />
-            <input className={ui.input} type="search" placeholder="Find a block: photo, quote, swatch…" value={q} onChange={(e) => setQ(e.currentTarget.value)} aria-label="Find a block" />
+            <input className={ui.input} type="search" placeholder="Find a block" value={q} onChange={(e) => setQ(e.currentTarget.value)} aria-label="Find a block" />
           </label>
 
           {groups.length ? (
@@ -74,10 +111,10 @@ export function AddPanel() {
                     {g.names.map((name) => (
                       <Drawer.Item key={name} name={name} label={info(name).label ?? name}>
                         {() => (
-                          <div className={st.tile} title="Drag onto the page, or press + to add it after the selected block">
+                          <div className={st.tile} title={`${info(name).description ?? ""} Drag onto the page, or press + to add it after the selected block.`}>
                             <BlockIcon name={name} size={20} />
                             <strong>{info(name).label ?? name}</strong>
-                            <small>{info(name).description}</small>
+                            <small>{SHORT[name] ?? info(name).description}</small>
                             <button
                               type="button"
                               className={st.tileAdd}
