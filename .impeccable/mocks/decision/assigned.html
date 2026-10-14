@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Rozha+One&family=Bodoni+Moda:ital,wght@1,500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0}
+html,body{width:1440px;height:900px;overflow:hidden}
+body{background:#d6d6d1;font:15px/1.5 Jost,sans-serif;color:#161615}
+.bar{height:52px;display:flex;align-items:center;gap:18px;padding:0 20px;background:#f4f4f1;border-bottom:1px solid rgb(22 22 21/.16)}
+.logo{font:21px Rozha One,serif}
+.pg{display:flex;align-items:center;gap:8px;padding:6px 12px;border:1px solid rgb(22 22 21/.25);font-weight:500}
+.grow{flex:1}
+.seg{display:flex;border:1px solid rgb(22 22 21/.25)}
+.seg span{padding:6px 12px;font-size:13px}.seg .on{background:#161615;color:#f4f4f1}
+.saved{font:500 11.5px Jost;letter-spacing:.12em;text-transform:uppercase;color:#4d4d48}
+.btn{padding:8px 16px;background:#161615;color:#f4f4f1;font-weight:600}
+.stage{position:relative;height:848px;padding:28px 120px 0}
+.card{position:relative;background:#f4f4f1;height:820px;padding:36px 44px;box-shadow:0 12px 32px -18px rgb(20 20 16/.35)}
+.hole{position:absolute;top:18px;left:18px;width:15px;height:15px;border-radius:50%;background:#d6d6d1;box-shadow:inset 0 2px 2.5px rgb(0 0 0/.3)}
+.rule{display:flex;justify-content:space-between;padding:0 0 14px 30px;border-bottom:1px solid rgb(22 22 21/.42);font:500 11.5px Jost;letter-spacing:.12em;text-transform:uppercase}
+.rule nav{display:flex;gap:30px}
+.grid{display:grid;grid-template-columns:7fr 3fr;gap:36px;margin-top:26px}
+.mark{font:150px/0.84 Rozha One,serif;letter-spacing:-.02em;position:relative}
+.editing{outline:2px solid #6a2222;outline-offset:6px}
+.caret{display:inline-block;width:3px;height:120px;background:#6a2222;vertical-align:-6px;margin-left:4px}
+.lead{font-size:22px;line-height:1.42;max-width:28ch;margin-top:150px}
+.cta{display:inline-block;margin-top:22px;padding:14px 22px;background:#161615;color:#f4f4f1;font-weight:600}
+.win{height:430px;background:linear-gradient(160deg,#b8472f,#8e3524);box-shadow:inset 0 0 0 10px #efe9df}
+.cap{margin-top:12px;font:18px Rozha One}
+.chips{display:flex;gap:22px;margin-top:34px}
+.sw{width:96px;height:96px;filter:drop-shadow(0 5px 9px rgb(20 20 16/.2))}
+.margin{position:absolute;left:58px;display:flex;flex-direction:column;align-items:center;gap:6px}
+.plus{width:34px;height:34px;border-radius:50%;background:#161615;color:#f4f4f1;display:grid;place-items:center;font-size:22px}
+.grip{width:34px;height:22px;display:grid;place-items:center;color:#4d4d48;letter-spacing:2px}
+.menu{position:absolute;left:104px;top:330px;width:340px;background:#f4f4f1;padding:16px;box-shadow:0 1px 2px rgb(20 20 16/.1),0 24px 48px -20px rgb(20 20 16/.5);z-index:3}
+.menu input{width:100%;padding:9px 12px;border:1px solid rgb(22 22 21/.3);font:15px Jost;background:#fff}
+.menu h6{font:500 11px Jost;letter-spacing:.12em;text-transform:uppercase;color:#4d4d48;margin:14px 0 8px}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.tile{background:#fff;border:1px solid rgb(22 22 21/.12);padding:8px;font-size:13px;font-weight:500}
+.tile i{display:block;height:42px;margin-bottom:6px;background:#e6e5e0}
+.tile.on{outline:2px solid #6a2222}
+.pop{position:absolute;right:150px;top:150px;width:290px;background:#f4f4f1;padding:16px;box-shadow:0 1px 2px rgb(20 20 16/.1),0 24px 48px -20px rgb(20 20 16/.5)}
+.pop label{display:block;font:500 11px Jost;letter-spacing:.12em;text-transform:uppercase;color:#4d4d48;margin:10px 0 6px}
+.chip{display:inline-block;padding:5px 10px;border:1px solid rgb(22 22 21/.25);font-size:13px;margin:0 4px 4px 0}
+.chip.on{background:#161615;color:#f4f4f1}
+</style></head><body>
+<div class="bar">
+  <span class="logo">ras.ruchi Studio</span>
+  <span class="pg">Home ▾</span>
+  <span class="grow"></span>
+  <span>↶ Undo</span><span>↷ Redo</span>
+  <span class="seg"><span class="on">Desktop</span><span>Tablet</span><span>Phone</span></span>
+  <span class="saved">Saved · just now</span>
+  <span class="btn">Preview</span>
+</div>
+<div class="stage">
+  <div class="margin" style="top:150px"><span class="grip">⋮⋮</span><span class="plus">+</span></div>
+  <div class="card">
+    <span class="hole"></span>
+    <div class="rule"><span>Shruchi Jaiswal, textile designer</span><nav><span>Collections</span><span>Studies</span><span>Practice</span><span>Contact</span></nav></div>
+    <div class="grid">
+      <div>
+        <h1 class="mark editing">ras.ruchi<span class="caret"></span></h1>
+        <p class="lead">Shruchi Jaiswal draws motifs from craft, ritual and place, and turns them into cloth that people live with.</p>
+        <span class="cta">Open the collections →</span>
+      </div>
+      <div><div class="win"></div><p class="cap">Kinari in Brick Red</p><p>As a blind. Rasaa, Festive ensemble 2026.</p></div>
+    </div>
+    <div class="chips">
+      <i class="sw" style="background:#a34435"></i><i class="sw" style="background:#6a2222"></i><i class="sw" style="background:#0c213c"></i><i class="sw" style="background:#6a727d"></i><i class="sw" style="background:#4a6963"></i><i class="sw" style="background:#e4bb6b"></i><i class="sw" style="background:#ad6554"></i><i class="sw" style="background:#e2d9c7"></i>
+    </div>
+  </div>
+  <div class="menu">
+    <input value="ima" aria-label="Find a block">
+    <h6>Photos</h6>
+    <div class="tiles"><span class="tile on"><i></i>Image</span><span class="tile"><i></i>Gallery</span><span class="tile"><i></i>Then &amp; now</span></div>
+    <h6>Layout</h6>
+    <div class="tiles"><span class="tile"><i></i>Image + text</span><span class="tile"><i></i>Free canvas</span><span class="tile"><i></i>Highlight card</span></div>
+  </div>
+  <div class="pop">
+    <strong>Wordmark</strong>
+    <label>Size</label><span class="chip">Large</span><span class="chip on">Hero</span>
+    <label>Show on</label><span class="chip on">Every screen</span><span class="chip">Desktop only</span>
+  </div>
+</div>
+</body></html>

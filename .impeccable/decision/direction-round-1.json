@@ -1,0 +1,165 @@
+{
+  "title": "Choose the visual world for ras.ruchi",
+  "question": "The roll assigned The Working Sketchbook. Keep it, take an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "kind": "assigned",
+      "label": "The Working Sketchbook",
+      "kicker": "THE ROLL",
+      "lineage": "A textile student's black-paper sketchbook: gouache studies, taped swatches, tracing-paper motif overlays (NID process journals).",
+      "thesis": "The site is Shruchi's own sketchbook: every collection opens the way she builds it, from what she saw, to the motif, to the cloth.",
+      "palette": ["#17161c", "#f1ece2", "#b23a2a", "#d9a632", "#2f6b4f", "#24407a"],
+      "materials": ["black handmade paper", "gouache swatches", "masking tape", "tracing-paper overlays"],
+      "viewport": "One open spread on a single gutter: left page carries the hand-set name and today's gouache swatches (Rasaa's brick red, herb green, zari gold); right page is a full-bleed photograph of her cloth taped in, with a tracing-paper sheet over it showing the motif drawn out.",
+      "risk": "Can tip into scrapbook kitsch if the tape and pins become decoration instead of structure.",
+      "raised": [
+        { "from": "challenger-cloud-quarry", "raise": "Spreads are cut as separate blocks with real gaps of bare paper between them, not one continuous scroll." },
+        { "from": "challenger-centre-rail", "raise": "Every work carries a hairline-ruled margin note naming craft, place and community, set like an apparatus, never as a caption card." },
+        { "from": "challenger-event-display", "raise": "Selecting one design isolates it on the spread and dims the rest, so a 66-design collection can be read one piece at a time." },
+        { "from": "challenger-cracktro", "raise": "Nothing is boxed: no cards, no frames, no rules around work; the cloth sits straight on the paper." }
+      ],
+      "wireframe": { "cols": 12, "rows": 10, "regions": [
+        { "label": "name + gouache swatches (left page)", "x": 0, "y": 0, "w": 5, "h": 10 },
+        { "label": "gutter", "x": 5, "y": 0, "w": 1, "h": 10 },
+        { "label": "taped cloth photo", "x": 6, "y": 0, "w": 6, "h": 10, "accent": true },
+        { "label": "tracing overlay: motif", "x": 7, "y": 2, "w": 4, "h": 5 }
+      ] }
+    },
+    {
+      "id": "model-pick",
+      "kind": "pick",
+      "label": "The Shade Card",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "Textile mill shade cards and swatch books: pinked swatches pinned to card, each with colourway codes.",
+      "thesis": "Every design is shown the way a mill shows cloth: as swatches in all its colourways, which you flip to see the room change.",
+      "palette": ["#ece7dc", "#1d1d1b", "#a8442e", "#5b7f63", "#c99a3c"],
+      "materials": ["pinked swatch card", "shade-card index", "colourway codes"],
+      "viewport": "A wide shade card of Rasaa: twelve pinked swatches in a row, the name as the card's printed header, one swatch lifted to show the cloth in a room.",
+      "risk": "The most familiar route for a textile portfolio; reads like a catalogue if the stories don't break through.",
+      "wireframe": { "cols": 12, "rows": 10, "regions": [
+        { "label": "card header: name", "x": 0, "y": 0, "w": 12, "h": 2 },
+        { "label": "swatch row", "x": 0, "y": 2, "w": 12, "h": 3, "accent": true },
+        { "label": "lifted swatch: room photo", "x": 3, "y": 5, "w": 6, "h": 5 }
+      ] }
+    },
+    {
+      "id": "challenger-multiplane",
+      "kind": "challenger",
+      "catalogId": "cinema-cinematography-editing-multiplane-cel-dawn",
+      "verdict": "competitive",
+      "label": "Layered Window",
+      "lineage": "Multiplane cel animation, fused with her combo curtains: sheer, print and solid hung in layers at a window.",
+      "thesis": "The page is a dressed window: her sheer, print and solid move as separate planes, and scrolling racks focus from cloth to room.",
+      "palette": ["#2c2a24", "#efe9df", "#3f6d55", "#a8442e", "#e2b45a"],
+      "materials": ["sheer cotton planes", "printed panels", "window light"],
+      "viewport": "A window filling the screen: a sheer drifting slowly in front, her printed curtain behind it, the room glowing beyond; the name sits on the nearest plane.",
+      "case": "Strongest audience identification (it is literally how her cloth lives in a home); loses on clarity because motion and layering can bury the work itself.",
+      "risk": "Heavy motion; needs careful fallbacks so the photographs stay the hero.",
+      "hero": "https://impeccable.style/worlds/cards/cinema-cinematography-editing-multiplane-cel-dawn-hero.webp",
+      "wireframe": { "cols": 12, "rows": 10, "regions": [
+        { "label": "far plane: room", "x": 0, "y": 0, "w": 12, "h": 10 },
+        { "label": "print plane", "x": 2, "y": 0, "w": 6, "h": 10, "accent": true },
+        { "label": "sheer plane + name", "x": 6, "y": 0, "w": 6, "h": 10 }
+      ] }
+    },
+    {
+      "id": "challenger-broadside",
+      "kind": "challenger",
+      "catalogId": "posters-covers-sleeves-posada-calavera-broadside",
+      "verdict": "competitive",
+      "label": "Block-printed Broadsheet",
+      "lineage": "Penny-press relief broadsides, fused with her Kalamkari and Ajrak block printing and the Chitrakatha comic bag.",
+      "thesis": "Each project is printed as one sheet: a relief image band in a single ink, her own story set tight in two columns below.",
+      "palette": ["#efe6d6", "#1f2a4d", "#a3332a", "#1b1a17"],
+      "materials": ["block-printed muslin", "indigo and madder ink", "wood-type headlines"],
+      "viewport": "A full sheet: 'ras.ruchi' in mixed wood type, an indigo-printed image band of Sura's motifs, and two dense columns of her words beneath.",
+      "case": "Holds identification (block printing is her craft); loses on clarity because a single-ink treatment fights how much colour her work carries.",
+      "risk": "Can read as a poster homage rather than a portfolio of colourful cloth.",
+      "hero": "https://impeccable.style/worlds/cards/posters-covers-sleeves-posada-calavera-broadside-hero.webp",
+      "wireframe": { "cols": 12, "rows": 10, "regions": [
+        { "label": "wood-type masthead", "x": 0, "y": 0, "w": 12, "h": 2 },
+        { "label": "printed image band", "x": 0, "y": 2, "w": 12, "h": 4, "accent": true },
+        { "label": "column 1", "x": 0, "y": 6, "w": 6, "h": 4 },
+        { "label": "column 2", "x": 6, "y": 6, "w": 6, "h": 4 }
+      ] }
+    },
+    {
+      "id": "challenger-cloud-quarry",
+      "kind": "challenger",
+      "catalogId": "dream-surreal-impossible-worlds-cloud-quarry",
+      "verdict": "declined",
+      "label": "Cloud Quarry",
+      "lineage": "Surreal weather quarry",
+      "thesis": "Sections cut from weather and assembled.",
+      "palette": ["#f4f6f8", "#7fb3e0", "#5d6470"],
+      "materials": ["cumulus blocks", "stencil tallies"],
+      "viewport": "A cliff of cut cloud blocks.",
+      "case": "Fuses poorly: nothing in her world or her visitors' world maps to weather quarrying.",
+      "kept": "Sections cut as distinct blocks with real gaps between them.",
+      "risk": "Surreal costume with no tie to cloth."
+    },
+    {
+      "id": "challenger-centre-rail",
+      "kind": "challenger",
+      "catalogId": "rw-centre-rail-reference-setting",
+      "verdict": "declined",
+      "label": "Centre-rail Edition",
+      "lineage": "Scholarly reference setting",
+      "thesis": "Two columns around a rail of keys with marginal apparatus.",
+      "palette": ["#efe8da", "#1a1a1a", "#c0392b"],
+      "materials": ["ruled hairlines", "small caps apparatus"],
+      "viewport": "A dense edition page.",
+      "case": "Fuses poorly: too text-led for work that is mostly image and colour.",
+      "kept": "A hairline margin apparatus that credits craft, place and community on every work.",
+      "risk": "Buries the cloth under typography."
+    },
+    {
+      "id": "challenger-event-display",
+      "kind": "challenger",
+      "catalogId": "scientific-notation-particle-detector-event-display",
+      "verdict": "declined",
+      "label": "Event Display",
+      "lineage": "Collider detector graphics",
+      "thesis": "Works as tracks radiating from one event.",
+      "palette": ["#0b0d12", "#e8d44d", "#4fb3d9"],
+      "materials": ["detector rings", "signal tracks"],
+      "viewport": "A radial collision.",
+      "case": "Fuses poorly: scientific coldness against warm handwork.",
+      "kept": "Select one piece to isolate it and dim the rest.",
+      "risk": "Clinical."
+    },
+    {
+      "id": "challenger-cracktro",
+      "kind": "challenger",
+      "catalogId": "operate-c-cracktro-scroller-queue",
+      "verdict": "declined",
+      "label": "Cracktro Scroller",
+      "lineage": "Demo-scene title screens",
+      "thesis": "Bitmap text over a drifting void.",
+      "palette": ["#000000", "#efe8d8", "#f0a020"],
+      "materials": ["bitmap type", "star fields"],
+      "viewport": "One line of text on black.",
+      "case": "Fuses poorly: no link to textiles.",
+      "kept": "Nothing boxed: no cards or frames around the work.",
+      "risk": "Retro gimmick."
+    }
+  ],
+  "reroll": { "registers": ["safer", "bolder"] },
+  "buildPath": { "value": "code" },
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "A clean white gallery portfolio, executed impeccably.",
+    "palette": ["#ffffff", "#141414", "#8a8a8a"],
+    "materials": ["white ground", "image grid", "small sans labels"],
+    "viewport": "Name top-left, a large image, a grid of projects below.",
+    "risk": "Indistinguishable from every other designer portfolio by design.",
+    "wireframe": { "cols": 12, "rows": 10, "regions": [
+      { "label": "nav", "x": 0, "y": 0, "w": 12, "h": 1 },
+      { "label": "hero image", "x": 0, "y": 1, "w": 12, "h": 5, "accent": true },
+      { "label": "grid", "x": 0, "y": 6, "w": 12, "h": 4 }
+    ] }
+  },
+  "steer": true
+}

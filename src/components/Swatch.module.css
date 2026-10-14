@@ -1,0 +1,23 @@
+.lift {
+  display: block;
+  rotate: var(--tilt, 0deg);
+  filter: var(--cloth-shadow);
+  transition:
+    translate 360ms var(--ease-out),
+    rotate 360ms var(--ease-out),
+    scale 360ms var(--ease-out),
+    filter 360ms var(--ease-out);
+}
+
+.cloth {
+  position: relative;
+  display: block;
+  aspect-ratio: 1;
+  overflow: hidden;
+  -webkit-mask: var(--pinked) center / 100% 100% no-repeat;
+  mask: var(--pinked) center / 100% 100% no-repeat;
+}
+
+.cloth img {
+  object-fit: cover;
+}

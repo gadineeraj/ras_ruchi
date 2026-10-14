@@ -1,0 +1,303 @@
+/* ras.ruchi: a shade card. Grey mill board, white card stock, cut cloth. */
+
+:root {
+  --board: #d6d6d1;
+  --board-deep: #c9c9c3;
+  --card: #f4f4f1;
+  --ink: #161615;
+  --ink-2: #4d4d48;
+  --hair: rgb(22 22 21 / 0.16);
+  --hair-strong: rgb(22 22 21 / 0.42);
+
+  --band-rasaa: #33503f;
+  --band-entwine: #56698a;
+  --band-ratna: #6a2222;
+  --band-pause: #d9a64a;
+  --band-archive: #2c3d63;
+
+  --cloth-shadow: drop-shadow(0 1px 0.5px rgb(20 20 16 / 0.22)) drop-shadow(0 5px 9px rgb(20 20 16 / 0.12));
+  --cloth-shadow-lifted: drop-shadow(0 2px 1px rgb(20 20 16 / 0.18)) drop-shadow(0 16px 22px rgb(20 20 16 / 0.22));
+  --card-shadow: 0 1px 0 rgb(255 255 255 / 0.5) inset, 0 1px 2px rgb(20 20 16 / 0.1), 0 12px 32px -18px rgb(20 20 16 / 0.35);
+
+  /* The pinking-shear outline of a swatch, inlined so it works under any base path. */
+  --pinked: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath d='M0 2.4 L2.5 0 L5 2.4 L7.5 0 L10 2.4 L12.5 0 L15 2.4 L17.5 0 L20 2.4 L22.5 0 L25 2.4 L27.5 0 L30 2.4 L32.5 0 L35 2.4 L37.5 0 L40 2.4 L42.5 0 L45 2.4 L47.5 0 L50 2.4 L52.5 0 L55 2.4 L57.5 0 L60 2.4 L62.5 0 L65 2.4 L67.5 0 L70 2.4 L72.5 0 L75 2.4 L77.5 0 L80 2.4 L82.5 0 L85 2.4 L87.5 0 L90 2.4 L92.5 0 L95 2.4 L97.5 0 L97.6 0 L100 2.5 L97.6 5 L100 7.5 L97.6 10 L100 12.5 L97.6 15 L100 17.5 L97.6 20 L100 22.5 L97.6 25 L100 27.5 L97.6 30 L100 32.5 L97.6 35 L100 37.5 L97.6 40 L100 42.5 L97.6 45 L100 47.5 L97.6 50 L100 52.5 L97.6 55 L100 57.5 L97.6 60 L100 62.5 L97.6 65 L100 67.5 L97.6 70 L100 72.5 L97.6 75 L100 77.5 L97.6 80 L100 82.5 L97.6 85 L100 87.5 L97.6 90 L100 92.5 L97.6 95 L100 97.5 L100 97.6 L97.5 100 L95 97.6 L92.5 100 L90 97.6 L87.5 100 L85 97.6 L82.5 100 L80 97.6 L77.5 100 L75 97.6 L72.5 100 L70 97.6 L67.5 100 L65 97.6 L62.5 100 L60 97.6 L57.5 100 L55 97.6 L52.5 100 L50 97.6 L47.5 100 L45 97.6 L42.5 100 L40 97.6 L37.5 100 L35 97.6 L32.5 100 L30 97.6 L27.5 100 L25 97.6 L22.5 100 L20 97.6 L17.5 100 L15 97.6 L12.5 100 L10 97.6 L7.5 100 L5 97.6 L2.5 100 L2.4 100 L0 97.5 L2.4 95 L0 92.5 L2.4 90 L0 87.5 L2.4 85 L0 82.5 L2.4 80 L0 77.5 L2.4 75 L0 72.5 L2.4 70 L0 67.5 L2.4 65 L0 62.5 L2.4 60 L0 57.5 L2.4 55 L0 52.5 L2.4 50 L0 47.5 L2.4 45 L0 42.5 L2.4 40 L0 37.5 L2.4 35 L0 32.5 L2.4 30 L0 27.5 L2.4 25 L0 22.5 L2.4 20 L0 17.5 L2.4 15 L0 12.5 L2.4 10 L0 7.5 L2.4 5 L0 2.5Z'/%3E%3C/svg%3E");
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+
+  --gutter: clamp(12px, 2.4vw, 32px);
+  --pad: clamp(18px, 3vw, 44px);
+  --max: 1520px;
+
+  /* Rozha One for display and the Devanagari name, Bodoni Moda italic for
+     taglines and quotes, Jost for reading and printed labels. */
+  --font-display: var(--font-rozha), Georgia, serif;
+  --font-italic: var(--font-bodoni), "Didot", Georgia, serif;
+  --font-sans: var(--font-jost), "Avenir Next", ui-sans-serif, system-ui, sans-serif;
+  --font-label: var(--font-jost), ui-sans-serif, system-ui, sans-serif;
+  --font-deva: var(--font-rozha), serif;
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --board: #121311;
+    --board-deep: #0d0e0c;
+    --card: #1c1d1a;
+    --ink: #ebeae4;
+    --ink-2: #a8a79f;
+    --hair: rgb(235 234 228 / 0.14);
+    --hair-strong: rgb(235 234 228 / 0.4);
+    --cloth-shadow: drop-shadow(0 1px 0.5px rgb(0 0 0 / 0.5)) drop-shadow(0 6px 10px rgb(0 0 0 / 0.35));
+    --cloth-shadow-lifted: drop-shadow(0 2px 1px rgb(0 0 0 / 0.5)) drop-shadow(0 18px 24px rgb(0 0 0 / 0.5));
+    --card-shadow: 0 1px 0 rgb(255 255 255 / 0.04) inset, 0 1px 2px rgb(0 0 0 / 0.4), 0 14px 36px -16px rgb(0 0 0 / 0.7);
+    color-scheme: dark;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scrollbar-color: var(--ink-2) var(--board);
+  scroll-padding-top: 88px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--board);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 17px;
+  line-height: 1.6;
+  font-weight: 400;
+  font-feature-settings: "kern", "liga";
+  /* Rozha One has one weight and no italic: never let the browser fake them. */
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  caret-color: var(--band-ratna);
+}
+
+::selection {
+  background: var(--band-ratna);
+  color: #fbf6f1;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+ul,
+ol,
+dl,
+dd {
+  margin: 0;
+}
+
+/* -------------------------------------------------------------- type voices */
+
+/* Printed caps: what a mill prints on a card. Jost, tracked open. */
+.t-label {
+  font-family: var(--font-label);
+  font-size: 11.5px;
+  line-height: 1.35;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+/* Sized so a shade code ("Ground #A34435") fits a 95px swatch column. */
+.t-shade {
+  font-family: var(--font-label);
+  font-size: 10.5px;
+  line-height: 1.35;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  font-variant-numeric: tabular-nums;
+  text-transform: uppercase;
+  color: var(--ink-2);
+}
+
+.t-wordmark {
+  font-family: var(--font-display);
+  font-size: clamp(64px, 11.4vw, 184px);
+  line-height: 0.84;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+.t-display {
+  font-family: var(--font-display);
+  font-size: clamp(38px, 5.6vw, 84px);
+  line-height: 0.98;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+
+.t-title {
+  font-family: var(--font-display);
+  font-size: clamp(25px, 2.5vw, 36px);
+  line-height: 1.05;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+.t-lead {
+  font-size: clamp(19px, 1.55vw, 23px);
+  line-height: 1.42;
+  font-weight: 400;
+  letter-spacing: -0.005em;
+  text-wrap: pretty;
+}
+
+.t-body {
+  max-width: 62ch;
+  text-wrap: pretty;
+}
+
+/* The full stop in "ras.ruchi", centred with equal space to "s" and "r".
+   Measured from rendered Rozha One at the hero, phone and header sizes; it has
+   no optical sizes, so one em-based nudge holds for all three. */
+.wordmark-dot {
+  margin-inline: 0.01em -0.01em;
+}
+
+/* See src/components/kern.tsx: tucks the letter after a capital W or V. */
+.kern-w,
+.kern-v {
+  margin-right: -0.04em;
+}
+
+.t-deva {
+  font-family: var(--font-deva);
+  font-weight: 400;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* -------------------------------------------------------- shared materials */
+
+/* White card stock lying on the board, with a punched ring hole. */
+.card {
+  position: relative;
+  background: var(--card);
+  box-shadow: var(--card-shadow);
+}
+
+/* A punched hole: the board shows through, with the cut edge in shadow. */
+.card-hole {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: var(--board);
+  box-shadow:
+    inset 0 2px 2.5px rgb(0 0 0 / 0.3),
+    inset 0 -1px 0 rgb(255 255 255 / 0.25),
+    0 0 0 1px rgb(0 0 0 / 0.06);
+}
+
+.wrap {
+  width: min(100% - 2 * var(--gutter), var(--max));
+  margin-inline: auto;
+}
+
+.skip-link {
+  position: absolute;
+  left: var(--gutter);
+  top: -60px;
+  z-index: 20;
+  padding: 10px 14px;
+  background: var(--ink);
+  color: var(--card);
+}
+
+.skip-link:focus {
+  top: 10px;
+}
+
+/* ------------------------------------------------------- view transitions */
+
+::view-transition-group(.morph) {
+  animation-duration: 420ms;
+  animation-timing-function: var(--ease-out);
+}
+
+::view-transition-image-pair(.morph) {
+  animation-name: cloth-blur;
+}
+
+@keyframes cloth-blur {
+  35% {
+    filter: blur(2px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
+}

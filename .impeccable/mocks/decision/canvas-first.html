@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Rozha+One&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0}
+html,body{width:1440px;height:900px;overflow:hidden}
+body{background:#d6d6d1;font:15px/1.5 Jost,sans-serif;color:#161615;display:grid;grid-template-columns:72px 1fr 340px;grid-template-rows:52px 1fr}
+.bar{grid-column:1/-1;display:flex;align-items:center;gap:18px;padding:0 20px;background:#f4f4f1;border-bottom:1px solid rgb(22 22 21/.16)}
+.logo{font:21px Rozha One,serif}
+.pg{display:flex;gap:8px;padding:6px 12px;border:1px solid rgb(22 22 21/.25);font-weight:500}
+.grow{flex:1}
+.seg{display:flex;border:1px solid rgb(22 22 21/.25)}.seg span{padding:6px 12px;font-size:13px}.seg .on{background:#161615;color:#f4f4f1}
+.saved{font:500 11.5px Jost;letter-spacing:.12em;text-transform:uppercase;color:#4d4d48}
+.btn{padding:8px 16px;background:#161615;color:#f4f4f1;font-weight:600}
+.rail{background:#f4f4f1;border-right:1px solid rgb(22 22 21/.16);display:flex;flex-direction:column;align-items:center;gap:6px;padding-top:14px}
+.ri{width:56px;padding:9px 0;display:grid;justify-items:center;gap:3px;font:500 10.5px Jost;letter-spacing:.06em;text-transform:uppercase;color:#4d4d48}
+.ri b{width:22px;height:22px;border:1.6px solid currentColor}
+.ri.on{color:#161615;background:#e6e5e0}
+.stage{position:relative;padding:22px 26px;overflow:hidden}
+.card{position:relative;background:#f4f4f1;height:430px;padding:30px 36px;box-shadow:0 12px 32px -18px rgb(20 20 16/.35)}
+.hole{position:absolute;top:16px;left:16px;width:15px;height:15px;border-radius:50%;background:#d6d6d1;box-shadow:inset 0 2px 2.5px rgb(0 0 0/.3)}
+.rule{display:flex;justify-content:space-between;padding:0 0 12px 26px;border-bottom:1px solid rgb(22 22 21/.42);font:500 11px Jost;letter-spacing:.12em;text-transform:uppercase}
+.rule nav{display:flex;gap:26px}
+.mark{font:118px/0.84 Rozha One,serif;letter-spacing:-.02em;margin-top:24px}
+.row{display:grid;grid-template-columns:2fr 1fr;gap:24px}
+.win{height:300px;margin-top:20px;background:linear-gradient(160deg,#b8472f,#8e3524)}
+.lead{font-size:19px;max-width:30ch;margin-top:60px}
+.add{position:relative;height:46px;display:grid;place-items:center}
+.add::before{content:"";position:absolute;left:0;right:0;top:50%;border-top:1.5px dashed #6a2222}
+.pill{position:relative;padding:7px 16px;background:#6a2222;color:#f7f3ee;font:600 13px Jost;border-radius:999px}
+.sec{position:relative;padding:34px 0 0}
+.sel{outline:2px solid #6a2222;outline-offset:4px}
+.tool{position:absolute;top:-40px;left:0;display:flex;background:#161615;color:#f4f4f1;font:500 12.5px Jost}
+.tool span{padding:7px 11px;border-right:1px solid rgb(255 255 255/.15)}
+.disp{font:64px/0.98 Rozha One,serif;letter-spacing:-.015em}
+.ledeT{font-size:20px;max-width:40ch;color:#4d4d48;margin-top:10px}
+.band{height:110px;margin-top:22px;background:#33503f;color:#f7f3ee;padding:26px 40px;font:52px Rozha One;position:relative;box-shadow:0 12px 32px -18px rgb(20 20 16/.35)}
+.drawer{background:#f4f4f1;border-left:1px solid rgb(22 22 21/.16);padding:18px 20px;overflow:hidden}
+.drawer h3{font:600 17px Jost}
+.crumb{font:500 11px Jost;letter-spacing:.12em;text-transform:uppercase;color:#4d4d48;margin-bottom:4px}
+.tabs{display:flex;gap:18px;margin:16px 0;border-bottom:1px solid rgb(22 22 21/.16)}
+.tabs span{padding-bottom:8px;font-weight:500;color:#4d4d48}.tabs .on{color:#161615;border-bottom:2px solid #161615}
+label{display:block;font:500 11px Jost;letter-spacing:.12em;text-transform:uppercase;color:#4d4d48;margin:14px 0 6px}
+.in{padding:9px 12px;border:1px solid rgb(22 22 21/.3);background:#fff}
+.ta{height:84px}
+.chip{display:inline-block;padding:5px 10px;border:1px solid rgb(22 22 21/.25);font-size:13px;margin:0 4px 4px 0}.chip.on{background:#161615;color:#f4f4f1}
+.tip{margin-top:20px;padding:12px;background:#e6e5e0;font-size:13.5px}
+</style></head><body>
+<div class="bar"><span class="logo">ras.ruchi Studio</span><span class="pg">Home ▾</span><span class="grow"></span><span>↶</span><span>↷</span>
+<span class="seg"><span class="on">Desktop</span><span>Tablet</span><span>Phone</span></span><span class="saved">Saved · just now</span><span class="btn">Preview</span></div>
+<nav class="rail"><span class="ri on"><b></b>Pages</span><span class="ri"><b></b>Add</span><span class="ri"><b></b>Photos</span><span class="ri"><b></b>Site</span><span class="ri"><b></b>History</span><span class="ri"><b></b>Help</span></nav>
+<main class="stage">
+  <div class="card"><span class="hole"></span>
+    <div class="rule"><span>Shruchi Jaiswal, textile designer</span><nav><span>Collections</span><span>Studies</span><span>Practice</span><span>Contact</span></nav></div>
+    <div class="row"><div><h1 class="mark">ras.ruchi</h1><p class="lead">Shruchi Jaiswal draws motifs from craft, ritual and place, and turns them into cloth that people live with.</p></div><div class="win"></div></div>
+  </div>
+  <div class="add"><span class="pill">+ Add section</span></div>
+  <section class="sec sel">
+    <div class="tool"><span>✎ Edit</span><span>↑</span><span>↓</span><span>Duplicate</span><span>Hide</span><span>Delete</span></div>
+    <h2 class="disp">Collections</h2>
+    <p class="ledeT">Five collections designed as Design Lead at The Yellow Dwelling, Bangalore. Open a card to see every design in its colourways.</p>
+    <div class="band">Rasaa</div>
+  </section>
+</main>
+<aside class="drawer">
+  <p class="crumb">Home › Section</p><h3>Collections</h3>
+  <div class="tabs"><span class="on">Content</span><span>Layout</span><span>Motion</span></div>
+  <label>Heading</label><div class="in">Collections</div>
+  <label>Introduction</label><div class="in ta">Five collections designed as Design Lead at The Yellow Dwelling, Bangalore. Open a card to see every design in its colourways.</div>
+  <label>Show collections</label><span class="chip on">All five</span><span class="chip">Choose…</span>
+  <label>Space above</label><span class="chip">S</span><span class="chip">M</span><span class="chip on">L</span>
+  <p class="tip">Tip: click any words on the page to type straight into them.</p>
+</aside>
+</body></html>

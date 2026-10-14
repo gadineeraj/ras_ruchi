@@ -1,0 +1,147 @@
+HOW TO OPEN THE ras.ruchi WEBSITE ON YOUR MAC
+==============================================
+
+This folder is your website. It runs on your own Mac, in your web browser.
+Nothing is published online yet. You only need an internet connection for
+the first-time setup (steps 1, 4 and 5).
+
+The first time takes about 10 minutes. After that, opening the site takes
+under a minute (see "NEXT TIME" at the bottom).
+
+
+STEP 1. Install Node.js (one time only)
+---------------------------------------
+Node.js is the free program that runs the website on your Mac.
+
+  1. Go to https://nodejs.org in your browser.
+  2. Download the version marked "LTS" (any version 20.9 or newer works).
+     Choose the macOS Installer (.pkg).
+  3. Open the downloaded file and click through the installer
+     (Continue, Agree, Install). Enter your Mac password if asked.
+
+
+STEP 2. Put the website folder somewhere easy to find
+-----------------------------------------------------
+  1. Double-click the zip file you received. It unzips into a folder
+     called "ras_ruchi".
+  2. Drag that folder into your Documents folder (or anywhere you like).
+
+
+STEP 3. Open Terminal and go into the folder
+--------------------------------------------
+  1. Press Command + Space, type "Terminal", and press Return.
+     A window with a text prompt opens.
+
+  2. Check that Node.js installed correctly. Type this and press Return:
+
+       node -v
+
+     You should see a version number such as v24.11.0. If you see
+     "command not found", close Terminal, open it again, and retry.
+     If it still fails, repeat Step 1.
+
+  3. Type  cd  followed by a space (do not press Return yet):
+
+       cd
+
+  4. Drag the "ras_ruchi" folder from Finder into the Terminal
+     window. Its full location appears after "cd ". Now press Return.
+
+  5. To confirm you are in the right place, type this and press Return:
+
+       ls
+
+     You should see names like  package.json  README.md  instruction.txt
+     public  src  in the list.
+
+
+STEP 4. Install the website's parts (one time only)
+---------------------------------------------------
+Type this and press Return:
+
+       npm install
+
+It downloads what the site needs and takes 1 to 3 minutes. Wait until the
+prompt comes back. Messages that start with "npm warn" are normal.
+
+
+STEP 5. Build the website (one time, and again after any change)
+-----------------------------------------------------------------
+Type this and press Return:
+
+       npm run build
+
+This prepares every page and takes about a minute. Wait until you see a
+list of pages and the prompt comes back.
+
+
+STEP 6. Start the website
+-------------------------
+Type this and press Return:
+
+       npm start
+
+When you see a line containing "Ready" and http://localhost:3000, the site
+is running. Leave this Terminal window open while you look at the site.
+
+
+STEP 7. Open it in your browser
+-------------------------------
+Open Safari, Chrome or any browser and go to:
+
+       http://localhost:3000
+
+That is your website. Click around: Collections, Studies, Practice and
+Contact are in the menu at the top of the card.
+
+
+STEP 8. Stop the website
+------------------------
+When you are done, click the Terminal window and press Control + C.
+(Control, not Command.) Then you can close Terminal.
+
+
+NEXT TIME
+=========
+You do not need to repeat Steps 1, 4 or 5. Just:
+
+  1. Open Terminal (Command + Space, type Terminal, Return).
+  2. Type  cd  and a space, drag the ras_ruchi folder in,
+     press Return.
+  3. Type  npm start  and press Return.
+  4. Open http://localhost:3000 in your browser.
+
+
+IF SOMETHING GOES WRONG
+=======================
+"command not found: npm" or "command not found: node"
+    Node.js is not installed yet, or Terminal was open during the
+    install. Close Terminal, open it again, and retry. If it still
+    fails, install Node.js again (Step 1).
+
+"Could not find a production build" when running  npm start
+    Run  npm run build  first (Step 5), then  npm start  again.
+
+"Port 3000 is in use" or "address already in use"
+    Another copy of the site (or another program) is using that
+    address. Start it on a different one instead:
+        npm start -- -p 3001
+    then open http://localhost:3001 in your browser.
+
+The page will not load in the browser
+    Check the Terminal window is still open and shows "Ready".
+    If you pressed Control + C or closed Terminal, the site stopped;
+    start it again with Step 6.
+
+npm install  or  npm run build  shows errors about the network
+    Check you are connected to the internet and run the same command
+    again.
+
+Do not type "sudo" in front of any of these commands. It is never needed.
+
+
+WANT TO CHANGE SOMETHING?
+=========================
+README.md in this folder lists where the text lives (for example, your
+email address is in src/lib/site.ts). After editing any file, stop the
+site (Control + C), run  npm run build  again, then  npm start.

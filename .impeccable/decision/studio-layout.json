@@ -1,0 +1,46 @@
+{
+  "title": "Choose how the Studio is laid out",
+  "question": "Three ways to arrange Shruchi's editor around her live site. Every option has the same tools (pages, photos, sections, undo, phone preview); this choice is where they sit and how she reaches them.",
+  "options": [
+    {
+      "id": "assigned",
+      "kind": "assigned",
+      "label": "Write on the page",
+      "kicker": "THE ROLL",
+      "lineage": "document editors like Notion and Google Docs",
+      "thesis": "The page itself is the editor: click any words and type, press + in the margin to add a block.",
+      "palette": ["#d6d6d1", "#f4f4f1", "#161615", "#6a2222"],
+      "materials": ["mill board", "card stock", "printed caps"],
+      "viewport": "A thin top bar (page name, phone/desktop, undo, saved), then her real page edge to edge; a + in the left margin beside each block opens a small menu of block swatches; a block's options unfold in a card right beside it.",
+      "risk": "The least visible tools of the three: photos, layout and page settings hide until she finds them.",
+      "html": ".impeccable/mocks/decision/assigned.html"
+    },
+    {
+      "id": "canvas-first",
+      "kind": "dealt",
+      "label": "The page fills the screen",
+      "lineage": "Squarespace and Canva",
+      "thesis": "The live page fills the screen; hover between sections for + Add section, click a block for its toolbar and a settings drawer.",
+      "palette": ["#d6d6d1", "#f4f4f1", "#161615", "#6a2222"],
+      "materials": ["mill board", "card stock", "swatch thumbnails"],
+      "viewport": "Slim left icon rail (Pages, Add, Photos, Site, History, Help), the page large in the middle with the selected block outlined in oxblood and a floating toolbar, a settings drawer on the right showing that block's text, photo and layout choices.",
+      "risk": "The settings drawer covers part of the page on a small laptop screen.",
+      "html": ".impeccable/mocks/decision/canvas-first.html"
+    },
+    {
+      "id": "section-list",
+      "kind": "dealt",
+      "label": "Sections in a list beside the page",
+      "lineage": "Shopify's theme editor",
+      "thesis": "A tidy list of the page's sections sits on the left like cards in a binder; open one to change it, drag to reorder, and the page on the right follows.",
+      "palette": ["#d6d6d1", "#f4f4f1", "#161615", "#6a2222"],
+      "materials": ["ring binder", "card stock", "tilted swatches"],
+      "viewport": "Top bar with the page picker; a left column listing Home's sections (Hero, Collections, Studies, Process, Every swatch) each as a punched card with a swatch thumbnail, the open one showing its settings inline; the live page on the right scrolled to it.",
+      "risk": "More of her editing happens in the list than on the page itself, a step removed from what she sees.",
+      "html": ".impeccable/mocks/decision/section-list.html"
+    }
+  ],
+  "reroll": true,
+  "steer": true,
+  "buildPath": { "value": "code" }
+}

@@ -1,0 +1,2963 @@
+[
+  {
+    "slug": "rasaa",
+    "name": "Rasaa",
+    "season": "Festive ensemble 2026",
+    "designs": [
+      {
+        "slug": "kinari",
+        "name": "Kinari",
+        "technique": "Woven zari border",
+        "story": "Kinari Solid Linen is a premium linen blind in a soft beige hue with a woven zari border inspired by the intricate temple borders.",
+        "colourways": [
+          {
+            "name": "Brick Red",
+            "url": "https://theyellowdwelling.com/products/kinari-brick-red-gold-ethnic-cotton-textured-blind-for-livingroom-bedroom-room-darkening",
+            "seenAs": "Blind",
+            "swatchFrom": "Blind",
+            "swatch": {
+              "src": "/images/tyd/rasaa/kinari--brick-red--swatch-a110c041.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoLABAAA4BaJbACdADdDhOrmr4AAP6d0YngsbssJTknWDpuPPLwZxyGGY9kjrvn0aqMlReeJXz/XClVVsoM+V2sU7/uMrxJF0gAAA==",
+              "color": "#a84838"
+            },
+            "scene": {
+              "src": "/images/tyd/rasaa/kinari--brick-red--scene-de474d9d.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAwAgCdASoLABAAA4BaJbACdAEQ/b+hXeTZgAD5UinNyG4na4fv0P9c8wa0o7/VnuwKQEei+uFm0+G8m9v6j5Wd2FfBpfQ41tQ0KszqSm771i1G5ffYAAAA",
+              "color": "#a84838"
+            },
+            "chip": {
+              "src": "/images/tyd/rasaa/kinari--brick-red--chip-25eae6de.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoQABAAA4BaJagCdAEN3QAIAAD+nVHGS7iJreeDQLIij+ZveAGb1O9tFAAAAA==",
+              "color": "#a84838",
+              "shade": "#a34435"
+            }
+          },
+          {
+            "name": "Herb Green",
+            "url": "https://theyellowdwelling.com/products/kinari-herb-green-gold-ethnic-cotton-textured-blind-for-livingroom-bedroom-room-darkening",
+            "seenAs": "Blind",
+            "swatchFrom": "Blind",
+            "swatch": {
+              "src": "/images/tyd/rasaa/kinari--herb-green--swatch-1e8c552d.webp",
+              "width": 1201,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoLABAAA4BaJYgCdAD0gxS5KIAA/lRp1Q41V5sXfujzd4QNkcWlf0gE9KisdWVgReA942cQ38+VTW2fTe1V60xxxAXX/zwA",
+              "color": "#b8a888"
+            },
+            "scene": null,
+            "chip": {
+              "src": "/images/tyd/rasaa/kinari--herb-green--chip-8007b1f7.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAACwAQCdASoQABAAA4BaJQBOgCHfwF2AAP5RvjTOgEJ8YTSTmUPRAAAA",
+              "color": "#a89888",
+              "shade": "#aea184"
+            }
+          },
+          {
+            "name": "Pink Sand",
+            "url": "https://theyellowdwelling.com/products/kinari-pink-sand-gold-ethnic-linen-cotton-blend-textured-blind-for-livingroom-bedroom-room-darkening",
+            "seenAs": "Blind",
+            "swatchFrom": "Blind",
+            "swatch": {
+              "src": "/images/tyd/rasaa/kinari--pink-sand--swatch-02cc4ab5.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoLABAAA4BaJQBOgCFsCG8A3JAA/sOVrVCVZqLQPPBrUWRuZ2CU2XUdWIgjL2Fiiapp2vDdQEjoni4Tl6BVV5pcAAA=",
+              "color": "#c8a898"
+            },
+            "scene": null,
+            "chip": {
+              "src": "/images/tyd/rasaa/kinari--pink-sand--chip-77fda117.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAABQAQCdASoQABAAA4BaJQBOgCgAAP7ssTNAZ1auS9y0Uiim52JAAA==",
+              "color": "#c8a898",
+              "shade": "#cdb19a"
+            }
+          },
+          {
+            "name": "Honey Yellow",
+            "url": "https://theyellowdwelling.com/products/kinari-honey-yellow-gold-ethnic-linen-cotton-blend-textured-blind-for-livingroom-bedroom-room-darkening",
+            "seenAs": "Blind",
+            "swatchFrom": "Blind",
+            "swatch": {
+              "src": "/images/tyd/rasaa/kinari--honey-yellow--swatch-78357275.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoLABAAA4BaJbACdADdDG8+OgAA/o0ygsrblsRhXmpcsmtqArfuBzbebrPEKTbooWLw2r+8Ocxsr9z5sLEvc7AgAAA=",
+              "color": "#c8a868"
+            },
+            "scene": null,
+            "chip": {
+              "src": "/images/tyd/rasaa/kinari--honey-yellow--chip-4d00a0fd.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAABwAQCdASoQABAAA4BaJagCdAGIQAD+6lZhtZlv+R5DKJn0K8UrX2V+YjKsWILDwAA=",
+              "color": "#c8a868",
+              "shade": "#cba664"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "mogra",
+        "name": "Mogra",
+        "technique": "Embroidered border",
+        "story": "Mogra Walnut Grey is a premium cotton blind in a soft, understated grey, finished with an ornate embroidered floral border in subtle neutral tones.",
+        "colourways": [
+          {
+            "name": "Walnut Grey",
+            "url": "https://theyellowdwelling.com/products/mogra-walnut-grey-brown-floral-cotton-embroidered-blind-for-livingroom-bedroom-room-darkening",
+            "seenAs": "Blind",
+            "swatchFrom": "Blind",
+            "swatch": {
+              "src": "/images/tyd/rasaa/mogra--walnut-grey--swatch-245e609c.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoLABAAA4BaJQBOgB6GRv3AAAD3KurMJzxsBRvE1ts4M05d7VRWEpnglFfTa/3+HZ7+JhCK2bRCJUs+/c8ki6n9Lr/54AAA",
+              "color": "#988878"
+            },
+            "scene": {
+              "src": "/images/tyd/rasaa/mogra--walnut-grey--scene-63b8feef.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwAgCdASoLABAAA4BaJQBOgCIfvAkfn3cYAAD+yWNeIyPv7GEVgWhqOIEJ5ERR6nNSSyXq+LHtdJhxbBYMncEUIMq6RUY+979LHr8AAAA=",
+              "color": "#988878"
+            },
+            "chip": {
+              "src": "/images/tyd/rasaa/mogra--walnut-grey--chip-4fef76c9.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAACQAQCdASoQABAAA4BaJYwCdACgCyAA9wes+fNP3fr5uOfW7e+C+OsAAAA=",
+              "color": "#988878",
+              "shade": "#9d8b7d"
+            }
+          },
+          {
+            "name": "Mahogany Brown",
+            "url": "https://theyellowdwelling.com/products/mogra-mahogany-brown-grey-floral-cotton-embroidered-blind-for-livingroom-bedroom-room-darkening",
+            "seenAs": "Blind",
+            "swatchFrom": "Blind",
+            "swatch": {
+              "src": "/images/tyd/rasaa/mogra--mahogany-brown--swatch-eaf8cce6.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoLABAAA4BaJYgCdAD0iL1qZ4AA/F3QX7KModpyA7+sfH7BZjng81i9FwRgMMz3P4fi/s8U/cKA2S8imvrDWBcOZ5QGr9HrGh0AAA==",
+              "color": "#b88878"
+            },
+            "scene": null,
+            "chip": {
+              "src": "/images/tyd/rasaa/mogra--mahogany-brown--chip-984be3e4.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACwAQCdASoQABAAA4BaJZACdACg1GroAPxaajPDPtf4IQ4kpHYKb4Xue3rVDgAA",
+              "color": "#b88878",
+              "shade": "#ba8d7c"
+            }
+          },
+          {
+            "name": "Fig Brown",
+            "url": "https://theyellowdwelling.com/products/mogra-fig-brown-grey-floral-linen-cotton-blend-embroidered-blind-for-livingroom-bedroom-room-darkening",
+            "seenAs": "Blind",
+            "swatchFrom": "Blind",
+            "swatch": {
+              "src": "/images/tyd/rasaa/mogra--fig-brown--swatch-a8e431dd.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoLABAAA4BaJQBOgB6EH3wMAADvi04U+Qs384Oo+NZdS7LQmJpG8xE4E8P+O0LW84dBIKAjbk5FjlXD8Xqn/k/WPWQdAAAA",
+              "color": "#d8c8b8"
+            },
+            "scene": null,
+            "chip": {
+              "src": "/images/tyd/rasaa/mogra--fig-brown--chip-79ec09ed.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAACQAQCdASoQABAAA4BaJYwCdACgCyAA6zMGia4mju3/IgqtqwOx7XAA",
+              "color": "#988878",
+              "shade": "#9c8376"
+            }
+          },
+          {
+            "name": "Elephant Grey",
+            "url": "https://theyellowdwelling.com/products/mogra-embroidered-linen-cotton-room-darkening-field-printed-sheer-room-darkening-elephant-grey-brown-cotton-for-living-room-bedroom-floral-combo-curtains",
+            "seenAs": "Combo Curtains",
+            "swatchFrom": "Blind",
+            "swatch": {
+              "src": "/images/tyd/rasaa/mogra--elephant-grey--swatch-b4e3cdf5.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoLABAAA4BaJQBOgBuhylSkwAAA/F1z/VFn/WIpd+0rQQyUI6S8q7HZLfU/Ta9SP4MfP4kpI2OaxllC1EgKflRDWgAAAA==",
+              "color": "#d8c8b8"
+            },
+            "scene": null,
+            "chip": {
+              "src": "/images/tyd/rasaa/mogra--elephant-grey--chip-f7619e28.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjAAAABXRUJQVlA4ICQAAACwAQCdASoQABAAA4BaJZQCdAEOZ5cYAPxSutkbcFSnCI+ZWAA=",
+              "color": "#a89898",
+              "shade": "#a29a94"
+            }
+          },
+          {
+            "name": "Chocolate Brown",
+            "url": "https://theyellowdwelling.com/products/mogra-chocolate-brown-grey-floral-cotton-embroidered-blind-for-livingroom-bedroom-room-darkening",
+            "seenAs": "Blind",
+            "swatchFrom": "Blind",
+            "swatch": {
+              "src": "/images/tyd/rasaa/mogra--chocolate-brown--swatch-407ce842.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoLABAAA4BaJQBOgBX+0ym8gAAA+egA5t1n/gxS9rUHWDEhMeVbvaGfBR16h78nrZWCBhBQ1+OREwByrh+LysURiigImVaIAAA=",
+              "color": "#886858"
+            },
+            "scene": null,
+            "chip": {
+              "src": "/images/tyd/rasaa/mogra--chocolate-brown--chip-6a8ce041.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAABwAQCdASoQABAAA4BaJQBOgBQBZAD51Ak67o9B9W9llQZp9gpvhcE0zkAAAA==",
+              "color": "#887858",
+              "shade": "#8b715b"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "ketaki",
+        "name": "Ketaki",
+        "technique": "Embroidered border",
+        "story": "Ketaki White is a premium blind curtain featuring a crisp white base adorned with a delicate geo-floral embroidered trim in soft shades of pink and blue.",
+        "colourways": [
+          {
+            "name": "Rust",
+            "url": "https://theyellowdwelling.com/products/ketaki-rust-blue-pink-geometric-cotton-embroidered-blind-for-livingroom-bedroom-room-darkening",
+            "seenAs": "Blind",
+            "swatchFrom": "Blind",
+            "swatch": {
+              "src": "/images/tyd/rasaa/ketaki--rust--swatch-86b2f2ad.webp",
+              "width": 1024,
+              "height": 1536,
+              "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoLABAAA4BaJbACdADb6qkNVG4AAPcqEzy1SU4AnfB8Vkn3WrxGDa8uRhSbbFlRU1TpWCTBNC/+5MOpYqvvq89UdJ94bFGfNSAAAA==",
+              "color": "#c87868"
+            },
+            "scene": {
+              "src": "/images/tyd/rasaa/ketaki--rust--scene-3a7a0b28.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoLABAAA4BaJZgCdAEDo7R4MKewAP7JY14jMV8UjLnlGOXpBIMASu1U2Uyu/V2QyR+l66fUUl09gKxG6BIHkcSIxRQKbBLCt+tmAAAA",
+              "color": "#d8c8b8"
+            },
+            "chip": {
+              "src": "/images/tyd/rasaa/ketaki--rust--chip-d615eaae.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACQAQCdASoQABAAA4BaJagCdACdBCAA9wezecbBH9L7YLsVhW3EB1zrelkA5/FAehl6FUKUAAA=",
+              "color": "#c87868",
+              "shade": "#c77a6d"
+            }
+          },
+          {
+            "name": "Nilgiri Blue",
+            "url": "https://theyellowdwelling.com/products/ketaki-nilgiri-blue-pink-geometric-linen-cotton-blend-embroidered-blind-for-livingroom-bedroom-room-darkening",
+            "seenAs": "Blind",
+            "swatchFrom": "Blind",
+            "swatch": {
+              "src": "/images/tyd/rasaa/ketaki--nilgiri-blue--swatch-4d311d5a.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoLABAAA4BaJQBOgBuhylzV7QAA/SDi32JSxGhI95ehYOed/xwV145Krb53wdr94G5ISOiHiNg8nKnW6tmEWlL1ZrhrGgAA",
+              "color": "#687888"
+            },
+            "scene": null,
+            "chip": {
+              "src": "/images/tyd/rasaa/ketaki--nilgiri-blue--chip-a46f3edf.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAACwAQCdASoQABAAA4BaJYwCdADDf6fgAP0bYAVhNaHv81RJhSghcxorgAA=",
+              "color": "#586878",
+              "shade": "#627583"
+            }
+          },
+          {
+            "name": "Mist Blue",
+            "url": "https://theyellowdwelling.com/products/ketaki-embroidered-cotton-room-darkening-ira-embroidered-sheer-light-filtering-mist-blue-pink-cotton-for-living-room-bedroom-geometric-ethnic-combo-curtains",
+            "seenAs": "Combo Curtains",
+            "swatchFrom": "Blind",
+            "swatch": {
+              "src": "/images/tyd/rasaa/ketaki--mist-blue--swatch-17691e50.webp",
+              "width": 1024,
+              "height": 1536,
+              "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoLABAAA4BaJQBOgBuEoDZCyAAA/SG0+TTKVTbpotA9HNnvPnjb9jZa6H0EvynKq44dpgmhf/cl8zAQo8REN1eiy/ogAA==",
+              "color": "#687888"
+            },
+            "scene": null,
+            "chip": {
+              "src": "/images/tyd/rasaa/ketaki--mist-blue--chip-9fb1a1fa.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAADwAQCdASoQABAAA4BaJZQCdADc989rXIAA+deuEPStnpGjeTDhLHjp2xNAAA==",
+              "color": "#687888",
+              "shade": "#6d7683"
+            }
+          },
+          {
+            "name": "Ultimate Grey",
+            "url": "https://theyellowdwelling.com/products/ketaki-ultimate-grey-blue-geometric-cotton-embroidered-blind-for-livingroom-bedroom-room-darkening",
+            "seenAs": "Blind",
+            "swatchFrom": "Blind",
+            "swatch": {
+              "src": "/images/tyd/rasaa/ketaki--ultimate-grey--swatch-d89313f1.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoLABAAA4BaJQBYdh6EH3nBYADIP9G48KhUwFOR4vshkb7vsK37uvu9Fr1I/yx+GiMvfFkSQzZGd0cbczs24BwAAAA=",
+              "color": "#888888"
+            },
+            "scene": null,
+            "chip": {
+              "src": "/images/tyd/rasaa/ketaki--ultimate-grey--chip-8dbc65e0.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjAAAABXRUJQVlA4ICQAAABwAQCdASoQABAAA4BaJaQAAbZAgACaQCpxMqKDT4Zddw9MIAA=",
+              "color": "#888888",
+              "shade": "#868684"
+            }
+          },
+          {
+            "name": "White",
+            "url": "https://theyellowdwelling.com/products/ketaki-white-blue-geometric-cotton-embroidered-blind-for-livingroom-bedroom-light-reduction",
+            "seenAs": "Blind",
+            "swatchFrom": "Blind",
+            "swatch": {
+              "src": "/images/tyd/rasaa/ketaki--white--swatch-e0947d86.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoLABAAA4BaJQBYdh6Rac7eC/QAAP7039mIlWjZzWphQ1+gdW5lfur3oRPRa9SPsCyOQ9y2Qddtv5EgqmJXa4XqG0AAAA==",
+              "color": "#e8e8e8"
+            },
+            "scene": null,
+            "chip": {
+              "src": "/images/tyd/rasaa/ketaki--white--chip-229ad8f2.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAACwAQCdASoQABAAA4BaJZwAAudVXUPAAP7003bjHRROR2Yc2tgAAA==",
+              "color": "#e8e8e8",
+              "shade": "#eae9e8"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "daaram",
+        "name": "Daaram",
+        "technique": "Woven zari border",
+        "story": "Daaram is a neutral cotton roman blind crafted with minimal gold zari stripes.",
+        "colourways": [
+          {
+            "name": "Gold & Beige",
+            "url": "https://theyellowdwelling.com/products/daaram-textured-cotton-zari-blend-light-reduction-husk-stripped-linen-textured-sheer-light-filtering-gold-beige-cotton-for-living-room-bedroom-neutral-combo-curtains",
+            "seenAs": "Combo Curtains",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/rasaa/daaram--gold-beige--swatch-01df5089.webp",
+              "width": 1203,
+              "height": 1699,
+              "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoLABAAA4BaJaACdAEeghmWFHAA/fwc6NkQkHlJGrnbish9e6iLhKjCf/SzfOwOmjUHw7c3InLBNabcAAA=",
+              "color": "#a88858"
+            },
+            "scene": {
+              "src": "/images/tyd/rasaa/daaram--gold-beige--scene-285737db.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoLABAAA4BaJQBOgCHfu9g6gAD+8h6lmAtc+jyC2GKgZh9owUT12AZDxn3z4bDho0AAAA==",
+              "color": "#e8d8c8"
+            },
+            "chip": {
+              "src": "/images/tyd/rasaa/daaram--gold-beige--chip-f2ba4c8d.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADwAQCdASoQABAAA4BaJagCdAC9RywLS0AA/IqDHJrE44y6kEa0I25K0jw6Y+beRt9HNsoE80AAAA==",
+              "color": "#a88858",
+              "shade": "#a78955"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "kolam",
+        "name": "Kolam",
+        "technique": "Printed",
+        "story": "Kolam, a blind combining minimalism with a touch of festivity is inspired by the ethnic art of kolam or rangoli. This blind features a striking print in rich pepper green, accented by an intricate border that adds a subtle yet sophisticated flair.",
+        "colourways": [
+          {
+            "name": "Pepper Green",
+            "url": "https://theyellowdwelling.com/products/kolam-printed-cotton-light-reduction-cava-printed-sheer-light-filtering-pepper-green-cotton-for-living-room-bedroom-minimal-combo-curtains",
+            "seenAs": "Combo Curtains",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/rasaa/kolam--pepper-green--swatch-530d9d57.webp",
+              "width": 1203,
+              "height": 1699,
+              "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoLABAAA4BaJQBOgCPSIj2vwFugAP6yFF2In/gjBxLEtGKmhLAToJT1A8WV9jATjn4JnslFpwSle+sAYwwPPbpQgO9EoG2N+y0+LhOW+B6AAA==",
+              "color": "#d8c8b8"
+            },
+            "scene": {
+              "src": "/images/tyd/rasaa/kolam--pepper-green--scene-a1d93dc5.webp",
+              "width": 1200,
+              "height": 1680,
+              "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAQAgCdASoLABAAA4BaJYwCdADGim3GJYgAAP71Fy16NlHcbT4x+zbKmw7fSokKhROZlExTdaLYAA==",
+              "color": "#e8e8e8"
+            },
+            "chip": {
+              "src": "/images/tyd/rasaa/kolam--pepper-green--chip-caabac02.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoQABAAA4BaJYgCdADiXFS0VjFnAAD+WuKi6X/CizdxxZvYlW6awdZImz9rCwbTtqIomXSgGsbWZIu+cwv6Y6JQg1vZPII3dfe5aJH/jrAAAA==",
+              "color": "#e8d8c8",
+              "shade": "#e2d9c7"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "gulnaar",
+        "name": "Gulnaar",
+        "technique": "Printed",
+        "story": "Gulnaar, a floral design printed on a green cotton base inspired by traditional block printing is made into a Blind that accentuates the beauty of any contemporary or traditional home.",
+        "colourways": [
+          {
+            "name": "Green",
+            "url": "https://theyellowdwelling.com/products/gulnaar-printed-cotton-room-darkening-juniper-printed-sheer-light-reduction-green-cotton-for-living-room-bedroom-ethnic-floral-combo-curtains",
+            "seenAs": "Combo Curtains",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/rasaa/gulnaar--green--swatch-41e6dc81.webp",
+              "width": 1203,
+              "height": 1699,
+              "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoLABAAA4BaJYwAAqyKowjiAADK8eFynCuuXIqOC6OUn8s5x28XiICVQKEfQTvvsCKDg/SrBm9lNv9WC/3IZFwXNW4r73BAAAA=",
+              "color": "#a8a8a8"
+            },
+            "scene": {
+              "src": "/images/tyd/rasaa/gulnaar--green--scene-070de697.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACwAQCdASoLABAAA4BaJQBOgBjE8F9gAP71FD/bxQ4gfdrzTNxQgBQuybz5Dmk567R4AA==",
+              "color": "#f8e8e8"
+            },
+            "chip": {
+              "src": "/images/tyd/rasaa/gulnaar--green--chip-65ff0089.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoQABAAA4BaJYwAAn2ai0RbkwAAze6I4z681Uor/ZU5LWsAftKUvaabz939ANLa9b+uAAAA",
+              "color": "#a8b8a8",
+              "shade": "#aab4ac"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "baagh",
+        "name": "Baagh",
+        "technique": "Printed sheer",
+        "story": "Baagh, minimal floral printed blind made of 100% premium cotton is crafted for homes that celebrates minimal ethnic aesthetics.",
+        "colourways": [
+          {
+            "name": "Mustard",
+            "url": "https://theyellowdwelling.com/products/baagh-mustard-floral-cotton-sheer-printed-blind-for-livingroom-bedroom-light-filtering",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/rasaa/baagh--mustard--swatch-0ed30e4d.webp",
+              "width": 1203,
+              "height": 1699,
+              "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoLABAAA4BaJQBOgCHemkxgy1oAAP7I5ZT4bl0ZvHa8HdzQtJfVRJMj8hWQcm4AlyARyfq49UAAAA==",
+              "color": "#c8c8b8"
+            },
+            "scene": {
+              "src": "/images/tyd/rasaa/baagh--mustard--scene-dd00350e.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAwAgCdASoLABAAA4BaJQBOgCHfb2YIcEP2AAD+7UNkPmK3mJ40eINNyGwku/oJ23+dm5iuQucs+RxAIuaYxaRD6CkQAA==",
+              "color": "#d8c8b8"
+            },
+            "chip": {
+              "src": "/images/tyd/rasaa/baagh--mustard--chip-f89b29f1.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoQABAAA4BaJQBOgBuU2gZ7AAD+51b/IbhCenUxRlBTFI5XCORw1vFIRMeigPsAAAA=",
+              "color": "#b8a888",
+              "shade": "#b3a98b"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "meher",
+        "name": "Meher",
+        "technique": "Printed",
+        "story": "Meher, a block print inspired floral printed blind made of 100% premium cotton is crafted for modern ethnic and contemporary homes.",
+        "colourways": [
+          {
+            "name": "Blue",
+            "url": "https://theyellowdwelling.com/products/meher-printed-cotton-light-reduction-ira-embroidered-sheer-light-filtering-blue-pink-cotton-for-living-room-bedroom-floral-ethnic-combo-curtains",
+            "seenAs": "Combo Curtains",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/rasaa/meher--blue--swatch-aa2b3ac3.webp",
+              "width": 1203,
+              "height": 1699,
+              "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAwAgCdASoLABAAA4BaJZQC7ADhlYcYlY8iAAD+yHKjVcXGXNojNbP7wcgSqo1n/sUdAzuATSgSOiFmR0isykS1KIAAAA==",
+              "color": "#d8d8c8"
+            },
+            "scene": {
+              "src": "/images/tyd/rasaa/meher--blue--scene-72176877.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoLABAAA4BaJYwAAlwm5S8WAAD+9N++qF65aIs7bsoFLC9oI/ybD+7aMC45W6GcAAA=",
+              "color": "#d8d8d8"
+            },
+            "chip": {
+              "src": "/images/tyd/rasaa/meher--blue--chip-3f186743.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQABAAA4BaJYwCw7EN+hAsUe2AAP7FuxWAk9SecKmvJSmGw00aUjtkYTPFX8QxO9zAj5uFlMAAAA==",
+              "color": "#d8d8c8",
+              "shade": "#d5d6ca"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "ira",
+        "name": "Ira",
+        "technique": "Ikat-inspired print",
+        "story": "Ira, an embroidered blind showcases ikat inspired delicate geo floral design in soft blues and pinks on a white base.",
+        "colourways": [
+          {
+            "name": "Pink & Blue",
+            "url": "https://theyellowdwelling.com/products/ira-pink-blue-ethnic-100-cotton-sheer-embroidered-blind-for-livingroom-bedroom-light-filtering",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/rasaa/ira--pink-blue--swatch-6ea13434.webp",
+              "width": 1203,
+              "height": 1699,
+              "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoLABAAA4BaJQBOgCPqVuiuMVyAAP6aHN/qi2XD+RGmlYDEcNma3wPMjSD4u3n2aWYHFzHO6Ya0THozonl0AA==",
+              "color": "#c8b8a8"
+            },
+            "scene": {
+              "src": "/images/tyd/rasaa/ira--pink-blue--scene-f6beb93c.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAwAgCdASoLABAAA4BaJQBOgCHgANdu+mssAAD+6nXPAC/9WO4qbAhwZUgmvneEDrPEKYTjok/yFdNr8E16x+MUKYnUlyO+wAA=",
+              "color": "#d8c8c8"
+            },
+            "chip": {
+              "src": "/images/tyd/rasaa/ira--pink-blue--chip-187e6e25.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACwAQCdASoQABAAA4BaJQBOgBbpnMCAAP7HSiabIz07WDnijRHKgU5EIr1s8BmTS2W2Ktqn0gAAAA==",
+              "color": "#c8c8b8",
+              "shade": "#cdc7b3"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "rohida",
+        "name": "Rohida",
+        "technique": "Printed",
+        "story": "Cushion cover Rohida featuring contemporized florals on a deep red base is made for traditional, contemporary or ethnic homes.",
+        "colourways": [
+          {
+            "name": "Red",
+            "url": "https://theyellowdwelling.com/products/rohida-red-printed-floral-cotton-cushion-cover-for-sofa",
+            "seenAs": "Cushion Covers",
+            "swatchFrom": "Cushion Covers",
+            "swatch": {
+              "src": "/images/tyd/rasaa/rohida--red--swatch-9014f624.webp",
+              "width": 1200,
+              "height": 1699,
+              "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoLABAAA4BaJZACdAEOzpyMoCLAAP7nK0Bh7uI3g1BDd/7Z/9mS3IedP7IHkWQ/X9gdH1xhNJOh0GTNpiAAAA==",
+              "color": "#d8c8a8"
+            },
+            "scene": {
+              "src": "/images/tyd/rasaa/rohida--red--scene-7f7dad52.webp",
+              "width": 1203,
+              "height": 1699,
+              "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAACQAgCdASoLABAAA4BaJaACdAYtf22jXBjkfY0pgAD+YUm3kRCUHwoOu63pEKVLfiKrXAaHQ/FnX0UR1hiV/gTj4Z+srK/2ZYJA2hTUHAtBLMBQAkl+JifB8TVvS5Ew3x+igAAA",
+              "color": "#782828"
+            },
+            "chip": {
+              "src": "/images/tyd/rasaa/rohida--red--chip-229ff5f4.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAABQAgCdASoQABAAA4BaJaACdAdwLd45JXdVo/4A/pG+Mt6TmHOtgTLKfruA7ittvIhijs9sCXHeKrKHDGfJAUYWWZTXSVuvtpIeg3V6dA/J//JCUfEMI0jLMZo6YubVt7ADlacl3vCCwCvlj9JdLkN3q0hEWtCPAAA=",
+              "color": "#d8c8b8",
+              "shade": "#d4b898"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "mudra",
+        "name": "Mudra",
+        "technique": "Printed",
+        "story": "Cushion cover Mudra featuring small florals in white and gold print on a teal base is made in premium cotton for modern, contemporary and ethnic homes.",
+        "colourways": [
+          {
+            "name": "Teal",
+            "url": "https://theyellowdwelling.com/products/mudra-teal-gold-printed-floral-cotton-cushion-cover-for-sofa",
+            "seenAs": "Cushion Covers",
+            "swatchFrom": "Cushion Covers",
+            "swatch": {
+              "src": "/images/tyd/rasaa/mudra--teal--swatch-43161951.webp",
+              "width": 1202,
+              "height": 1701,
+              "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAwAgCdASoLABAAA4BaJYgCdAD0ScJMHiK9AAD90kSFtWHnR1MJbX4pAJYWpR+PLWZAiyIqNlmZFdc+hLGbnRgYZ7fWsAAA",
+              "color": "#b8a898"
+            },
+            "scene": {
+              "src": "/images/tyd/rasaa/mudra--teal--scene-4c12d6a5.webp",
+              "width": 1203,
+              "height": 1699,
+              "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACwAQCdASoLABAAA4BaJQAAU+gTMSwAAN+g2NHJzEKzPu/ioQuQRD3iyh3wSZuxB/RFgAAA",
+              "color": "#587878"
+            },
+            "chip": {
+              "src": "/images/tyd/rasaa/mudra--teal--chip-1152cb5b.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoQABAAA4BaJQBOj+ACuPa9n3gAy00YEzJHYebN/UeUA1Rgf6zi0P/Jpn43WoqzvxtCk0AA",
+              "color": "#486868",
+              "shade": "#4a6963"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "nargis",
+        "name": "Nargis",
+        "technique": "Embroidered",
+        "story": "Cushion cover Nargis featuring a striking combination of a delicate floral embroidery on a muted green printed base, is made for homes that celebrates contemporary and ethnic aesthetics.",
+        "colourways": [
+          {
+            "name": "Green & Mustard",
+            "url": "https://theyellowdwelling.com/products/nargis-green-mustard-embroidered-floral-cotton-cushion-cover-for-sofa",
+            "seenAs": "Cushion Covers",
+            "swatchFrom": "Cushion Covers",
+            "swatch": {
+              "src": "/images/tyd/rasaa/nargis--green-mustard--swatch-16415b85.webp",
+              "width": 1201,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoLABAAA4BaJYgCdAEPEJG2vtugAP7TVCnmchM2EhVhRqtcZtpMU3MOZIbaBKqKkC9y0UhvkOQAAA==",
+              "color": "#c8b8a8"
+            },
+            "scene": {
+              "src": "/images/tyd/rasaa/nargis--green-mustard--scene-6d6a4c4a.webp",
+              "width": 1203,
+              "height": 1699,
+              "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoLABAAA4BaJQBOgBs2mSQy+gAA/rO8CWk7lsRwsvLzkvdL54ZnCaT/niC/XfnViyryga4dShfs0uV0c7XawUrff46wAA==",
+              "color": "#b8a898"
+            },
+            "chip": {
+              "src": "/images/tyd/rasaa/nargis--green-mustard--chip-44026287.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwAgCdASoQABAAA4BaJYgCdAywCxlJlOQLwAD+mhhLngUUdRhlPImiye6fCtwgEi7C1bkZ4b934X9jDVTGkiG565DTNNKVq0XstlhhMHIibsDAAAA=",
+              "color": "#d8c8b8",
+              "shade": "#d4c5b3"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "tala",
+        "name": "Tala",
+        "technique": "Printed",
+        "story": "Tala, a tropical printed blind featuring elegant Palm trees on a soft cream cotton base is designed especially for contemporary and ethnic homes.",
+        "colourways": [
+          {
+            "name": "Teal",
+            "url": "https://theyellowdwelling.com/products/tala-printed-cotton-light-reduction-kodi-printed-sheer-light-filtering-teal-100-cotton-for-living-room-bedroom-floral-combo-curtains-pack-of-4",
+            "seenAs": "Combo Curtains",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/rasaa/tala--teal--swatch-40e2f64d.webp",
+              "width": 1203,
+              "height": 1699,
+              "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoLABAAA4BaJQBOgCPOpeZDsbYAAP5hLBYYmn1MNLAXT8Exlf0jwyOL0iyB1PpDkgE7vDZGtgeuel0EK/CjJ8Ie71ouq0mQAAA=",
+              "color": "#d8c8b8"
+            },
+            "scene": {
+              "src": "/images/tyd/rasaa/tala--teal--scene-b1a714d5.webp",
+              "width": 1200,
+              "height": 1680,
+              "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoLABAAA4BaJQBOgBukbtHX4AD+83ZiZV9+24zAfY16+oiJQT0kgH5EKqJKTHikBkeJqWlVUAA=",
+              "color": "#d8c8b8"
+            },
+            "chip": {
+              "src": "/images/tyd/rasaa/tala--teal--chip-5c1bf3b3.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQABAAA4BaJQBOgB7AaJHei0AA4mKWsQkeYZNIzYu4YsHLdgKrktGkDEIcq806r2ceiL3rReA+FQAA",
+              "color": "#d8c8b8",
+              "shade": "#d4cbb9"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "madhuram",
+        "name": "Madhuram",
+        "technique": "Printed sheer",
+        "story": "Madhuram, a printed minimal blind featuring cypress trees and pomegranate motifs in earthy colours, is made for minimal, ethnic and traditional homes.",
+        "colourways": [
+          {
+            "name": "Green & Beige",
+            "url": "https://theyellowdwelling.com/products/madhuram-green-beige-ethnic-cotton-sheer-printed-blind-for-livingroom-bedroom-light-filtering",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/rasaa/madhuram--green-beige--swatch-0f304d75.webp",
+              "width": 1203,
+              "height": 1699,
+              "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAQCdASoLABAAA4BaJQBOgBwUkNmAAP6Nz7tU9a7/+06rwf6Ry8hT/ScrWu1kE+UBd0maXoPFIiWStn4jDP1eAAA=",
+              "color": "#c8b8a8"
+            },
+            "scene": {
+              "src": "/images/tyd/rasaa/madhuram--green-beige--scene-82abd503.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoLABAAA4BaJQBOgCHe+Tm20AAA/up31taLa4bYr5yXwnFFhrffuhWHV+6MseEBb4PCF/6J7xmYXrReA95AAA==",
+              "color": "#d8c8b8"
+            },
+            "chip": {
+              "src": "/images/tyd/rasaa/madhuram--green-beige--chip-6857c652.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAQAgCdASoQABAAA4BaJQBOgBjqRjNLtalAAP7Ik3b3t3+20NadVUCH/RAg80oVB1tiE6uQAAA=",
+              "color": "#b8a898",
+              "shade": "#c8c4b5"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "entwine",
+    "name": "Entwine",
+    "season": "Summer 2026",
+    "designs": [
+      {
+        "slug": "elba",
+        "name": "Elba",
+        "technique": "Embroidered border",
+        "story": "",
+        "colourways": [
+          {
+            "name": "Rust",
+            "url": "https://theyellowdwelling.com/products/elba-rust-embroidered-trim-cotton-blind-for-living-room-room-darkening",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/entwine/elba--rust--swatch-d9a00955.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoLABAAA4BaJbACdAD6+PwKwADJ6D8cIJgAkhHViJkXNcS7HeRdqxSG6eAAAA==",
+              "color": "#a87848"
+            },
+            "scene": {
+              "src": "/images/tyd/entwine/elba--rust--scene-26518f74.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoLABAAA4BaJaACdAD0Opz5HSlgAMiy2hEv8FuVJrQO+xy7fIUU1qXNR6VwbbcN3pu/CQnhjmLJ0Su5Mc6/oQaoCrSiy1NFQAA=",
+              "color": "#b87868"
+            },
+            "chip": {
+              "src": "/images/tyd/entwine/elba--rust--chip-de658548.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAACwAQCdASoQABAAA4BaJagCdAC1UNHwAOvxjkHvew1Yl283/94aR6ZgAAA=",
+              "color": "#a86858",
+              "shade": "#ad6554"
+            }
+          },
+          {
+            "name": "Marine Teal",
+            "url": "https://theyellowdwelling.com/products/elba-marine-teal-embroidered-trim-cotton-blind-for-bedroom-room-darkening",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/entwine/elba--marine-teal--swatch-584bfab7.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADwAQCdASoLABAAA4BaJbACdAD8F95pYgAA/dJN25vVHF9AorDas0D+VrmB92OWt9YgAA==",
+              "color": "#b88858"
+            },
+            "scene": null,
+            "chip": {
+              "src": "/images/tyd/entwine/elba--marine-teal--chip-26b29a41.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAABwAQCdASoQABAAA4BaJYwCdAF1AAD+6sb70oSn6khffZEPRJo3vwVgAELzqYAA",
+              "color": "#88a8a8",
+              "shade": "#8da4aa"
+            }
+          },
+          {
+            "name": "Cream",
+            "url": "https://theyellowdwelling.com/products/elba-cream-embroidered-trim-cotton-blind-for-living-room-room-darkening",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/entwine/elba--cream--swatch-00c599a7.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADwAQCdASoLABAAA4BaJZgCdAEQWtoTPAAA/lv2I/uuw9vY88sYwSIVI+W2tQd/gAA=",
+              "color": "#a87858"
+            },
+            "scene": null,
+            "chip": {
+              "src": "/images/tyd/entwine/elba--cream--chip-9caacf37.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADwAQCdASoQABAAA4BaJYwCdAEN4JFjqZgA/u1ejTjmcjM1kitran9TRBLbveZZgAA=",
+              "color": "#d8c8b8",
+              "shade": "#d5caba"
+            }
+          },
+          {
+            "name": "White",
+            "url": "https://theyellowdwelling.com/products/elba-white-embroidered-trim-cotton-blind-for-living-room-light-filtering",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/entwine/elba--white--swatch-b1e34110.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAAAQAgCdASoLABAAA4BaJaACdLoAAnWiexnQAP7VEqVM64a+uS+cwDkAKWvggCAA",
+              "color": "#b88858"
+            },
+            "scene": null,
+            "chip": {
+              "src": "/images/tyd/entwine/elba--white--chip-7f436327.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoQABAAA4BaJZQBTAA1ZHjoIAD+8d9m1hEFUcV6QIQb+MH5yBId9I78SByNb3XYR9SgAA==",
+              "color": "#d8d8d8",
+              "shade": "#d7d7d7"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "glen",
+        "name": "Glen",
+        "technique": "Embroidered border",
+        "story": "Glen beige, is a premium cotton blind with an ornate embroidered geometric border on a cream base.",
+        "colourways": [
+          {
+            "name": "Mist Blue",
+            "url": "https://theyellowdwelling.com/products/glen-mist-blue-embroidered-trim-cotton-blind-for-bedroom-room-darkening",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/entwine/glen--mist-blue--swatch-a2199b2f.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACwAQCdASoLABAAA4BaJagCdADF3EQAAMsO+kY4eJYrAosDGnlRnUT4fGGOAAAA",
+              "color": "#a87848"
+            },
+            "scene": {
+              "src": "/images/tyd/entwine/glen--mist-blue--scene-89a34bdf.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoLABAAA4BaJZgCdH8AE5kdYCj8APnqF9WdcPjcomTskhh7dm+UwKNBxxnBowC+cVOUtPZBzkbh5vL6THAigfPsAAA=",
+              "color": "#687888"
+            },
+            "chip": {
+              "src": "/images/tyd/entwine/glen--mist-blue--chip-bfa92e51.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQABAAA4BaJZQAD4fsD9/AewAA/SFv9u3UUjwHw/wgCWZ8RTVVoNslbECFkp/cCx3Ojo2EEUWLgvoN5StEHDrRQAA=",
+              "color": "#686878",
+              "shade": "#6a727d"
+            }
+          },
+          {
+            "name": "Herb Green",
+            "url": "https://theyellowdwelling.com/products/glen-herb-green-embroidered-trim-cotton-blind-for-living-room-room-darkening",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/entwine/glen--herb-green--swatch-625b9aad.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADwAQCdASoLABAAA4BaJagCdAEXUxLJ+oAA/H73jmu5sdV7EK5PePtW1JzlAAAA",
+              "color": "#a87848"
+            },
+            "scene": null,
+            "chip": {
+              "src": "/images/tyd/entwine/glen--herb-green--chip-091f4db8.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoQABAAA4BaJQBOgCGzGcpoAAD+UjpsbAT2VAX/O8zmO470izCSfA2bnvNCSjn+kBrQILZdQssCb0cDvPnxqhIJznwAAA==",
+              "color": "#a89878",
+              "shade": "#a89c78"
+            }
+          },
+          {
+            "name": "Basil Green",
+            "url": "https://theyellowdwelling.com/products/glen-basil-green-embroidered-trim-cotton-blind-for-living-room-room-darkening",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/entwine/glen--basil-green--swatch-6ce14ae7.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAACwAQCdASoLABAAA4BaJaACdADWd0pgAP3ZTCjzE/uavWwJquU2maeGS0AAAA==",
+              "color": "#888888"
+            },
+            "scene": null,
+            "chip": {
+              "src": "/images/tyd/entwine/glen--basil-green--chip-e445dd0f.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACQAQCdASoQABAAA4BaJZwAAUNxkAAA9yfWPQbVAq2vTw+CTDy5+bs2UZOsg30n1kuJxK7L+HOgFzIBAAA=",
+              "color": "#888888",
+              "shade": "#868d8a"
+            }
+          },
+          {
+            "name": "Beige",
+            "url": "https://theyellowdwelling.com/products/glen-beige-embroidered-trim-cotton-blind-for-living-room-room-darkening",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/entwine/glen--beige--swatch-59dcf135.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADwAQCdASoLABAAA4BaJbACdADdHAa4pAAA/uAIAqlSgITTgqlpuJt9NG7FxIBgJ8WAAA==",
+              "color": "#e8d8c8"
+            },
+            "scene": null,
+            "chip": {
+              "src": "/images/tyd/entwine/glen--beige--chip-c1b79791.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAwAgCdASoQABAAA4BaJYwCdAYulx/ZCebQAAD+8d860g4FwvqEimBjswmMscNQeHyipSELcJ0ct0w7mju4bHwjHEWDTW95SUgAAA==",
+              "color": "#e8d8c8",
+              "shade": "#e4d8c8"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "roselle",
+        "name": "Roselle",
+        "technique": "Printed sheer",
+        "story": "Roselle pink, a very delicate floral sheer blind highlighting dainty florals printed in pink on a white base fabric works extremely well in classic, contemporary homes.",
+        "colourways": [
+          {
+            "name": "Pink",
+            "url": "https://theyellowdwelling.com/products/roselle-pink-floral-printed-cotton-sheer-blind-for-bedroom-light-reduction",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/entwine/roselle--pink--swatch-9877f487.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADwAQCdASoLABAAA4BaJaACdAEQytxStAAA/I9kBnXUc16gF7cMaLc+u0VEKDlWAAA=",
+              "color": "#c8c8c8"
+            },
+            "scene": {
+              "src": "/images/tyd/entwine/roselle--pink--scene-0e1a6656.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoLABAAA4BaJZACw7EO/cE1AAD+9MsevOJDvWkjmiNgjL51EcDWXkJX73lie1CYOFjwcQHjqFOles4AAAA=",
+              "color": "#e8e8e8"
+            },
+            "chip": {
+              "src": "/images/tyd/entwine/roselle--pink--chip-e8ff6eeb.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAADwAQCdASoQABAAA4BaJZwC7AERF0Qk7aAA/usXN1e/HNMvITpE6pEZAAA=",
+              "color": "#c8c8c8",
+              "shade": "#bcb3ad"
+            }
+          },
+          {
+            "name": "Sage Green",
+            "url": "https://theyellowdwelling.com/products/roselle-sage-green-floral-printed-cotton-sheer-blind-for-living-room-light-reduction",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/entwine/roselle--sage-green--swatch-25ac287c.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAAAQAgCdASoLABAAA4BaJbACdAEQdthwkXmAAP7q83RvFvOCVyciVVAMhNV6YLnDwMNH8AAA",
+              "color": "#e8e8e8"
+            },
+            "scene": null,
+            "chip": {
+              "src": "/images/tyd/entwine/roselle--sage-green--chip-5257f80d.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAADQAQCdASoQABAAA4BaJZwAAuZdsDnSgAD+9NFn8BJnTXW0BdYAAA==",
+              "color": "#e8e8e8",
+              "shade": "#d9d5d3"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "flutter",
+        "name": "Flutter",
+        "technique": "Printed",
+        "story": "Flutter, a geo-floral blind printed in a soft pink shade with stripes of orchids, and dragonflies, brings in an English garden to modern homes.",
+        "colourways": [
+          {
+            "name": "Pink",
+            "url": "https://theyellowdwelling.com/products/flutter-pink-floral-printed-cotton-blind-for-bedroom-light-reduction",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/entwine/flutter--pink--swatch-fe095f33.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAADQAQCdASoLABAAA4BaJZgCdAEKlimeAAD9440vwojFioFi58hDjyJnNpAAAA==",
+              "color": "#d8d8d8"
+            },
+            "scene": {
+              "src": "/images/tyd/entwine/flutter--pink--scene-161344d4.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoLABAAA4BaJZACdAEO+xvUZHsAAP7zdNEZaTZ+fRwBEe3pXgJE5T57egt2aWY65U0FDZmXOsMpdnwAAAA=",
+              "color": "#f8f8f8"
+            },
+            "chip": {
+              "src": "/images/tyd/entwine/flutter--pink--chip-66c7662f.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoQABAAA4BaJYwC7AEKniltI4AA/uqHNS6BTaXUu852xP4JJd/htuv8Hfqi9IhTJC8GwrnQjQSgAA==",
+              "color": "#d8d8d8",
+              "shade": "#d2ccc8"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "peony",
+        "name": "Peony",
+        "technique": "Printed",
+        "story": "",
+        "colourways": [
+          {
+            "name": "Cream",
+            "url": "https://theyellowdwelling.com/products/peony-cream-floral-printed-cotton-blind-for-living-room-light-reduction",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/entwine/peony--cream--swatch-4c6994d0.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAQCdASoLABAAA4BaJagCdAEK3+nQ2AD+xgB1cAfqswnzLa0mGxpwa6yId2AA",
+              "color": "#d8c8b8"
+            },
+            "scene": {
+              "src": "/images/tyd/entwine/peony--cream--scene-972fd00f.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoLABAAA4BaJZACdAEO+zPEAAD+78OIcFzoz+CZnziAn7Y25pyv+UCp6dphP4lQBrj1LGqcWU7S3EdZDgAAAA==",
+              "color": "#f8f8f8"
+            },
+            "chip": {
+              "src": "/images/tyd/entwine/peony--cream--chip-4a2f5bb4.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAABwAQCdASoQABAAA4BaJYwCdAFAAAD+766vgLNlrLTGS+nSEgAAAA==",
+              "color": "#d8c8b8",
+              "shade": "#d9cab9"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "arden",
+        "name": "Arden",
+        "technique": "Printed sheer",
+        "story": "",
+        "colourways": [
+          {
+            "name": "Teal",
+            "url": "https://theyellowdwelling.com/products/arden-teal-geometric-printed-cotton-sheer-blind-for-living-room-light-reduction",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/entwine/arden--teal--swatch-7d76e304.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADwAQCdASoLABAAA4BaJZgCdAEVW/WqCYAA/eONL9l0A3kX8XBcVgHddrWGt9V9AAA=",
+              "color": "#a87848"
+            },
+            "scene": {
+              "src": "/images/tyd/entwine/arden--teal--scene-3c63f4a2.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoLABAAA4BaJZAC7AEO93KzAAD+83fvXL0Gd5fJjmnyAtlW95UFcDn8tWj8AsDSYjK3IBxAePXYZS3/AAA=",
+              "color": "#f8f8f8"
+            },
+            "chip": {
+              "src": "/images/tyd/entwine/arden--teal--chip-640b27db.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABQAgCdASoQABAAA4BaJZQC7IExGAQHO3Fro8AA/ugy9MkUdmGQzvVurxLBU5A+PoofG7wp974AAA==",
+              "color": "#c8c8c8",
+              "shade": "#c4bcb8"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "feather",
+        "name": "Feather",
+        "technique": "Printed",
+        "story": "Feather, a geometric blind printed in muted shades of brown and beige inspired from tribal geometrics, is an ultimate pick for ethnic and modern homes.",
+        "colourways": [
+          {
+            "name": "Brown",
+            "url": "https://theyellowdwelling.com/products/feather-brown-geometric-printed-cotton-blind-for-bedroom-room-darkening",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/entwine/feather--brown--swatch-008b9e28.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADwAQCdASoLABAAA4BaJZgCdAEQ6xKTvAAA/GyMjkIsOOHReltaVtH0w49mqgAA",
+              "color": "#b89868"
+            },
+            "scene": {
+              "src": "/images/tyd/entwine/feather--brown--scene-9344afff.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoLABAAA4BaJZACdADZW09JbAAA1wLL1+CA0XSd19OtRuzexqX8xg1we7UXxpwudodkk3FXB/YqzmurCDKf+SaIAAA=",
+              "color": "#987868"
+            },
+            "chip": {
+              "src": "/images/tyd/entwine/feather--brown--chip-0bb7e551.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAABwAQCdASoQABAAA4BaJQBOgBOfPACHniUmi/LFdtsYdOhSTHbwItQV9AAAAA==",
+              "color": "#886858",
+              "shade": "#937a6a"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "juniper",
+        "name": "Juniper",
+        "technique": "Printed sheer",
+        "story": "",
+        "colourways": [
+          {
+            "name": "Green",
+            "url": "https://theyellowdwelling.com/products/juniper-green-floral-printed-cotton-sheer-blind-for-living-room-light-reduction",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/entwine/juniper--green--swatch-e468953c.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoLABAAA4BaJZgCdAEQWrmyGAD+xgVCzFqK3c7iy9dlMhgHddr1hhhOoqAAAA==",
+              "color": "#a88858"
+            },
+            "scene": {
+              "src": "/images/tyd/entwine/juniper--green--scene-10da5837.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoLABAAA4BaJZACdAEO+zPEAAD+8c+5Tt3Iq6VfEYSKftjbmbshFD7pJEgDjyh12LkupOPx/2BGnsB27gAAAA==",
+              "color": "#e8d8c8"
+            },
+            "chip": {
+              "src": "/images/tyd/entwine/juniper--green--chip-0df7b53d.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAABwAQCdASoQABAAA4BaJZQCdAFAAAD+8H5mE2S03ve2KHPEmdkiAA==",
+              "color": "#d8d8c8",
+              "shade": "#e3dcd2"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "pomera",
+        "name": "Pomera",
+        "technique": "Printed",
+        "story": "Pomera, a premium cotton blind showcasing an intricate work of ethnic floral print on a cream base fabric.",
+        "colourways": [
+          {
+            "name": "Grey",
+            "url": "https://theyellowdwelling.com/products/pomera-grey-floral-printed-cotton-blind-for-living-room-light-reduction",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/entwine/pomera--grey--swatch-34041f38.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAQAgCdASoLABAAA4BaJagCdAEQdtbQVX9YAP7UyLiNHO3PCmuMwvl1mQTz3fKOZ09ZiIwwqcOQs4AA",
+              "color": "#c89868"
+            },
+            "scene": {
+              "src": "/images/tyd/entwine/pomera--grey--scene-a9bdd831.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoLABAAA4BaJZACdAEO94VxaAD+7UhiECyAzvL5MdEoLDVKRH6/wDWIbiG43807A8TBKwKmWkzCmWW7gAA=",
+              "color": "#e8e8d8"
+            },
+            "chip": {
+              "src": "/images/tyd/entwine/pomera--grey--chip-188dadfa.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAQCdASoQABAAA4BaJZQCdAYuH2upYRgA/udwmtYOBnRkRILU3BE9s2BLA6iZOqa1SqBx8cjCG79aJj0H3ktXw3DVzDcjY71rgOfWZuIrmLC7xzh4nrbMmAA=",
+              "color": "#d8d8c8",
+              "shade": "#dcd6ca"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "malabar",
+        "name": "Malabar",
+        "technique": "Printed",
+        "story": "Malabar, an intricate ethnic blind with a floral motif printed on a teal base works beautifully in contemporary or ethnic homes.",
+        "colourways": [
+          {
+            "name": "Marine Teal",
+            "url": "https://theyellowdwelling.com/products/malabar-marine-teal-floral-printed-cotton-blind-for-bedroom-light-reduction",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/entwine/malabar--marine-teal--swatch-85c5ec6c.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAABwAQCdASoLABAAA4BaJaACdAIigAD8bxm5FEMkMdBGd+NRc1zBdYaAAAA=",
+              "color": "#987858"
+            },
+            "scene": {
+              "src": "/images/tyd/entwine/malabar--marine-teal--scene-11b49b6b.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoLABAAA4BaJZACdADZoN3BYAD+VSJ4P/t6D9iTVVSN/aO30zPzvsg0c9v9GAXziqTh4GEoCqB0zrAU0DArcwbhQaAAAA==",
+              "color": "#8898a8"
+            },
+            "chip": {
+              "src": "/images/tyd/entwine/malabar--marine-teal--chip-aeeaf7bb.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAACQAQCdASoQABAAA4BaJYwCdACPpPwA/dPk7rs1uh1Y/r9HXZoJEtPSbtSgAA==",
+              "color": "#889898",
+              "shade": "#7b8d92"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "field",
+        "name": "Field",
+        "technique": "Printed sheer",
+        "story": "Field, an elegant sheer blind in the shades of brown and grey, features delicate floral bunches printed on a soft cream base fabric.",
+        "colourways": [
+          {
+            "name": "Brown",
+            "url": "https://theyellowdwelling.com/products/field-brown-floral-printed-100-cotton-sheer-blind-for-bedroom-room-darkening",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/entwine/field--brown--swatch-abbe2efa.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAQCdASoLABAAA4BaJbACdAELPGqhwAD+1QXE87aeC67kfzRIv90l+cGusiAAAAA=",
+              "color": "#c89868"
+            },
+            "scene": {
+              "src": "/images/tyd/entwine/field--brown--scene-eb83e838.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoLABAAA4BaJZACdAEO+0ALaiKAAP7vw4hwXOjP4JmfOI49wHyIhiM7UXxpvmAT+KmpsTOIdsTaUivlJqkzSkQAAAA=",
+              "color": "#e8d8c8"
+            },
+            "chip": {
+              "src": "/images/tyd/entwine/field--brown--chip-4809bf03.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAADwAQCdASoQABAAA4BaJYwCdAEPDFKIyAAA/u1I0b6bUpIcn7Ufwp/Gq/AAAA==",
+              "color": "#d8c8b8",
+              "shade": "#d5c7ba"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "truffle",
+        "name": "Truffle",
+        "technique": "Printed sheer",
+        "story": "",
+        "colourways": [
+          {
+            "name": "Brown",
+            "url": "https://theyellowdwelling.com/products/truffle-brown-geometric-printed-100-cotton-sheer-blind-for-living-room-light-reduction",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/entwine/truffle--brown--swatch-2d60d0c4.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADwAQCdASoLABAAA4BaJaACdAELYHrlPEgA/sYAVO1myw/Pm+UeSvwQww0fwAAA",
+              "color": "#b88858"
+            },
+            "scene": {
+              "src": "/images/tyd/entwine/truffle--brown--scene-c487f1ea.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoLABAAA4BaJZACdAEO+0Nnja3gAP7vw4hwXOjP4JmfOI49vimWbWff5HzBLtITxHl+lTXb9l7hexGofpvlnAAA",
+              "color": "#e8d8c8"
+            },
+            "chip": {
+              "src": "/images/tyd/entwine/truffle--brown--chip-eb215ea8.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAACwAQCdASoQABAAA4BaJQBOgCGrDBYAAP7vvyZBbjVBP1SwDOjxwh9cwXQNtESAAAA=",
+              "color": "#d8d8c8",
+              "shade": "#d5cbc3"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ratna",
+    "name": "Ratna",
+    "season": "Festive 2025",
+    "designs": [
+      {
+        "slug": "kadamba",
+        "name": "Kadamba",
+        "technique": "Embroidered border",
+        "story": "A minimal yet striking, premium cotton curtain in a deep maroon shade, elevated with a heavy embroidered floral border in vibrant greens and reds.",
+        "colourways": [
+          {
+            "name": "Crimson Red",
+            "url": "https://theyellowdwelling.com/products/kadamba-crimson-red-100-cotton-plain-customizable-blind-for-livingroom-bedrooms-room-darkening",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/ratna/kadamba--crimson-red--swatch-4736a0c8.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoLABAAA4BaJbACdAD0h7GJcAD2vIRanMt6XHAebc9RwjetzwVvVJxFg7q00aR63C2p9Pt6jHlTWYAA",
+              "color": "#681818"
+            },
+            "scene": {
+              "src": "/images/tyd/ratna/kadamba--crimson-red--scene-2c6759f1.webp",
+              "width": 1400,
+              "height": 2100,
+              "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAQCdASoLABAAA4BaJagCdADdCdylcAD+6/300Wh8/YE/yhtjFVygLA+Qv+/1ttR3tTMI1UuOvZHoePM6nD2NQvSeuQ0cDG9RyD5fX7gqz2AA",
+              "color": "#682828"
+            },
+            "chip": {
+              "src": "/images/tyd/ratna/kadamba--crimson-red--chip-6ca29346.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwAgCdASoQABAAA4BaJagC7AYsFy2DV/bYAAD4xP51S8Hkjm7MjtCXicWmV+tKPMusdo+F+CGzPBO0arBwOYEJTX7H53KbsADbDKAVav/gN0QAAAA=",
+              "color": "#682828",
+              "shade": "#6a2222"
+            }
+          },
+          {
+            "name": "Jade Green",
+            "url": "https://theyellowdwelling.com/products/kadamba-jade-green-100-cotton-plain-customizable-blind-for-livingroom-bedrooms-room-darkening",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/ratna/kadamba--jade-green--swatch-da502815.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoLABAAA4BaJYgCdH8AFcnN5vUYAPwq8mIBLT92LSFaQn7sC1WsQtGsImVqKnfQbzoNX+bs9oERnHeDXF2OM5XZ61CBAAAA",
+              "color": "#283838"
+            },
+            "scene": null,
+            "chip": {
+              "src": "/images/tyd/ratna/kadamba--jade-green--chip-c1d32126.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAACwAQCdASoQABAAA4BaJZQAD5ArfmYwAP5gIefHQbtdY9OlgYxdRCfuao0Fii3C5QKnzwcY6S8N1cuOpeNUnKpvJlIJHvUj8aMd01ubc44GXrVQkr+akhyN8pu6BRMezSgAAA==",
+              "color": "#182828",
+              "shade": "#223936"
+            }
+          },
+          {
+            "name": "Beige",
+            "url": "https://theyellowdwelling.com/products/kadamba-beige-100-cotton-plain-customizable-blind-for-livingroom-bedrooms-room-darkening-1",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/ratna/kadamba--beige--swatch-55790656.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoLABAAA4BaJZgCdAD0ge7c3PAA9rL2GlNHcSoNzpFqksn9tNIjWP3h61g1SdGJRa7UN3j55WV4VTzJeIyAAA==",
+              "color": "#c8b8b8"
+            },
+            "scene": null,
+            "chip": {
+              "src": "/images/tyd/ratna/kadamba--beige--chip-92092106.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAwAgCdASoQABAAA4BaJZQCdAYubbHan4BhAAD+AM9yUEVtUkokswC9wxTMiNvOrjb1sSFcxkjwfcrx5CN0xIaIbATBuKKf0m2GW8EZ04SAAA==",
+              "color": "#c8b8b8",
+              "shade": "#cabcb3"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "tara",
+        "name": "Tara",
+        "technique": "Ajrakh-inspired print",
+        "story": "The cool-toned solid base complements the earthy geometric trim, creating a balanced look that blends traditional craftsmanship with modern simplicity.",
+        "colourways": [
+          {
+            "name": "Indigo",
+            "url": "https://theyellowdwelling.com/products/tara-indigo-100-cotton-with-trim-customizable-blind-for-livingroom-bedrooms-room-darkening-indigo-red",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/ratna/tara--indigo--swatch-315b0413.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAABQAgCdASoLABAAA4BaJYgCdH8GJ/gbh6WFZIAA/qiB/Y/JSvIfxM5nzIaXGYMO08yNOjD6z5kihT0uxYeCM6bh4NfgAA==",
+              "color": "#081838"
+            },
+            "scene": {
+              "src": "/images/tyd/ratna/tara--indigo--scene-1f093313.webp",
+              "width": 1400,
+              "height": 2100,
+              "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwAgCdASoLABAAA4BaJZgCdH8AE66n8cxrAAD+8NxJSf9GfSUkU3RfUYglX5+P810XY6qoil8TMO1C6R7Oi8haivx6F2AejtHMF2rPIAA=",
+              "color": "#282848"
+            },
+            "chip": {
+              "src": "/images/tyd/ratna/tara--indigo--chip-2e37a7f7.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQABAAA4BaJQAAX4O6gWd9wAD+h0O5zXrTpfMYBgmodWJO6PPzf0myymBpERZgCsvnzC08JBMpX4Kw3z+YAA==",
+              "color": "#081838",
+              "shade": "#0c213c"
+            }
+          },
+          {
+            "name": "Brick Red",
+            "url": "https://theyellowdwelling.com/products/tara-brick-red-100-cotton-with-trim-customizable-blind-for-livingroom-bedrooms-room-darkening-brick-red",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/ratna/tara--brick-red--swatch-c57dd90a.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoLABAAA4BaJbACdAD0mdd/tgAA/YvB8vbpv5exZQDfS5KX9oWkcOyEM4Xux9qfT3BCbBJJAAA=",
+              "color": "#683828"
+            },
+            "scene": null,
+            "chip": {
+              "src": "/images/tyd/ratna/tara--brick-red--chip-36fa5250.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQABAAA4BaJagC7ADW3Dg9gAD8HgXVvkrhlMenqZYCHasx1bwncMxHwGRgxDB0LElAyfjWfX1+e6v2GcQAAA==",
+              "color": "#783828",
+              "shade": "#75322b"
+            }
+          },
+          {
+            "name": "Cream",
+            "url": "https://theyellowdwelling.com/products/tara-cream-100-cotton-with-trim-customizable-blind-for-livingroom-bedrooms-light-reduction-cream",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/ratna/tara--cream--swatch-27eae304.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoLABAAA4BaJZACdAD0h9W/AAD7YuyZkEjvVF1EBCnAAcrNhjwCOvWhCEWwHL70/DfoxIwdgAA=",
+              "color": "#e8d8d8"
+            },
+            "scene": null,
+            "chip": {
+              "src": "/images/tyd/ratna/tara--cream--chip-cd5aabc9.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoQABAAA4BaJZQC7AD0odOKM4AA9pklsrNJHaypj3V7pFLpoDICN3VPFv0O61KpXKbShkRoAAA=",
+              "color": "#e8d8d8",
+              "shade": "#e7dcd2"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "durbar",
+        "name": "Durbar",
+        "technique": "Ikat-inspired print",
+        "story": "This eye-catching curtain showcases a striking overall pattern, blending ethnic craftsmanship with a contemporary twist.",
+        "colourways": [
+          {
+            "name": "Royal Blue & Brick Red",
+            "url": "https://theyellowdwelling.com/products/durbar-ikat-geometric-printed-100-cotton-curtain-for-living-room-and-bedroom-room-darkening-royal-blue-and-brick-red",
+            "seenAs": "Standard Curtains",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/ratna/durbar--royal-blue-brick-red--swatch-cffd5f3a.webp",
+              "width": 1200,
+              "height": 1600,
+              "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoMABAAA4BaJaQAAudU2hCAAP71Iyb7BcDSlDsjSidGjCwiddqKk0IwQK4hzqLXaiQCKVoMgAA=",
+              "color": "#f8f8f8"
+            },
+            "scene": {
+              "src": "/images/tyd/ratna/durbar--royal-blue-brick-red--scene-3d7064ae.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAQCdASoLABAAA4BaJZQC7ACJUjFAAP5DXqPrLkasXm+ppZvRzRuuCYytGO/rGyPcbuUGyB7ZYk+yxR+GGvwAAAA=",
+              "color": "#484858"
+            },
+            "chip": {
+              "src": "/images/tyd/ratna/durbar--royal-blue-brick-red--chip-78bcb683.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAABQAgCdASoQABAAA4BaJZwAFgxF7/7Mr0chHoAA+P1/5cuc/KWGanwKJzayeyMAMEOxHWXu7QptslOTZl7YqdOgkHdYuhd4Vpo5ORA6j/NibtLzycnBAAAA",
+              "color": "#586878",
+              "shade": "#59697b"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "palace-pillars",
+        "name": "Palace Pillars",
+        "technique": "Printed",
+        "story": "Each stripe features a unique and detailed pattern.",
+        "colourways": [
+          {
+            "name": "Green",
+            "url": "https://theyellowdwelling.com/products/palace-pillars-geometric-printed-100-cotton-table-runner-with-piping-for-4-seater-6-seater-and-8-seater-dining-multicolor",
+            "seenAs": "Table Runner",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/ratna/palace-pillars--green--swatch-531db114.webp",
+              "width": 1200,
+              "height": 1600,
+              "blur": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAADQAQCdASoMABAAA4BaJZwAAudJ41VfAAD+9R43W4q7/mzknEO0cfSRJ/gAAA==",
+              "color": "#e8e8e8"
+            },
+            "scene": {
+              "src": "/images/tyd/ratna/palace-pillars--green--scene-e0133252.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACQAQCdASoLABAAA4BaJQAAWP+sxCAA/uqW0I13LT1RNu8sW2UXo2uCpVaP7Z/+as9HxAoIZtq2ZN7ggAA=",
+              "color": "#c8c8c8"
+            },
+            "chip": {
+              "src": "/images/tyd/ratna/palace-pillars--green--chip-cfc3a1de.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAACQAQCdASoQABAAA4BaJZQAAp1HJkgA/uqd8FMvFk3MOA715bxcAA==",
+              "color": "#e8e8d8",
+              "shade": "#e6e5dc"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "mulbagal",
+        "name": "Mulbagal",
+        "technique": "Printed",
+        "story": "",
+        "colourways": [
+          {
+            "name": "Sage & Pepper Green",
+            "url": "https://theyellowdwelling.com/products/mulbagal-geometric-floral-printed-100-cotton-curtain-for-living-room-and-bedroom-room-darkening-sage-green",
+            "seenAs": "Standard Curtains",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/ratna/mulbagal--sage-pepper-green--swatch-1ccd0b19.webp",
+              "width": 1200,
+              "height": 1600,
+              "blur": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAQCdASoMABAAA4BaJZQAAujc1h2fAAD+887ICFXSdyADpJ/2S+z8fovi8uu5kAA=",
+              "color": "#f8f8f8"
+            },
+            "scene": {
+              "src": "/images/tyd/ratna/mulbagal--sage-pepper-green--scene-21c90406.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoLABAAA4BaJQBdgBmU+g1sAAD6P1Ytb8oTn29pVTONknRnYT/3PCi8UsL7jRzMsJd8g+Vhs0AAAA==",
+              "color": "#586858"
+            },
+            "chip": {
+              "src": "/images/tyd/ratna/mulbagal--sage-pepper-green--chip-1a7630f4.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAAAwAQCdASoQABAAA4BaJYwAA3AA/ugAP2EAdg3qR+SnxcQ0K8ZKuUfl6GnhbdL/uT9EYAAA",
+              "color": "#e8d8c8",
+              "shade": "#889a85"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "parijatha",
+        "name": "Parijatha",
+        "technique": "Printed",
+        "story": "",
+        "colourways": [
+          {
+            "name": "Multicolour",
+            "url": "https://theyellowdwelling.com/products/parijatha-floral-printed-100-cotton-curtain-for-living-room-and-bedroom-room-darkening-rust-and-mustard",
+            "seenAs": "Standard Curtains",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/ratna/parijatha--multicolour--swatch-4541c8e3.webp",
+              "width": 1200,
+              "height": 1600,
+              "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADwAQCdASoMABAAA4BaJZwAAudNT4qLP0AA/vZEIxKedfQ9zvC6X/kkiqIJwhbDZ62kXIAA",
+              "color": "#e8e8e8"
+            },
+            "scene": {
+              "src": "/images/tyd/ratna/parijatha--multicolour--scene-92e14b45.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoLABAAA4BaJQBOgB6W6vHiEmKgAP63IKrh5qr9kPocYaXmXMTeZ4zhP5zT+VGI1UdUrBKNi8m8vfGlcoo4KAAA",
+              "color": "#d8c8c8"
+            },
+            "chip": {
+              "src": "/images/tyd/ratna/parijatha--multicolour--chip-9752ef64.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoQABAAA4BaJZQCdADcn9Ym3tgA/uiPgCHM7/Ryu4lRIMTMrm2Lz4v6RDpRFVE9lNs3CAAA",
+              "color": "#f8e8e8",
+              "shade": "#e7dcd6"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "meenakshi",
+        "name": "Meenakshi",
+        "technique": "Printed",
+        "story": "",
+        "colourways": [
+          {
+            "name": "Herb Green",
+            "url": "https://theyellowdwelling.com/products/meenakshi-100-cotton-ethnic-printed-customizable-blind-for-livingroom-bedrooms-light-reduction-green-and-pink",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/ratna/meenakshi--herb-green--swatch-b2b0607a.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoLABAAA4BaJZgCdAEPAYBACQAA/pv3T2Oqflr6PpK4HRuv1uEdoGGssoSi8qD1nmn7LRdIAAA=",
+              "color": "#d8c8c8"
+            },
+            "scene": {
+              "src": "/images/tyd/ratna/meenakshi--herb-green--scene-3e523e47.webp",
+              "width": 1400,
+              "height": 2100,
+              "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoLABAAA4BaJagCdAEO+0gOW0QA/u1IeCZ25VlYlBSZ43ULF5lx1h7+EMUoXunGNyAOt4uNoApT4fAAAAA=",
+              "color": "#f8f8f8"
+            },
+            "chip": {
+              "src": "/images/tyd/ratna/meenakshi--herb-green--chip-62f581b1.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACQAQCdASoQABAAA4BaJYzuAGMAMoAA/uz7leby8iRYTWUGLNk5XglqFdaNsOeFWDXPDH+RDiw+qWrCAAA=",
+              "color": "#d8c8c8",
+              "shade": "#d1c6c3"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "pakkshi",
+        "name": "Pakkshi",
+        "technique": "Printed",
+        "story": "A geometric floral printed cotton curtain in neutral shades creates a soothing palette that feels both refined and inviting.",
+        "colourways": [
+          {
+            "name": "Multicolour",
+            "url": "https://theyellowdwelling.com/products/pakkshi-100-cotton-printed-customizable-blind-for-livingroom-bedrooms-light-reduction-yellow-and-grey",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/ratna/pakkshi--multicolour--swatch-f67b49bb.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoLABAAA4BaJaACdAEO9rBiPAAA4n8fB906FG5fU38LKw1vjNVMLVifucoU6V4VTzKdbfAAAAA=",
+              "color": "#784818"
+            },
+            "scene": {
+              "src": "/images/tyd/ratna/pakkshi--multicolour--scene-70154c1d.webp",
+              "width": 1400,
+              "height": 2100,
+              "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoLABAAA4BaJaACdAEO+zhuXT1gAP7qe3lheOdpmZBAtbV+tyRfpn/LHBz3o+YqUmnONQyfMKC5UTZAAAA=",
+              "color": "#f8f8f8"
+            },
+            "chip": {
+              "src": "/images/tyd/ratna/pakkshi--multicolour--chip-11b763f9.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRi4AAABXRUJQVlA4ICIAAABwAQCdASoQABAAA4BaJYwCdAFAAAD+7BfVuKwACZCUAAAA",
+              "color": "#a8a8a8",
+              "shade": "#b8b6b8"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "palash",
+        "name": "Palash",
+        "technique": "Printed sheer",
+        "story": "A premium cotton sheer curtain adorned with Palash-inspired floral motifs, celebrating the beauty of India’s “flame of the forest. ” The floral print stands out against a warm neutral base, bringing a touch of heritage and artistry into modern homes.",
+        "colourways": [
+          {
+            "name": "Crimson Red",
+            "url": "https://theyellowdwelling.com/products/palash-100-cotton-sheer-printed-customizable-blind-for-livingroom-bedrooms-light-filtering-green-and-red",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/ratna/palash--crimson-red--swatch-9f951a04.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoLABAAA4BaJZACdADc+mv8ReAA/pwZk2EtcbyYbZSkQOJFnD3oVzzOokE8hpAjhfb8OtWtGsHaIpVDbpJCkZVBMi0IggR160QibXteP6zSx/fI/EZAAA==",
+              "color": "#e8d8d8"
+            },
+            "scene": {
+              "src": "/images/tyd/ratna/palash--crimson-red--scene-0454b4cd.webp",
+              "width": 1400,
+              "height": 2100,
+              "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoLABAAA4BaJagCdB2gAfCWdAD+7WIMd4kBxk6jg4FYgIHD9Rw80YSGHFqsQnxlZ8f2XidrxpA0YujHg0RzNhfMKC5UTmmAAAA=",
+              "color": "#e8d8c8"
+            },
+            "chip": {
+              "src": "/images/tyd/ratna/palash--crimson-red--chip-34779643.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAQCdASoQABAAA4BaJZQCdADgVgAA/urn+qoQcFGbCX4effrB6+vAE8VITZjvkI4XqOAEgUkYP+G5a01ELC0mCo2f4FZXyuqwZQAA",
+              "color": "#d8c8c8",
+              "shade": "#dbcbc7"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "thinnai",
+        "name": "Thinnai",
+        "technique": "Printed",
+        "story": "Heritage, reimagined, Thinnai our geometric cotton printed curtain draws inspiration from the attangudi tiles.",
+        "colourways": [
+          {
+            "name": "Multicolour",
+            "url": "https://theyellowdwelling.com/products/thinnai-100-cotton-ethnic-printed-customizable-blind-for-livingroom-bedrooms-light-reduction-green-and-red",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/ratna/thinnai--multicolour--swatch-07c49f0d.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAQAgCdASoLABAAA4BaJZACdAYtLbGCPYFAAOJ+iXCPKyDwnGyybSpDIZAW4G+Cfwlfm4g6bGBGI4XNZD/w/s8ic1+WhXsAzFqjt4U6RhGITc7JtPUWslFrWXMKf+WGEWPSzoOoqBAAAA==",
+              "color": "#c8b8b8"
+            },
+            "scene": {
+              "src": "/images/tyd/ratna/thinnai--multicolour--scene-ce0dbb60.webp",
+              "width": 1400,
+              "height": 2100,
+              "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoLABAAA4BaJZgC7AEPCsSc024AAP7ToANYt657asNbd0X1GmLI2NkyfNSNTvhHF8A13y+5ckscrqly/j9OEAAA",
+              "color": "#f8f8f8"
+            },
+            "chip": {
+              "src": "/images/tyd/ratna/thinnai--multicolour--chip-653c1d00.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAABQAgCdASoQABAAA4BaJZQCdAYt9UMAlbErqwAA/rAk0gfxFsKljqI2kOHIB46OK6EpV8yPkdtUuV1oErl7Am+leZ+c/760jjEug8xY+ahJwqXEt4KQAguQfu3QEtIGC5edw1KkRraUt4T0bdKoAA==",
+              "color": "#d8c8b8",
+              "shade": "#d4c4bb"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "mukta",
+        "name": "Mukta",
+        "technique": "Embroidered",
+        "story": "",
+        "colourways": [
+          {
+            "name": "Cream",
+            "url": "https://theyellowdwelling.com/products/mukta-100-cotton-embroidered-customizable-blind-for-livingroom-bedrooms-light-reduction-brown-beige",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/ratna/mukta--cream--swatch-ed453215.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoLABAAA4BaJaACdAEO+ks9HgAA/gtd1VhgZg1bMqZmZ2voz+mc9UdLqVVUoelnlvk5MsBAAAA=",
+              "color": "#d8c8b8"
+            },
+            "scene": {
+              "src": "/images/tyd/ratna/mukta--cream--scene-84d44a26.webp",
+              "width": 1400,
+              "height": 2100,
+              "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoLABAAA4BaJZgCdAEPAMCz3SAA/up7eWIFw79XYMnB2kZZV6ZBhLHlPIUcWdWrFdSygA0XZgQrnNMAAAA=",
+              "color": "#f8f8f8"
+            },
+            "chip": {
+              "src": "/images/tyd/ratna/mukta--cream--chip-733f9456.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRi4AAABXRUJQVlA4ICIAAABwAQCdASoQABAAA4BaJZQCdAFAAAD+7mQ/Pd3xJIlkAAAA",
+              "color": "#d8c8b8",
+              "shade": "#d4c3ba"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "neela",
+        "name": "Neela",
+        "technique": "Ajrakh-inspired print",
+        "story": "The deep indigo base, paired with terracotta and ivory accents, adds a rich, handcrafted feel reminiscent of traditional block printing.",
+        "colourways": [
+          {
+            "name": "Blue",
+            "url": "https://theyellowdwelling.com/products/neela-100-cotton-ethnic-printed-customizable-blind-for-living-room-bedrooms-room-darkening-indigo",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/ratna/neela--blue--swatch-137b3132.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoLABAAA4BaJZgCdAD0h8EZ0AD+LegKrQKl0v24DhnnX+aCtJKBhPS78nVlFYLrxUMOBUe3y5e2xMjTAAA=",
+              "color": "#283858"
+            },
+            "scene": {
+              "src": "/images/tyd/ratna/neela--blue--scene-4c0fadd6.webp",
+              "width": 1400,
+              "height": 2100,
+              "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoLABAAA4BaJaACdADcNcypEFYAAP7ZYFZ3+hrOPl6xdcobWaYIb5V67rxQ92Svygwk5KE5dfz99DduyxWua0XJwEA2tjCI/145TzYAAAA=",
+              "color": "#384858"
+            },
+            "chip": {
+              "src": "/images/tyd/ratna/neela--blue--chip-9665295f.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoQABAAA4BaJYgCdADuK36GSAD+ntceAnnqgsE3t/YWLNBkToHxbHQMmcmleeAMsCvgFky6zAA=",
+              "color": "#283858",
+              "shade": "#2a4462"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "pause",
+    "name": "Pause",
+    "season": "Summer 2025",
+    "designs": [
+      {
+        "slug": "rustle",
+        "name": "Rustle",
+        "technique": "Printed",
+        "story": "A geometric textured curtain in a soft muted pink hue, inspired by the quiet beauty of nature.",
+        "colourways": [
+          {
+            "name": "Herb Green",
+            "url": "https://theyellowdwelling.com/products/rustle-bog-100-cotton-geometric-style-curtain-for-living-room-and-bedroom-room-darkening-pack-of-1",
+            "seenAs": "Standard Curtains",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/pause/rustle--herb-green--swatch-2021e028.webp",
+              "width": 706,
+              "height": 1000,
+              "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADQAQCdASoLABAAA4BaJYwCdAEO/gk3QAD+89BOOH3/ddN8oLEbijTPhSphHJnQPk7ptwAA",
+              "color": "#f8f8f8"
+            },
+            "scene": {
+              "src": "/images/tyd/pause/rustle--herb-green--scene-3abf0345.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAQCdASoLABAAA4BaJZgCdADY44NkAP7reW6tOpXcbls9J3t1F/23XYLzP03KUTpyqE4Awb6XIUk1s6JdOf3/mvpSHLUE5AAAAA==",
+              "color": "#d8d8d8"
+            },
+            "chip": {
+              "src": "/images/tyd/pause/rustle--herb-green--chip-65043d87.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRi4AAABXRUJQVlA4ICIAAABQAQCdASoQABAABwBaJQBOgDEIAP7l2qs2RRhNJKO4YAAA",
+              "color": "#a89878",
+              "shade": "#b3a58b"
+            }
+          },
+          {
+            "name": "Mahogany",
+            "url": "https://theyellowdwelling.com/products/rustle-mohogany-100-cotton-geometric-style-curtain-for-living-room-and-bedroom-room-darkening-rust-pack-of-1",
+            "seenAs": "Standard Curtains",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/pause/rustle--mahogany--swatch-bd0f73cd.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAAAwAgCdASoLABAAA4BaJZQCdH8AF8fnfrZ1IAD+86x/Tfl2AnxMsENfum8Nvgmc1S4AAA==",
+              "color": "#f8f8f8"
+            },
+            "scene": null,
+            "chip": {
+              "src": "/images/tyd/pause/rustle--mahogany--chip-b95765d5.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjAAAABXRUJQVlA4ICQAAABQAQCdASoQABAABwBaJQBOgCgAAP7txnTQAwVQfFyhaiSUAAA=",
+              "color": "#c8a898",
+              "shade": "#d3b7ab"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "whisper",
+        "name": "Whisper",
+        "technique": "Printed",
+        "story": "A printed linen curtain with floral bunches in breezy shades of blue, designed to evoke the feeling of blossoms gently swaying in the air.",
+        "colourways": [
+          {
+            "name": "Blue",
+            "url": "https://theyellowdwelling.com/products/whisper-100-cotton-floral-curtain-for-living-room-room-darkening-blue-pack-of-1",
+            "seenAs": "Standard Curtains",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/pause/whisper--blue--swatch-1a69d93c.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADwAQCdASoLABAAA4BaJZwAAtpAsMWxVuAA/vOsf05uX8vjIVyWc/z6XL/KjlPOPRugTBbBh0/QAA==",
+              "color": "#f8f8f8"
+            },
+            "scene": {
+              "src": "/images/tyd/pause/whisper--blue--scene-a6b2501d.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAQCdASoLABAAA4BaJQBOgB45UvgAAP7oUD1uyQNbRwtn/WVf+SZC8vNSzTcWeL3yOObscltfAVpQrTCiifgAAAA=",
+              "color": "#b8a898"
+            },
+            "chip": {
+              "src": "/images/tyd/pause/whisper--blue--chip-f1c3e91d.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoQABAAA4BaJZQCdAD0gGSRqiwAAP7XFcm0ADFPfy+PXOBfy6IhnQUZVXJt9k2YHB6KUZ3yvZmIj4SG2y4AAA==",
+              "color": "#d8c8b8",
+              "shade": "#d8c8bb"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "still-water",
+        "name": "Still Water",
+        "technique": "Printed sheer",
+        "story": "A geometric sheer curtain with textured stripes in soft blue, blending effortless elegance with a relaxed and airy charm. For a more styled space, try all three together, the textures and tones play off each other effortlessly.",
+        "colourways": [
+          {
+            "name": "Green",
+            "url": "https://theyellowdwelling.com/products/still-water-geometric-100-cotton-sheer-curtain-for-living-room-light-filtering-green-pack-of-1",
+            "seenAs": "Standard Curtains",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/pause/still-water--green--swatch-a0636866.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADwAQCdASoLABAAA4BaJaQAAtz3g9eAeHgA/vOsteOBGR3nW0UZ3MM/ARqQAs+0k7kUc9B2RwAAAA==",
+              "color": "#f8f8f8"
+            },
+            "scene": {
+              "src": "/images/tyd/pause/still-water--green--scene-4e246ab1.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoLABAAA4BaJYwCdAEPELYACmgAAP7x0kFbhdBjrYf/qAAbwZ+4v8dGmWons927n8mMqMGLr4BgAA==",
+              "color": "#d8d8d8"
+            },
+            "chip": {
+              "src": "/images/tyd/pause/still-water--green--chip-07981b9c.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoQABAAA4BaJZwCdADJe9CRwAD+jWkueOkgufoSeNMYs4BAbScNShJGBoAAAA==",
+              "color": "#c8b8b8",
+              "shade": "#cabcb4"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "sakura",
+        "name": "Sakura",
+        "technique": "Printed sheer",
+        "story": "A floral sheer cotton curtain in a delicate blush pink, inspired by the fleeting beauty of Sakura blossoms. A dreamy pick for anyone who loves a calm, nature-inspired vibe.",
+        "colourways": [
+          {
+            "name": "Pink",
+            "url": "https://theyellowdwelling.com/products/sakura-100-sheer-flower-pattern-curtain-for-living-room-bedroom-light-filtering-rust-pack-of-1",
+            "seenAs": "Standard Curtains",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/pause/sakura--pink--swatch-1974d1dc.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoLABAAA4BaJZwAAupDezwJwAD+86x/Tfpfckb+rh0va+BPzGfy15s79AAAAA==",
+              "color": "#f8f8f8"
+            },
+            "scene": {
+              "src": "/images/tyd/pause/sakura--pink--scene-c32dd5a3.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoLABAAA4BaJQBOgCHTnHgSDAD+830g3zPXszXoR6CjfaCXsaKmF2meklQItGfw24AAAA==",
+              "color": "#d8d8d8"
+            },
+            "chip": {
+              "src": "/images/tyd/pause/sakura--pink--chip-348c7e4e.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACQAQCdASoQABAAA4BaJZV/2RgAqkAA/u8j5Q4spOfWIdIQWeh5wSKs5WnEtAAA",
+              "color": "#d8c8c8",
+              "shade": "#d7cac7"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "willow",
+        "name": "Willow",
+        "technique": "Embroidered",
+        "story": "",
+        "colourways": [
+          {
+            "name": "Floral",
+            "url": "https://theyellowdwelling.com/products/willow-100-cotton-floral-curtain-for-living-room-light-reduction-nile-blue-pack-of-1",
+            "seenAs": "Standard Curtains",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/pause/willow--floral--swatch-ac4fd76b.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRjAAAABXRUJQVlA4ICQAAADQAQCdASoLABAAA4BaJaQAAud9rzOTAAD+9PTs0mWGbRGAAAA=",
+              "color": "#f8f8f8"
+            },
+            "scene": {
+              "src": "/images/tyd/pause/willow--floral--scene-8a294d9a.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoLABAAA4BaJYwCdADxsPt0AAD+7WHXjbzxC4XpqAvfS9ukIycOy0e5zBOva65xNnKc4R4WxZAAAA==",
+              "color": "#c8c8c8"
+            },
+            "chip": {
+              "src": "/images/tyd/pause/willow--floral--chip-66d257e5.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAADwAQCdASoQABAAA4BaJaQAA1ZDFGJGVAAA/u/uhTiEgpqE5REWfW741AAAAA==",
+              "color": "#e8e8e8",
+              "shade": "#e7e4e3"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "fable",
+        "name": "Fable",
+        "technique": "Printed",
+        "story": "A classic geo-floral curtain with a modern twist. Inspired by timeless antique damask, this design features intricate herringbone-style motifs in soft olive and muted rust tones, earthy hues that bring in a sense of vintage charm and understated elegance.",
+        "colourways": [
+          {
+            "name": "Multicolour",
+            "url": "https://theyellowdwelling.com/products/fable-100-cotton-modern-floral-geometric-curtain-for-living-room-and-bedroom-room-darkening-multicolor-pack-of-1",
+            "seenAs": "Standard Curtains",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/pause/fable--multicolour--swatch-6799dd1c.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAQAgCdASoLABAAA4BaJZQCdAELYKciO08AAP7zrLXjNHaZfNDvO3TdNipXPJNA1nr65shZ3+wZoAAA",
+              "color": "#f8f8f8"
+            },
+            "scene": {
+              "src": "/images/tyd/pause/fable--multicolour--scene-62bc5e1a.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoLABAAA4BaJagCdADWO1FWAAD+8HNdpxah5nQBaTCh3ZHQQpc+4KSFM5ajrtdTyJLYeTAxSCARrkZq+W6dXsAA",
+              "color": "#d8d8d8"
+            },
+            "chip": {
+              "src": "/images/tyd/pause/fable--multicolour--chip-2efeb140.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQABAAA4BaJYwCdADbfMBjAAAA/o4j4f28N9QWWb9Zd7Ma8Hzl0PKKA0rAHXUJyt4DRItIhBCbpwAA",
+              "color": "#d8c8b8",
+              "shade": "#d6c6b8"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "celeste",
+        "name": "Celeste",
+        "technique": "Embroidered",
+        "story": "Celeste Flora & Fauna features delicate wildlife-inspired motifs on a serene Nile blue base, while Stella complements with a soft floral pattern in earthy tones.",
+        "colourways": [
+          {
+            "name": "Embroidered",
+            "url": "https://theyellowdwelling.com/products/celeste-flora-and-fauna-100-cotton-cushion-cover-for-sofa-nile-blue",
+            "seenAs": "Cushion Covers",
+            "swatchFrom": "Printed Fabric",
+            "chipCrop": {
+              "x": 0.2,
+              "y": 0.02,
+              "w": 0.6,
+              "h": 0.42
+            },
+            "swatch": {
+              "src": "/images/tyd/pause/celeste--embroidered--swatch-40f65e4a.webp",
+              "width": 1400,
+              "height": 1960,
+              "blur": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAACQAQCdASoLABAAA4BaJQBOgBwZg4AA/o9Mk8xICZNb978V1QheUhaEtAJeQjfrkAA=",
+              "color": "#c8c8c8"
+            },
+            "scene": {
+              "src": "/images/tyd/pause/celeste--embroidered--scene-d94b6fd1.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoLABAAA4BaJZQC7AEWoLMP0AAA+WuQM2NlvHlYZTm3hG9uKt+wSD1dKXOW5NnVeqbv1ov9k4kJRT+h1Eqy7FbAXh3pONabZHw0BAo+igf93AAA",
+              "color": "#c8c8c8"
+            },
+            "chip": {
+              "src": "/images/tyd/pause/celeste--embroidered--chip-570d4fd6.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACwAQCdASoQABAAA4BaJQBOgCKe6gAAAP6vdrRHP96Nfo5BETBwYEIrsP6vFzgQtK6AAA==",
+              "color": "#b8a888",
+              "shade": "#b7aa8c"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "echo",
+        "name": "Echo",
+        "technique": "Ikat-inspired print",
+        "story": "",
+        "colourways": [
+          {
+            "name": "Geometric",
+            "url": "https://theyellowdwelling.com/products/echo-100-cotton-contemporary-geometric-print-curtain-for-living-room-and-bedroom-room-darkening-yellow-pack-of-1",
+            "seenAs": "Standard Curtains",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/pause/echo--geometric--swatch-8cefb142.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAADQAQCdASoLABAAA4BaJZwAAueFEnOXoAD+9PTtDDhTfhxQdiNSkBmp/gA=",
+              "color": "#f8f8f8"
+            },
+            "scene": {
+              "src": "/images/tyd/pause/echo--geometric--scene-d2fecae7.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACQAQCdASoLABAAA4BaJQBOgB5kvAAA/u/X4RHdJrbc9rCeDBWZuKMp6raJuXpNyOto3j3eRsFDvn6ut3MIAAAA",
+              "color": "#d8d8d8"
+            },
+            "chip": {
+              "src": "/images/tyd/pause/echo--geometric--chip-66e8d33d.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAABwAQCdASoQABAAA4BaJSYAIwARYAD+8IHzNlUTiv1U/s+oEv1dtY7pVu0x9obv77AAAA==",
+              "color": "#e8e8e8",
+              "shade": "#e8e6e4"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "sienna",
+        "name": "Sienna",
+        "technique": "Ikat-inspired print",
+        "story": "A yellow cotton curtain in a warm dusky hue, inspired by traditional Ikat patterns and reimagined with subtle, minimal detailing.",
+        "colourways": [
+          {
+            "name": "Geometric",
+            "url": "https://theyellowdwelling.com/products/sienna-100-cotton-contemporary-geometric-curtain-for-living-room-and-bedroom-room-darkening-yellow-pack-of-1",
+            "seenAs": "Standard Curtains",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/pause/sienna--geometric--swatch-b30f45ca.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAwAgCdASoLABAAA4BaJbACdH8AGJwhgfXsAAD+86x/Snf3PfD5WZky2M909hLD3bWZCx85eCtRIqZnN6AAAA==",
+              "color": "#f8f8f8"
+            },
+            "scene": {
+              "src": "/images/tyd/pause/sienna--geometric--scene-ac4caa78.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoLABAAA4BaJbACdADdtoNi4fAA/vBkkQpBAFcuw9NeQcicgs7++YzzTJiJLU3ve1/Jnwbp6FiyzRppE5QAAA==",
+              "color": "#d8d8d8"
+            },
+            "chip": {
+              "src": "/images/tyd/pause/sienna--geometric--chip-f60f3243.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAABwAQCdASoQABAABIBaJbACdAFAAAD+7gFn9P4399YWz5vGnqy1GRDAAAA=",
+              "color": "#e8b868",
+              "shade": "#e4bb6b"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "posy",
+        "name": "Posy",
+        "technique": "Printed sheer",
+        "story": "The minimal print sheer curtain adds just the right touch of elegance while softly filtering in natural light. Its soft yellow accents make it a lovely choice if you're looking for a yellow sheer curtain with a gentle floral touch.",
+        "colourways": [
+          {
+            "name": "Minimal floral",
+            "url": "https://theyellowdwelling.com/products/posy-minimal-floral-print-100-cotton-sheer-curtain-for-living-room-light-filtering-yellow-pack-of-1",
+            "seenAs": "Standard Curtains",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/pause/posy--minimal-floral--swatch-7cb78fbc.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADwAQCdASoLABAAA4BaJZwAAu18O8+1MAAA/vUE1xCAbSMlS8KhDIXD101nOOAA",
+              "color": "#f8f8f8"
+            },
+            "scene": {
+              "src": "/images/tyd/pause/posy--minimal-floral--scene-313f730f.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoLABAAA4BaJYwCdAEOJU5PzgAA/vHSNa3qYEG4yZRJ+Ggjyaudg43CMvOMxaUOujNUMOI0AAA=",
+              "color": "#d8d8d8"
+            },
+            "chip": {
+              "src": "/images/tyd/pause/posy--minimal-floral--chip-9e924309.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAACQAQCdASoQABAAA4BaJZ2M+RgAiwAA/u+4FvItNumPHSiBCAAAAA==",
+              "color": "#d8c8c8",
+              "shade": "#d6ccc9"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "cosmos",
+        "name": "Cosmos",
+        "technique": "Printed",
+        "story": "",
+        "colourways": [
+          {
+            "name": "Floral",
+            "url": "https://theyellowdwelling.com/products/cosmos-100-cotton-aari-work-floral-geometric-design-cushion-cover-for-sofa-blue",
+            "seenAs": "Cushion Covers",
+            "swatchFrom": "Cushion Covers",
+            "swatch": {
+              "src": "/images/tyd/pause/cosmos--floral--swatch-167c8070.webp",
+              "width": 1400,
+              "height": 1960,
+              "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoLABAAA4BaJYwAAud1kyj++fAA/ucfdPfGkCOg9cFBn2vqrjvcc5PXoaJBFIcbOJaKKo/teN74AA==",
+              "color": "#c8c8c8"
+            },
+            "scene": {
+              "src": "/images/tyd/pause/cosmos--floral--scene-f4861f61.webp",
+              "width": 1400,
+              "height": 1960,
+              "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAQCdASoLABAAA4BaJaQAAlz/zR0QAP6G+WAymZQdMwNBNo+l1VApt3Y/ISPcunJ7F2f7gAA=",
+              "color": "#b8b8b8"
+            },
+            "chip": {
+              "src": "/images/tyd/pause/cosmos--floral--chip-ba881974.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoQABAAA4BaJZwAAucPfYzoAAD+3oho1LQhFVhvT+7FaBF3ddIZv4BXfq3FY3WAAAA=",
+              "color": "#687878",
+              "shade": "#bdbebc"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "haze",
+        "name": "Haze",
+        "technique": "Printed sheer",
+        "story": "A self-design white print sheer curtain with subtle geometric patterns, this white-on-white beauty is crisp, modern, and quietly elegant. A must-have minimal print sheer curtain for a soft yet stylish update.",
+        "colourways": [
+          {
+            "name": "Sheer geometric",
+            "url": "https://theyellowdwelling.com/products/haze-100-cotton-geometric-pattern-curtain-for-living-room-and-bedroom-room-darkening-yellow-pack-of-1",
+            "seenAs": "Standard Curtains",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/pause/haze--sheer-geometric--swatch-307b2ca2.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADwAQCdASoLABAAA4BaJaQAAujbn/p87AAA/vUE1w/wWBD5PTBqxdPTx1C1AAAA",
+              "color": "#f8f8f8"
+            },
+            "scene": {
+              "src": "/images/tyd/pause/haze--sheer-geometric--scene-529c03b9.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAQAgCdASoLABAAA4BaJYwCdAD0psCDIWdwAP7nQdTLnAfpiDKfigRgAWBiyjq5DK91M04ng5XQAA==",
+              "color": "#d8c8c8"
+            },
+            "chip": {
+              "src": "/images/tyd/pause/haze--sheer-geometric--chip-92c1fb70.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAABQAQCdASoQABAAA4BaJZwABAAAAP7twuQycBFYMWXYNSzYeQAAAA==",
+              "color": "#c8b8b8",
+              "shade": "#c4bab8"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "archive",
+    "name": "Earlier seasons",
+    "season": "2022 to 2024",
+    "designs": [
+      {
+        "slug": "pergola",
+        "name": "Pergola",
+        "technique": "Printed",
+        "story": "Our Pergola echoes the iconic arches of the Mediterranean with its geometric yet organic printed texture.",
+        "colourways": [
+          {
+            "name": "Indigo",
+            "url": "https://theyellowdwelling.com/products/pergola-indigo-aniseed-indigo-sheer-set-of-4-combo-cotton-curtain-indigo",
+            "seenAs": "Combo Curtains",
+            "swatchFrom": "Blind",
+            "swatch": {
+              "src": "/images/tyd/archive/pergola--indigo--swatch-9bc0a126.webp",
+              "width": 1400,
+              "height": 2100,
+              "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoLABAAA4BaJZACdADb56JRIAAAsWmW+OLCWKOHmSgZR6vPsamFgwI1jUHQUZ6kvlSScIwXHC+FJhNyXgQXTVVnK5cYAA==",
+              "color": "#587888"
+            },
+            "scene": {
+              "src": "/images/tyd/archive/pergola--indigo--scene-3c83c317.webp",
+              "width": 1200,
+              "height": 1680,
+              "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACwAQCdASoLABAAA4BaJQBOgBjLqOSAAP7zwN9VpiTKSc8tm72CsNrHEzYpzYNlGdaN9AAA",
+              "color": "#d8d8d8"
+            },
+            "chip": {
+              "src": "/images/tyd/archive/pergola--indigo--chip-499faf82.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAABwAQCdASoQABAAA4BaJQBOgBHUkAB7tmN//srgwTpi8T6uUDUuWLxcW5gAAA==",
+              "color": "#587888",
+              "shade": "#678998"
+            }
+          },
+          {
+            "name": "Nile Blue",
+            "url": "https://theyellowdwelling.com/products/pergola-nile-blueaniseed-nile-blue-sheer-set-of-4-combo-cotton-curtain-nile-blue",
+            "seenAs": "Combo Curtains",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/archive/pergola--nile-blue--swatch-50431af6.webp",
+              "width": 1200,
+              "height": 1600,
+              "blur": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADwAQCdASoMABAAA4BaJZQAAu19BhUq/gAA/vT1dvyCMJGCxJhqTLGI8qznS229AAA=",
+              "color": "#e8e8e8"
+            },
+            "scene": null,
+            "chip": {
+              "src": "/images/tyd/archive/pergola--nile-blue--chip-7861ef61.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRiwAAABXRUJQVlA4ICAAAAAwAQCdASoQABAAA4BaJQAAgAAA/u4z5hkMSvuT9EYAAA==",
+              "color": "#a8c8b8",
+              "shade": "#a7c5b9"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "gingko",
+        "name": "Gingko",
+        "technique": "Printed sheer",
+        "story": "In Japanese decorative art, the ginkgos distinctive fan-shaped leaf has been a symbol of longevity.",
+        "colourways": [
+          {
+            "name": "Nile Blue",
+            "url": "https://theyellowdwelling.com/products/gingko-cotton-and-sheer-set-of-4-combo-curtain-nile-blue",
+            "seenAs": "Combo Curtains",
+            "swatchFrom": "Blind",
+            "swatch": {
+              "src": "/images/tyd/archive/gingko--nile-blue--swatch-8eac0c18.webp",
+              "width": 1400,
+              "height": 2100,
+              "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoLABAAA4BaJZACdAEO+0LkW1QAAP7xz7lO3O5FR7qQd/eI0U8R7e3Va0XKDelatDOUBKt3cx3asFozQaAAAA==",
+              "color": "#e8e8e8"
+            },
+            "scene": {
+              "src": "/images/tyd/archive/gingko--nile-blue--scene-f28c6d7a.webp",
+              "width": 1200,
+              "height": 1680,
+              "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAQCdASoLABAAA4BaJYwCdADcMAfTAAAA/u3QKqjzxRI2FLGxwnq+dMgWvCurN1VtJRaIAAA=",
+              "color": "#d8c8b8"
+            },
+            "chip": {
+              "src": "/images/tyd/archive/gingko--nile-blue--chip-675c3c9a.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAABwAQCdASoQABAAA4BaJZWM+AHhAAD+8LsQYApQKgg2zSlDFub1SHAA",
+              "color": "#e8e8e8",
+              "shade": "#ebe7e3"
+            }
+          },
+          {
+            "name": "Beige",
+            "url": "https://theyellowdwelling.com/products/gingko-cotton-and-sheer-set-of-4-combo-curtain-nile-blue",
+            "seenAs": "Combo Curtains",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/archive/gingko--beige--swatch-98b499fa.webp",
+              "width": 1200,
+              "height": 1680,
+              "blur": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAADQAQCdASoLABAAA4BaJYwCdAD0gxD0AAD+lrgqddKQmekabvbdOEAA",
+              "color": "#d8c8c8"
+            },
+            "scene": null,
+            "chip": {
+              "src": "/images/tyd/archive/gingko--beige--chip-b9ad5f36.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAADwAQCdASoQABAAA4BaJYwCdAEPBQ7d3gAA/q95P9/tPGXcj6wfFmraAAA=",
+              "color": "#c8b8a8",
+              "shade": "#d5c7b9"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "climbing-roses",
+        "name": "Climbing Roses",
+        "technique": "Printed",
+        "story": "",
+        "colourways": [
+          {
+            "name": "Wine Red",
+            "url": "https://theyellowdwelling.com/products/climbing-roses-100-customizable-cotton-floral-roman-blind-for-living-room-room-darkening-wine-red",
+            "seenAs": "Blind",
+            "swatchFrom": "Blind",
+            "swatch": {
+              "src": "/images/tyd/archive/climbing-roses--wine-red--swatch-ee693a3c.webp",
+              "width": 1400,
+              "height": 2100,
+              "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAwAgCdASoLABAAA4BaJZACdAEPCrW349RpAAD+7VEYUl4C0zMgQFBGB7Rvw2uD3ahdI9xiFklo5kEsLzRHCRrBaM0pEAAA",
+              "color": "#e8d8d8"
+            },
+            "scene": {
+              "src": "/images/tyd/archive/climbing-roses--wine-red--scene-d8295951.webp",
+              "width": 1400,
+              "height": 2100,
+              "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAwAgCdASoLABAAA4BaJYwCdAEUVBk8zwk0AAD+85gwr7yjd9kWUFHphNHFPBVX+0F1ErsWnTHwZYu/R+XSAAAA",
+              "color": "#e8e8d8"
+            },
+            "chip": {
+              "src": "/images/tyd/archive/climbing-roses--wine-red--chip-05b3a6d5.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoQABAAA4BaJYzuHJ8UVwqwBcAA/vAx8lg2VNovEQZKmoP+8vjUk0L2YFvBdpU+yFF6u0cy0IAAAA==",
+              "color": "#e8e8d8",
+              "shade": "#eee1d3"
+            }
+          },
+          {
+            "name": "Lavender",
+            "url": "https://theyellowdwelling.com/products/climbing-roses-100-customizable-cotton-floral-roman-blind-for-living-room-room-darkening-lavender",
+            "seenAs": "Blind",
+            "swatchFrom": "Blind",
+            "swatch": {
+              "src": "/images/tyd/archive/climbing-roses--lavender--swatch-e165e373.webp",
+              "width": 1400,
+              "height": 2100,
+              "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoLABAAA4BaJZAC7AEO/h+7o7uAAP70zI3cRvlXrupBvXLGgw2tE+q1ouVEnrI/01Q/QXYB6drIyqNOuAA=",
+              "color": "#f8f8f8"
+            },
+            "scene": null,
+            "chip": {
+              "src": "/images/tyd/archive/climbing-roses--lavender--chip-4ffbd294.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAQCdASoQABAAA4BaJZy++hb4AI7QAP7yA9/HSZCmOansBWfSsCIFJ+e4fta/DPNhfXZAAAA=",
+              "color": "#f8f8f8",
+              "shade": "#fbf7f4"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "eden",
+        "name": "Eden",
+        "technique": "Printed",
+        "story": "A minimal and pleasant floral jaal pattern in mustard is inspired by the creepers of the forest.",
+        "colourways": [
+          {
+            "name": "Mustard",
+            "url": "https://theyellowdwelling.com/products/eden-mustard-100-cotton-floral-customizable-blind-for-bed-room-room-darkening",
+            "seenAs": "Blind",
+            "swatchFrom": "Blind",
+            "swatch": {
+              "src": "/images/tyd/archive/eden--mustard--swatch-e7d51a58.webp",
+              "width": 1400,
+              "height": 2100,
+              "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoLABAAA4BaJbACdAELYELU1EFAAP6uy/Ok+bd0X1GIJV4iKum3Ege6yagnfCOL1hpa3deFjdfrJQ23+hKMSDLMS8dhuA9gAAA=",
+              "color": "#d89848"
+            },
+            "scene": {
+              "src": "/images/tyd/archive/eden--mustard--scene-9af9c691.webp",
+              "width": 1400,
+              "height": 2100,
+              "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoLABAAA4BaJaACdAELXlEy5ofAAP7wSZ+n7q8bDdMCydVum223m5uu2vri1f3wVbzwyq6AQn8V4uw+CLTU1mkaK/lsK1wA",
+              "color": "#e8e8e8"
+            },
+            "chip": {
+              "src": "/images/tyd/archive/eden--mustard--chip-09ccfed2.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAQCdASoQABAAA4BaJbACdAEO/g/xsAD+rp+1rfzP40zff4r9on1lL3yOd7PdgAA=",
+              "color": "#d89848",
+              "shade": "#d5a258"
+            }
+          },
+          {
+            "name": "Aqua Blue",
+            "url": "https://theyellowdwelling.com/products/eden-aqua-blue-room-darkening-ivy-vines-sheer-embroidered-light-filtering-100-cotton-for-living-room-bedroom-aqua-blue-cream-combo-curtains-pack-of-4",
+            "seenAs": "Combo Curtains",
+            "swatchFrom": "Blind",
+            "swatch": {
+              "src": "/images/tyd/archive/eden--aqua-blue--swatch-71a19880.webp",
+              "width": 1400,
+              "height": 2100,
+              "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoLABAAA4BaJZACsADc5wT1xIAAAP6NIzw2yjt0L9XYLwQz2LYobxCtH+ou/vpnzt4DEJCK9qt7CrZyvUE/Wvl/pMAAAA==",
+              "color": "#78a8a8"
+            },
+            "scene": null,
+            "chip": {
+              "src": "/images/tyd/archive/eden--aqua-blue--chip-6c12c404.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAACwAQCdASoQABAAA4BaJQAAXKZTLjgAAP6Lj8lr90pLFPJZWm/0hwnUgAA=",
+              "color": "#78a8a8",
+              "shade": "#87aca4"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "ivy-vines",
+        "name": "Ivy Vines",
+        "technique": "Embroidered",
+        "story": "The first of our embroidered curtain designs. Embroidered in neutral tones to fit seamlessly into any home.",
+        "colourways": [
+          {
+            "name": "Cream",
+            "url": "https://theyellowdwelling.com/products/ivy-vines-cream-embroid-100-cotton-sheer-printed-customizable-blind-for-livingroom-bedrooms-light-filtering",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/archive/ivy-vines--cream--swatch-9fc04f34.webp",
+              "width": 1200,
+              "height": 1600,
+              "blur": "data:image/webp;base64,UklGRigAAABXRUJQVlA4IBwAAABQAQCdASoMABAABIBaJaQABHQAAP7xOlAUYAAA",
+              "color": "#e8e8e8"
+            },
+            "scene": {
+              "src": "/images/tyd/archive/ivy-vines--cream--scene-7c507f86.webp",
+              "width": 1400,
+              "height": 2100,
+              "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAwAgCdASoLABAAA4BaJZACdAEO/9JSq/8XCAD+7Uhh6nQLTMyBAUIFm0U/RatHahdI9xiFkQb8oYxN7puUhCC5GiAIAAAA",
+              "color": "#d8d8b8"
+            },
+            "chip": {
+              "src": "/images/tyd/archive/ivy-vines--cream--chip-297c7cce.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRigAAABXRUJQVlA4IBwAAABQAQCdASoQABAAA4BaJZwABDOAAP7xd2euZAAA",
+              "color": "#e8e8e8",
+              "shade": "#ece8e3"
+            }
+          },
+          {
+            "name": "White",
+            "url": "https://theyellowdwelling.com/products/ivy-vines-white-embroid-100-cotton-sheer-printed-customizable-blind-for-livingroom-bedrooms-light-filtering",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/archive/ivy-vines--white--swatch-5e7bad90.webp",
+              "width": 1200,
+              "height": 1600,
+              "blur": "data:image/webp;base64,UklGRioAAABXRUJQVlA4IB4AAAAwAQCdASoMABAAA4BaJaQAA3AA/vEWJJuM+uYQAAA=",
+              "color": "#e8e8e8"
+            },
+            "scene": null,
+            "chip": {
+              "src": "/images/tyd/archive/ivy-vines--white--chip-0008c80e.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoQABAAA4BaJaQAA3AA/vF5AAA=",
+              "color": "#e8e8e8",
+              "shade": "#eae8e7"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "lotus-pond",
+        "name": "Lotus Pond",
+        "technique": "Printed",
+        "story": "Risen from muddy waters, lotus flowers are a symbol of purity. Our Lotus Pond cotton fabric is a glorious combination of rust and sage green makes a perfect fit for you living/dining room.",
+        "colourways": [
+          {
+            "name": "Rust",
+            "url": "https://theyellowdwelling.com/products/lotus-pond-sacred-waters-sheer-set-of-4-combo-cotton-curtain-off-white",
+            "seenAs": "Combo Curtains",
+            "swatchFrom": "Blind",
+            "swatch": {
+              "src": "/images/tyd/archive/lotus-pond--rust--swatch-c9139687.webp",
+              "width": 1400,
+              "height": 2100,
+              "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoLABAAA4BaJZACdAEO/9IqyLoAAP7x3rnPeaWHa6L6jEEpopKfdNvlRYBpXFautMgFBNur0LsA9ObIyqOrXAAA",
+              "color": "#e8d8d8"
+            },
+            "scene": {
+              "src": "/images/tyd/archive/lotus-pond--rust--scene-e83d5c11.webp",
+              "width": 1200,
+              "height": 1680,
+              "blur": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADwAQCdASoLABAAA4BaJYwCsAEPAPHjPNAA/vUfdd/LEQqeNUSpoRjmvebu9wRuoAA=",
+              "color": "#e8e8e8"
+            },
+            "chip": {
+              "src": "/images/tyd/archive/lotus-pond--rust--chip-2daab034.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoQABAAA4BaJZQC7AD0lar6AAD+8DoUJccl1SENTcMo567yyL1pJufI8tNNAMLV0+UVqAAA",
+              "color": "#e8d8d8",
+              "shade": "#e3dfdc"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "spice-route",
+        "name": "Spice Route",
+        "technique": "Ikat-inspired print",
+        "story": "This sage and warm grey java-inspired print is as earthy a tone as they come.",
+        "colourways": [
+          {
+            "name": "Sage Green",
+            "url": "https://theyellowdwelling.com/products/spice-route-dew-sheer-set-of-4-combo-cotton-curtain-sage-green",
+            "seenAs": "Combo Curtains",
+            "swatchFrom": "Blind",
+            "swatch": {
+              "src": "/images/tyd/archive/spice-route--sage-green--swatch-c97329fb.webp",
+              "width": 1400,
+              "height": 2100,
+              "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAwAgCdASoLABAAA4BaJZAC7AEPAMTxN+2rcAD+0y3sUSPlWViT8C1s4KFlN+HByD3ahdI9xiFkUK9VyW8/Aj4NiDAftAaAAAA=",
+              "color": "#f8f8f8"
+            },
+            "scene": {
+              "src": "/images/tyd/archive/spice-route--sage-green--scene-90805d75.webp",
+              "width": 1200,
+              "height": 1680,
+              "blur": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADwAQCdASoLABAAA4BaJYwCdADdFrLTlwAA/vIpff3zMlIdA+C86GSB8ohbqO67AAA=",
+              "color": "#e8e8d8"
+            },
+            "chip": {
+              "src": "/images/tyd/archive/spice-route--sage-green--chip-9afb927e.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAABwAQCdASoQABAAA4BaJZWR5AHhAAD+7UJqVGfn4e7flf2eF+9UkGWnsIcAAA==",
+              "color": "#d8c8c8",
+              "shade": "#b7b5ab"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "sacred-waters",
+        "name": "Sacred Waters",
+        "technique": "Printed sheer",
+        "story": "",
+        "colourways": [
+          {
+            "name": "Sheer floral",
+            "url": "https://theyellowdwelling.com/products/sacred-water-cotton-sheer-printed-customizable-blind-for-livingroom-bedrooms-light-filtering",
+            "seenAs": "Blind",
+            "swatchFrom": "Blind",
+            "swatch": {
+              "src": "/images/tyd/archive/sacred-waters--sheer-floral--swatch-17ce5497.webp",
+              "width": 1400,
+              "height": 2100,
+              "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoLABAAA4BaJZAC7AEO96pmb1LwAP7xz7oe0pC/V2C8D/22jHTAlF399M+bgmlt/bW4FUVdSNCzadwXDoAAAA==",
+              "color": "#e8e8d8"
+            },
+            "scene": {
+              "src": "/images/tyd/archive/sacred-waters--sheer-floral--scene-e5712083.webp",
+              "width": 1400,
+              "height": 2100,
+              "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoLABAAA4BaJYwC7AEO/esKAAD+9NGt1ZMe0jt72hM755G7zMgqvus8q6xExuBsAY6QAA==",
+              "color": "#e8e8e8"
+            },
+            "chip": {
+              "src": "/images/tyd/archive/sacred-waters--sheer-floral--chip-cad878f4.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRioAAABXRUJQVlA4IB4AAAAwAQCdASoQABAAA4BaJZwAA3AA/vDgXa2ouiBwAAA=",
+              "color": "#e8d8d8",
+              "shade": "#e3e1de"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "sunbird",
+        "name": "Sunbird",
+        "technique": "Printed sheer",
+        "story": "This fun sheer print sports sunbirds and peacocks, inspired by the tribal representation of birds.",
+        "colourways": [
+          {
+            "name": "Sheer floral",
+            "url": "https://theyellowdwelling.com/products/sunbird-100-cotton-sheer-printed-customizable-blind-for-livingroom-bedrooms-light-filtering",
+            "seenAs": "Blind",
+            "swatchFrom": "Blind",
+            "swatch": {
+              "src": "/images/tyd/archive/sunbird--sheer-floral--swatch-07fd4a7e.webp",
+              "width": 1400,
+              "height": 2100,
+              "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoLABAAA4BaJZAC7AEf/rIQJ/GAAP7x4QKDeqwACJ7H1HDzJQMa5G7L4b/UHQUZ6kvdQsA87lASrd3Mbi+ogBykAAA=",
+              "color": "#e8e8e8"
+            },
+            "scene": {
+              "src": "/images/tyd/archive/sunbird--sheer-floral--scene-8fbe6e8c.webp",
+              "width": 1400,
+              "height": 2100,
+              "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoLABAAA4BaJZQC7AEPAQG/WAAA/vN6PribjbpXFvTRxTuvwXtBdNufuCAeXUj35EFUiHAA",
+              "color": "#e8e8e8"
+            },
+            "chip": {
+              "src": "/images/tyd/archive/sunbird--sheer-floral--chip-468526dc.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAABQAgCdASoQABAAA4BaJZwAFhAst7HltXGwIAAA/vHrTqSjb9LcT0jIw/GQWID7hmNVZLDTXrHOGwYgReansHXU3cWEZU4HpnAAAA==",
+              "color": "#e8e8e8",
+              "shade": "#e6e4e2"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "mallige",
+        "name": "Mallige",
+        "technique": "Printed sheer",
+        "story": "Delicate as a flower garland, our light filtering printed sheer Cotton Curtain features a subtle geometric pattern in rust and mustard. This curtain combines the airy elegance of sheer fabric with a fresh, modern design, showcasing soft, intricate stripes in warm, festive tones.",
+        "colourways": [
+          {
+            "name": "Sheer geometric",
+            "url": "https://theyellowdwelling.com/products/mallige-100-cotton-sheer-printed-customizable-blind-for-livingroom-bedrooms-light-filtering",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/archive/mallige--sheer-geometric--swatch-4b3ac36e.webp",
+              "width": 1200,
+              "height": 1600,
+              "blur": "data:image/webp;base64,UklGRiYAAABXRUJQVlA4IBoAAAAwAQCdASoMABAAA4BaJaQAA3AA/vNdU6AAAA==",
+              "color": "#f8f8f8"
+            },
+            "scene": {
+              "src": "/images/tyd/archive/mallige--sheer-geometric--scene-c1bb9831.webp",
+              "width": 1400,
+              "height": 2100,
+              "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoLABAAA4BaJZAC7AEO96pmb1LwAP7zcumfdYo4eZKBgLEV2nO1n399M+bgmlljUS+8lPcx4NWC0YSuAAA=",
+              "color": "#e8e8e8"
+            },
+            "chip": {
+              "src": "/images/tyd/archive/mallige--sheer-geometric--chip-6cee517a.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRigAAABXRUJQVlA4IBwAAAAwAQCdASoQABAAA4BaJZwAA3AA/vMQLdkw4QAA",
+              "color": "#f8f8f8",
+              "shade": "#f4f4f1"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "sitara",
+        "name": "Sitara",
+        "technique": "Printed sheer",
+        "story": "Featuring subtle stripes with small, intricate motifs, this curtain creates a refined and airy look.",
+        "colourways": [
+          {
+            "name": "Sheer geometric",
+            "url": "https://theyellowdwelling.com/products/sitara-100-cotton-sheer-printed-customizable-blind-for-livingroom-bedrooms-light-filtering",
+            "seenAs": "Blind",
+            "swatchFrom": "Printed Fabric",
+            "swatch": {
+              "src": "/images/tyd/archive/sitara--sheer-geometric--swatch-ac5a6293.webp",
+              "width": 1200,
+              "height": 1600,
+              "blur": "data:image/webp;base64,UklGRiYAAABXRUJQVlA4IBoAAAAwAQCdASoMABAAA4BaJaQAA3AA/vHD+pyQAA==",
+              "color": "#e8e8e8"
+            },
+            "scene": {
+              "src": "/images/tyd/archive/sitara--sheer-geometric--scene-aaaf3975.webp",
+              "width": 1400,
+              "height": 2100,
+              "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoLABAAA4BaJZAC7AEO/jzUC+NAAP72AlskOVZWJPwK/TmnQ2I09BRnqRZA8tz/FqoRra2FElYaUl4AAAA=",
+              "color": "#f8e8e8"
+            },
+            "chip": {
+              "src": "/images/tyd/archive/sitara--sheer-geometric--chip-764cf3bf.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAABwAQCdASoQABAAA4BaJZ1efAHJgAD+8YI/skSmzPrZngHdYEAAAA==",
+              "color": "#e8e8e8",
+              "shade": "#ecece9"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "wild-roses",
+        "name": "Wild Roses",
+        "technique": "Printed",
+        "story": "",
+        "colourways": [
+          {
+            "name": "Floral",
+            "url": "https://theyellowdwelling.com/products/wild-roses-cream-sheer-set-of-4-combo-cotton-curtain-red-cream",
+            "seenAs": "Combo Curtains",
+            "swatchFrom": "Blind",
+            "swatch": {
+              "src": "/images/tyd/archive/wild-roses--floral--swatch-a2d8b435.webp",
+              "width": 1400,
+              "height": 2100,
+              "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoLABAAA4BaJZACdAEPCrW33hVwAP7nLAN6x9naZmQIChJHKQ4nS/bSJ9VrRcoVHFFoZygJVu7mPFylYZeyEdEAAAA=",
+              "color": "#e8d8c8"
+            },
+            "scene": {
+              "src": "/images/tyd/archive/wild-roses--floral--scene-1cd54c20.webp",
+              "width": 1200,
+              "height": 1680,
+              "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADQAQCdASoLABAAA4BaJQBOgBuoV6uQ+AD+9NWVQLS1h6tFwqpkuwIZZFA/sKlRSSu6weAA",
+              "color": "#f8e8d8"
+            },
+            "chip": {
+              "src": "/images/tyd/archive/wild-roses--floral--chip-a9ff9ddb.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAABQAgCdASoQABAAA4BaJYwCdAYsN+7J3VBgiQAA/ud7xq1V5RjgJfy+pAqucuVduqyJ9hyn8JS4vasLSA5iRDcHqfRu9DnEwqeGESRs5F6Ie/waqRzIWkQghN2VQAAA",
+              "color": "#e8d8c8",
+              "shade": "#eadccb"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "french-farmhouse",
+        "name": "French Farmhouse",
+        "technique": "Printed",
+        "story": "",
+        "colourways": [
+          {
+            "name": "Floral",
+            "url": "https://theyellowdwelling.com/products/french-farmhouse-in-neutrals-trailing-berries-sheer-set-of-4-combo-cotton-curtain-beige-cream",
+            "seenAs": "Combo Curtains",
+            "swatchFrom": "Blind",
+            "swatch": {
+              "src": "/images/tyd/archive/french-farmhouse--floral--swatch-399b2b72.webp",
+              "width": 1400,
+              "height": 2100,
+              "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoLABAAA4BaJZACdAEO+zkCAnfAAP7vw4hwXCZjCbbwbb+AITISvQHgnQUZ6kj389OwPEwHFe7IAWC5iT3yTcoAAAA=",
+              "color": "#f8e8c8"
+            },
+            "scene": {
+              "src": "/images/tyd/archive/french-farmhouse--floral--scene-832df5d4.webp",
+              "width": 1200,
+              "height": 1680,
+              "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAQCdASoLABAAA4BaJQBOgBi8g/mgAP7x4/dbKGG/oeJbckkbvqX1kQjaY03328Q6fYgAAAA=",
+              "color": "#f8e8d8"
+            },
+            "chip": {
+              "src": "/images/tyd/archive/french-farmhouse--floral--chip-f12ac09d.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAABQAQCdASoQABAAA4BaJQBOgCgAAP7wTOK/FvETsMJgnIm7AwAAAA==",
+              "color": "#f8e8c8",
+              "shade": "#e7d5ba"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "indus",
+        "name": "Indus",
+        "technique": "Printed",
+        "story": "The Indus block printed curtain with its amber floral detailing paired with the solid cream sheer is sure to bring in a fresh feel this festive time!",
+        "colourways": [
+          {
+            "name": "Ethnic",
+            "url": "https://theyellowdwelling.com/products/indus-with-mustard-set-of-4-combo-cotton-curtain-mustard",
+            "seenAs": "Combo Curtains",
+            "swatchFrom": "Blind",
+            "swatch": {
+              "src": "/images/tyd/archive/indus--ethnic--swatch-d8d1cc89.webp",
+              "width": 1400,
+              "height": 2100,
+              "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwAgCdASoLABAAA4BaJZgCdAEOlg48fuefAAD+79kSBbINTBVeejcNsYquUBYF3rvs7tXX7f30z5+lYyYIJB6ichq2ds5SsMu/2AQAAAA=",
+              "color": "#e8d8c8"
+            },
+            "scene": {
+              "src": "/images/tyd/archive/indus--ethnic--scene-df1ea022.webp",
+              "width": 1200,
+              "height": 1700,
+              "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADwAQCdASoLABAAA4BaJbACdADG6VjwGAAA/vIq2mHGbf0qyDacS/ZElnyzkEG33feKoAAA",
+              "color": "#f8f8f8"
+            },
+            "chip": {
+              "src": "/images/tyd/archive/indus--ethnic--chip-0d495cac.webp",
+              "width": 720,
+              "height": 720,
+              "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAABwAQCdASoQABAAA4BaJSpgIwARYAD+8CudXNKQuhXrxlRSxOb2NW4ytWYMg+Mi4ifgAA==",
+              "color": "#e8d8c8",
+              "shade": "#e4d9cd"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-13T19:37:40.241678+00:00",
+  "title": "Design System: ras.ruchi",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "primary",
+        "displayName": "Ink Black",
+        "canonical": "oklch(20.0% 0.002 107)",
+        "tonalRamp": [
+          "oklch(15% 0.002 107)",
+          "oklch(26% 0.002 107)",
+          "oklch(37% 0.002 107)",
+          "oklch(48% 0.002 107)",
+          "oklch(59% 0.002 107)",
+          "oklch(70% 0.002 107)",
+          "oklch(81% 0.002 107)",
+          "oklch(92% 0.002 107)"
+        ]
+      },
+      "band-rasaa": {
+        "role": "secondary",
+        "displayName": "Kolam Green",
+        "canonical": "oklch(40.3% 0.045 158)",
+        "tonalRamp": [
+          "oklch(15% 0.045 158)",
+          "oklch(26% 0.045 158)",
+          "oklch(37% 0.045 158)",
+          "oklch(48% 0.045 158)",
+          "oklch(59% 0.045 158)",
+          "oklch(70% 0.045 158)",
+          "oklch(81% 0.045 158)",
+          "oklch(92% 0.045 158)"
+        ]
+      },
+      "band-entwine": {
+        "role": "secondary",
+        "displayName": "Glen Mist Blue",
+        "canonical": "oklch(51.9% 0.057 261)",
+        "tonalRamp": [
+          "oklch(15% 0.057 261)",
+          "oklch(26% 0.057 261)",
+          "oklch(37% 0.057 261)",
+          "oklch(48% 0.057 261)",
+          "oklch(59% 0.057 261)",
+          "oklch(70% 0.057 261)",
+          "oklch(81% 0.057 261)",
+          "oklch(92% 0.057 261)"
+        ]
+      },
+      "band-ratna": {
+        "role": "secondary",
+        "displayName": "Kadamba Oxblood",
+        "canonical": "oklch(36.3% 0.103 24)",
+        "tonalRamp": [
+          "oklch(15% 0.103 24)",
+          "oklch(26% 0.103 24)",
+          "oklch(37% 0.103 24)",
+          "oklch(48% 0.103 24)",
+          "oklch(59% 0.103 24)",
+          "oklch(70% 0.103 24)",
+          "oklch(81% 0.103 24)",
+          "oklch(92% 0.103 24)"
+        ]
+      },
+      "band-pause": {
+        "role": "secondary",
+        "displayName": "Sienna Mustard",
+        "canonical": "oklch(75.5% 0.124 80)",
+        "tonalRamp": [
+          "oklch(15% 0.124 80)",
+          "oklch(26% 0.124 80)",
+          "oklch(37% 0.124 80)",
+          "oklch(48% 0.124 80)",
+          "oklch(59% 0.124 80)",
+          "oklch(70% 0.124 80)",
+          "oklch(81% 0.124 80)",
+          "oklch(92% 0.124 80)"
+        ]
+      },
+      "band-archive": {
+        "role": "secondary",
+        "displayName": "Pergola Indigo",
+        "canonical": "oklch(36.5% 0.070 265)",
+        "tonalRamp": [
+          "oklch(15% 0.07 265)",
+          "oklch(26% 0.07 265)",
+          "oklch(37% 0.07 265)",
+          "oklch(48% 0.07 265)",
+          "oklch(59% 0.07 265)",
+          "oklch(70% 0.07 265)",
+          "oklch(81% 0.07 265)",
+          "oklch(92% 0.07 265)"
+        ]
+      },
+      "board": {
+        "role": "neutral",
+        "displayName": "Mill Board Grey",
+        "canonical": "oklch(87.5% 0.007 107)",
+        "tonalRamp": [
+          "oklch(15% 0.007 107)",
+          "oklch(26% 0.007 107)",
+          "oklch(37% 0.007 107)",
+          "oklch(48% 0.007 107)",
+          "oklch(59% 0.007 107)",
+          "oklch(70% 0.007 107)",
+          "oklch(81% 0.007 107)",
+          "oklch(92% 0.007 107)"
+        ]
+      },
+      "board-deep": {
+        "role": "neutral",
+        "displayName": "Deep Board",
+        "canonical": "oklch(83.4% 0.008 107)",
+        "tonalRamp": [
+          "oklch(15% 0.008 107)",
+          "oklch(26% 0.008 107)",
+          "oklch(37% 0.008 107)",
+          "oklch(48% 0.008 107)",
+          "oklch(59% 0.008 107)",
+          "oklch(70% 0.008 107)",
+          "oklch(81% 0.008 107)",
+          "oklch(92% 0.008 107)"
+        ]
+      },
+      "card": {
+        "role": "neutral",
+        "displayName": "Card Stock",
+        "canonical": "oklch(96.6% 0.004 106)",
+        "tonalRamp": [
+          "oklch(15% 0.004 106)",
+          "oklch(26% 0.004 106)",
+          "oklch(37% 0.004 106)",
+          "oklch(48% 0.004 106)",
+          "oklch(59% 0.004 106)",
+          "oklch(70% 0.004 106)",
+          "oklch(81% 0.004 106)",
+          "oklch(92% 0.004 106)"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Press Grey",
+        "canonical": "oklch(41.9% 0.008 107)",
+        "tonalRamp": [
+          "oklch(15% 0.008 107)",
+          "oklch(26% 0.008 107)",
+          "oklch(37% 0.008 107)",
+          "oklch(48% 0.008 107)",
+          "oklch(59% 0.008 107)",
+          "oklch(70% 0.008 107)",
+          "oklch(81% 0.008 107)",
+          "oklch(92% 0.008 107)"
+        ]
+      },
+      "hair": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "rgb(22 22 21 / 0.16)"
+      },
+      "hair-strong": {
+        "role": "neutral",
+        "displayName": "Strong Rule",
+        "canonical": "rgb(22 22 21 / 0.42)"
+      },
+      "on-band-light": {
+        "role": "neutral",
+        "displayName": "Band Off-White",
+        "canonical": "#f7f3ee",
+        "tonalRamp": [
+          "oklch(15% 0.008 70)",
+          "oklch(26% 0.008 70)",
+          "oklch(37% 0.008 70)",
+          "oklch(48% 0.008 70)",
+          "oklch(59% 0.008 70)",
+          "oklch(70% 0.008 70)",
+          "oklch(81% 0.008 70)",
+          "oklch(92% 0.008 70)"
+        ]
+      },
+      "on-band-dark": {
+        "role": "neutral",
+        "displayName": "Band Near-Black",
+        "canonical": "#1b1a14",
+        "tonalRamp": [
+          "oklch(15% 0.008 100)",
+          "oklch(26% 0.008 100)",
+          "oklch(37% 0.008 100)",
+          "oklch(48% 0.008 100)",
+          "oklch(59% 0.008 100)",
+          "oklch(70% 0.008 100)",
+          "oklch(81% 0.008 100)",
+          "oklch(92% 0.008 100)"
+        ]
+      },
+      "board-night": {
+        "role": "neutral",
+        "displayName": "Charcoal Board",
+        "canonical": "oklch(18.5% 0.004 129)",
+        "tonalRamp": [
+          "oklch(15% 0.004 129)",
+          "oklch(26% 0.004 129)",
+          "oklch(37% 0.004 129)",
+          "oklch(48% 0.004 129)",
+          "oklch(59% 0.004 129)",
+          "oklch(70% 0.004 129)",
+          "oklch(81% 0.004 129)",
+          "oklch(92% 0.004 129)"
+        ]
+      },
+      "board-deep-night": {
+        "role": "neutral",
+        "displayName": "Deep Charcoal Board",
+        "canonical": "#0d0e0c",
+        "tonalRamp": [
+          "oklch(15% 0.004 129)",
+          "oklch(26% 0.004 129)",
+          "oklch(37% 0.004 129)",
+          "oklch(48% 0.004 129)",
+          "oklch(59% 0.004 129)",
+          "oklch(70% 0.004 129)",
+          "oklch(81% 0.004 129)",
+          "oklch(92% 0.004 129)"
+        ]
+      },
+      "card-night": {
+        "role": "neutral",
+        "displayName": "Night Card Stock",
+        "canonical": "oklch(22.9% 0.006 122)",
+        "tonalRamp": [
+          "oklch(15% 0.006 122)",
+          "oklch(26% 0.006 122)",
+          "oklch(37% 0.006 122)",
+          "oklch(48% 0.006 122)",
+          "oklch(59% 0.006 122)",
+          "oklch(70% 0.006 122)",
+          "oklch(81% 0.006 122)",
+          "oklch(92% 0.006 122)"
+        ]
+      },
+      "ink-night": {
+        "role": "neutral",
+        "displayName": "Night Ink",
+        "canonical": "#ebeae4",
+        "tonalRamp": [
+          "oklch(15% 0.006 105)",
+          "oklch(26% 0.006 105)",
+          "oklch(37% 0.006 105)",
+          "oklch(48% 0.006 105)",
+          "oklch(59% 0.006 105)",
+          "oklch(70% 0.006 105)",
+          "oklch(81% 0.006 105)",
+          "oklch(92% 0.006 105)"
+        ]
+      },
+      "ink-2-night": {
+        "role": "neutral",
+        "displayName": "Night Press Grey",
+        "canonical": "#a8a79f",
+        "tonalRamp": [
+          "oklch(15% 0.008 105)",
+          "oklch(26% 0.008 105)",
+          "oklch(37% 0.008 105)",
+          "oklch(48% 0.008 105)",
+          "oklch(59% 0.008 105)",
+          "oklch(70% 0.008 105)",
+          "oklch(81% 0.008 105)",
+          "oklch(92% 0.008 105)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "The name ras.ruchi in Rozha One 400 across the home card header and collection page names; 21px in the site header. Its full stop is centred with measured spacing."
+      },
+      "display": {
+        "displayName": "Display",
+        "purpose": "Section headings, collection names on bands, the contact heading."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Design names in rows, study titles and subheads."
+      },
+      "tagline": {
+        "displayName": "Tagline",
+        "purpose": "Collection taglines and the In her words quotes, in Bodoni Moda italic; the only use of Bodoni Moda."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Section ledes and introductions, held to 40ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text, held to 62ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Printed particulars: navigation, seasons, techniques, credit terms, link labels."
+      },
+      "shade": {
+        "displayName": "Shade",
+        "purpose": "Measured hex shade codes, counts, figure captions; sized to fit a 95px swatch column and never wrapped under a swatch."
+      },
+      "devanagari": {
+        "displayName": "Devanagari",
+        "purpose": "The Devanagari name रसरुचि only, in Rozha One, the same face as the Latin wordmark."
+      }
+    },
+    "shadows": [
+      {
+        "name": "card-stock",
+        "value": "0 1px 0 rgb(255 255 255 / 0.5) inset, 0 1px 2px rgb(20 20 16 / 0.1), 0 12px 32px -18px rgb(20 20 16 / 0.35)",
+        "purpose": "Every card, study sheet and keyword tag at rest (token --card-shadow; deeper in dark mode)."
+      },
+      {
+        "name": "cloth-rest",
+        "value": "drop-shadow(0 1px 0.5px rgb(20 20 16 / 0.22)) drop-shadow(0 5px 9px rgb(20 20 16 / 0.12))",
+        "purpose": "filter on every swatch, follows the pinked outline (token --cloth-shadow)."
+      },
+      {
+        "name": "cloth-lifted",
+        "value": "drop-shadow(0 2px 1px rgb(20 20 16 / 0.18)) drop-shadow(0 16px 22px rgb(20 20 16 / 0.22))",
+        "purpose": "filter on a handled, focused or selected swatch and during the deal entrance (token --cloth-shadow-lifted)."
+      },
+      {
+        "name": "punched-hole",
+        "value": "inset 0 2px 2.5px rgb(0 0 0 / 0.3), inset 0 -1px 0 rgb(255 255 255 / 0.25), 0 0 0 1px rgb(0 0 0 / 0.06)",
+        "purpose": "The 15px ring hole cut through each card."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Lifts, crossfades, underline draws, the deal entrance, view-transition morphs."
+      },
+      {
+        "name": "ease-in-out",
+        "value": "cubic-bezier(0.65, 0, 0.35, 1)",
+        "purpose": "Declared for symmetric moves; rarely used."
+      },
+      {
+        "name": "swatch-lift",
+        "value": "360ms",
+        "purpose": "Swatch translate, rotate, scale and shadow."
+      },
+      {
+        "name": "deal",
+        "value": "720ms, stagger 55ms after 140ms",
+        "purpose": "One entrance per load: swatches fall from 26px above at -9deg."
+      },
+      {
+        "name": "room-crossfade",
+        "value": "opacity 520ms, scale 1.035 to 1 over 900ms",
+        "purpose": "Room window swap when a swatch is chosen."
+      },
+      {
+        "name": "band-morph",
+        "value": "420ms with 2px blur at 35%",
+        "purpose": "View-transition from collection card band to page header."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "phone",
+        "value": "560px"
+      },
+      {
+        "name": "study-1col",
+        "value": "640px"
+      },
+      {
+        "name": "sticky-header",
+        "value": "720px"
+      },
+      {
+        "name": "mosaic-1col",
+        "value": "760px"
+      },
+      {
+        "name": "hero-1col",
+        "value": "860px"
+      },
+      {
+        "name": "study-2col",
+        "value": "1060px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ink-filled square button with a trailing arrow; at most one per surface.",
+      "html": "<a class=\"ds-cta\" href=\"#\">Open the collections <svg width=\"16\" height=\"16\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M221.66 133.66l-72 72a8 8 0 0 1-11.32-11.32L196.69 136H40a8 8 0 0 1 0-16h156.69l-58.35-58.34a8 8 0 0 1 11.32-11.32l72 72a8 8 0 0 1 0 11.32z\"/></svg></a>",
+      "css": ".ds-cta{display:inline-flex;align-items:center;gap:10px;padding:14px 20px 14px 22px;background:var(--ink,#161615);color:var(--card,#f4f4f1);font-family:var(--font-sans,'Jost','Avenir Next',ui-sans-serif,sans-serif);font-size:15px;font-weight:620;text-decoration:none;border-radius:0;transition:gap 240ms cubic-bezier(0.16,1,0.3,1)}.ds-cta:hover{gap:14px}.ds-cta:active{translate:0 1px}.ds-cta:focus-visible{outline:2px solid var(--ink,#161615);outline-offset:3px}"
+    },
+    {
+      "name": "Printed Text Link",
+      "kind": "button",
+      "refersTo": "nav-link",
+      "description": "Tracked-caps link with a 1.5px ink rule and arrow; shop and more links.",
+      "html": "<a class=\"ds-more\" href=\"#\">See it at the shop <svg width=\"12\" height=\"12\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M200 64v104a8 8 0 0 1-16 0V83.31L69.66 197.66a8 8 0 0 1-11.32-11.32L172.69 72H88a8 8 0 0 1 0-16h104a8 8 0 0 1 8 8z\"/></svg></a>",
+      "css": ".ds-more{display:inline-flex;align-items:center;gap:8px;padding:10px 0 4px;border-bottom:1.5px solid currentColor;color:var(--ink,#161615);text-decoration:none;font-family:var(--font-label,'Jost',ui-sans-serif,sans-serif);font-size:11.5px;line-height:1.35;font-weight:500;letter-spacing:.12em;text-transform:uppercase;transition:gap 240ms cubic-bezier(0.16,1,0.3,1)}.ds-more:hover{gap:12px}.ds-more:focus-visible{outline:2px solid var(--ink,#161615);outline-offset:3px}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Board-coloured header with wordmark and printed-caps links that draw an underline in from the left.",
+      "html": "<header class=\"ds-header\"><a class=\"ds-mark\" href=\"#\"><span class=\"ds-word\">ras<span class=\"ds-dot\">.</span>ruchi</span></a><nav><ul class=\"ds-nav\"><li><a class=\"ds-link\" href=\"#\" aria-current=\"page\">Collections</a></li><li><a class=\"ds-link\" href=\"#\">Studies</a></li><li><a class=\"ds-link\" href=\"#\">Practice</a></li><li><a class=\"ds-link\" href=\"#\">Contact</a></li></ul></nav></header>",
+      "css": ".ds-header{display:flex;align-items:center;justify-content:space-between;gap:16px 24px;min-height:60px;padding:0 24px;background:var(--board,#d6d6d1);border-bottom:1px solid var(--hair,rgb(22 22 21/.16));font-family:var(--font-sans,'Jost','Avenir Next',ui-sans-serif,sans-serif)}.ds-mark{text-decoration:none;color:var(--ink,#161615)}.ds-word{font-family:var(--font-display,'Rozha One',Georgia,serif);font-size:21px;font-weight:400;letter-spacing:-.015em}.ds-dot{margin-inline:.01em -.01em}.ds-nav{display:flex;gap:28px;margin:0;padding:0;list-style:none}.ds-link{position:relative;display:inline-block;padding:12px 0;color:var(--ink-2,#4d4d48);text-decoration:none;font-family:var(--font-label,'Jost',ui-sans-serif,sans-serif);font-size:11.5px;line-height:1.35;font-weight:500;letter-spacing:.12em;text-transform:uppercase;transition:color 180ms cubic-bezier(0.16,1,0.3,1)}.ds-link::after{content:'';position:absolute;inset:auto 0 6px;height:1.5px;background:currentColor;scale:0 1;transform-origin:left;transition:scale 260ms cubic-bezier(0.16,1,0.3,1)}.ds-link:hover,.ds-link[aria-current=page]{color:var(--ink,#161615)}.ds-link:hover::after,.ds-link[aria-current=page]::after{scale:1 1}.ds-link:focus-visible{outline:2px solid var(--ink,#161615);outline-offset:3px}"
+    },
+    {
+      "name": "Keyword Tag",
+      "kind": "chip",
+      "refersTo": "keyword-tag",
+      "description": "Printed-caps keyword on a small piece of card stock; non-interactive.",
+      "html": "<ul class=\"ds-tags\"><li>Block printing</li><li>Ajrak</li><li>Kutch</li></ul>",
+      "css": ".ds-tags{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:16px;list-style:none;background:var(--board,#d6d6d1)}.ds-tags li{padding:7px 12px 6px;background:var(--card,#f4f4f1);color:var(--ink,#161615);box-shadow:var(--card-shadow,0 1px 0 rgb(255 255 255/.5) inset,0 1px 2px rgb(20 20 16/.1),0 12px 32px -18px rgb(20 20 16/.35));font-family:var(--font-label,'Jost',ui-sans-serif,sans-serif);font-size:11.5px;line-height:1.35;font-weight:500;letter-spacing:.12em;text-transform:uppercase}"
+    },
+    {
+      "name": "Card with Ring Hole",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Square card stock on mill board with a punched hole at the top-left; Rozha One heading with the W tucked by the kern helper.",
+      "html": "<div class=\"ds-board\"><article class=\"ds-card\"><span class=\"ds-hole\" aria-hidden=\"true\"></span><h3 class=\"ds-title\"><span class=\"ds-kern-w\">W</span>rite to Shruchi</h3><p class=\"ds-body\">Collaborations, commissions, or a note about the work.</p></article></div>",
+      "css": ".ds-board{padding:32px;background:var(--board,#d6d6d1)}.ds-card{position:relative;padding:44px 32px 32px;background:var(--card,#f4f4f1);color:var(--ink,#161615);border-radius:0;box-shadow:var(--card-shadow,0 1px 0 rgb(255 255 255/.5) inset,0 1px 2px rgb(20 20 16/.1),0 12px 32px -18px rgb(20 20 16/.35));font-family:var(--font-sans,'Jost','Avenir Next',ui-sans-serif,sans-serif)}.ds-hole{position:absolute;top:16px;left:16px;width:15px;height:15px;border-radius:50%;background:var(--board,#d6d6d1);box-shadow:inset 0 2px 2.5px rgb(0 0 0/.3),inset 0 -1px 0 rgb(255 255 255/.25),0 0 0 1px rgb(0 0 0/.06)}.ds-title{margin:0 0 12px;font-family:var(--font-display,'Rozha One',Georgia,serif);font-size:32px;line-height:1.05;font-weight:400;letter-spacing:-.01em}.ds-kern-w{margin-right:-.04em}.ds-body{margin:0;font-size:17px;line-height:1.6;font-weight:400;color:var(--ink-2,#4d4d48);max-width:62ch}"
+    },
+    {
+      "name": "Collection Band Card",
+      "kind": "custom",
+      "refersTo": "collection-band-ratna",
+      "description": "A collection's card headed by its own printed colour band.",
+      "html": "<div class=\"ds-board\"><a class=\"ds-band-card\" href=\"#\"><div class=\"ds-band\"><span class=\"ds-hole\" aria-hidden=\"true\"></span><span class=\"ds-name\">Ratna</span><span class=\"ds-season\">Festive 2025</span></div><div class=\"ds-band-body\">Rooted, royal, reimagined.</div></a></div>",
+      "css": ".ds-board{padding:32px;background:var(--board,#d6d6d1)}.ds-band-card{display:block;background:var(--card,#f4f4f1);color:var(--ink,#161615);text-decoration:none;box-shadow:var(--card-shadow,0 1px 0 rgb(255 255 255/.5) inset,0 1px 2px rgb(20 20 16/.1),0 12px 32px -18px rgb(20 20 16/.35));font-family:var(--font-sans,'Jost','Avenir Next',ui-sans-serif,sans-serif)}.ds-band{position:relative;display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 24px;padding:36px 32px 24px 50px;background:var(--band-ratna,#6a2222);color:#f7f3ee}.ds-hole{position:absolute;top:14px;left:14px;width:15px;height:15px;border-radius:50%;background:var(--board,#d6d6d1);box-shadow:inset 0 2px 2.5px rgb(0 0 0/.3),inset 0 -1px 0 rgb(255 255 255/.25),0 0 0 1px rgb(0 0 0/.06)}.ds-name{font-family:var(--font-display,'Rozha One',Georgia,serif);font-size:56px;line-height:.98;font-weight:400;letter-spacing:-.015em;transition:letter-spacing 500ms cubic-bezier(0.16,1,0.3,1)}.ds-band-card:hover .ds-name{letter-spacing:-.015em}.ds-season{font-family:var(--font-label,'Jost',ui-sans-serif,sans-serif);font-size:11.5px;line-height:1.35;font-weight:500;letter-spacing:.12em;text-transform:uppercase;opacity:.86}.ds-band-body{padding:28px 32px;font-family:var(--font-italic,'Bodoni Moda',Didot,Georgia,serif);font-style:italic;font-size:22px;font-weight:500;letter-spacing:-.01em}.ds-band-card:focus-visible{outline:2px solid var(--ink,#161615);outline-offset:3px}"
+    },
+    {
+      "name": "Pinked Swatch",
+      "kind": "custom",
+      "refersTo": "card",
+      "description": "Square cloth swatch with pinked edges, slight tilt and cloth shadow; lifts when handled, labelled with colourway and measured shade.",
+      "html": "<div class=\"ds-card-sm\"><button class=\"ds-chip\" role=\"radio\" aria-checked=\"false\"><span class=\"ds-lift\" style=\"--tilt:-0.7deg\"><span class=\"ds-cloth\" style=\"background:#a34435\"></span></span><span class=\"ds-cw\">Brick Red</span><span class=\"ds-shade\">Ground #A34435</span></button><button class=\"ds-chip\" role=\"radio\" aria-checked=\"true\"><span class=\"ds-lift\" style=\"--tilt:0.35deg\"><span class=\"ds-cloth\" style=\"background:#aea184\"></span></span><span class=\"ds-cw\">Jute</span><span class=\"ds-shade\">Ground #AEA184</span></button></div>",
+      "css": ".ds-card-sm{display:grid;grid-template-columns:repeat(2,96px);gap:20px;padding:32px;background:var(--card,#f4f4f1);font-family:var(--font-sans,'Jost','Avenir Next',ui-sans-serif,sans-serif)}.ds-chip{appearance:none;display:grid;gap:12px;padding:0;border:0;background:none;text-align:left;cursor:pointer;color:var(--ink,#161615)}.ds-lift{display:block;rotate:var(--tilt,0deg);filter:drop-shadow(0 1px .5px rgb(20 20 16/.22)) drop-shadow(0 5px 9px rgb(20 20 16/.12));transition:translate 360ms cubic-bezier(0.16,1,0.3,1),rotate 360ms cubic-bezier(0.16,1,0.3,1),scale 360ms cubic-bezier(0.16,1,0.3,1),filter 360ms cubic-bezier(0.16,1,0.3,1)}.ds-cloth{display:block;aspect-ratio:1;-webkit-mask:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' preserveAspectRatio='none'%3E%3Cpath d='M0 .5 .5 0 1 .5 1.5 0 2 .5 2.5 0 3 .5 3.5 0 4 .5 4.5 0 5 .5 5.5 0 6 .5 6.5 0 7 .5 7.5 0 8 .5 8.5 0 9 .5 9.5 0 10 .5 10.5 0 11 .5 11.5 0 12 .5 12.5 0 13 .5 13.5 0 14 .5 14.5 0 15 .5 15.5 0 16 .5 16.5 0 17 .5 17.5 0 18 .5 18.5 0 19 .5 19.5 0 20 .5V19.5L19.5 20 19 19.5 18.5 20 18 19.5 17.5 20 17 19.5 16.5 20 16 19.5 15.5 20 15 19.5 14.5 20 14 19.5 13.5 20 13 19.5 12.5 20 12 19.5 11.5 20 11 19.5 10.5 20 10 19.5 9.5 20 9 19.5 8.5 20 8 19.5 7.5 20 7 19.5 6.5 20 6 19.5 5.5 20 5 19.5 4.5 20 4 19.5 3.5 20 3 19.5 2.5 20 2 19.5 1.5 20 1 19.5 .5 20 0 19.5Z'/%3E%3C/svg%3E\") center/100% 100% no-repeat;mask:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' preserveAspectRatio='none'%3E%3Cpath d='M0 .5 .5 0 1 .5 1.5 0 2 .5 2.5 0 3 .5 3.5 0 4 .5 4.5 0 5 .5 5.5 0 6 .5 6.5 0 7 .5 7.5 0 8 .5 8.5 0 9 .5 9.5 0 10 .5 10.5 0 11 .5 11.5 0 12 .5 12.5 0 13 .5 13.5 0 14 .5 14.5 0 15 .5 15.5 0 16 .5 16.5 0 17 .5 17.5 0 18 .5 18.5 0 19 .5 19.5 0 20 .5V19.5L19.5 20 19 19.5 18.5 20 18 19.5 17.5 20 17 19.5 16.5 20 16 19.5 15.5 20 15 19.5 14.5 20 14 19.5 13.5 20 13 19.5 12.5 20 12 19.5 11.5 20 11 19.5 10.5 20 10 19.5 9.5 20 9 19.5 8.5 20 8 19.5 7.5 20 7 19.5 6.5 20 6 19.5 5.5 20 5 19.5 4.5 20 4 19.5 3.5 20 3 19.5 2.5 20 2 19.5 1.5 20 1 19.5 .5 20 0 19.5Z'/%3E%3C/svg%3E\") center/100% 100% no-repeat}.ds-chip:hover .ds-lift,.ds-chip:focus-visible .ds-lift{translate:0 -6px;rotate:calc(var(--tilt) - 1.5deg);filter:drop-shadow(0 2px 1px rgb(20 20 16/.18)) drop-shadow(0 16px 22px rgb(20 20 16/.22))}.ds-chip[aria-checked=true] .ds-lift{translate:0 -12px;rotate:calc(var(--tilt) - 2.5deg);scale:1.04;filter:drop-shadow(0 2px 1px rgb(20 20 16/.18)) drop-shadow(0 16px 22px rgb(20 20 16/.22))}.ds-chip:active .ds-lift{scale:.98}.ds-chip:focus-visible{outline:2px solid var(--ink,#161615);outline-offset:6px}.ds-cw{font-size:14px;line-height:1.25;font-weight:500}.ds-shade{margin-top:-11px;font-family:var(--font-label,'Jost',ui-sans-serif,sans-serif);font-size:10.5px;line-height:1.35;font-weight:400;letter-spacing:.02em;white-space:nowrap;font-variant-numeric:tabular-nums;text-transform:uppercase;color:var(--ink-2,#4d4d48)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Mill Shade Card",
+    "overview": "Every surface is a sheet of white card stock lying on grey mill board, punched with a ring hole, with cut cloth glued to it and its particulars printed beside it in tracked caps. The work is the colour; the interface is board, card, ink and print. A collection announces itself with one printed colour band across the top of its card, the way a mill heads a range. Swatches are square, pinked along every edge, tilted a fraction of a degree as if placed by hand, and they lift off the card when handled.\n\nDensity is a catalogue's: many small swatches in strict grids, generous card margins, long reading lines held to about 62 characters. Type does three jobs and keeps them apart: Rozha One's high-contrast fat face for card headers and the wordmark, in Latin and Devanagari alike, the way a textile label or fashion masthead is set; Jost for reading; and Jost's small tracked caps for everything a mill would print (labels, seasons, counts, measured hex shade codes). Corners are square everywhere; the only circles are punched holes and colour dots.\n\nMotion is physical and sparse: swatches are dealt onto the card once on load, lift and tilt under the hand, and a collection's band morphs from its card into its page header. Under reduced motion everything is static.",
+    "keyCharacteristics": [
+      "Grey mill board ground, white card stock above it, charcoal board and dark stock at night.",
+      "Square, pinked-edge cloth swatches with a soft two-layer drop shadow and a slight per-swatch tilt.",
+      "One printed colour band per collection, drawn from that collection's own cloth.",
+      "Rozha One for headers, the wordmark and रसरुचि; Bodoni Moda italic for taglines and quotes only; Jost for reading and for printed caps.",
+      "Zero radius; a punched ring hole on every card."
+    ],
+    "rules": [
+      {
+        "name": "The One Band Rule",
+        "body": "A band colour belongs to one collection and appears only where that collection is named. Never use a band as a generic accent, button fill or section background.",
+        "section": "colors"
+      },
+      {
+        "name": "The Cloth Is The Colour Rule",
+        "body": "Interface colour stays in the board, card and ink greys; saturated colour on screen comes from photographs of cloth and from collection bands.",
+        "section": "colors"
+      },
+      {
+        "name": "The Printed Caps Rule",
+        "body": "Jost's small tracked caps are for printed particulars that sit beside or below what they describe: a design's technique, a swatch's shade, a collection's season. They never sit above a heading as an introductory line.",
+        "section": "typography"
+      },
+      {
+        "name": "The Centred Dot Rule",
+        "body": "The full stop in \"ras.ruchi\" sits centred, with equal space to the \"s\" and the \"r\". Its spacing is measured from rendered Rozha One at hero, phone and header sizes: 0.01em before and -0.01em after. Rozha One has no optical sizes, so one em-based value holds everywhere, the 21px header logo included. Re-measure if the face or size changes; never leave the default spacing.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tucked Capital Rule",
+        "body": "Rozha One has no kerning, so a capital W or V leaves a visible gap before the lowercase letter after it (\"W rite\"). Every piece of display text (design names, collection names, study titles and headings, section titles, the footer heading) passes through the kern helper, which tucks the next letter in by -0.04em after W or V. Rozha's capitals are short, close to its x-height, so the tuck stays light to avoid collisions.",
+        "section": "typography"
+      },
+      {
+        "name": "The Measured Shade Rule",
+        "body": "A shade code is a hex value measured from the actual cloth photograph. Never print a code that was not measured.",
+        "section": "typography"
+      },
+      {
+        "name": "The Three Layers Rule",
+        "body": "Board, card, cloth. Nothing else floats; there are no modals, glows or decorative elevations.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Cloth Lifts Rule",
+        "body": "Elevation changes are a response to handling: cloth lifts (up 6px, tilting a further 1.5deg; selected, up 12px, 2.5deg, scale 1.04) and study sheets rise 3-4px on hover.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do put every new surface on card stock over mill board, with a punched ring hole at the card's top-left.",
+      "Do show cloth as square, pinked swatches with the cloth shadow and a small per-swatch tilt.",
+      "Do head anything about a collection with that collection's band colour and nothing else's.",
+      "Do set printed particulars (season, technique, counts, shade codes) in Jost tracked caps beside or below what they describe.",
+      "Do pass every display string through the W/V kern helper, and keep the wordmark's full stop centred with measured spacing.",
+      "Do use ease-out `cubic-bezier(0.16, 1, 0.3, 1)` for lifts, crossfades and underline draws, and keep everything static under reduced motion.",
+      "Do keep text on mustard Pause bands near-black and on every other band warm off-white."
+    ],
+    "donts": [
+      "Don't round any corner; the only circles are holes and collection dots.",
+      "Don't use a band colour as a general accent, button fill or section background.",
+      "Don't place a small caps line above a heading as an introduction.",
+      "Don't print a shade code that was not measured from the cloth.",
+      "Don't add a fourth depth layer: no modals, glows, floating panels or decorative shadows beyond board, card and cloth.",
+      "Don't lay work out as uniform project tiles with no card, band or swatch structure."
+    ]
+  }
+}

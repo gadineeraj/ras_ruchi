@@ -1,0 +1,172 @@
+.index {
+  display: grid;
+  gap: clamp(20px, 2.4vw, 32px);
+}
+
+.featured {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(16px, 2vw, 28px);
+  padding: 0;
+  list-style: none;
+}
+
+.featured > li {
+  display: grid;
+}
+
+.wide {
+  grid-column: span 2;
+}
+
+/* A development sheet: the plate is mounted inside the card's margin. */
+.sheet {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 18px;
+  padding: clamp(34px, 3vw, 44px) clamp(16px, 1.6vw, 24px) clamp(16px, 1.6vw, 22px);
+  text-decoration: none;
+  transition: translate 420ms var(--ease-out), box-shadow 420ms var(--ease-out);
+}
+
+.sheet:hover {
+  translate: 0 -4px;
+  box-shadow:
+    0 1px 2px rgb(20 20 16 / 0.1),
+    0 22px 40px -20px rgb(20 20 16 / 0.45);
+}
+
+.plate {
+  position: relative;
+  overflow: hidden;
+}
+
+.plate img {
+  object-fit: cover;
+  transition: scale 900ms var(--ease-out);
+}
+
+.sheet:hover .plate img {
+  scale: 1.035;
+}
+
+.meta {
+  display: grid;
+  align-content: start;
+  gap: 8px;
+}
+
+.hook {
+  font-size: 15.5px;
+  line-height: 1.45;
+  color: var(--ink-2);
+  text-wrap: pretty;
+}
+
+.credits {
+  display: grid;
+  gap: 6px;
+  padding-top: 12px;
+  border-top: 1px solid var(--hair-strong);
+}
+
+.credits > div {
+  display: grid;
+  grid-template-columns: 6.5em minmax(0, 1fr);
+  gap: 10px;
+  align-items: baseline;
+}
+
+.credits dt {
+  color: var(--ink-2);
+}
+
+.credits dd {
+  font-size: 13.5px;
+  line-height: 1.4;
+}
+
+/* ------------------------------------------------------------ small sheets */
+
+.rest {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(16px, 2vw, 28px);
+  padding: 0;
+  list-style: none;
+}
+
+.rest > li {
+  display: grid;
+}
+
+.small {
+  display: grid;
+  grid-template-columns: 68px minmax(0, 1fr);
+  gap: 14px;
+  align-items: start;
+  padding: 16px;
+  text-decoration: none;
+  transition: translate 420ms var(--ease-out);
+}
+
+.small:hover {
+  translate: 0 -3px;
+}
+
+.thumb {
+  position: relative;
+  aspect-ratio: 1;
+  overflow: hidden;
+}
+
+.thumb img {
+  object-fit: cover;
+}
+
+.smallText {
+  display: grid;
+  gap: 4px;
+}
+
+.smallTitle {
+  font-size: 17px;
+  line-height: 1.2;
+  font-weight: 400;
+  font-family: var(--font-display);
+}
+
+.smallHook {
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--ink-2);
+}
+
+.sheet:hover :global(.t-title),
+.small:hover .smallTitle {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.14em;
+}
+
+@media (max-width: 1060px) {
+  .featured,
+  .rest {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .wide {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 640px) {
+  .featured,
+  .rest {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .wide {
+    grid-column: auto;
+  }
+}

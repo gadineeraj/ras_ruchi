@@ -1,0 +1,60 @@
+.row {
+  display: grid;
+  grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  gap: clamp(24px, 4vw, 72px);
+  padding-block: clamp(36px, 5vw, 64px);
+  border-top: 1px solid var(--hair);
+  content-visibility: auto;
+  contain-intrinsic-size: auto 640px;
+  scroll-margin-top: 80px;
+}
+
+.text {
+  display: grid;
+  align-content: start;
+  gap: 22px;
+}
+
+.head {
+  display: grid;
+  gap: 8px;
+}
+
+.head :global(.t-label) {
+  color: var(--ink-2);
+}
+
+.story {
+  color: var(--ink-2);
+}
+
+.row .chips {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  max-width: 640px;
+  padding-top: 10px;
+}
+
+.window {
+  aspect-ratio: 4 / 5;
+  max-height: min(72svh, 620px);
+  align-self: start;
+}
+
+/* One colourway: show the cloth large, so the row is not half empty. */
+.row[data-single] .chips {
+  grid-template-columns: minmax(0, 260px);
+}
+
+@media (max-width: 860px) {
+  .row {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .window {
+    order: -1;
+  }
+
+  .row .chips {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
