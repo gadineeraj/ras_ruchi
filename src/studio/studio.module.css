@@ -403,21 +403,7 @@
   pointer-events: none;
 }
 
-/* A new block is dealt onto the page the way a swatch is dealt onto a card. */
-.dealt {
-  animation: dealt 720ms cubic-bezier(0.16, 1, 0.3, 1) both;
-}
-
-@keyframes dealt {
-  from {
-    opacity: 0;
-    translate: 0 -26px;
-    rotate: -0.6deg;
-  }
-}
-
 @media (prefers-reduced-motion: reduce) {
-  .dealt,
   .insert {
     animation: none;
   }
@@ -619,7 +605,6 @@
 .crumbs button {
   padding: 0;
   border: 0;
-  border-radius: 2px;
   background: none;
   color: #4d4d48;
   font: inherit;

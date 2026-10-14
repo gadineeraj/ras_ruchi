@@ -8,7 +8,7 @@ import s from "./ui.module.css";
 
 export { s as ui };
 
-type ButtonProps = ComponentProps<"button"> & { variant?: "primary" | "accent" | "secondary" | "ghost" | "danger"; size?: "m" | "s"; icon?: ReactNode; block?: boolean };
+type ButtonProps = ComponentProps<"button"> & { variant?: "primary" | "secondary" | "ghost" | "danger"; size?: "m" | "s"; icon?: ReactNode; block?: boolean };
 
 export function Button({ variant = "secondary", size = "m", icon, block, children, className, type = "button", ...rest }: ButtonProps) {
   return (

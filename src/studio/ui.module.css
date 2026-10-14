@@ -90,17 +90,6 @@
   background: #2c2c2a;
 }
 
-.button[data-variant="accent"] {
-  border-color: var(--s-accent);
-  background: var(--s-accent);
-  color: #fbf6f1;
-  font-weight: 600;
-}
-
-.button[data-variant="accent"]:hover {
-  background: var(--s-accent-hover);
-}
-
 .button[data-variant="ghost"] {
   border-color: transparent;
   background: transparent;

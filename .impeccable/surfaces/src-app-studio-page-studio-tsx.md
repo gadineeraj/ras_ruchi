@@ -35,6 +35,7 @@ Decided after the first finish review; each keeps the contract's intent:
 - New blocks deal in at -0.6deg, not the swatch's -9deg: a whole section turning nine degrees reads as a glitch, not cloth; the swatch keeps -9deg.
 - Below 768px wide the canvas opens in Phone view, so her page keeps its real proportions.
 - The seam has no separate dashed line: Puck already outlines the hovered block in oxblood, and the "+ Add section" pill sits on that outline's lower edge, where a dashed line would only draw over it unseen.
+- The top bar ships at 56px, not 52px, so its 36px controls sit with 10px clear above and below; the rail keeps Puck's own 68px rather than 72px, so its icons and labels line up with Puck's layout.
 - The breadcrumb ends with the selected block ("Home › Columns › Photo"); the earlier steps are underlined links back up the page.
 
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance

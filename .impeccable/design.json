@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-13T19:37:40.241678+00:00",
+  "generatedAt": "2026-10-14T12:18:12.595086+00:00",
   "title": "Design System: ras.ruchi",
   "extensions": {
     "colorMeta": {
@@ -268,6 +268,171 @@
           "oklch(81% 0.008 105)",
           "oklch(92% 0.008 105)"
         ]
+      },
+      "studio-raised": {
+        "role": "neutral",
+        "displayName": "Field Stock",
+        "canonical": "oklch(98.8% 0.003 106)",
+        "tonalRamp": [
+          "oklch(15% 0.003 106)",
+          "oklch(26% 0.003 106)",
+          "oklch(37% 0.003 106)",
+          "oklch(48% 0.003 106)",
+          "oklch(59% 0.003 106)",
+          "oklch(70% 0.003 106)",
+          "oklch(81% 0.003 106)",
+          "oklch(92% 0.003 106)"
+        ]
+      },
+      "studio-sunk": {
+        "role": "neutral",
+        "displayName": "Sunk",
+        "canonical": "oklch(93.0% 0.007 97)",
+        "tonalRamp": [
+          "oklch(15% 0.007 97)",
+          "oklch(26% 0.007 97)",
+          "oklch(37% 0.007 97)",
+          "oklch(48% 0.007 97)",
+          "oklch(59% 0.007 97)",
+          "oklch(70% 0.007 97)",
+          "oklch(81% 0.007 97)",
+          "oklch(92% 0.007 97)"
+        ]
+      },
+      "studio-surround": {
+        "role": "neutral",
+        "displayName": "Canvas Surround",
+        "canonical": "oklch(81.5% 0.008 107)",
+        "tonalRamp": [
+          "oklch(15% 0.008 107)",
+          "oklch(26% 0.008 107)",
+          "oklch(37% 0.008 107)",
+          "oklch(48% 0.008 107)",
+          "oklch(59% 0.008 107)",
+          "oklch(70% 0.008 107)",
+          "oklch(81% 0.008 107)",
+          "oklch(92% 0.008 107)"
+        ]
+      },
+      "studio-ink-3": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "canonical": "oklch(50.8% 0.011 107)",
+        "tonalRamp": [
+          "oklch(15% 0.011 107)",
+          "oklch(26% 0.011 107)",
+          "oklch(37% 0.011 107)",
+          "oklch(48% 0.011 107)",
+          "oklch(59% 0.011 107)",
+          "oklch(70% 0.011 107)",
+          "oklch(81% 0.011 107)",
+          "oklch(92% 0.011 107)"
+        ]
+      },
+      "studio-accent-hover": {
+        "role": "secondary",
+        "displayName": "Oxblood Pressed Deep",
+        "canonical": "oklch(31.4% 0.087 24)",
+        "tonalRamp": [
+          "oklch(15% 0.087 24)",
+          "oklch(26% 0.087 24)",
+          "oklch(37% 0.087 24)",
+          "oklch(48% 0.087 24)",
+          "oklch(59% 0.087 24)",
+          "oklch(70% 0.087 24)",
+          "oklch(81% 0.087 24)",
+          "oklch(92% 0.087 24)"
+        ]
+      },
+      "studio-good": {
+        "role": "tertiary",
+        "displayName": "Status Good",
+        "canonical": "oklch(43.5% 0.077 150)",
+        "tonalRamp": [
+          "oklch(15% 0.077 150)",
+          "oklch(26% 0.077 150)",
+          "oklch(37% 0.077 150)",
+          "oklch(48% 0.077 150)",
+          "oklch(59% 0.077 150)",
+          "oklch(70% 0.077 150)",
+          "oklch(81% 0.077 150)",
+          "oklch(92% 0.077 150)"
+        ]
+      },
+      "studio-warn": {
+        "role": "tertiary",
+        "displayName": "Status Improve",
+        "canonical": "oklch(47.7% 0.100 75)",
+        "tonalRamp": [
+          "oklch(15% 0.100 75)",
+          "oklch(26% 0.100 75)",
+          "oklch(37% 0.100 75)",
+          "oklch(48% 0.100 75)",
+          "oklch(59% 0.100 75)",
+          "oklch(70% 0.100 75)",
+          "oklch(81% 0.100 75)",
+          "oklch(92% 0.100 75)"
+        ]
+      },
+      "studio-bad": {
+        "role": "tertiary",
+        "displayName": "Status Fix",
+        "canonical": "oklch(47.2% 0.158 30)",
+        "tonalRamp": [
+          "oklch(15% 0.158 30)",
+          "oklch(26% 0.158 30)",
+          "oklch(37% 0.158 30)",
+          "oklch(48% 0.158 30)",
+          "oklch(59% 0.158 30)",
+          "oklch(70% 0.158 30)",
+          "oklch(81% 0.158 30)",
+          "oklch(92% 0.158 30)"
+        ]
+      },
+      "studio-hair": {
+        "role": "neutral",
+        "displayName": "Studio Hairline",
+        "canonical": "rgb(22 22 21 / 0.13)",
+        "tonalRamp": [
+          "oklch(15% 0.002 107)",
+          "oklch(26% 0.002 107)",
+          "oklch(37% 0.002 107)",
+          "oklch(48% 0.002 107)",
+          "oklch(59% 0.002 107)",
+          "oklch(70% 0.002 107)",
+          "oklch(81% 0.002 107)",
+          "oklch(92% 0.002 107)"
+        ]
+      },
+      "studio-hair-strong": {
+        "role": "neutral",
+        "displayName": "Studio Strong Rule",
+        "canonical": "rgb(22 22 21 / 0.32)",
+        "tonalRamp": [
+          "oklch(15% 0.002 107)",
+          "oklch(26% 0.002 107)",
+          "oklch(37% 0.002 107)",
+          "oklch(48% 0.002 107)",
+          "oklch(59% 0.002 107)",
+          "oklch(70% 0.002 107)",
+          "oklch(81% 0.002 107)",
+          "oklch(92% 0.002 107)"
+        ]
+      },
+      "studio-on-accent": {
+        "role": "neutral",
+        "displayName": "On Oxblood",
+        "canonical": "oklch(97.6% 0.007 60)",
+        "tonalRamp": [
+          "oklch(15% 0.007 60)",
+          "oklch(26% 0.007 60)",
+          "oklch(37% 0.007 60)",
+          "oklch(48% 0.007 60)",
+          "oklch(59% 0.007 60)",
+          "oklch(70% 0.007 60)",
+          "oklch(81% 0.007 60)",
+          "oklch(92% 0.007 60)"
+        ]
       }
     },
     "typographyMeta": {
@@ -306,6 +471,30 @@
       "devanagari": {
         "displayName": "Devanagari",
         "purpose": "The Devanagari name रसरुचि only, in Rozha One, the same face as the Latin wordmark."
+      },
+      "studio-caps": {
+        "displayName": "Studio Caps",
+        "purpose": "Studio only: panel group headings, the save state and the Studio mark, in Jost 500 11px tracked caps."
+      },
+      "studio-label": {
+        "displayName": "Studio Label",
+        "purpose": "Studio only: field labels, hints, errors and notes at 12.5px."
+      },
+      "studio-control": {
+        "displayName": "Studio Control",
+        "purpose": "Studio only: buttons, tabs and gallery kinds at Jost 500 14px."
+      },
+      "studio-body": {
+        "displayName": "Studio Body",
+        "purpose": "Studio only: inputs and menus at Jost 400 14px / 1.45."
+      },
+      "studio-title": {
+        "displayName": "Studio Panel Title",
+        "purpose": "Studio only: side-panel heads and the add-at-end box at Jost 600 15px."
+      },
+      "studio-page-name": {
+        "displayName": "Studio Page Name",
+        "purpose": "Studio only: page names in the page picker, in Rozha One 16px, as on the site."
       }
     },
     "shadows": [
@@ -328,6 +517,26 @@
         "name": "punched-hole",
         "value": "inset 0 2px 2.5px rgb(0 0 0 / 0.3), inset 0 -1px 0 rgb(255 255 255 / 0.25), 0 0 0 1px rgb(0 0 0 / 0.06)",
         "purpose": "The 15px ring hole cut through each card."
+      },
+      {
+        "name": "studio-float",
+        "value": "0 1px 2px rgb(20 20 16 / 0.12), 0 18px 44px -20px rgb(20 20 16 / 0.5)",
+        "purpose": "Studio only: dialogs, menus and toasts (--s-shadow), over a rgb(20 20 16 / 0.42) backdrop."
+      },
+      {
+        "name": "studio-insert-pill",
+        "value": "0 4px 14px -6px rgb(20 20 16 / 0.6)",
+        "purpose": "Studio only: the + Add section pill above the page."
+      },
+      {
+        "name": "studio-tile-lift",
+        "value": "0 8px 18px -12px rgb(20 20 16 / 0.5)",
+        "purpose": "Studio only: an Add-panel tile under the hand, lifted 2px."
+      },
+      {
+        "name": "studio-sheet-lifted",
+        "value": "0 1px 0 rgb(255 255 255 / 0.5) inset, 0 2px 4px rgb(20 20 16 / 0.14), 0 22px 40px -18px rgb(20 20 16 / 0.5)",
+        "purpose": "Studio only: a section-gallery sheet under hover or focus; at rest it takes card-stock."
       }
     ],
     "motion": [
@@ -360,6 +569,26 @@
         "name": "band-morph",
         "value": "420ms with 2px blur at 35%",
         "purpose": "View-transition from collection card band to page header."
+      },
+      {
+        "name": "studio-block-deal",
+        "value": "720ms cubic-bezier(0.16, 1, 0.3, 1), from 26px above at -0.6deg",
+        "purpose": "Studio only: a newly added block falls into the canvas; the swatch keeps -9deg."
+      },
+      {
+        "name": "studio-insert-pop",
+        "value": "220ms, from scale 0.9",
+        "purpose": "Studio only: the + Add section pill appearing."
+      },
+      {
+        "name": "studio-dialog-deal",
+        "value": "320-360ms, up 14px",
+        "purpose": "Studio only: dialogs and toasts entering."
+      },
+      {
+        "name": "studio-sheet-lift",
+        "value": "360ms, up 6px and a further 1.5deg",
+        "purpose": "Studio only: a section-gallery sheet lifting off the board."
       }
     ],
     "breakpoints": [
@@ -386,8 +615,70 @@
       {
         "name": "study-2col",
         "value": "1060px"
+      },
+      {
+        "name": "studio-rail",
+        "value": "638px"
+      },
+      {
+        "name": "studio-topbar-compact",
+        "value": "760px"
+      },
+      {
+        "name": "studio-phone-view",
+        "value": "768px"
+      },
+      {
+        "name": "studio-icon-labels",
+        "value": "1180px"
       }
-    ]
+    ],
+    "studio": {
+      "scope": "The local visual editor at /studio, run only under next dev and never shipped. Visitor mode: Operate. Its tokens are prefixed studio- in DESIGN.md's frontmatter; nothing here applies to the public site.",
+      "thesis": "Her real page is the editor.",
+      "keyCharacteristics": [
+        "The real page in the middle, on a mill-board surround one step deeper (#c3c3bd).",
+        "Card-stock chrome (#f4f4f1) with field-stock controls (#fbfbf9), ink text and translucent hairlines.",
+        "Kadamba oxblood (#6a2222) only where her hand is: selection, insertion, drop lines and focus.",
+        "Jost at fixed pixel sizes; Rozha One only for the Studio's name and page names.",
+        "Square corners everywhere except one round pill, \"+ Add section\"."
+      ],
+      "layout": {
+        "topBar": "56px",
+        "rail": "68px (Puck plugin bar default, from 638px)",
+        "leftPanel": "320px",
+        "settingsDrawer": "340px",
+        "viewports": {
+          "desktop": "1440px",
+          "tablet": "768px",
+          "phone": "390px"
+        },
+        "phoneViewBelow": "768px"
+      },
+      "dos": [
+        "Do let the canvas render the real site through the site's block library and stylesheets. What she sees in the Studio is what ships.",
+        "Do keep the Studio's chrome in card stock, field stock, ink and hairlines, and reserve Kadamba oxblood for selection, insertion, drop lines and focus.",
+        "Do map any new Puck surface onto the `--puck-*` tokens on both `.studio` and `html[data-studio-canvas]`, so no azure or rounding appears inside or outside the frame.",
+        "Do set chrome type in Jost at fixed pixel sizes (12.5-15px core), with Rozha One for the Studio name and page names only.",
+        "Do keep \"+ Add section\" the single round pill, on the lower edge of the hovered block's outline.",
+        "Do make Publish the solid ink button at the far right, with Preview outlined beside it.",
+        "Do name the selected block in its toolbar and end the drawer's breadcrumb with it, with earlier steps as underlined links back up the page.",
+        "Do show section designs as real, scaled renders on punched, tilted card-stock sheets that lift when handled.",
+        "Do deal new blocks in at -0.6deg from 26px over 720ms, and leave the -9deg deal to swatches.",
+        "Do open the canvas in Phone view (390px) when the window is narrower than 768px.",
+        "Do turn every Studio motion off under reduced motion."
+      ],
+      "donts": [
+        "Don't let any Studio style reach her page. The chrome never restyles her page, its type, its spacing or its colours; the canvas frame only receives the Studio's `--puck-*` tokens and the faded hidden-block treatment.",
+        "Don't use oxblood as a button fill, panel or header colour in the chrome. The only oxblood fill is the \"+ Add section\" pill, which marks insertion.",
+        "Don't leave any Puck azure or rounded corner unmapped, in the chrome or the canvas iframe.",
+        "Don't use `clamp()` or viewport units for chrome type or chrome spacing.",
+        "Don't round a Studio control other than the \"+ Add section\" pill.",
+        "Don't draw a separate dashed seam line between sections; the pill rides Puck's existing outline.",
+        "Don't show section designs as icons or wireframes; show the real blocks.",
+        "Don't add a design token, colour or face to the Studio that her site does not already have, apart from the field, sunk, surround and status greys and colours recorded here."
+      ]
+    }
   },
   "components": [
     {
@@ -445,6 +736,46 @@
       "description": "Square cloth swatch with pinked edges, slight tilt and cloth shadow; lifts when handled, labelled with colourway and measured shade.",
       "html": "<div class=\"ds-card-sm\"><button class=\"ds-chip\" role=\"radio\" aria-checked=\"false\"><span class=\"ds-lift\" style=\"--tilt:-0.7deg\"><span class=\"ds-cloth\" style=\"background:#a34435\"></span></span><span class=\"ds-cw\">Brick Red</span><span class=\"ds-shade\">Ground #A34435</span></button><button class=\"ds-chip\" role=\"radio\" aria-checked=\"true\"><span class=\"ds-lift\" style=\"--tilt:0.35deg\"><span class=\"ds-cloth\" style=\"background:#aea184\"></span></span><span class=\"ds-cw\">Jute</span><span class=\"ds-shade\">Ground #AEA184</span></button></div>",
       "css": ".ds-card-sm{display:grid;grid-template-columns:repeat(2,96px);gap:20px;padding:32px;background:var(--card,#f4f4f1);font-family:var(--font-sans,'Jost','Avenir Next',ui-sans-serif,sans-serif)}.ds-chip{appearance:none;display:grid;gap:12px;padding:0;border:0;background:none;text-align:left;cursor:pointer;color:var(--ink,#161615)}.ds-lift{display:block;rotate:var(--tilt,0deg);filter:drop-shadow(0 1px .5px rgb(20 20 16/.22)) drop-shadow(0 5px 9px rgb(20 20 16/.12));transition:translate 360ms cubic-bezier(0.16,1,0.3,1),rotate 360ms cubic-bezier(0.16,1,0.3,1),scale 360ms cubic-bezier(0.16,1,0.3,1),filter 360ms cubic-bezier(0.16,1,0.3,1)}.ds-cloth{display:block;aspect-ratio:1;-webkit-mask:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' preserveAspectRatio='none'%3E%3Cpath d='M0 .5 .5 0 1 .5 1.5 0 2 .5 2.5 0 3 .5 3.5 0 4 .5 4.5 0 5 .5 5.5 0 6 .5 6.5 0 7 .5 7.5 0 8 .5 8.5 0 9 .5 9.5 0 10 .5 10.5 0 11 .5 11.5 0 12 .5 12.5 0 13 .5 13.5 0 14 .5 14.5 0 15 .5 15.5 0 16 .5 16.5 0 17 .5 17.5 0 18 .5 18.5 0 19 .5 19.5 0 20 .5V19.5L19.5 20 19 19.5 18.5 20 18 19.5 17.5 20 17 19.5 16.5 20 16 19.5 15.5 20 15 19.5 14.5 20 14 19.5 13.5 20 13 19.5 12.5 20 12 19.5 11.5 20 11 19.5 10.5 20 10 19.5 9.5 20 9 19.5 8.5 20 8 19.5 7.5 20 7 19.5 6.5 20 6 19.5 5.5 20 5 19.5 4.5 20 4 19.5 3.5 20 3 19.5 2.5 20 2 19.5 1.5 20 1 19.5 .5 20 0 19.5Z'/%3E%3C/svg%3E\") center/100% 100% no-repeat;mask:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' preserveAspectRatio='none'%3E%3Cpath d='M0 .5 .5 0 1 .5 1.5 0 2 .5 2.5 0 3 .5 3.5 0 4 .5 4.5 0 5 .5 5.5 0 6 .5 6.5 0 7 .5 7.5 0 8 .5 8.5 0 9 .5 9.5 0 10 .5 10.5 0 11 .5 11.5 0 12 .5 12.5 0 13 .5 13.5 0 14 .5 14.5 0 15 .5 15.5 0 16 .5 16.5 0 17 .5 17.5 0 18 .5 18.5 0 19 .5 19.5 0 20 .5V19.5L19.5 20 19 19.5 18.5 20 18 19.5 17.5 20 17 19.5 16.5 20 16 19.5 15.5 20 15 19.5 14.5 20 14 19.5 13.5 20 13 19.5 12.5 20 12 19.5 11.5 20 11 19.5 10.5 20 10 19.5 9.5 20 9 19.5 8.5 20 8 19.5 7.5 20 7 19.5 6.5 20 6 19.5 5.5 20 5 19.5 4.5 20 4 19.5 3.5 20 3 19.5 2.5 20 2 19.5 1.5 20 1 19.5 .5 20 0 19.5Z'/%3E%3C/svg%3E\") center/100% 100% no-repeat}.ds-chip:hover .ds-lift,.ds-chip:focus-visible .ds-lift{translate:0 -6px;rotate:calc(var(--tilt) - 1.5deg);filter:drop-shadow(0 2px 1px rgb(20 20 16/.18)) drop-shadow(0 16px 22px rgb(20 20 16/.22))}.ds-chip[aria-checked=true] .ds-lift{translate:0 -12px;rotate:calc(var(--tilt) - 2.5deg);scale:1.04;filter:drop-shadow(0 2px 1px rgb(20 20 16/.18)) drop-shadow(0 16px 22px rgb(20 20 16/.22))}.ds-chip:active .ds-lift{scale:.98}.ds-chip:focus-visible{outline:2px solid var(--ink,#161615);outline-offset:6px}.ds-cw{font-size:14px;line-height:1.25;font-weight:500}.ds-shade{margin-top:-11px;font-family:var(--font-label,'Jost',ui-sans-serif,sans-serif);font-size:10.5px;line-height:1.35;font-weight:400;letter-spacing:.02em;white-space:nowrap;font-variant-numeric:tabular-nums;text-transform:uppercase;color:var(--ink-2,#4d4d48)}"
+    },
+    {
+      "name": "Studio Primary Button",
+      "kind": "button",
+      "refersTo": "studio-button-primary",
+      "description": "Studio only: the square ink button, as Publish at the right of the top bar.",
+      "html": "<div class=\"ds-s-row\"><button class=\"ds-s-btn\">Preview</button><button class=\"ds-s-btn ds-s-primary\">Publish</button></div>",
+      "css": ".ds-s-row{display:flex;gap:8px;padding:12px;background:#f4f4f1}.ds-s-btn{display:inline-flex;align-items:center;min-height:36px;padding:0 14px;border:1px solid rgb(22 22 21 / 0.32);border-radius:0;background:#fbfbf9;color:#161615;font-family:var(--font-sans,'Jost','Avenir Next',ui-sans-serif,sans-serif);font-size:14px;font-weight:500;line-height:1;cursor:pointer;transition:background-color 160ms cubic-bezier(0.16,1,0.3,1),border-color 160ms cubic-bezier(0.16,1,0.3,1)}.ds-s-btn:hover{border-color:#161615}.ds-s-btn:active{translate:0 1px}.ds-s-btn:focus-visible{outline:2px solid #6a2222;outline-offset:2px}.ds-s-primary{background:#161615;border-color:#161615;color:#f4f4f1;font-weight:600}.ds-s-primary:hover{background:#2c2c2a}"
+    },
+    {
+      "name": "Studio Field",
+      "kind": "input",
+      "refersTo": "studio-field",
+      "description": "Studio only: a field-stock input with a 12.5px label and an oxblood focus.",
+      "html": "<label class=\"ds-s-field\"><span class=\"ds-s-label\">Heading</span><input class=\"ds-s-input\" value=\"Rooted, royal, reimagined\"><span class=\"ds-s-hint\">Shown in large type at the top of the section.</span></label>",
+      "css": ".ds-s-field{display:grid;gap:6px;padding:16px;background:#f4f4f1;font-family:var(--font-sans,'Jost','Avenir Next',ui-sans-serif,sans-serif);color:#161615}.ds-s-label{font-size:12.5px;font-weight:500;line-height:1.3}.ds-s-hint{font-size:12.5px;line-height:1.4;color:#66665f}.ds-s-input{min-height:36px;padding:7px 10px;border:1px solid rgb(22 22 21 / 0.32);border-radius:0;background:#fbfbf9;color:#161615;font:400 14px/1.45 inherit;font-family:inherit;transition:border-color 140ms cubic-bezier(0.16,1,0.3,1)}.ds-s-input:hover{border-color:#4d4d48}.ds-s-input:focus{outline:2px solid #6a2222;outline-offset:-1px;border-color:#6a2222}"
+    },
+    {
+      "name": "Studio Segmented Control",
+      "kind": "chip",
+      "refersTo": "studio-field",
+      "description": "Studio only: field-stock segments with the pressed one in ink, as the device switch.",
+      "html": "<div class=\"ds-s-seg\"><button aria-pressed=\"true\">Desktop</button><button aria-pressed=\"false\">Tablet</button><button aria-pressed=\"false\">Phone</button></div>",
+      "css": ".ds-s-seg{display:inline-flex;border:1px solid rgb(22 22 21 / 0.32);background:#fbfbf9}.ds-s-seg button{min-height:34px;padding:0 12px;border:0;border-left:1px solid rgb(22 22 21 / 0.13);background:transparent;color:#4d4d48;font-family:var(--font-sans,'Jost','Avenir Next',ui-sans-serif,sans-serif);font-size:13px;font-weight:500;cursor:pointer}.ds-s-seg button:first-child{border-left:0}.ds-s-seg button:hover{color:#161615;background:#e9e8e3}.ds-s-seg button[aria-pressed=true]{background:#161615;color:#f4f4f1}.ds-s-seg button:focus-visible{outline:2px solid #6a2222;outline-offset:2px}"
+    },
+    {
+      "name": "Studio Add Section Pill",
+      "kind": "custom",
+      "refersTo": "studio-insert-pill",
+      "description": "Studio only: the one round control, riding the oxblood outline on a hovered block's lower edge.",
+      "html": "<div class=\"ds-s-seam\"><div class=\"ds-s-block\"></div><button class=\"ds-s-pill\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M228 128a12 12 0 0 1-12 12h-76v76a12 12 0 0 1-24 0v-76H40a12 12 0 0 1 0-24h76V40a12 12 0 0 1 24 0v76h76a12 12 0 0 1 12 12z\"/></svg>Add section</button></div>",
+      "css": ".ds-s-seam{position:relative;padding:16px 16px 32px;background:#c3c3bd}.ds-s-block{height:90px;background:#f4f4f1;outline:2px solid #6a2222}.ds-s-pill{position:absolute;left:50%;bottom:17px;display:inline-flex;align-items:center;gap:6px;height:30px;padding:0 14px 0 10px;border:0;border-radius:999px;background:#6a2222;color:#fbf6f1;font-family:var(--font-sans,'Jost','Avenir Next',ui-sans-serif,sans-serif);font-size:13px;font-weight:600;line-height:1;white-space:nowrap;box-shadow:0 4px 14px -6px rgb(20 20 16 / 0.6);translate:-50% 0;cursor:pointer}.ds-s-pill:hover{background:#551b1b}.ds-s-pill:focus-visible{outline:2px solid #6a2222;outline-offset:2px}"
+    },
+    {
+      "name": "Studio Gallery Sheet",
+      "kind": "card",
+      "refersTo": "studio-gallery-sheet",
+      "description": "Studio only: a section design as a punched, tilted card-stock sheet with a real scaled render, lifting under the hand.",
+      "html": "<div class=\"ds-s-board\"><div class=\"ds-s-sheet\" style=\"--tilt:-0.7deg\"><span class=\"ds-s-hole\"></span><div class=\"ds-s-plate\"><span style=\"background:#6a2222\"></span><span style=\"background:#d9a64a\"></span><span style=\"background:#33503f\"></span></div><button class=\"ds-s-choose\"><strong>Three photographs</strong><small>A row of pictures with short captions</small></button></div></div>",
+      "css": ".ds-s-board{display:grid;place-items:center;padding:28px;background:#d6d6d1}.ds-s-sheet{position:relative;display:grid;gap:6px;width:236px;padding:30px 13px 14px;background:#f4f4f1;color:#161615;box-shadow:0 1px 0 rgb(255 255 255 / 0.5) inset,0 1px 2px rgb(20 20 16 / 0.1),0 12px 32px -18px rgb(20 20 16 / 0.35);rotate:var(--tilt,0deg);transition:translate 360ms cubic-bezier(0.16,1,0.3,1),rotate 360ms cubic-bezier(0.16,1,0.3,1),box-shadow 360ms cubic-bezier(0.16,1,0.3,1)}.ds-s-sheet:hover,.ds-s-sheet:has(.ds-s-choose:focus-visible){translate:0 -6px;rotate:calc(var(--tilt,0deg) + 1.5deg);box-shadow:0 1px 0 rgb(255 255 255 / 0.5) inset,0 2px 4px rgb(20 20 16 / 0.14),0 22px 40px -18px rgb(20 20 16 / 0.5)}.ds-s-sheet:has(.ds-s-choose:focus-visible){outline:2px solid #6a2222;outline-offset:4px}.ds-s-hole{position:absolute;top:10px;left:10px;width:13px;height:13px;border-radius:50%;background:#d6d6d1;box-shadow:inset 0 2px 2.5px rgb(0 0 0 / 0.3),inset 0 -1px 0 rgb(255 255 255 / 0.25),0 0 0 1px rgb(0 0 0 / 0.06)}.ds-s-plate{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;height:158px;padding:24px 10px;background:#d6d6d1;outline:1px solid rgb(22 22 21 / 0.1)}.ds-s-choose{display:grid;gap:6px;padding:0;border:0;background:none;color:inherit;text-align:left;font-family:var(--font-sans,'Jost','Avenir Next',ui-sans-serif,sans-serif);cursor:pointer}.ds-s-choose::after{content:'';position:absolute;inset:0}.ds-s-choose:focus-visible{outline:none}.ds-s-choose strong{margin-top:6px;font-size:14px;font-weight:600;line-height:1.25}.ds-s-choose small{font-size:12.5px;line-height:1.4;color:#4d4d48}@media (prefers-reduced-motion:reduce){.ds-s-sheet{transition:none}}"
     }
   ],
   "narrative": {
@@ -497,6 +828,31 @@
         "name": "The Cloth Lifts Rule",
         "body": "Elevation changes are a response to handling: cloth lifts (up 6px, tilting a further 1.5deg; selected, up 12px, 2.5deg, scale 1.04) and study sheets rise 3-4px on hover.",
         "section": "elevation"
+      },
+      {
+        "name": "The Hand Rule",
+        "body": "In the Studio, oxblood marks only where her hand is: what is selected, where something will land, and what has focus. Buttons, tabs and pressed states are ink. Oxblood is never a panel, header or decorative fill.",
+        "section": "studio"
+      },
+      {
+        "name": "The No Azure Rule",
+        "body": "Puck's default azure and its radii are overridden by token. The tokens are set twice: on `.studio` and on the canvas iframe's own root (`html[data-studio-canvas]`). Selection outlines, drop lines, slot borders and the inline-edit outline inside the frame are oxblood too. A new editor feature that brings its own colour gets mapped onto these tokens before it ships.",
+        "section": "studio"
+      },
+      {
+        "name": "The Fixed Scale Rule",
+        "body": "Chrome type never uses `clamp()` or viewport units. This is a tool read at one distance on one laptop. The only fluid type the Studio draws is the empty-page heading inside the canvas, which takes the site's display scale because it stands in for her page.",
+        "section": "studio"
+      },
+      {
+        "name": "The Same Names Rule",
+        "body": "Wherever the Studio names a page, it uses Rozha One, as the site does. Every other Studio word is Jost.",
+        "section": "studio"
+      },
+      {
+        "name": "The One Pill Rule",
+        "body": "\"+ Add section\" is the only rounded control (999px). The one action that grows her page looks different from every square control that edits it.",
+        "section": "studio"
       }
     ],
     "dos": [
