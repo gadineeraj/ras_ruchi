@@ -123,7 +123,7 @@ export const Gallery = {
     title: f.text("Describe the set", { placeholder: "Used for screen readers when a photo has no description" }),
     layout: f.layout(),
   },
-  defaultProps: { items: [], arrangement: "auto", columns: 3, ratio: "auto", captions: true, lightbox: true, mobile: "one", title: "", layout: { width: "text", space: "s", show: "all", motion: "none" } },
+  defaultProps: { items: [], arrangement: "auto", columns: 3, ratio: "auto", captions: true, lightbox: true, mobile: "one", title: "", layout: { width: "wide", space: "m", show: "all", motion: "none" } },
   render: ({ items, arrangement, columns, ratio, captions, lightbox, mobile, title, layout, puck }: GalleryProps & PuckBits) => {
     const usable = (items ?? []).filter((it) => it.photo?.src);
     return (

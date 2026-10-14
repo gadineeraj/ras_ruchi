@@ -198,12 +198,12 @@ function Editor() {
   );
 }
 
-export function Studio({ initial }: { initial: Content }) {
+export function Studio({ initial, initialPage }: { initial: Content; initialPage: string }) {
   const [doc, setDoc] = useState<Document | null>(null);
   return (
     <div className={`${ui.root} ${st.studio}`}>
       <FrameDoc value={{ doc, setDoc }}>
-        <StudioProvider initial={initial}>
+        <StudioProvider initial={initial} initialPage={initialPage}>
           <Editor />
         </StudioProvider>
       </FrameDoc>

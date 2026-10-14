@@ -109,7 +109,9 @@ export async function cutSwatch(src: string, focus: { x: number; y: number }, si
   const left = Math.round(Math.min(width - side, Math.max(0, (focus.x / 100) * width - side / 2)));
   const top = Math.round(Math.min(height - side, Math.max(0, (focus.y / 100) * height - side / 2)));
   const buf = await img.extract({ left, top, width: side, height: side }).resize(720, 720, { fit: "cover" }).toBuffer();
-  const meta = await encode(buf, path.join(PUBLIC, "media", "swatches"), `${slug(path.basename(src))}-swatch`, { maxWidth: 720 });
+  // "kadamba--crimson-red--swatch-a1b2c3d4.webp" becomes "kadamba-crimson-red".
+  const base = slug(path.basename(src).replace(/(-[0-9a-f]{8})?\.webp$/, "").replace(/--?(swatch|chip|scene)$/, ""));
+  const meta = await encode(buf, path.join(PUBLIC, "media", "swatches"), `${base}-swatch`, { maxWidth: 720 });
   return { ...meta, shade: await groundShade(buf) };
 }
 

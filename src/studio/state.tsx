@@ -103,17 +103,13 @@ export function freshIds<T>(node: T): T {
   return node;
 }
 
-export function StudioProvider({ initial, children }: { initial: Content; children: ReactNode }) {
+export function StudioProvider({ initial, initialPage, children }: { initial: Content; initialPage: string; children: ReactNode }) {
   const [content, setContent] = useState<Content>(initial);
   const contentRef = useRef(content);
   useLayoutEffect(() => {
     contentRef.current = content;
   }, [content]);
-  const [currentId, setCurrentId] = useState(() => {
-    if (typeof window === "undefined") return "home";
-    const want = new URLSearchParams(window.location.search).get("page");
-    return want && initial.pages[want] ? want : "home";
-  });
+  const [currentId, setCurrentId] = useState(initialPage);
   const [revision, setRevision] = useState(0);
   const currentIdRef = useRef(currentId);
   useLayoutEffect(() => {

@@ -38,14 +38,9 @@ export function AddPanel() {
   const add = (name: string) => {
     const api = getPuck();
     const target = insertTarget(api as never);
-    api.dispatch({ type: "insert", componentType: name, destinationZone: target.zone, destinationIndex: target.index });
-    const items = target.zone === "root:default-zone" ? api.appState.data.content : null;
-    requestAnimationFrame(() => {
-      const fresh = getPuck();
-      const list = items ? fresh.appState.data.content : null;
-      const id = list?.[target.index]?.props?.id ?? fresh.getItemBySelector({ index: target.index, zone: target.zone })?.props?.id;
-      if (id) selectAndReveal(fresh as never, id, true);
-    });
+    const id = `${name}-${crypto.randomUUID()}`;
+    api.dispatch({ type: "insert", componentType: name, destinationZone: target.zone, destinationIndex: target.index, id });
+    selectAndReveal(api as never, id, true, target);
   };
 
   const groups = Object.entries(categories)

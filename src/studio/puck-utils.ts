@@ -40,9 +40,10 @@ export function insertTarget(api: Api): { zone: string; index: number } {
   return { zone: ROOT_ZONE, index: api.appState.data.content.length };
 }
 
-/** Selects a block and brings it into view in the canvas. */
-export function selectAndReveal(api: Api, id: string, deal = false) {
-  const sel = api.getSelectorForId(id);
+/** Selects a block and brings it into view in the canvas. Pass where it is
+    when it was only just added: the editor indexes new blocks a moment later. */
+export function selectAndReveal(api: Api, id: string, deal = false, where?: { index: number; zone: string }) {
+  const sel = where ?? api.getSelectorForId(id);
   if (sel) api.dispatch({ type: "setUi", ui: { itemSelector: sel } });
   requestAnimationFrame(() =>
     requestAnimationFrame(() => {
@@ -68,7 +69,7 @@ export function insertTree(api: Api, tree: Item, target: { zone: string; index: 
   const fresh = freshIds(tree);
   api.dispatch({ type: "insert", componentType: fresh.type, destinationZone: target.zone, destinationIndex: target.index, id: fresh.props.id });
   api.dispatch({ type: "replace", destinationZone: target.zone, destinationIndex: target.index, data: fresh });
-  selectAndReveal(api, fresh.props.id, true);
+  selectAndReveal(api, fresh.props.id, true, target);
   return fresh.props.id as string;
 }
 

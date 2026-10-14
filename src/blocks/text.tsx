@@ -67,7 +67,7 @@ export const Text = {
     style: "body",
     align: "start",
     measure: "normal",
-    layout: { width: "text", space: "s", show: "all", motion: "none" },
+    layout: { width: "wide", space: "s", show: "all", motion: "none" },
   },
   render: ({ text, style, align, measure, layout, puck }: TextProps & PuckBits) => (
     <Frame layout={layout} className={align === "center" ? styles["align-center"] : undefined}>
@@ -156,7 +156,7 @@ export const Keywords = {
     items: f.array("Tags", { label: f.text("Tag") }, { summary: (i) => i.label || "Tag", add: { label: "New tag" } }),
     layout: f.layout(),
   },
-  defaultProps: { items: [{ label: "Ajrak" }, { label: "Block printing" }, { label: "Indigo" }], layout: { width: "text", space: "s", show: "all", motion: "none" } },
+  defaultProps: { items: [{ label: "Ajrak" }, { label: "Block printing" }, { label: "Indigo" }], layout: { width: "wide", space: "s", show: "all", motion: "none" } },
   render: ({ items, layout }: KeywordsProps & PuckBits) => (
     <Frame layout={layout}>
       <ul className={styles.keywords} aria-label="Keywords">

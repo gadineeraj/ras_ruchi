@@ -44,11 +44,9 @@ export function CommandPalette() {
       run: close(() => {
         const api = getPuck();
         const t = insertTarget(api as never);
-        api.dispatch({ type: "insert", componentType: name, destinationZone: t.zone, destinationIndex: t.index });
-        requestAnimationFrame(() => {
-          const id = getPuck().getItemBySelector({ index: t.index, zone: t.zone })?.props?.id;
-          if (id) selectAndReveal(getPuck() as never, id, true);
-        });
+        const id = `${name}-${crypto.randomUUID()}`;
+        api.dispatch({ type: "insert", componentType: name, destinationZone: t.zone, destinationIndex: t.index, id });
+        selectAndReveal(api as never, id, true, t);
       }),
     }));
     const panels: Command[] = [

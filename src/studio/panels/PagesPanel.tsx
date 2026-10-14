@@ -27,7 +27,7 @@ import { slugify } from "@/lib/library";
 import { normalisePath } from "@/lib/paths";
 import { useStudio } from "../state";
 import { Button, Empty, IconButton, Kbd, Menu, PanelHead, Section, Select, Spinner, Switch, TextArea, TextInput, type MenuItem } from "../ui";
-import { checkPath, errorText, freePath, useOpenWhenReady } from "./shared";
+import { checkPath, errorText, freePath } from "./shared";
 import p from "./panels.module.css";
 
 type Row = { id: string; title: string; path: string; kind: string; draft?: boolean };
@@ -85,7 +85,6 @@ export function PagesPanel() {
 
 function PageList({ rowButtons, onSettings }: { rowButtons: React.RefObject<Map<string, HTMLButtonElement>>; onSettings: (id: string) => void }) {
   const { content, currentId, pageList, openPage, duplicatePage, deletePage, movePage, setSite, toast, confirm } = useStudio();
-  const openWhenReady = useOpenWhenReady();
   const [drag, setDrag] = useState<{ id: string; group: GroupKey } | null>(null);
   const [drop, setDrop] = useState<{ id: string; where: "before" | "after" } | null>(null);
 
@@ -137,7 +136,7 @@ function PageList({ rowButtons, onSettings }: { rowButtons: React.RefObject<Map<
   const duplicate = async (row: Row) => {
     try {
       const id = await duplicatePage(row.id);
-      openWhenReady(id);
+      openPage(id);
       toast(`Made a copy of "${row.title}". It stays a draft until you switch Draft off.`, { tone: "success" });
     } catch (e) {
       toast(errorText(e), { tone: "error" });
@@ -407,8 +406,7 @@ function uniqueCollectionSlug(base: string, collections: Collection[]) {
 }
 
 function NewPageForm({ onClose }: { onClose: () => void }) {
-  const { content, createPage, setCollections, toast } = useStudio();
-  const openWhenReady = useOpenWhenReady();
+  const { content, createPage, setCollections, toast, openPage } = useStudio();
   const radioName = useId();
   const collections = content.collections;
   const pages = content.pages;
@@ -489,7 +487,8 @@ function NewPageForm({ onClose }: { onClose: () => void }) {
       if (template === "collection" && !chosen) {
         setCollections((list) => [...list, { slug: slugFor, name: title, season: "", band: "#6a2222", line: "", intro: "", designs: [] }]);
       }
-      openWhenReady(id);
+      // The Studio opens it as soon as it has arrived, even after this form closes.
+      openPage(id);
       toast(`"${title}" is ready. It stays a draft until you switch Draft off.`, { tone: "success" });
       onClose();
     } catch (err) {
