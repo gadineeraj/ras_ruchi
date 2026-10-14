@@ -151,7 +151,7 @@ export function TopBar() {
       <div className={st.topLeft}>
         <div className={st.brand}>
           <strong>{content.site.name}</strong>
-          <span className={ui.caps}>Studio</span>
+          <span className={ui.caps + " " + st.hideSmall}>Studio</span>
         </div>
         <PagePicker />
       </div>
@@ -162,10 +162,10 @@ export function TopBar() {
       </div>
       <div className={st.topRight}>
         <SaveState />
-        <Button variant="ghost" icon={<MagnifyingGlassIcon size={17} />} onClick={() => setDialog("palette")} title="Find a page, block or action (Cmd K)">
+        <Button variant="ghost" className={st.hideSmall} icon={<MagnifyingGlassIcon size={17} />} onClick={() => setDialog("palette")} title="Find a page, block or action (Cmd K)">
           <span className={st.hideNarrow}>Find</span>
         </Button>
-        <Button icon={<ArrowSquareOutIcon size={17} />} onClick={preview} title="Open this page in a new tab, as visitors will see it">
+        <Button className={st.hideSmall} icon={<ArrowSquareOutIcon size={17} />} onClick={preview} title="Open this page in a new tab, as visitors will see it">
           Preview
         </Button>
         <Button variant="primary" icon={<RocketIcon size={17} />} onClick={() => setDialog("publish")}>

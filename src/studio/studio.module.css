@@ -227,6 +227,30 @@
   }
 }
 
+/* A phone or a narrow window: keep the name, the page and Publish. The Studio
+   is made for a laptop; this keeps it usable, not crowded. */
+@media (max-width: 760px) {
+  .topbar {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 8px;
+    padding: 0 8px 0 12px;
+  }
+
+  .topCenter,
+  .saveState,
+  .hideSmall {
+    display: none;
+  }
+
+  .topLeft {
+    gap: 6px;
+  }
+
+  .pagePicker {
+    max-width: 150px;
+  }
+}
+
 /* ------------------------------------------------------------- the canvas */
 
 .canvasHeader,
