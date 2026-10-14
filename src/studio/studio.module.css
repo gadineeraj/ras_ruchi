@@ -345,7 +345,8 @@
   color: #161615;
 }
 
-/* "+ Add section": a round pill on the seam below a hovered block. */
+/* "+ Add section": a round pill on the seam below a hovered block, riding the
+   oxblood outline Puck already draws there. */
 .insert {
   position: absolute;
   left: 50%;
@@ -371,26 +372,6 @@
 
 .insert:hover {
   background: #551b1b;
-}
-
-.insert::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: 100%;
-  width: 40vw;
-  max-width: 600px;
-  border-top: 1.5px dashed rgb(106 34 34 / 0.55);
-}
-
-.insert::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 100%;
-  width: 40vw;
-  max-width: 600px;
-  border-top: 1.5px dashed rgb(106 34 34 / 0.55);
 }
 
 .insert[data-small] {
@@ -634,20 +615,35 @@
   display: none;
 }
 
+/* Earlier steps are links back up the page; the last is the block itself. */
 .crumbs button {
   padding: 0;
   border: 0;
+  border-radius: 2px;
   background: none;
-  color: inherit;
+  color: #4d4d48;
   font: inherit;
   letter-spacing: inherit;
   text-transform: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgb(77 77 72 / 0.35);
+  text-underline-offset: 3px;
   cursor: pointer;
 }
 
 .crumbs button:hover {
   color: #161615;
-  text-decoration: underline;
+  text-decoration-color: currentColor;
+}
+
+.crumbs button:focus-visible {
+  outline: 2px solid #6a2222;
+  outline-offset: 2px;
+}
+
+.crumbs [aria-current] {
+  color: #161615;
+  font-weight: 500;
 }
 
 .fieldsHead h2 {

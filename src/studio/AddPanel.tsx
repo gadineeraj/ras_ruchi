@@ -28,7 +28,7 @@ const SHORT: Record<string, string> = {
   Keywords: "Small printed tags",
   Facts: "Label and detail rows",
   Button: "A link people press",
-  Image: "One photo, cropped and framed",
+  Image: "One photo, cropped to fit",
   Gallery: "Photos in a grid or a strip",
   StudyImages: "Photos shown whole",
   Video: "YouTube, Vimeo or a clip",

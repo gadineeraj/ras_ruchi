@@ -292,6 +292,10 @@ export function FieldsPanel({ children, itemSelector }: { children: ReactNode; i
                   </button>
                 </span>
               ))}
+              <span className={st.crumb}>
+                <CaretRightIcon size={11} aria-hidden="true" />
+                <span aria-current="location">{blockLabel(selected.type)}</span>
+              </span>
             </nav>
             <h2 style={{ display: "flex", alignItems: "center", gap: 8 }}>
               <BlockIcon name={selected.type} size={18} />

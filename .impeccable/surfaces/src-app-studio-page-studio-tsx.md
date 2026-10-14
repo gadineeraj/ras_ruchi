@@ -34,5 +34,7 @@ Decided after the first finish review; each keeps the contract's intent:
 - The block toolbar names the block ("Section", "Photo") instead of an Edit button: clicking the block already opens its settings, so the label tells her what she selected.
 - New blocks deal in at -0.6deg, not the swatch's -9deg: a whole section turning nine degrees reads as a glitch, not cloth; the swatch keeps -9deg.
 - Below 768px wide the canvas opens in Phone view, so her page keeps its real proportions.
+- The seam has no separate dashed line: Puck already outlines the hovered block in oxblood, and the "+ Add section" pill sits on that outline's lower edge, where a dashed line would only draw over it unseen.
+- The breadcrumb ends with the selected block ("Home › Columns › Photo"); the earlier steps are underlined links back up the page.
 
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
