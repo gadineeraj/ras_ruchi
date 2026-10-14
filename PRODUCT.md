@@ -8,10 +8,13 @@ web
 
 ## Stack
 
-Delegated: Next.js 16 (App Router) + React 19 + TypeScript, plain CSS modules. Chosen because the owner asked for the installed Vercel React skills to be used and hosting is undecided (Vercel is the natural target; a static export also works). Runs locally with `npm run dev`.
+v2 (this folder): the same site, rendered from editable content files (`content/`) through a block library (`src/blocks/`), plus a local visual editor, the Studio, built on the open-source Puck editor. `npm run studio` runs both; `npm run build` makes the static site for GitHub Pages with no editor code in it.
+
+Delegated: Next.js 16 (App Router) + React 19 + TypeScript, plain CSS modules. Chosen because the owner asked for the installed Vercel React skills to be used and hosting is undecided (Vercel is the natural target; a static export also works). Runs locally with `npm run studio`.
 
 ## Users
 
+- Editor (v2): Shruchi herself, through the Studio on her own laptop. She is a textile designer, not a coder: fluent in Canva, Instagram and Figma-like tools. She changes words, photos, sections, pages, collections and colours, then publishes with GitHub Desktop. The design system stays fixed; she chooses within it.
 - Primary: people who come across Shruchi's work (friends, peers, collaborators, curious buyers of her Yellow Dwelling designs, design-world contacts) and want to see the full body of her textile work and how she thinks.
 - The site is a personal showcase, not a sales funnel. No hard sell, no pricing, no services menu.
 
