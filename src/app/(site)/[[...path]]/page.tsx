@@ -26,8 +26,9 @@ export async function generateMetadata({ params }: PageProps<"/[[...path]]">): P
   const root = page.data.root.props;
   const share = root.shareImage ?? site.shareImage;
   const isHome = normalisePath(root.path) === "/";
+  // The home page leaves the title out, so the site's own title stands.
   return {
-    title: isHome ? undefined : root.title,
+    ...(isHome ? {} : { title: root.title }),
     description: root.description || site.description,
     openGraph: share ? { images: [{ url: asset(share.src), width: share.width, height: share.height }] } : undefined,
   };
