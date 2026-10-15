@@ -60,20 +60,17 @@
     {
       "type": "Section",
       "props": {
-        "id": "Section-1a72b2aa-1389-40b0-bc64-c0292f7e00d6",
-        "title": "Collections",
-        "lede": "Five collections designed as Design Lead at The Yellow Dwelling, Bangalore. Open a card to see every design in its colourways.",
-        "level": "h2",
-        "align": "start",
-        "background": "none",
-        "hole": true,
         "content": [
           {
             "type": "CollectionCards",
             "props": {
               "id": "CollectionCards-0b3dc619-3cad-403c-a0a4-1a8edbc3f917",
               "show": "all",
-              "chosen": [],
+              "chosen": [
+                {
+                  "collection": "rasaa"
+                }
+              ],
               "level": "h3",
               "layout": {
                 "width": "wide",
@@ -84,6 +81,13 @@
             }
           }
         ],
+        "id": "Section-1a72b2aa-1389-40b0-bc64-c0292f7e00d6",
+        "title": "Collections",
+        "lede": "Five collections designed as Design Lead at The Yellow Dwelling, Bangalore. Open a card to see every design in its colourways.",
+        "level": "h2",
+        "align": "start",
+        "background": "none",
+        "hole": true,
         "layout": {
           "width": "wide",
           "space": "xl",
@@ -96,13 +100,6 @@
     {
       "type": "Section",
       "props": {
-        "id": "Section-897c1beb-8790-4f5e-80ca-b6f4628ba7f8",
-        "title": "Studies",
-        "lede": "Earlier work, in her own words: projects with weavers, block printers and embroiderers, from Ajrak to Ikat.",
-        "level": "h2",
-        "align": "start",
-        "background": "none",
-        "hole": true,
         "content": [
           {
             "type": "StudySheets",
@@ -145,6 +142,13 @@
             }
           }
         ],
+        "id": "Section-897c1beb-8790-4f5e-80ca-b6f4628ba7f8",
+        "title": "Studies",
+        "lede": "Earlier work, in her own words: projects with weavers, block printers and embroiderers, from Ajrak to Ikat.",
+        "level": "h2",
+        "align": "start",
+        "background": "none",
+        "hole": true,
         "layout": {
           "width": "wide",
           "space": "xl",
@@ -157,13 +161,6 @@
     {
       "type": "Section",
       "props": {
-        "id": "Section-823f5c81-920b-43c2-9a0a-961717178d53",
-        "title": "From a mask to a motif to cloth",
-        "lede": "Sura, followed from what she looked at to what she printed.",
-        "level": "h2",
-        "align": "start",
-        "background": "none",
-        "hole": true,
         "content": [
           {
             "type": "ProcessSteps",
@@ -220,6 +217,13 @@
             }
           }
         ],
+        "id": "Section-823f5c81-920b-43c2-9a0a-961717178d53",
+        "title": "From a mask to a motif to cloth",
+        "lede": "Sura, followed from what she looked at to what she printed.",
+        "level": "h2",
+        "align": "start",
+        "background": "none",
+        "hole": true,
         "layout": {
           "width": "wide",
           "space": "xl",
@@ -231,13 +235,6 @@
     {
       "type": "Section",
       "props": {
-        "id": "Section-547f5921-f93d-428e-91ce-7638d0aeed34",
-        "title": "Every swatch on these cards",
-        "lede": "{colourways} colourways of {designs} designs. Each one opens its card.",
-        "level": "h2",
-        "align": "start",
-        "background": "none",
-        "hole": true,
         "content": [
           {
             "type": "ShadeBoard",
@@ -254,6 +251,13 @@
             }
           }
         ],
+        "id": "Section-547f5921-f93d-428e-91ce-7638d0aeed34",
+        "title": "Every swatch on these cards",
+        "lede": "{colourways} colourways of {designs} designs. Each one opens its card.",
+        "level": "h2",
+        "align": "start",
+        "background": "none",
+        "hole": true,
         "layout": {
           "width": "wide",
           "space": "xl",

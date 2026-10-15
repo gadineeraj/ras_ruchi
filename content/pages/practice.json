@@ -205,7 +205,11 @@
               "height": 753,
               "blur": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAADwAQCdASoQAA0AA4BaJZwAD40xeXyskAAA/WmOZUU3eQTYUJirHidkio0TmQFWAQNvFmixGO7ASW35CvnGW+O7pwt22Sgg3L1CeP5HX3AKXUTfhFSEe3dGiRQzHX8dPvpIK/jXTTNeaAAA",
               "color": "#f8f8f8",
-              "alt": "Kalamkari artisans printing the bags by hand"
+              "alt": "Kalamkari artisans printing the bags by hand",
+              "focus": {
+                "x": 51,
+                "y": 53
+              }
             },
             "text": "Block printed in indigo by Kalamkari artisans.",
             "link": {
